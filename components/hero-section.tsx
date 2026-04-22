@@ -88,7 +88,7 @@ export function HeroSection() {
             className={`transition-all duration-1000 delay-[800ms] ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}`}
           >
             <h1 className="font-serif text-[3.5rem] sm:text-[4.5rem] md:text-[5.5rem] lg:text-[6.5rem] xl:text-[7.5rem] 2xl:text-[8.5rem] font-normal leading-tight mb-6 w-full px-4 max-w-6xl mx-auto text-balance">
-              <AnimatedText text="Find your home away from home" delay={0.3} />
+              Find your <span style={{ fontFamily: "cursive", fontStyle: "italic" }}>soul</span> away from home
             </h1>
           </div>
         </div>
