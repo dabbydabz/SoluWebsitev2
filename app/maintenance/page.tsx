@@ -21,7 +21,6 @@ export default function MaintenancePage() {
             src="/icon.svg"
             alt="Solu"
             className="w-10 h-10 invert"
-            onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
           />
           <span className="text-2xl font-semibold tracking-tight">Solu</span>
         </div>
