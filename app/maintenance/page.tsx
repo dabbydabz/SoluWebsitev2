@@ -15,14 +15,13 @@ export default function MaintenancePage() {
 
       <div className="relative z-10 max-w-2xl w-full text-center space-y-10">
 
-        {/* Logo / wordmark */}
-        <div className="flex items-center justify-center gap-3">
+        {/* Logo */}
+        <div className="flex items-center justify-center">
           <img
-            src="/icon.svg"
+            src="/images/solu-logo-v2.png"
             alt="Solu"
-            className="w-10 h-10 invert"
+            className="w-20 h-20 object-contain"
           />
-          <span className="text-2xl font-semibold tracking-tight">Solu</span>
         </div>
 
         {/* Divider */}
