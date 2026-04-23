@@ -18,7 +18,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
-  if (MAINTENANCE_MODE) {
+  // Allow localhost to bypass maintenance so you can preview locally
+  const host = request.headers.get("host") || ""
+  const isLocalhost = host.includes("localhost") || host.includes("127.0.0.1")
+
+  if (MAINTENANCE_MODE && !isLocalhost) {
     const url = request.nextUrl.clone()
     url.pathname = "/maintenance"
     return NextResponse.rewrite(url)

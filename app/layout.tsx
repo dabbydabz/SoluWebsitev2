@@ -1,16 +1,18 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Geist_Mono } from "next/font/google"
+import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+})
 
 export const metadata: Metadata = {
-  title: "Homie - Location de maisons entre particuliers",
-  description: "Trouvez votre maison idéale ou mettez la vôtre en location. Simple, sécurisé, entre particuliers.",
-    generator: 'v0.app'
+  title: "Solu — Live well, feel great.",
+  description: "Solu helps women live healthier lives. Track your workouts, sleep, nutrition, cycle and more — all in one beautifully simple app.",
 }
 
 export default function RootLayout({
@@ -19,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="fr">
-      <body className={`${inter.className} font-sans antialiased`}>
+    <html lang="en">
+      <body className={`${inter.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
