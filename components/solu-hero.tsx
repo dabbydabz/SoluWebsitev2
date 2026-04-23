@@ -28,7 +28,7 @@ export function SoluHero() {
             <div className="max-w-xl space-y-8 lg:max-w-lg">
 
               {/* Tag */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-md border border-white/25 text-white rounded-full text-sm font-medium">
+              <div className="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-md border border-white/25 text-white rounded-full text-sm font-medium">
                 Lifestyle · Wellness · Community
               </div>
 
