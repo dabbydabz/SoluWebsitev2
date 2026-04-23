@@ -1,18 +1,18 @@
 const testimonials = [
   {
-    quote: "Solu is the first wellness app that actually gets me. Tracking my cycle alongside my workouts and sleep changed everything.",
+    quote: "Solu is the first wellness app that actually gets me. Tracking my cycle alongside my workouts changed everything.",
     name: "Amara K.",
-    role: "Fitness coach",
+    role: "Account manager",
     avatar: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&q=80",
   },
   {
-    quote: "I love how clean and simple it is. I check Solu every morning — it's become part of my routine without feeling like another chore.",
+    quote: "I love how clean and simple it is. I check Solu every morning, it's become part of my routine without feeling like another chore.",
     name: "Sophie L.",
     role: "Nutritionist",
     avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&q=80",
   },
   {
-    quote: "Finally an app that shows me how my nutrition impacts my energy. I feel more in control of my health than ever before.",
+    quote: "Finally an app that shows me how my hormones impact my energy. I feel more in control of my health than ever before.",
     name: "Fatima R.",
     role: "Healthcare worker",
     avatar: "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=120&q=80",

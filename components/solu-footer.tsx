@@ -6,7 +6,7 @@ export function SoluFooter() {
           {/* Logo + tagline */}
           <div className="space-y-3">
             <img
-              src="/images/solu-logo-v2.png"
+              src="/images/solu-logo-full.png"
               alt="Solu"
               className="h-10 w-auto object-contain"
             />
@@ -18,7 +18,7 @@ export function SoluFooter() {
             {[
               { label: "Why Solu", href: "#why-solu" },
               { label: "Our Story", href: "/our-story" },
-              { label: "About", href: "#about" },
+              { label: "For You", href: "#for-you" },
               { label: "Privacy", href: "#" },
               { label: "Terms", href: "#" },
               { label: "Contact", href: "#" },
@@ -35,13 +35,18 @@ export function SoluFooter() {
 
           {/* Social */}
           <div className="flex items-center gap-4">
-            {["Instagram", "TikTok", "Twitter"].map((s) => (
+            {[
+              { label: "Instagram", href: "https://www.instagram.com/solu.ae" },
+              { label: "TikTok", href: "https://www.tiktok.com/@solu.ae" },
+            ].map((s) => (
               <a
-                key={s}
-                href="#"
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white/40 text-xs hover:text-white/80 transition-colors uppercase tracking-wider"
               >
-                {s}
+                {s.label}
               </a>
             ))}
           </div>

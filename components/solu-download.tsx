@@ -6,7 +6,7 @@ export function SoluDownload() {
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-[#5B9A2E] opacity-[0.1] blur-[120px] rounded-full pointer-events-none" />
 
       <div className="max-w-3xl mx-auto px-6 text-center relative z-10">
-        <img src="/images/solu-logo-v2.png" alt="Solu" className="w-20 h-20 mx-auto mb-8 object-contain" />
+        <img src="/images/solu-logo-full.png" alt="Solu" className="w-[100px] h-[100px] mx-auto mb-8 object-contain" />
 
         <h2 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-tight tracking-tight mb-6">
           Start your wellness<br />

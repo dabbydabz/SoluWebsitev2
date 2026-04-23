@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 
 export function SoluHeader() {
   const [visible, setVisible] = useState(true)
@@ -31,20 +31,25 @@ export function SoluHeader() {
 
         {/* Logo */}
         <a href="/" className="shrink-0">
-          <img src="/images/solu-logo-v2.png" alt="Solu" className="h-8 w-auto" />
+          <img src="/images/solu-logo-full.png" alt="Solu" className="h-9 w-auto" />
         </a>
 
         {/* Nav */}
         <nav className="hidden md:flex items-center gap-6">
           {[
             { label: "Why Solu", href: "#why-solu" },
-            { label: "Our Story", href: "/our-story" },
-            { label: "About", href: "#about" },
+            { label: "Our Story", href: "#", disabled: true },
+            { label: "For You", href: "#for-you" },
           ].map((item) => (
             <a
               key={item.label}
-              href={item.href}
-              className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors"
+              href={(item as any).disabled ? undefined : item.href}
+              onClick={(item as any).disabled ? (e: React.MouseEvent) => e.preventDefault() : undefined}
+              className={`text-sm font-medium transition-colors ${
+                (item as any).disabled
+                  ? "text-gray-300 cursor-default pointer-events-none"
+                  : "text-gray-500 hover:text-gray-900"
+              }`}
             >
               {item.label}
             </a>

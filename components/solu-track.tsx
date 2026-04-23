@@ -47,6 +47,7 @@ const tiles = [
     headingItalic: "your cycle",
     image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=85",
     description: "Your hormones shift every week — and so does your energy, mood, and strength. Solu maps your cycle phases so your lifestyle always works with your body, never against it.",
+    ctaLabel: "Learn More",
     insight: { phase: "Follicular Phase", day: "Cycle day 8", text: "Your energy is rising. Great time for high-intensity workouts and creative projects.", detail: "Estimated ovulation in 6 days" },
   },
   {
@@ -54,8 +55,10 @@ const tiles = [
     Icon: MovementIcon,
     heading: "Move the way your body",
     headingItalic: "wants to",
-    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&q=85",
+    image: "/images/tile-movement.png",
+    tileObjectPosition: "25% center",
     description: "Stop fighting generic workout plans. Solu recommends movement that matches your energy levels and cycle phase — so you train smarter, recover faster, and feel stronger.",
+    ctaLabel: "Learn More",
     insight: { phase: "Activity", day: "3 sessions this week", text: "Your strength peaks in the follicular phase. Try resistance training today.", detail: "Recovery score: 82%" },
   },
   {
@@ -63,9 +66,22 @@ const tiles = [
     Icon: CommunityIcon,
     heading: "Grow alongside women",
     headingItalic: "like you",
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=85",
+    image: "/images/tile-community.png",
+    tileObjectPosition: "20% center",
     description: "Wellness is better together. Solu connects you with a community of women on the same journey — sharing wins, accountability, and real talk about living well.",
+    ctaLabel: "Join Community",
     insight: { phase: "Community", day: "2,400 women online now", text: "\"Solu helped me understand my body in ways no other app ever did.\"", detail: "— Amara K., Solu member" },
+  },
+  {
+    label: "Nutrition",
+    Icon: NutritionIcon,
+    heading: "Nourish yourself",
+    headingItalic: "with intention",
+    image: "/images/tile-nutrition.png",
+    tileObjectPosition: "center center",
+    description: "Your nutritional needs shift with your cycle. Solu guides your food choices based on where you are in your month — so every meal supports how you actually feel.",
+    ctaLabel: "Learn More",
+    insight: { phase: "Nutrition", day: "Goals on track", text: "Iron-rich foods are especially beneficial this week. Try lentils or spinach.", detail: "Protein: 72% · Carbs: 58%" },
   },
   {
     label: "Sleep & Recovery",
@@ -74,16 +90,8 @@ const tiles = [
     headingItalic: "wake up ready",
     image: "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=800&q=85",
     description: "Sleep quality changes throughout your cycle. Solu tracks your rest patterns and gives you personalized insights to help you wake up feeling truly restored.",
+    ctaLabel: "Learn More",
     insight: { phase: "Sleep", day: "7.5 hrs average", text: "Your sleep tends to be lighter in the luteal phase. Wind-down routines help.", detail: "Sleep quality: 78%" },
-  },
-  {
-    label: "Nutrition",
-    Icon: NutritionIcon,
-    heading: "Nourish yourself",
-    headingItalic: "with intention",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=85",
-    description: "Your nutritional needs shift with your cycle. Solu guides your food choices based on where you are in your month — so every meal supports how you actually feel.",
-    insight: { phase: "Nutrition", day: "Goals on track", text: "Iron-rich foods are especially beneficial this week. Try lentils or spinach.", detail: "Protein: 72% · Carbs: 58%" },
   },
 ]
 
@@ -92,7 +100,7 @@ export function SoluTrack() {
   const active = expanded !== null ? tiles[expanded] : null
 
   return (
-    <section id="why-solu" className="py-24 bg-white overflow-hidden">
+    <section id="why-solu" className="py-24 bg-white overflow-hidden pt-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Header */}
@@ -117,6 +125,7 @@ export function SoluTrack() {
                 src={tile.image}
                 alt={tile.label}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                style={{ objectPosition: (tile as any).tileObjectPosition || "center center" }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
 
@@ -138,7 +147,7 @@ export function SoluTrack() {
               {/* Bottom: text */}
               <div className="absolute bottom-6 left-5 right-5">
                 <p className="text-white text-lg font-semibold leading-snug">
-                  {tile.heading} <em className="font-normal">{tile.headingItalic}</em>
+                  {tile.heading} <span style={{ fontFamily: "var(--font-display)", fontStyle: "italic", fontWeight: 600, fontSize: "1.4em", lineHeight: 1 }}>{tile.headingItalic}.</span>
                 </p>
               </div>
             </div>
@@ -182,13 +191,13 @@ export function SoluTrack() {
             {/* Bottom-left: heading + description + CTA */}
             <div className="absolute bottom-10 left-8 max-w-md space-y-4">
               <h3 className="text-white text-4xl font-bold leading-tight">
-                {active.heading} <em className="font-normal">{active.headingItalic}</em>
+                {active.heading} <span style={{ fontFamily: "var(--font-display)", fontStyle: "italic", fontWeight: 600, fontSize: "1.4em", lineHeight: 1 }}>{active.headingItalic}.</span>
               </h3>
               <p className="text-white/75 text-base leading-relaxed font-light">
                 {active.description}
               </p>
               <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold text-sm hover:bg-orange-50 transition-colors">
-                Learn More
+                {(active as any).ctaLabel ?? "Learn More"}
               </button>
             </div>
 
