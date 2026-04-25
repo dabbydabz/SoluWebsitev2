@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useState, useRef } from "react"
 
 const CycleIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -36,6 +36,18 @@ const NutritionIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
     <path d="M12 2a7 7 0 017 7c0 5-7 13-7 13S5 14 5 9a7 7 0 017-7z" />
     <path d="M12 9v4M10 11h4" />
+  </svg>
+)
+
+const ChevronLeft = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M15 18l-6-6 6-6" />
+  </svg>
+)
+
+const ChevronRight = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M9 18l6-6-6-6" />
   </svg>
 )
 
@@ -97,15 +109,38 @@ const tiles = [
 
 export function SoluTrack() {
   const [expanded, setExpanded] = useState<number | null>(null)
+  const [scrollProgress, setScrollProgress] = useState(0)
   const active = expanded !== null ? tiles[expanded] : null
+  const scrollRef = useRef<HTMLDivElement>(null)
+
+  const scrollTiles = (dir: "left" | "right") => {
+    if (!scrollRef.current) return
+    scrollRef.current.scrollBy({ left: dir === "right" ? 300 : -300, behavior: "smooth" })
+  }
+
+  const handleTileScroll = () => {
+    if (!scrollRef.current) return
+    const el = scrollRef.current
+    const max = el.scrollWidth - el.clientWidth
+    setScrollProgress(max > 0 ? el.scrollLeft / max : 0)
+  }
+
+  const goNext = () => {
+    if (expanded === null) return
+    setExpanded(Math.min(expanded + 1, tiles.length - 1))
+  }
+  const goPrev = () => {
+    if (expanded === null) return
+    setExpanded(Math.max(expanded - 1, 0))
+  }
 
   return (
-    <section id="why-solu" className="py-24 bg-white overflow-hidden pt-16">
+    <section id="why-solu" className="py-16 sm:py-24 bg-white overflow-hidden pt-10 sm:pt-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Header */}
-        <div className="mb-10">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 tracking-tight">
+        <div className="mb-8 sm:mb-10">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">
             Everything you need<br />
             <span className="text-[#F7941D]">to feel your best.</span>
           </h2>
@@ -113,13 +148,15 @@ export function SoluTrack() {
 
         {/* Horizontal scroll tiles */}
         <div
-          className="flex gap-4 overflow-x-auto pb-6 -mx-6 px-6 lg:-mx-12 lg:px-12"
+          ref={scrollRef}
+          onScroll={handleTileScroll}
+          className="flex gap-4 overflow-x-auto pb-4 sm:pb-6 -mx-6 px-6 lg:-mx-12 lg:px-12"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {tiles.map((tile, i) => (
             <div
               key={tile.label}
-              className="relative shrink-0 w-[300px] h-[420px] rounded-[28px] overflow-hidden group cursor-pointer"
+              className="relative shrink-0 w-[260px] h-[336px] sm:w-[300px] sm:h-[420px] rounded-[28px] overflow-hidden group cursor-pointer"
             >
               <img
                 src={tile.image}
@@ -129,10 +166,10 @@ export function SoluTrack() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
 
-              {/* Top-left: icon + label pill */}
-              <div className="absolute top-4 left-4 flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-3 py-1.5">
+              {/* Top-left: icon + label pill — white glass, dark text for universal readability */}
+              <div className="absolute top-4 left-4 flex items-center gap-2 bg-white/80 backdrop-blur-md border border-white/60 rounded-full px-3 py-1.5 text-gray-700">
                 <tile.Icon />
-                <span className="text-white text-xs font-semibold">{tile.label}</span>
+                <span className="text-xs font-semibold">{tile.label}</span>
               </div>
 
               {/* Top-right: + button */}
@@ -153,19 +190,108 @@ export function SoluTrack() {
             </div>
           ))}
         </div>
+
+        {/* ── MOBILE: Oura-style progress bar + navigation arrows ── */}
+        <div className="flex sm:hidden items-center gap-3 mt-4">
+          {/* Thin scroll progress bar */}
+          <div className="flex-1 h-[2px] bg-gray-200 rounded-full overflow-hidden">
+            <div
+              className="h-full bg-gray-800 rounded-full transition-[width] duration-150 ease-out"
+              style={{ width: `${scrollProgress * 100}%` }}
+            />
+          </div>
+          {/* Navigation arrows */}
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              onClick={() => scrollTiles("left")}
+              className="w-11 h-11 rounded-full border border-gray-300 bg-white flex items-center justify-center transition-colors text-gray-500 hover:border-gray-400 shadow-sm"
+              aria-label="Previous tiles"
+            >
+              <ChevronLeft />
+            </button>
+            <button
+              onClick={() => scrollTiles("right")}
+              className="w-11 h-11 rounded-full border border-gray-300 bg-white flex items-center justify-center transition-colors text-gray-500 hover:border-gray-400 shadow-sm"
+              aria-label="Next tiles"
+            >
+              <ChevronRight />
+            </button>
+          </div>
+        </div>
+
       </div>
 
-      {/* ── Expanded modal overlay (Oura-style) ── */}
+      {/* ── Expanded modal — MOBILE layout ── */}
+      {active && (
+        <div className="sm:hidden fixed inset-0 z-50 flex flex-col bg-black">
+          {/* Image — top 60% */}
+          <div className="relative h-[58%] shrink-0">
+            <img
+              src={active.image}
+              alt={active.label}
+              className="w-full h-full object-cover"
+              style={{ objectPosition: (active as any).tileObjectPosition || "center center" }}
+            />
+            {/* Gradient fade to black at bottom */}
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black" />
+            {/* Category pill */}
+            <div className="absolute top-5 left-5 flex items-center gap-2 bg-white/80 backdrop-blur-md border border-white/60 rounded-full px-3 py-1.5 text-gray-700">
+              <active.Icon />
+              <span className="text-xs font-semibold">{active.label}</span>
+            </div>
+            {/* Close button */}
+            <button
+              onClick={() => setExpanded(null)}
+              className="absolute top-5 right-5 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center shadow-lg text-gray-700 text-xl"
+            >
+              ×
+            </button>
+          </div>
+
+          {/* Content — bottom 42% with gradient-coded bg */}
+          <div className="flex-1 bg-[#111] px-6 py-5 flex flex-col gap-3 overflow-y-auto" style={{ WebkitOverflowScrolling: "touch", overscrollBehavior: "contain" }}>
+            <h3 className="text-white text-2xl font-bold leading-tight">
+              {active.heading} <span style={{ fontFamily: "var(--font-display)", fontStyle: "italic", fontWeight: 600, fontSize: "1.3em", lineHeight: 1 }}>{active.headingItalic}.</span>
+            </h3>
+            <p className="text-white/65 text-sm leading-relaxed font-light flex-1">
+              {active.description}
+            </p>
+            {/* CTA + nav arrows */}
+            <div className="flex items-center justify-between pt-1">
+              <button className="bg-white text-gray-900 px-5 py-2.5 rounded-full font-semibold text-sm">
+                {(active as any).ctaLabel ?? "Learn More"}
+              </button>
+              <div className="flex gap-2">
+                <button
+                  onClick={goPrev}
+                  disabled={expanded === 0}
+                  className="w-10 h-10 rounded-full border border-white/30 bg-white/10 flex items-center justify-center text-white disabled:opacity-25 transition-opacity"
+                >
+                  <ChevronLeft />
+                </button>
+                <button
+                  onClick={goNext}
+                  disabled={expanded === tiles.length - 1}
+                  className="w-10 h-10 rounded-full border border-white/30 bg-white/10 flex items-center justify-center text-white disabled:opacity-25 transition-opacity"
+                >
+                  <ChevronRight />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Expanded modal — DESKTOP layout (sm+) ── */}
       {active && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-8 bg-black/60 backdrop-blur-sm"
+          className="hidden sm:flex fixed inset-0 z-50 items-center justify-center p-8 bg-black/60 backdrop-blur-sm"
           onClick={() => setExpanded(null)}
         >
           <div
             className="relative w-full max-w-5xl h-[85vh] rounded-[40px] overflow-hidden shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Background image */}
             <img
               src={active.image.replace("w=800", "w=1400")}
               alt={active.label}
@@ -174,13 +300,11 @@ export function SoluTrack() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/30 to-transparent" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
 
-            {/* Top-left: category */}
             <div className="absolute top-6 left-6 flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-4 py-2">
               <active.Icon />
               <span className="text-white text-sm font-semibold">{active.label}</span>
             </div>
 
-            {/* Top-right: × close */}
             <button
               onClick={() => setExpanded(null)}
               className="absolute top-6 right-6 w-11 h-11 bg-white/90 rounded-full flex items-center justify-center shadow-lg hover:bg-white transition-colors text-gray-700 text-xl"
@@ -188,7 +312,6 @@ export function SoluTrack() {
               ×
             </button>
 
-            {/* Bottom-left: heading + description + CTA */}
             <div className="absolute bottom-10 left-8 max-w-md space-y-4">
               <h3 className="text-white text-4xl font-bold leading-tight">
                 {active.heading} <span style={{ fontFamily: "var(--font-display)", fontStyle: "italic", fontWeight: 600, fontSize: "1.4em", lineHeight: 1 }}>{active.headingItalic}.</span>
@@ -201,9 +324,7 @@ export function SoluTrack() {
               </button>
             </div>
 
-            {/* Right: insight card */}
-            <div className="absolute top-1/2 -translate-y-1/2 right-8 w-72 space-y-4">
-              {/* Insight card */}
+            <div className="absolute top-1/2 -translate-y-1/2 right-8 w-72">
               <div className="bg-white/15 backdrop-blur-xl border border-white/25 rounded-[24px] p-5 space-y-3">
                 <div className="flex items-center gap-2">
                   <active.Icon />
