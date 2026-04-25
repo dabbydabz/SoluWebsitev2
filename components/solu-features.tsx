@@ -1,6 +1,6 @@
 export function SoluFeatures() {
   return (
-    <section id="for-you" className="py-32 bg-[#0D0D0D] relative overflow-hidden">
+    <section id="for-you" className="hidden sm:block py-32 bg-[#0D0D0D] relative overflow-hidden">
 
       {/* Background glows — Solu orange & green */}
       <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#F7941D] opacity-[0.18] blur-[160px] rounded-full pointer-events-none" />

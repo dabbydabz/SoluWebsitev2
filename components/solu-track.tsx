@@ -1,5 +1,5 @@
 "use client"
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 
 const CycleIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -124,6 +124,22 @@ export function SoluTrack() {
     const max = el.scrollWidth - el.clientWidth
     setScrollProgress(max > 0 ? el.scrollLeft / max : 0)
   }
+
+  // Lock body scroll on mobile when a tile is expanded
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    if (expanded !== null && window.innerWidth < 640) {
+      document.body.style.overflow = "hidden"
+      document.body.style.touchAction = "none"
+    } else {
+      document.body.style.overflow = ""
+      document.body.style.touchAction = ""
+    }
+    return () => {
+      document.body.style.overflow = ""
+      document.body.style.touchAction = ""
+    }
+  }, [expanded])
 
   const goNext = () => {
     if (expanded === null) return
