@@ -71,12 +71,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           <div className="mt-16 bg-gradient-to-br from-[#FBF8F4] to-white border border-orange-100 rounded-[28px] p-8 text-center">
             <p className="text-gray-500 text-sm uppercase tracking-widest font-semibold mb-2">Ready to feel the difference?</p>
             <h3 className="text-2xl font-extrabold text-gray-900 mb-4">Start living in sync with your body.</h3>
-            <a
-              href="/#download"
-              className="inline-block bg-[#F7941D] text-white px-8 py-3 rounded-full font-bold text-sm hover:bg-[#e8850d] transition-all shadow-lg shadow-orange-200/60"
+            <button
+              data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
+              className="inline-block bg-[#F7941D] text-white px-8 py-3 rounded-full font-bold text-sm hover:bg-[#e8850d] transition-all shadow-lg shadow-orange-200/60 cursor-pointer"
             >
               Try Solu for Free
-            </a>
+            </button>
           </div>
         </article>
 

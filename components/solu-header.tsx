@@ -71,12 +71,12 @@ export function SoluHeader() {
               </a>
             ))}
           </nav>
-          <a
-            href="#download"
-            className="shrink-0 bg-[#F7941D] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#e8850d] transition-all shadow-md shadow-orange-200/60 whitespace-nowrap"
+          <button
+            data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
+            className="shrink-0 bg-[#F7941D] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#e8850d] transition-all shadow-md shadow-orange-200/60 whitespace-nowrap cursor-pointer"
           >
             Try Solu for Free
-          </a>
+          </button>
         </div>
       </header>
 
@@ -137,13 +137,13 @@ export function SoluHeader() {
             ))}
           </div>
           {/* CTA at bottom */}
-          <a
-            href="#download"
+          <button
+            data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
             onClick={() => setMenuOpen(false)}
-            className="bg-[#F7941D] text-white px-8 py-4 rounded-full font-bold text-base shadow-xl shadow-orange-300/30 text-center"
+            className="bg-[#F7941D] text-white px-8 py-4 rounded-full font-bold text-base shadow-xl shadow-orange-300/30 text-center cursor-pointer"
           >
             Try Solu for Free
-          </a>
+          </button>
         </div>
       </div>
     </>

@@ -31,17 +31,17 @@ export function SoluDownload() {
               title: "Google Play",
             },
           ].map((btn) => (
-            <a
+            <button
               key={btn.title}
-              href="#"
-              className="flex items-center gap-3 bg-white/10 backdrop-blur-xl text-white px-7 py-4 rounded-2xl hover:bg-white/20 transition-all border border-white/20 shadow-lg"
+              data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
+              className="flex items-center gap-3 bg-white/10 backdrop-blur-xl text-white px-7 py-4 rounded-2xl hover:bg-white/20 transition-all border border-white/20 shadow-lg cursor-pointer"
             >
               {btn.icon}
               <div className="text-left">
                 <p className="text-[11px] text-white/50 leading-none mb-0.5 font-medium">{btn.subtitle}</p>
                 <p className="text-base font-bold leading-none">{btn.title}</p>
               </div>
-            </a>
+            </button>
           ))}
         </div>
 
