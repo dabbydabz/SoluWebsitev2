@@ -4,11 +4,13 @@ import React, { useEffect, useState } from "react"
 export function SoluHeader() {
   const [visible, setVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY
+      setScrolled(currentY > 10)
       if (currentY < 10) {
         setVisible(true)
       } else if (currentY > lastScrollY) {
@@ -19,14 +21,16 @@ export function SoluHeader() {
       }
       setLastScrollY(currentY)
     }
+    // Set initial state in case page loads already scrolled
+    setScrolled(window.scrollY > 10)
     window.addEventListener("scroll", handleScroll, { passive: true })
     return () => window.removeEventListener("scroll", handleScroll)
   }, [lastScrollY, menuOpen])
 
   const navItems = [
-    { label: "Why Solu", href: "#why-solu" },
+    { label: "Why Solu", href: "/#why-solu" },
     { label: "Our Story", href: "#", disabled: true },
-    { label: "For You", href: "#for-you" },
+    { label: "For You", href: "/#for-you" },
     { label: "Health Blog", href: "/blog" },
   ]
 
@@ -51,7 +55,7 @@ export function SoluHeader() {
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-8 pointer-events-none"
         }`}
       >
-        <div className="w-full max-w-2xl bg-white/60 backdrop-blur-2xl border border-white/70 rounded-full px-4 py-2.5 shadow-[0_8px_32px_rgba(0,0,0,0.08)] flex items-center justify-between gap-4">
+        <div className={`w-full max-w-2xl backdrop-blur-2xl rounded-full px-4 py-2.5 flex items-center justify-between gap-4 transition-all duration-300 ${scrolled ? "bg-white/95 border border-gray-200/80 shadow-[0_8px_32px_rgba(0,0,0,0.10)]" : "bg-white/60 border border-white/70 shadow-[0_8px_32px_rgba(0,0,0,0.08)]"}`}>
           <a href="/" className="shrink-0">
             <img src="/images/solu-logo-full.png" alt="Solu" className="h-9 w-auto" />
           </a>
@@ -86,8 +90,8 @@ export function SoluHeader() {
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-8 pointer-events-none"
         }`}
       >
-        {/* More transparent glass pill */}
-        <div className="bg-white/25 backdrop-blur-2xl border border-white/40 rounded-2xl px-4 py-1.5 flex items-center justify-between shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
+        {/* Glass pill — darkens on white-background pages */}
+        <div className={`backdrop-blur-2xl rounded-2xl px-4 py-1.5 flex items-center justify-between transition-all duration-300 ${scrolled ? "bg-white/90 border border-gray-200/70 shadow-[0_4px_24px_rgba(0,0,0,0.10)]" : "bg-white/25 border border-white/40 shadow-[0_4px_24px_rgba(0,0,0,0.08)]"}`}>
           <a href="/" className="shrink-0">
             <img src="/images/solu-logo-full.png" alt="Solu" className="h-9 w-auto drop-shadow-sm" />
           </a>
@@ -96,15 +100,15 @@ export function SoluHeader() {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
-            className="w-10 h-10 rounded-full border border-white/50 flex flex-col items-center justify-center transition-all"
+            className={`w-10 h-10 rounded-full flex flex-col items-center justify-center transition-all border ${scrolled ? "border-gray-300/60" : "border-white/50"}`}
           >
             <span
-              className={`block w-[17px] h-[1.5px] bg-white rounded-full shadow-sm transition-all duration-300 origin-center ${
+              className={`block w-[17px] h-[1.5px] rounded-full shadow-sm transition-all duration-300 origin-center ${scrolled ? "bg-gray-700" : "bg-white"} ${
                 menuOpen ? "rotate-45 translate-y-[3.5px]" : ""
               }`}
             />
             <span
-              className={`block w-[17px] h-[1.5px] bg-white rounded-full shadow-sm transition-all duration-300 origin-center mt-[5px] ${
+              className={`block w-[17px] h-[1.5px] rounded-full shadow-sm transition-all duration-300 origin-center mt-[5px] ${scrolled ? "bg-gray-700" : "bg-white"} ${
                 menuOpen ? "-rotate-45 -translate-y-[2.5px]" : ""
               }`}
             />

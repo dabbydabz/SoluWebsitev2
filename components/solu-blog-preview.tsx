@@ -13,8 +13,8 @@ export function SoluBlogPreview() {
   const posts = getLatestPosts(3)
 
   return (
-    <section className="py-20 sm:py-28 bg-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+    <section className="bg-white px-4 sm:px-6 pb-6">
+      <div className="max-w-7xl mx-auto bg-[#F7F4F0] rounded-[32px] sm:rounded-[48px] px-6 lg:px-12 py-14 sm:py-20">
 
         {/* Header row */}
         <div className="flex items-end justify-between mb-10">
