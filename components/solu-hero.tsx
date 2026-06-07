@@ -45,7 +45,7 @@ export function SoluHero() {
               </h1>
               <button
                 data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
-                className="inline-block bg-white text-[#F7941D] px-7 py-3 rounded-full font-bold text-sm shadow-xl active:scale-95 transition-all cursor-pointer"
+                className="btn-pulse-white inline-block bg-white text-[#F7941D] px-7 py-3 rounded-full font-bold text-sm shadow-xl active:scale-95 transition-all cursor-pointer"
               >
                 Try Solu for Free
               </button>
@@ -85,7 +85,7 @@ export function SoluHero() {
                   Your body changes every week — your life should reflect that. Solu aligns your daily habits with your natural hormonal cycle, so you always know what your body needs, and why.
                 </p>
                 <div className="flex flex-wrap items-center gap-4">
-                  <button data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="bg-white text-[#F7941D] px-8 py-4 rounded-full font-bold text-base hover:bg-orange-50 transition-all shadow-xl hover:-translate-y-0.5 active:scale-95 cursor-pointer">
+                  <button data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn-pulse-white bg-white text-[#F7941D] px-8 py-4 rounded-full font-bold text-base hover:bg-orange-50 transition-all shadow-xl hover:-translate-y-0.5 active:scale-95 cursor-pointer">
                     Try Solu for Free
                   </button>
                   <a href="#why-solu" className="bg-white/15 backdrop-blur-md text-white px-8 py-4 rounded-full font-semibold text-base border border-white/30 hover:bg-white/25 transition-all">

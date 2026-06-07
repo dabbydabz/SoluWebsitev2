@@ -29,9 +29,9 @@ export function SoluHeader() {
 
   const navItems = [
     { label: "Why Solu", href: "/#why-solu" },
-    { label: "Our Story", href: "#", disabled: true },
     { label: "For You", href: "/#for-you" },
     { label: "Health Blog", href: "/blog" },
+    { label: "Contact", href: "/contact" },
   ]
 
   const renderLabel = (item: typeof navItems[0]) => {
@@ -77,7 +77,7 @@ export function SoluHeader() {
           </nav>
           <button
             data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
-            className="shrink-0 bg-[#F7941D] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#e8850d] transition-all shadow-md shadow-orange-200/60 whitespace-nowrap cursor-pointer"
+            className="btn-pulse-orange shrink-0 bg-[#F7941D] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#e8850d] transition-all shadow-md shadow-orange-200/60 whitespace-nowrap cursor-pointer"
           >
             Try Solu for Free
           </button>
