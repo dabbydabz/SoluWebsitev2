@@ -21,7 +21,7 @@ export default function BlogPage() {
           <div>
             <p className="text-[#F7941D] font-semibold text-sm uppercase tracking-widest mb-3">Solu Health Blog</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight">
-              Live well, <span className="text-[#F7941D]">feel great.</span>
+              Live in sync <span className="text-[#F7941D]">with your cycle.</span>
             </h1>
             <p className="text-gray-500 text-lg mt-5 leading-relaxed font-light sm:whitespace-nowrap">
               Insights on hormonal health, nutrition, movement, and everything in between, written for real women living real lives.

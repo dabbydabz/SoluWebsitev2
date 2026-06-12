@@ -10,7 +10,7 @@ export function SoluFooter() {
               alt="Solu"
               className="h-10 w-auto object-contain"
             />
-            <p className="text-white/40 text-sm font-light">live well, feel great.</p>
+            <p className="text-white/40 text-sm font-light">live in sync with your cycle.</p>
           </div>
 
           {/* Links */}

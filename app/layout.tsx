@@ -19,8 +19,8 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: "Solu — Live well, feel great.",
-  description: "Solu helps women live healthier lives. Track your workouts, sleep, nutrition, cycle and more — all in one beautifully simple app.",
+  title: "Women's health, fitness & wellness in sync with your cycle | Solu",
+  description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
 }
 
 export default function RootLayout({
