@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getLatestPosts } from "@/lib/posts"
+import { getLatestPosts, getTrendingPost } from "@/lib/posts"
 
 const categoryColours: Record<string, string> = {
   "Hormonal Health": "bg-rose-100 text-rose-600",
@@ -7,10 +7,13 @@ const categoryColours: Record<string, string> = {
   "Movement": "bg-orange-100 text-[#F7941D]",
   "Sleep": "bg-blue-100 text-blue-600",
   "Community": "bg-purple-100 text-purple-600",
+  "Wellbeing": "bg-purple-100 text-purple-600",
+  "Fertility": "bg-pink-100 text-pink-600",
 }
 
 export function SoluBlogPreview() {
-  const posts = getLatestPosts(3)
+  const trendingPost = getTrendingPost()
+  const latestPosts = getLatestPosts(3)
 
   return (
     <section className="bg-white px-4 sm:px-6 pb-6">
@@ -32,9 +35,49 @@ export function SoluBlogPreview() {
           </Link>
         </div>
 
-        {/* Cards */}
+        {/* Trending article callout */}
+        {trendingPost && (
+          <div className="mb-8">
+            <p className="text-[#F7941D] font-semibold text-xs uppercase tracking-widest mb-3">Trending this week</p>
+            <Link
+              href={`/blog/${trendingPost.slug}`}
+              className="group flex flex-col sm:flex-row rounded-[24px] overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+            >
+              <div className="relative sm:w-64 h-44 sm:h-auto overflow-hidden shrink-0">
+                <img
+                  src={trendingPost.image}
+                  alt={trendingPost.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-[#F7941D] text-white text-xs font-bold px-2.5 py-1 rounded-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse inline-block" />
+                  Trending
+                </div>
+              </div>
+              <div className="flex flex-col justify-center p-5 sm:p-7 gap-2.5 flex-1">
+                <div className="flex items-center gap-2">
+                  <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${categoryColours[trendingPost.category] ?? "bg-gray-100 text-gray-600"}`}>
+                    {trendingPost.category}
+                  </span>
+                  <span className="text-gray-400 text-xs">{trendingPost.readTime}</span>
+                </div>
+                <h3 className="font-extrabold text-gray-900 text-base sm:text-lg leading-snug group-hover:text-[#F7941D] transition-colors">
+                  {trendingPost.title}
+                </h3>
+                <p className="text-gray-500 text-sm leading-relaxed font-light line-clamp-2">
+                  {trendingPost.excerpt}
+                </p>
+                <span className="text-[#F7941D] text-sm font-bold group-hover:translate-x-0.5 transition-transform self-start mt-1">
+                  Read article →
+                </span>
+              </div>
+            </Link>
+          </div>
+        )}
+
+        {/* Latest articles grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {posts.map((post) => (
+          {latestPosts.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
