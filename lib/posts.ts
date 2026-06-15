@@ -529,6 +529,159 @@ export const posts: Post[] = [
 </ul>
     `.trim(),
   },
+  {
+    slug: "top-10-health-and-fitness-apps-for-women",
+    title: "What Are the Top 10 Health and Fitness Apps for Women in 2026?",
+    excerpt: "The app market for women's health has never been stronger, but more choice makes it harder to know which tools are genuinely worth your time. This guide covers the 10 best health and fitness apps for women in 2026, rated honestly by what they actually do well.",
+    date: "June 15, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Choosing a health or fitness app as a woman in 2026 means navigating hundreds of options, most of which were not actually designed with female physiology in mind. The best apps for women do more than count steps or log calories. They account for the hormonal variation that shapes energy, performance, recovery, and mood across the month.</p>
+
+<p>Here are the 10 most useful health and fitness apps for women right now, organised by what they do best.</p>
+
+<h2>What Should a Health App for Women Actually Do?</h2>
+<p>Before listing specific apps, it is worth stating what separates a good women's health app from a generic one. The best options either track the menstrual cycle directly, adjust their recommendations based on cycle phase, or connect multiple health pillars (movement, nutrition, sleep) in a way that reflects how women's bodies actually work. Apps that treat women as smaller versions of men and offer the same advice regardless of hormonal context are the least useful, however polished they look.</p>
+
+<h2>What Are the Top 10 Health and Fitness Apps for Women in 2026?</h2>
+
+<p><strong>1. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a></strong><br/>
+The most integrated cycle-aware wellness app available. Solu maps your movement, nutrition, sleep, and energy guidance to your current hormonal phase daily. Rather than presenting generic advice, it tells you specifically what your body is primed for today and why. For women who want a single app that connects all health pillars to their cycle, Solu is the most complete option in this category.</p>
+
+<p><strong>2. <a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a></strong><br/>
+One of the most research-backed period tracking apps available. Clue tracks a wide range of symptoms alongside cycle data and improves its predictions with use. It is free, clean, and does not over-promise. Best for women who want accurate cycle tracking without lifestyle guidance.</p>
+
+<p><strong>3. <a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a></strong><br/>
+The only app certified as a digital contraceptive in multiple markets. Uses basal body temperature to confirm ovulation and predict fertile windows with clinical accuracy. Best for women focused on fertility awareness or hormone-free contraception.</p>
+
+<p><strong>4. <a href="https://www.myfitnesspal.com" target="_blank" rel="noopener noreferrer">MyFitnessPal</a></strong><br/>
+The largest food database of any nutrition app. Best for detailed macro and calorie tracking. Does not adjust recommendations by cycle phase, but remains the most practical tool for women who want granular nutritional data.</p>
+
+<p><strong>5. <a href="https://cronometer.com" target="_blank" rel="noopener noreferrer">Cronometer</a></strong><br/>
+Superior to MyFitnessPal for micronutrient tracking. If you want to monitor iron, magnesium, vitamin D, or B12 (all of which shift in relevance across the menstrual cycle), Cronometer gives you more precise data. Preferred by women with specific nutritional goals.</p>
+
+<p><strong>6. <a href="https://www.strava.com" target="_blank" rel="noopener noreferrer">Strava</a></strong><br/>
+The best app for tracking runs, rides, and outdoor workouts. Its social and community features add accountability. Does not account for cycle phase in its training suggestions, but its data logging is best-in-class for endurance athletes.</p>
+
+<p><strong>7. <a href="https://www.nike.com/ntc-app" target="_blank" rel="noopener noreferrer">Nike Training Club</a></strong><br/>
+Offers structured workout programmes across all fitness levels at no cost for the majority of content. High production quality and varied programming. Like most fitness apps, it does not adjust programming by cycle phase, but it is one of the most accessible free options available.</p>
+
+<p><strong>8. <a href="https://ouraring.com" target="_blank" rel="noopener noreferrer">Oura</a></strong><br/>
+Not strictly an app (it requires the Oura Ring wearable), but its app is among the best for sleep tracking and recovery data. Tracks skin temperature changes across the cycle, which can confirm ovulation over time. Best paired with a cycle-aware app for full context.</p>
+
+<p><strong>9. <a href="https://www.headspace.com" target="_blank" rel="noopener noreferrer">Headspace</a></strong><br/>
+The most structured mindfulness app for beginners. Research consistently links mindfulness practice to reduced PMS symptoms and lower cortisol. Best for women who want to address the mental and emotional dimensions of their cycle.</p>
+
+<p><strong>10. <a href="https://www.calm.com" target="_blank" rel="noopener noreferrer">Calm</a></strong><br/>
+The strongest app for sleep-focused content. Sleep quality reliably decreases in the late luteal phase, and Calm's sleep stories and relaxation content are well-suited to supporting this phase of the cycle. Pairs well with any cycle tracking app.</p>
+
+<h2>Which App Is Best If You Want Cycle-Aware Health Tracking?</h2>
+<p>If your priority is connecting your daily habits to your hormonal cycle rather than tracking a single metric in isolation, an integrated platform like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> gives you the most complete picture. Most apps on this list do one thing well. Solu attempts to do all of them in the context of where you actually are in your cycle, which for many women is significantly more useful than maintaining four or five separate apps.</p>
+
+<h2>Are Free Health Apps Worth Using?</h2>
+<p>Yes, with caveats. Apps like Clue, Nike Training Club, and Headspace offer genuinely useful free tiers. The limitation is that free apps almost always lack cycle integration and personalisation. If you are willing to pay for one app, choose one that does the most with your cycle data. That tends to deliver more value than paying for multiple single-purpose apps that do not communicate with each other.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/which-health-tracker-is-best-for-women">Which health tracker is best for women?</a></li>
+  <li><a href="/blog/which-health-app-is-most-accurate-for-women">Which health app is most accurate for women?</a></li>
+  <li><a href="/blog/is-30-minutes-of-exercise-enough-for-females">Is 30 minutes of exercise enough to lose weight for a female?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "is-30-minutes-of-exercise-enough-for-females",
+    title: "Is 30 Minutes of Exercise Enough to Lose Weight for a Female?",
+    excerpt: "The 30-minute workout has become the default advice for busy women, but whether it is actually enough depends on several factors that most fitness content ignores. Here is what the research says, and why your cycle matters more than the clock.",
+    date: "June 15, 2026",
+    category: "Movement",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>Thirty minutes of exercise per day is the number most commonly cited in public health guidelines, and it appears in fitness advice directed at women constantly. But is it actually enough to lose weight? The honest answer is: it depends, and for women specifically, it depends on factors that most fitness content does not mention.</p>
+
+<h2>What Does the Research Say About 30 Minutes of Exercise for Weight Loss?</h2>
+<p>The evidence is genuinely mixed. A <a href="https://pubmed.ncbi.nlm.nih.gov/22327411/" target="_blank" rel="noopener noreferrer">2012 study published in the American Journal of Physiology</a> found that women who exercised for 30 minutes per day lost a similar amount of weight to those who exercised for 60 minutes, partly because shorter sessions left more energy for incidental movement throughout the day. The 60-minute group tended to compensate by being more sedentary outside their workouts.</p>
+<p>The <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener noreferrer">World Health Organization</a> recommends 150 to 300 minutes of moderate intensity aerobic activity per week for adults, which works out to roughly 21 to 43 minutes per day. So 30 minutes sits comfortably within the recommended range. For weight loss specifically, the evidence suggests that intensity matters more than duration.</p>
+
+<h2>Why Do Women Respond to Exercise Differently Than Men?</h2>
+<p>Most exercise research has historically been conducted on male subjects, and the guidelines derived from it do not always translate directly to women. Female metabolism, fat oxidation rates, and recovery capacity are all influenced by oestrogen and progesterone, which fluctuate across the menstrual cycle. This means that a 30-minute workout produces measurably different physiological outcomes depending on where a woman is in her cycle, even if the session looks identical on paper.</p>
+<p>Research published in the <a href="https://pubmed.ncbi.nlm.nih.gov/31617359/" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> found that women oxidise more fat relative to carbohydrate during exercise in the follicular phase compared to the luteal phase, when progesterone dominates and the body shifts toward burning more carbohydrate. This affects both performance and the metabolic response to the same 30-minute session.</p>
+
+<h2>What Type of Exercise Burns the Most in 30 Minutes for Women?</h2>
+<p>High-intensity interval training (HIIT) consistently produces the highest calorie burn in a short window and generates a meaningful post-exercise metabolic elevation (sometimes called the afterburn effect). However, HIIT is not equally appropriate at every point in the cycle. In the follicular and ovulatory phases, when oestrogen supports faster recovery and higher pain tolerance, high-intensity work is well-suited. In the late luteal phase, when progesterone is elevated and recovery is slower, the same session produces disproportionate fatigue and provides diminishing returns.</p>
+<p>Strength training is also highly effective within 30 minutes. Compound movements (squats, deadlifts, rows, presses) activate large muscle groups simultaneously, elevate heart rate, and support lean muscle development, which increases resting metabolic rate over time. For women focused on body composition rather than just weight loss, 30 minutes of resistance training three times per week has strong evidence behind it.</p>
+
+<h2>Does Your Menstrual Cycle Affect How Much You Get from a 30-Minute Workout?</h2>
+<p>Significantly. In the follicular phase (roughly days 6 to 13), oestrogen primes your muscles for faster adaptation and recovery. A 30-minute strength session or interval workout in this phase produces a stronger training stimulus and faster recovery than the same session in the late luteal phase. This is not a motivation issue; it is a biological one.</p>
+<p>Apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> use your cycle phase to recommend the right type of 30-minute workout for where your body is today, whether that is a higher-intensity session in the follicular phase or a more restorative 30 minutes of Pilates or walking in the late luteal phase. The duration stays consistent; the content shifts to match what your body is actually capable of recovering from.</p>
+
+<h2>What Else Matters Besides Exercise Duration?</h2>
+<p>For women specifically, nutrition around the menstrual cycle has a significant impact on whether exercise produces weight loss or body composition changes. Calorie needs increase slightly in the luteal phase as basal metabolic rate rises. Eating too little in this phase while maintaining high exercise volume can elevate cortisol and actually impair fat loss. Sleep quality, which reliably declines in the late luteal phase, also affects the hormones that regulate appetite and fat storage.</p>
+<p>In short: 30 minutes of exercise is a good baseline, but whether it produces meaningful results depends on the type of exercise, the phase of your cycle, your nutrition, and your sleep. Optimising all four together consistently outperforms any single variable.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/which-exercise-is-best-for-females">Which exercise is best for females?</a></li>
+  <li><a href="/blog/how-to-train-with-your-cycle">How should I structure my workouts around my menstrual cycle?</a></li>
+  <li><a href="/blog/top-10-health-and-fitness-apps-for-women">What are the top 10 health and fitness apps for women?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-is-perimenopause-and-when-does-it-start",
+    title: "What is Perimenopause and When Does It Start?",
+    excerpt: "Perimenopause is one of the most significant hormonal transitions a woman goes through, yet most women are not told what it is until they are already in it. Here is what perimenopause actually means, when it typically starts, and what the early signs look like.",
+    date: "June 15, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>Perimenopause is the transitional phase leading up to menopause, during which the ovaries gradually produce less oestrogen and progesterone. It is not a single event but a process that can last anywhere from a few years to more than a decade. In 2026, perimenopause has become one of the most searched women's health topics, with younger women increasingly seeking information about what to expect and how to prepare.</p>
+
+<p>Here is a clear, honest breakdown of what perimenopause is, when it starts, and what you can do about it.</p>
+
+<h2>What Exactly is Perimenopause?</h2>
+<p>The word perimenopause means "around menopause." It describes the years during which your reproductive hormones begin to fluctuate and decline before your periods stop entirely. During this phase, oestrogen levels rise and fall unpredictably rather than following the regular pattern of a typical menstrual cycle. Progesterone, which is produced after ovulation, also becomes less consistent as ovulation itself becomes less regular.</p>
+<p>Menopause is defined as 12 consecutive months without a menstrual period. Perimenopause is everything that comes before that point, from the first signs of hormonal change until that 12-month mark is reached. After menopause, you are in post-menopause.</p>
+
+<h2>When Does Perimenopause Start?</h2>
+<p>Most women enter perimenopause in their mid-to-late 40s, but it can begin as early as the mid-30s. According to the <a href="https://www.menopause.org/for-women/sexual-health-menopause-online/changes-at-midlife/what-is-perimenopause" target="_blank" rel="noopener noreferrer">Menopause Society</a>, the average age of onset is around 47, with menopause itself typically occurring around age 51 in the UK and US. However, roughly 1 in 10 women experience early perimenopause before age 40.</p>
+<p>Genetics play a significant role. If your mother entered perimenopause early, you are more likely to as well. Smoking has been consistently associated with earlier onset. Certain medical treatments, including chemotherapy and surgery involving the ovaries, can trigger abrupt hormonal changes that resemble perimenopause.</p>
+
+<h2>What Are the First Signs of Perimenopause?</h2>
+<p>The earliest signs are often subtle and are frequently attributed to stress, poor sleep, or simply getting older. Common early indicators include:</p>
+<ul>
+  <li>Changes in menstrual cycle length or flow, either shorter cycles, longer gaps, or heavier periods</li>
+  <li>Difficulty sleeping, particularly waking during the night without a clear reason</li>
+  <li>Increased premenstrual symptoms such as irritability, breast tenderness, or bloating</li>
+  <li>Changes in mood, including heightened anxiety or low mood in the days before a period</li>
+  <li>Reduced ability to recover from exercise or higher perceived effort during workouts</li>
+  <li>Brain fog or difficulty concentrating, particularly in the luteal phase</li>
+</ul>
+<p>Hot flushes are commonly associated with perimenopause, but they often appear later in the transition rather than at its onset. Research published by the <a href="https://www.nhs.uk/conditions/menopause/symptoms/" target="_blank" rel="noopener noreferrer">NHS</a> notes that cycle irregularity is typically the first and most consistent early indicator.</p>
+
+<h2>How Long Does Perimenopause Last?</h2>
+<p>On average, perimenopause lasts four to eight years, though the range is wide. Some women transition relatively quickly, while others experience hormonal fluctuations for ten or more years before reaching menopause. The final one to two years before menopause, when oestrogen drops most sharply, tend to produce the most noticeable symptoms.</p>
+
+<h2>How Is Perimenopause Different from Menopause?</h2>
+<p>The distinction matters clinically. During perimenopause you can still become pregnant, even if your cycles are irregular, because ovulation is still occurring. Menopause, by contrast, marks the permanent end of ovulation and fertility. Many of the symptoms associated with "menopause" in popular conversation (hot flushes, mood changes, sleep disruption) actually peak during perimenopause rather than after it.</p>
+
+<h2>Can Tracking Your Cycle Help During Perimenopause?</h2>
+<p>Significantly. One of the most disorienting aspects of perimenopause is the unpredictability of symptoms and cycles. Tracking your cycle during this transition gives you data that helps you anticipate hormonal patterns even as they change, identify which symptoms correlate with which phase, and communicate more clearly with a doctor about what you are experiencing.</p>
+<p>Apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> are well-suited to the perimenopause transition because they connect cycle data to daily guidance across nutrition, movement, and sleep, adjusting recommendations as your pattern shifts. As cycles lengthen or become irregular, having a tool that responds to your actual data rather than a fixed template becomes more valuable, not less.</p>
+<p>If you suspect you are in perimenopause, a GP can confirm it through a combination of symptom assessment and blood tests measuring FSH (follicle-stimulating hormone) levels. The <a href="https://www.nhs.uk/conditions/menopause/" target="_blank" rel="noopener noreferrer">NHS</a> and the <a href="https://www.menopause.org" target="_blank" rel="noopener noreferrer">Menopause Society</a> both offer evidence-based resources on diagnosis and treatment options.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/understanding-your-four-cycle-phases">What are the 4 phases of my menstrual cycle and how do they affect my body?</a></li>
+  <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What is the best way to track your hormones at home?</a></li>
+  <li><a href="/blog/top-10-health-and-fitness-apps-for-women">What are the top 10 health and fitness apps for women?</a></li>
+</ul>
+    `.trim(),
+  },
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
