@@ -7,6 +7,7 @@ export type Post = {
   image: string
   readTime: string
   content: string
+  trending?: boolean
 }
 
 export const posts: Post[] = [
@@ -632,6 +633,7 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "what-is-perimenopause-and-when-does-it-start",
+    trending: true,
     title: "What is Perimenopause and When Does It Start?",
     excerpt: "Perimenopause is one of the most significant hormonal transitions a woman goes through, yet most women are not told what it is until they are already in it. Here is what perimenopause actually means, when it typically starts, and what the early signs look like.",
     date: "June 15, 2026",
@@ -690,4 +692,8 @@ export function getPostBySlug(slug: string): Post | undefined {
 
 export function getLatestPosts(count = 3): Post[] {
   return posts.slice(0, count)
+}
+
+export function getTrendingPost(): Post | undefined {
+  return posts.find((p) => p.trending === true)
 }
