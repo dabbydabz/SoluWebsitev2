@@ -633,7 +633,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "what-is-perimenopause-and-when-does-it-start",
-    trending: true,
     title: "What is Perimenopause and When Does It Start?",
     excerpt: "Perimenopause is one of the most significant hormonal transitions a woman goes through, yet most women are not told what it is until they are already in it. Here is what perimenopause actually means, when it typically starts, and what the early signs look like.",
     date: "June 15, 2026",
@@ -681,6 +680,198 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/understanding-your-four-cycle-phases">What are the 4 phases of my menstrual cycle and how do they affect my body?</a></li>
   <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What is the best way to track your hormones at home?</a></li>
   <li><a href="/blog/top-10-health-and-fitness-apps-for-women">What are the top 10 health and fitness apps for women?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-free-fitness-apps-for-women",
+    title: "What Are the Best Free Fitness Apps for Women?",
+    excerpt: "You do not need to spend money to build a consistent fitness routine. The best free fitness apps for women in 2026 offer genuinely comprehensive features, but knowing which ones account for how your body actually works makes all the difference.",
+    date: "June 22, 2026",
+    category: "Movement",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>The best free fitness apps for women in 2026 include <strong>Nike Training Club</strong>, <strong>FitOn</strong>, <strong>Strava</strong>, and <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>, which adds something most free apps skip: workouts adapted to where you are in your menstrual cycle. The right app depends on what you are training for, but all of these offer genuinely useful features at no cost.</p>
+
+<h2>Are free fitness apps actually worth using?</h2>
+<p>Yes. The gap between free and paid fitness apps has narrowed significantly. Many of the most popular platforms now offer comprehensive free tiers with hundreds of workouts, progress tracking, and community features. You do not need to spend money to build a consistent fitness routine, particularly if you are just starting out or training at home.</p>
+<p>That said, free apps often monetise through advertising, upsells, or data. Reading the privacy policy before signing up is worth the five minutes, particularly for health-related apps that may collect sensitive data about your cycle, weight, or activity.</p>
+
+<h2>What should a good free fitness app for women include?</h2>
+<p>Women have different physiological needs than men, particularly around hormonal fluctuations, recovery, and energy levels across the month. A genuinely useful free fitness app for women should offer:</p>
+<ul>
+  <li>Workout variety covering strength, cardio, yoga, and mobility</li>
+  <li>Adjustable intensity so you can train around your energy levels</li>
+  <li>Progress tracking without requiring a paid upgrade</li>
+  <li>Content designed by or for women, not just adapted from male-default programmes</li>
+  <li>Optional cycle or period tracking integration</li>
+</ul>
+<p>Research published in the <a href="https://journals.physiology.org" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> shows that oestrogen and progesterone levels directly influence muscle recovery, endurance, and injury risk across the cycle. Apps that ignore this are missing a fundamental piece of how women's fitness actually works.</p>
+
+<h2>Which free fitness apps are best for women in 2026?</h2>
+
+<h3>Nike Training Club</h3>
+<p>Nike Training Club went fully free in 2020 and has stayed that way. It offers over 190 workouts across strength, endurance, yoga, and mobility, with content from professional trainers. The app does not have cycle integration, but its workout library is one of the most comprehensive available at no cost. Best for: women who want structured, professionally designed workouts without a subscription.</p>
+
+<h3>FitOn</h3>
+<p>FitOn is a strong free option with celebrity-trainer workouts, a social layer for exercising with friends, and a broad range of class styles. The free tier is generous, though a paid tier unlocks meal plans and offline downloads. Best for: women who like variety and want a community feel.</p>
+
+<h3>Strava</h3>
+<p>Strava is primarily for running and cycling but has expanded into general fitness tracking. Its free tier covers activity logging, route mapping, and a social feed. It is not a workout-generation app, but it is excellent for tracking outdoor activity and comparing performance over time. Best for: runners and cyclists who want data without paying.</p>
+
+<h3>Solu</h3>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is built specifically around the female cycle, recommending workouts, nutrition, and recovery based on your hormonal phase. During the follicular phase, when oestrogen peaks and energy is high, Solu pushes higher-intensity sessions. During the luteal phase, when progesterone rises and recovery slows, it scales back. This kind of cycle-aware coaching is rare in any app, free or paid. You can read more about this approach in our guide to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>.</p>
+
+<h3>MyFitnessPal (free tier)</h3>
+<p>MyFitnessPal's free tier covers calorie tracking, macro logging, and a large food database. It is less of a fitness app and more of a nutrition tool, but for women combining exercise with dietary goals it fills a useful gap alongside a dedicated workout app.</p>
+
+<h2>What is the catch with free fitness apps?</h2>
+<p>Most free fitness apps monetise through advertising, premium upsells, or selling anonymised user data. This is worth knowing before you log your weight, cycle dates, and health data in an app. Look for apps that are transparent about their data practices and offer clear privacy controls.</p>
+<p>A second limitation is depth. Free tiers often plateau: you get enough to start, but personalisation, advanced analytics, and offline access typically require a subscription. If you are serious about long-term progress, it is worth revisiting your app choice after three to six months of consistent use.</p>
+
+<h2>Which free app is best if you want cycle-aware fitness?</h2>
+<p>If training in sync with your hormonal cycle is a priority, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is the strongest option built around this principle. Most general fitness apps ignore the cycle entirely, giving the same recommendations on day 3 of your period as at ovulation. A 2021 review in the <a href="https://bjsm.bmj.com" target="_blank" rel="noopener noreferrer">British Journal of Sports Medicine</a> found that hormonal environment across the menstrual cycle significantly affects strength, power output, and injury risk in female athletes. Choosing an app that accounts for this puts you ahead of the majority of fitness programmes on the market.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-train-with-your-cycle">How to Train With Your Cycle: A Complete Guide</a></li>
+  <li><a href="/blog/top-10-health-and-fitness-apps-for-women">The Top 10 Health and Fitness Apps for Women</a></li>
+  <li><a href="/blog/which-health-tracker-is-best-for-women">Which Health Tracker Is Best for Women?</a></li>
+  <li><a href="/blog/what-is-an-obgyn-app">What Is an OB-GYN App and Do You Need One?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-is-an-obgyn-app",
+    title: "What Is an OB-GYN App and Do You Need One?",
+    excerpt: "An OB-GYN app is a digital health tool that helps women manage their reproductive health, track symptoms, and in some cases connect with clinicians remotely. Here is what they actually do, who they are for, and the best options available right now.",
+    date: "June 22, 2026",
+    category: "Wellbeing",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
+    readTime: "5 min read",
+    content: `
+<p>An OB-GYN app is a digital health tool designed to help women manage their reproductive and gynaecological health, either by tracking symptoms, cycles, and fertility, or by connecting them with qualified healthcare providers remotely. While no app can replace an in-person OB-GYN, the best ones act as a powerful bridge between appointments, helping you arrive better informed and catch patterns you might otherwise miss.</p>
+
+<h2>What does an OB-GYN app actually do?</h2>
+<p>The term covers a broad category. Some OB-GYN apps focus on cycle and symptom tracking, helping you log your period, discharge, mood, pain levels, and other health signals over time. Others connect you with telehealth clinicians for remote consultations, prescription requests, or test result reviews. Many do both.</p>
+<p>Core features to look for include:</p>
+<ul>
+  <li>Menstrual cycle tracking with symptom logging</li>
+  <li>Fertility window and ovulation prediction</li>
+  <li>Hormone health insights based on your patterns over time</li>
+  <li>Telehealth access to OB-GYNs or nurse practitioners</li>
+  <li>Clinically reviewed educational content on reproductive health</li>
+</ul>
+
+<h2>Is an OB-GYN app the same as a period tracker?</h2>
+<p>Not exactly. A period tracker logs your cycle dates and predicts your next period and fertile window. An OB-GYN app goes further: it analyses patterns in your data over time, flags anomalies that might indicate conditions like PCOS, endometriosis, or thyroid imbalance, and may offer direct access to clinical care.</p>
+<p>The distinction matters because many women use a basic period tracker and assume they are getting clinical insight. They usually are not. An app like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> sits in the middle ground: it tracks your cycle and hormonal phase with more depth than a simple period tracker, building a picture of your health over time rather than just counting days. For formal clinical concerns, you still need a human clinician.</p>
+
+<h2>Who is an OB-GYN app for?</h2>
+<p>OB-GYN apps are useful for:</p>
+<ul>
+  <li>Women who want to understand their cycle beyond just tracking dates</li>
+  <li>Women managing chronic conditions like PCOS, endometriosis, or fibroids who need detailed symptom records to bring to appointments</li>
+  <li>Women trying to conceive who need accurate ovulation and fertility window tracking</li>
+  <li>Women in perimenopause noticing changes in their cycle and wanting to document them</li>
+  <li>Women in regions with limited access to in-person gynaecological care who need remote consultation options</li>
+</ul>
+<p>They are not a replacement for regular cervical screening, breast examinations, or any other in-person gynaecological care. Think of them as a health journal that makes those appointments more productive.</p>
+
+<h2>What are the best OB-GYN or women's health apps available?</h2>
+
+<h3>Solu</h3>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is built around the premise that women's health is cyclical, not static. It tracks your menstrual cycle and uses your phase data to give personalised guidance on fitness, nutrition, sleep, and energy throughout the month. It is a strong choice for women who want a comprehensive picture of how their hormones affect daily life. See our comparison of <a href="/blog/top-health-apps-for-women">top health apps for women</a> for broader context.</p>
+
+<h3>Flo</h3>
+<p><a href="https://flo.health" target="_blank" rel="noopener noreferrer">Flo</a> is one of the most widely used period and reproductive health apps globally, with an AI-powered health assistant and a large library of clinically reviewed content. It tracks cycles, symptoms, and fertility, and its premium tier includes access to OB-GYN consultations.</p>
+
+<h3>Clue</h3>
+<p><a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a> takes a science-forward approach to cycle tracking, with granular symptom logging and research partnerships. It is particularly strong for women managing endometriosis or conditions that require detailed cycle data for clinical discussions.</p>
+
+<h3>Telehealth platforms</h3>
+<p>Apps like Maven Clinic and Midi Health focus specifically on connecting women with qualified OB-GYNs and menopause specialists remotely. If your primary need is clinical access rather than cycle tracking, these are worth exploring separately.</p>
+
+<h2>Can an app replace your OB-GYN?</h2>
+<p>No. Cervical smears, physical examinations, ultrasounds, and many diagnostic procedures cannot be performed remotely. What a good OB-GYN app can do is help you be a better patient: you arrive at appointments with months of symptom data, clear descriptions of your cycle patterns, and specific questions, rather than trying to recall how you felt three months ago from memory.</p>
+<p>Research consistently shows that women who track their symptoms and arrive prepared receive more accurate diagnoses in fewer visits. If you have been dealing with unexplained symptoms like heavy bleeding, irregular cycles, or significant hormonal fluctuations, tracking them consistently in an app like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> before your next appointment could make a meaningful difference to the quality of care you receive.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/best-free-fitness-apps-for-women">What Are the Best Free Fitness Apps for Women?</a></li>
+  <li><a href="/blog/top-health-apps-for-women">Top Health Apps for Women Worth Using Right Now</a></li>
+  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What Is Perimenopause and When Does It Start?</a></li>
+  <li><a href="/blog/is-hrt-safe-the-latest-science">Is HRT Safe? The Latest Science Explained</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "is-hrt-safe-the-latest-science",
+    trending: true,
+    title: "Is Hormone Replacement Therapy (HRT) Safe? The Latest Science Explained",
+    excerpt: "HRT has had a complicated reputation, but the science has shifted significantly. For most women under 60, hormone replacement therapy is now considered safe and effective, and the FDA removed its longstanding black box warning in 2025. Here is what you need to know.",
+    date: "June 22, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>For most women under 60 or within ten years of menopause onset, hormone replacement therapy (HRT) is now considered safe and is recommended by leading medical bodies including the British Menopause Society and the Menopause Society in the US. The science has shifted significantly since the early 2000s, when a large study caused widespread fear about HRT risks. What the latest research shows is more nuanced, and far more reassuring, than the headlines of twenty years ago.</p>
+
+<h2>Why was HRT thought to be dangerous?</h2>
+<p>In 2002, the Women's Health Initiative (WHI) published results suggesting HRT increased the risk of breast cancer, heart disease, and stroke. The study caused a dramatic drop in HRT prescriptions globally, and many women spent the following two decades managing menopause symptoms without treatment.</p>
+<p>The problem, later identified by researchers, was that the WHI study used older synthetic hormones, administered them to women who were significantly older (average age 63) and many years past menopause, and combined oestrogen with a specific progestogen that carried its own risks. The findings were never applicable to the majority of women seeking HRT at perimenopause or early menopause.</p>
+
+<h2>What does the latest research show?</h2>
+<p>A large body of evidence published since 2010 has substantially rehabilitated HRT. Key findings include:</p>
+<ul>
+  <li>For women who start HRT within ten years of menopause or before age 60, cardiovascular risk is low and may even be protective</li>
+  <li>Body-identical oestrogen delivered via patch or gel does not carry the blood clot risk associated with oral oestrogen tablets</li>
+  <li>Micronised progesterone, a body-identical progestogen, appears to carry a lower breast cancer risk than synthetic progestogens used in older studies</li>
+  <li>The 2025 FDA decision to remove the longstanding black box warning from HRT packaging reflects the weight of this updated evidence</li>
+</ul>
+<p>Research published in the <a href="https://www.thelancet.com" target="_blank" rel="noopener noreferrer">Lancet</a> and the <a href="https://www.nejm.org" target="_blank" rel="noopener noreferrer">New England Journal of Medicine</a> supports HRT as a first-line treatment for vasomotor symptoms, genitourinary symptoms, and prevention of bone density loss in appropriate candidates.</p>
+
+<h2>Who is HRT recommended for?</h2>
+<p>HRT is generally recommended for women who:</p>
+<ul>
+  <li>Are in perimenopause or early menopause (within ten years of their last period or under age 60) and experiencing bothersome symptoms</li>
+  <li>Have had a premature menopause (before age 45) or surgical menopause, where HRT is typically advised until at least the average age of natural menopause</li>
+  <li>Are at elevated risk of osteoporosis and want to protect bone density</li>
+</ul>
+<p>HRT is generally not recommended for women with a personal history of hormone receptor-positive breast cancer, unexplained vaginal bleeding, active liver disease, or a recent cardiovascular event. A conversation with your GP or menopause specialist is essential to assess your individual risk profile. You can read more about the hormonal transition in our guide to <a href="/blog/what-is-perimenopause-and-when-does-it-start">perimenopause and when it starts</a>.</p>
+
+<h2>What are the benefits of HRT?</h2>
+<p>For appropriate candidates, HRT can:</p>
+<ul>
+  <li>Significantly reduce hot flushes and night sweats (up to 90% reduction in frequency in many studies)</li>
+  <li>Improve sleep quality disrupted by vasomotor symptoms</li>
+  <li>Reduce vaginal dryness, pain during sex, and urinary symptoms</li>
+  <li>Protect bone density and reduce fracture risk</li>
+  <li>Improve mood, cognitive clarity, and energy during the early menopause transition</li>
+  <li>Potentially reduce cardiovascular disease risk when started early in the menopause transition</li>
+</ul>
+<p>Emerging research is also examining HRT's role in reducing long-term Alzheimer's risk in women. Two-thirds of Alzheimer's patients are female, and oestrogen plays a significant neuroprotective role. The <a href="https://www.certaintynews.com/article/in-2026-womens-health-research-will-finally-focus-on-midlife" target="_blank" rel="noopener noreferrer">2026 research agenda in women's health</a> has made brain health during the menopause transition a priority area.</p>
+
+<h2>What are the risks of HRT?</h2>
+<p>All HRT carries some level of risk, and the balance differs by individual:</p>
+<ul>
+  <li>Combined HRT (oestrogen and progestogen) is associated with a small increase in breast cancer risk with longer use, though the absolute risk for most women is modest and comparable to other lifestyle factors such as alcohol consumption</li>
+  <li>Oral oestrogen tablets increase blood clot risk; transdermal (patch or gel) oestrogen does not carry the same risk</li>
+  <li>Micronised progesterone has a more favourable safety profile than older synthetic progestogens</li>
+</ul>
+<p>The framing that matters: for most women with significant menopause symptoms, the risks of untreated menopause (bone loss, cardiovascular changes, sleep disruption, and cognitive effects) often outweigh the risks of modern HRT. This is a decision best made with an informed clinician, not one made from fear of twenty-year-old data.</p>
+
+<h2>How can I track whether HRT is working for me?</h2>
+<p>Symptom tracking is essential when starting HRT. It lets you document baseline symptoms before treatment, monitor changes week by week, and give your clinician accurate information at follow-up appointments rather than relying on memory. Apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> can help you log sleep quality, energy, mood, and physical symptoms in a structured way that is easy to share with your healthcare provider.</p>
+<p>Most women notice meaningful improvement in vasomotor symptoms within four to twelve weeks. If symptoms persist or new ones emerge, tracking data makes it much easier to adjust the type, dose, or delivery method of HRT in collaboration with your clinician.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What Is Perimenopause and When Does It Start?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
+  <li><a href="/blog/what-is-an-obgyn-app">What Is an OB-GYN App and Do You Need One?</a></li>
 </ul>
     `.trim(),
   },
