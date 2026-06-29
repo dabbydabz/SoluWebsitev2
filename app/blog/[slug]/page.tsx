@@ -1,8 +1,14 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
+import Script from "next/script"
 import { posts, getPostBySlug } from "@/lib/posts"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+
+function toISODate(dateStr: string): string {
+  const d = new Date(dateStr)
+  return isNaN(d.getTime()) ? dateStr : d.toISOString().split("T")[0]
+}
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }))
@@ -12,7 +18,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const post = getPostBySlug(slug)
   if (!post) return {}
-  return { title: `${post.title} | Solu`, description: post.excerpt }
+  const url = `https://www.solu.ae/blog/${slug}`
+  return {
+    title: `${post.title} | Solu`,
+    description: post.excerpt,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${post.title} | Solu`,
+      description: post.excerpt,
+      url,
+      siteName: "Solu",
+      type: "article",
+      locale: "en_US",
+      publishedTime: toISODate(post.date),
+      images: post.image ? [{ url: post.image, alt: post.title }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | Solu`,
+      description: post.excerpt,
+      images: post.image ? [post.image] : undefined,
+    },
+  }
 }
 
 const categoryColours: Record<string, string> = {
@@ -30,8 +57,54 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   const related = posts.filter((p) => p.slug !== post.slug).slice(0, 2)
 
+  const postUrl = `https://www.solu.ae/blog/${post.slug}`
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.excerpt,
+    "image": post.image || "https://www.solu.ae/icon.svg",
+    "datePublished": toISODate(post.date),
+    "dateModified": toISODate(post.date),
+    "author": {
+      "@type": "Organization",
+      "name": "Solu",
+      "url": "https://www.solu.ae",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Solu",
+      "url": "https://www.solu.ae",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.solu.ae/icon.svg",
+      },
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": postUrl,
+    },
+    "keywords": post.category,
+    "articleSection": post.category,
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.solu.ae" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.solu.ae/blog" },
+      { "@type": "ListItem", "position": 3, "name": post.title, "item": postUrl },
+    ],
+  }
+
   return (
     <>
+      <Script
+        id={`schema-article-${post.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleSchema, breadcrumbSchema]) }}
+      />
       <SoluHeader />
       <main className="min-h-screen bg-white">
 
