@@ -36,7 +36,8 @@ const categoryColours: Record<string, string> = {
 }
 
 export default function BlogPage() {
-  const categories = Array.from(new Set(posts.map((p) => p.category)))
+  const sortedPosts = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  const categories = Array.from(new Set(sortedPosts.map((p) => p.category)))
   const trendingPost = getTrendingPost()
 
   return (
@@ -107,7 +108,7 @@ export default function BlogPage() {
 
         {/* Search + grid */}
         <section className="px-6 lg:px-12 max-w-7xl mx-auto pb-24">
-          <BlogGrid posts={posts} categories={categories} />
+          <BlogGrid posts={sortedPosts} categories={categories} />
         </section>
 
       </main>

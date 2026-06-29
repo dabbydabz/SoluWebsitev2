@@ -1157,7 +1157,7 @@ export function getPostBySlug(slug: string): Post | undefined {
 }
 
 export function getLatestPosts(count = 3): Post[] {
-  return posts.slice(0, count)
+  return [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, count)
 }
 
 export function getTrendingPost(): Post | undefined {
