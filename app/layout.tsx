@@ -57,6 +57,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+      </head>
       <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased`} style={{ "--font-display": "var(--font-cormorant)" } as React.CSSProperties}>
         <Script
           id="schema-website"
