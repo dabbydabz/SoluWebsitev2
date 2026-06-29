@@ -5,8 +5,24 @@ import { SoluFooter } from "@/components/solu-footer"
 import { BlogGrid } from "@/components/blog-grid"
 
 export const metadata = {
-  title: "Blog | Solu",
-  description: "Insights on hormonal health, nutrition, movement, and living well, from the Solu team.",
+  title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
+  description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+  alternates: {
+    canonical: "https://www.solu.ae/blog",
+  },
+  openGraph: {
+    title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
+    description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    url: "https://www.solu.ae/blog",
+    siteName: "Solu",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
+    description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+  },
 }
 
 const categoryColours: Record<string, string> = {
