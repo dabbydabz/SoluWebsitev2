@@ -1,5 +1,6 @@
 "use client"
 import { useState, useMemo } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import type { Post } from "@/lib/posts"
 
@@ -119,10 +120,12 @@ export function BlogGrid({ posts, categories }: Props) {
               className="group flex flex-col rounded-[28px] overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-white"
             >
               <div className="relative h-52 overflow-hidden">
-                <img
+                <Image
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
               </div>

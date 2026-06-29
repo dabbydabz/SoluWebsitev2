@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation"
+import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
 import { posts, getPostBySlug } from "@/lib/posts"
@@ -110,7 +111,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
         {/* Hero image */}
         <div className="relative h-[45vh] sm:h-[55vh] overflow-hidden">
-          <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+          <Image src={post.image} alt={post.title} fill sizes="100vw" className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 max-w-3xl mx-auto px-6 pb-10">
             <div className="flex items-center gap-3 mb-4">
@@ -164,8 +165,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                   href={`/blog/${p.slug}`}
                   className="group flex flex-col rounded-[24px] overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
                 >
-                  <div className="h-36 overflow-hidden">
-                    <img src={p.image} alt={p.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <div className="relative h-36 overflow-hidden">
+                    <Image src={p.image} alt={p.title} fill sizes="(max-width: 640px) 100vw, 50vw" className="object-cover transition-transform duration-500 group-hover:scale-105" />
                   </div>
                   <div className="p-5">
                     <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${categoryColours[p.category] ?? "bg-gray-100 text-gray-600"}`}>

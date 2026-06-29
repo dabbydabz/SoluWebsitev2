@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function SoluFeatures() {
   return (
     <section id="for-you" className="hidden sm:block py-32 bg-[#0D0D0D] relative overflow-hidden">
@@ -127,7 +129,7 @@ export function SoluFeatures() {
                 <div className="absolute top-3.5 left-1/2 -translate-x-1/2 w-24 h-6 bg-black rounded-full z-10 border border-white/5" />
                 {/* Screen content */}
                 <div className="flex flex-col items-center gap-3 px-4 text-center">
-                  <img src="/images/solu-favicon.png" alt="Solu" className="w-14 h-14 object-contain" />
+                  <Image src="/images/solu-favicon.png" alt="Solu" width={56} height={56} className="object-contain" />
                   <p className="text-white/20 text-[10px] tracking-[0.2em] uppercase font-semibold">Coming soon</p>
                 </div>
                 {/* Home indicator */}

@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { getLatestPosts, getTrendingPost } from "@/lib/posts"
 
@@ -44,10 +45,12 @@ export function SoluBlogPreview() {
               className="group flex flex-col sm:flex-row rounded-[24px] overflow-hidden bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
             >
               <div className="relative sm:w-64 h-44 sm:h-auto overflow-hidden shrink-0">
-                <img
+                <Image
                   src={trendingPost.image}
                   alt={trendingPost.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  fill
+                  sizes="(max-width: 640px) 100vw, 256px"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-[#F7941D] text-white text-xs font-bold px-2.5 py-1 rounded-full">
                   <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse inline-block" />
@@ -84,10 +87,12 @@ export function SoluBlogPreview() {
               className="group flex flex-col rounded-[28px] overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-white"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
               </div>

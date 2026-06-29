@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import { useState } from "react"
 
 export function SoluHero() {
@@ -12,11 +13,14 @@ export function SoluHero() {
         <div className="relative w-full rounded-none sm:rounded-[40px] overflow-hidden h-[63vh] sm:h-auto sm:min-h-[calc(100vh-48px)]">
 
           {/* Background photo */}
-          <img
+          <Image
             src="/images/hero-women2.png"
             alt=""
             aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-cover object-[center_15%] sm:object-center"
+            fill
+            sizes="100vw"
+            className="object-cover object-[center_15%] sm:object-center"
+            priority
           />
 
           {/* Orange colour-wash overlay */}
@@ -58,7 +62,7 @@ export function SoluHero() {
                     "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=60&q=80",
                     "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=60&q=80",
                   ].map((src, i) => (
-                    <img key={i} src={src} alt="Solu member" className="w-7 h-7 rounded-full border-2 border-white/20 object-cover opacity-45" />
+                    <Image key={i} src={src} alt="Solu member" width={28} height={28} className="w-7 h-7 rounded-full border-2 border-white/20 object-cover opacity-45" />
                   ))}
                 </div>
                 <div>
@@ -100,7 +104,7 @@ export function SoluHero() {
                       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=60&q=80",
                       "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=60&q=80",
                     ].map((src, i) => (
-                      <img key={i} src={src} alt="Solu member" className="w-9 h-9 rounded-full border-2 border-white/60 object-cover" />
+                      <Image key={i} src={src} alt="Solu member" width={36} height={36} className="w-9 h-9 rounded-full border-2 border-white/60 object-cover" />
                     ))}
                   </div>
                   <div>

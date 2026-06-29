@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import { useState, useRef } from "react"
 
 const testimonials = [
@@ -77,7 +78,7 @@ export function SoluTestimonials() {
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed mb-5 font-light">"{t.quote}"</p>
                 <div className="flex items-center gap-3">
-                  <img src={t.avatar} alt={t.name} className="w-10 h-10 rounded-full object-cover border-2 border-orange-100" />
+                  <Image src={t.avatar} alt={t.name} width={40} height={40} className="w-10 h-10 rounded-full object-cover border-2 border-orange-100" />
                   <div>
                     <p className="font-bold text-gray-900 text-sm">{t.name}</p>
                     <p className="text-gray-400 text-xs font-medium">{t.role}</p>
@@ -116,7 +117,7 @@ export function SoluTestimonials() {
               </div>
               <p className="text-gray-600 text-sm leading-relaxed mb-6 font-light">"{t.quote}"</p>
               <div className="flex items-center gap-3">
-                <img src={t.avatar} alt={t.name} className="w-11 h-11 rounded-full object-cover border-2 border-orange-100" />
+                <Image src={t.avatar} alt={t.name} width={44} height={44} className="w-11 h-11 rounded-full object-cover border-2 border-orange-100" />
                 <div>
                   <p className="font-bold text-gray-900 text-sm">{t.name}</p>
                   <p className="text-gray-400 text-xs font-medium">{t.role}</p>

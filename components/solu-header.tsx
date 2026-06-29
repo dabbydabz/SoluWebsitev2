@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import React, { useEffect, useState } from "react"
 
 export function SoluHeader() {
@@ -57,7 +58,7 @@ export function SoluHeader() {
       >
         <div className={`w-full max-w-2xl backdrop-blur-2xl rounded-full px-4 py-2.5 flex items-center justify-between gap-4 transition-all duration-300 ${scrolled ? "bg-white/95 border border-gray-200/80 shadow-[0_8px_32px_rgba(0,0,0,0.10)]" : "bg-white/60 border border-white/70 shadow-[0_8px_32px_rgba(0,0,0,0.08)]"}`}>
           <a href="/" className="shrink-0">
-            <img src="/images/solu-logo-full.png" alt="Solu" className="h-9 w-auto" />
+            <Image src="/images/solu-logo-full.png" alt="Solu" width={120} height={36} className="h-9 w-auto" priority />
           </a>
           <nav className="flex items-center gap-6">
             {navItems.map((item) => (
@@ -93,7 +94,7 @@ export function SoluHeader() {
         {/* Glass pill — darkens on white-background pages */}
         <div className={`backdrop-blur-2xl rounded-2xl px-4 py-1.5 flex items-center justify-between transition-all duration-300 ${scrolled ? "bg-white/90 border border-gray-200/70 shadow-[0_4px_24px_rgba(0,0,0,0.10)]" : "bg-white/25 border border-white/40 shadow-[0_4px_24px_rgba(0,0,0,0.08)]"}`}>
           <a href="/" className="shrink-0">
-            <img src="/images/solu-logo-full.png" alt="Solu" className="h-9 w-auto drop-shadow-sm" />
+            <Image src="/images/solu-logo-full.png" alt="Solu" width={120} height={36} className="h-9 w-auto drop-shadow-sm" priority />
           </a>
 
           {/* Hamburger in circle */}
