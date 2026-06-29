@@ -808,7 +808,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "is-hrt-safe-the-latest-science",
-    trending: true,
     title: "Is Hormone Replacement Therapy (HRT) Safe? The Latest Science Explained",
     excerpt: "HRT has had a complicated reputation, but the science has shifted significantly. For most women under 60, hormone replacement therapy is now considered safe and effective, and the FDA removed its longstanding black box warning in 2025. Here is what you need to know.",
     date: "June 22, 2026",
@@ -872,6 +871,168 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
   <li><a href="/blog/what-is-an-obgyn-app">What Is an OB-GYN App and Do You Need One?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-to-track-female-fertility",
+    title: "How Do You Track Female Fertility?",
+    excerpt: "Tracking female fertility goes well beyond noting the days of your period. Understanding your cycle, ovulation signs, and the tools available can significantly improve your chances of conceiving or simply help you know your body better.",
+    date: "June 29, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>You track female fertility by monitoring the signs your body produces throughout the menstrual cycle: basal body temperature (BBT), cervical mucus changes, ovulation predictor kit (OPK) results, and cycle length patterns. Used together, these methods can identify your fertile window with high accuracy, whether you are trying to conceive or simply want a deeper understanding of your reproductive health.</p>
+
+<h2>Why does tracking fertility matter?</h2>
+<p>Most women are only fertile for a short window each cycle, typically around five to six days leading up to and including ovulation. Sperm can survive in the reproductive tract for up to five days, while a released egg survives for only 12 to 24 hours. Missing this window by even a day or two significantly reduces the chance of conception in that cycle.</p>
+<p>Fertility tracking also gives early signals of irregularities that might indicate conditions such as polycystic ovary syndrome (PCOS), thyroid dysfunction, or anovulatory cycles (cycles where ovulation does not occur). Catching these patterns early leads to faster diagnosis and treatment. Research from the <a href="https://www.acog.org" target="_blank" rel="noopener noreferrer">American College of Obstetricians and Gynecologists</a> shows that women who track their cycles before trying to conceive tend to conceive faster than those who do not.</p>
+
+<h2>What are the main methods for tracking female fertility?</h2>
+
+<h3>Basal body temperature (BBT)</h3>
+<p>Your resting body temperature rises slightly (0.2 to 0.5 degrees Celsius) after ovulation due to progesterone. Taking your temperature with a BBT thermometer each morning before getting out of bed and charting the results over several months reveals your ovulation pattern. BBT tracking confirms that ovulation has occurred but does not predict it in advance, so it is most useful when combined with other methods.</p>
+
+<h3>Cervical mucus monitoring</h3>
+<p>Oestrogen causes cervical mucus to become clear, stretchy, and slippery (similar to raw egg whites) in the days approaching ovulation. This "fertile-quality" mucus helps sperm travel to the egg. After ovulation, mucus becomes thicker and cloudy as progesterone rises. Learning to observe and record mucus changes daily is one of the most reliable low-cost fertility tracking methods available. A systematic review in <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer">Human Reproduction Update</a> found that cervical mucus monitoring has comparable accuracy to OPKs for identifying the fertile window.</p>
+
+<h3>Ovulation predictor kits (OPKs)</h3>
+<p>OPKs detect the surge in luteinising hormone (LH) that triggers ovulation 24 to 36 hours before it occurs. They are easy to use, widely available, and give advance warning that ovulation is approaching rather than confirming it after the fact. Advanced OPKs also track oestrogen levels, giving a broader picture of the fertile window.</p>
+
+<h3>Cycle tracking apps</h3>
+<p>Apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> combine cycle length data, symptom logs, and BBT or OPK inputs to build a personalised picture of your fertility pattern over time. The key advantage of app-based tracking is the ability to spot trends across multiple cycles, which single-cycle methods cannot do. You can also cross-reference how your cycle phases connect to your energy, nutrition needs, and fitness performance. See our guide on <a href="/blog/understanding-your-four-cycle-phases">the four phases of the menstrual cycle</a> for more on how each phase affects your body.</p>
+
+<h3>Wearable devices</h3>
+<p>Newer wearables from companies like WHOOP and Oura now incorporate women's cycle and hormone tracking, using temperature and heart rate variability data to predict fertile windows. These are still evolving but represent the direction fertility tracking is heading. See our article on <a href="/blog/can-a-wearable-track-your-hormones">whether wearables can actually track your hormones</a> for a full breakdown of what the technology can and cannot do.</p>
+
+<h2>How accurate is fertility tracking?</h2>
+<p>Accuracy depends on the method and consistency of use. Symptom-based methods (BBT combined with cervical mucus monitoring) have been shown to identify the fertile window correctly in around 95% of cycles when taught and applied correctly, according to research in the <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer">European Journal of Obstetrics and Gynecology</a>. Standalone OPKs correctly predict ovulation in most cycles but can give false positives in women with PCOS, where LH surges can occur without ovulation following.</p>
+<p>The biggest factor in accuracy is consistency. Tracking for at least three cycles before drawing conclusions gives you a much more reliable baseline than a single month of data.</p>
+
+<h2>When should you see a doctor about fertility?</h2>
+<p>If you have been tracking your cycle for several months and notice consistently irregular cycles, absent periods, cycles shorter than 21 or longer than 35 days, or no identifiable fertile signs, it is worth speaking to a GP or fertility specialist. The <a href="https://www.nhs.uk/conditions/infertility/" target="_blank" rel="noopener noreferrer">NHS</a> recommends seeking assessment after 12 months of trying to conceive without success (or 6 months if you are over 35). Your tracking data will be directly useful to any clinician you see.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/understanding-your-four-cycle-phases">What Are the 4 Phases of My Menstrual Cycle?</a></li>
+  <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
+  <li><a href="/blog/can-a-wearable-track-your-hormones">Can a Wearable Track Your Hormones?</a></li>
+  <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What Is the Best Way to Track Your Hormones at Home?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "is-there-an-app-for-hormonal-imbalance",
+    title: "Is There an App for Hormonal Imbalance?",
+    excerpt: "No app can diagnose a hormonal imbalance, but the right ones can track the symptoms that reveal one, help you spot patterns over time, and give you data that leads to faster diagnosis and better treatment.",
+    date: "June 29, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>No app can diagnose a hormonal imbalance directly, but apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>, Clue, and Flo can track the symptoms associated with hormonal dysfunction over time, helping you identify patterns that point toward conditions like PCOS, thyroid issues, or oestrogen dominance. The data you collect in an app can be one of the most useful things you bring to a doctor's appointment.</p>
+
+<h2>What is hormonal imbalance?</h2>
+<p>Hormonal imbalance is a broad term describing a state where one or more hormones are produced in excess, produced in insufficient amounts, or are out of proportion with each other. In women, the most commonly disrupted hormones include oestrogen, progesterone, testosterone, thyroid hormones (T3 and T4), cortisol, and insulin.</p>
+<p>Symptoms vary widely depending on which hormones are affected, but common signs include irregular or missing periods, unexplained weight changes, persistent fatigue, mood swings, adult acne, hair thinning, and difficulty sleeping. Because these symptoms overlap with many conditions, hormonal imbalance is often underdiagnosed, particularly in women.</p>
+
+<h2>How can an app help with hormonal imbalance?</h2>
+<p>Apps help in two main ways: symptom logging and pattern recognition.</p>
+<p>Consistent daily logging, even for just two to three minutes, creates a longitudinal dataset that no single GP appointment can replicate. When you track mood, energy, sleep quality, skin changes, cycle length, and physical symptoms every day for three months, patterns emerge that might otherwise take years to identify. A doctor reviewing three months of structured symptom data can make a faster, more confident assessment than one relying on your verbal recall alone.</p>
+<p>Apps that are specifically built around the menstrual cycle add another layer: they connect symptoms to cycle phase. This matters because many hormonal symptoms are phase-specific. Anxiety that spikes in the luteal phase points toward progesterone issues or premenstrual dysphoric disorder (PMDD). Fatigue concentrated in the follicular phase might suggest iron deficiency or low oestrogen. Without phase tracking, these patterns are invisible.</p>
+
+<h2>Which apps are best for tracking hormonal imbalance symptoms?</h2>
+
+<h3>Solu</h3>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is built around cycle-phase awareness, connecting your daily symptoms directly to your hormonal phase rather than treating each day in isolation. It tracks mood, energy, sleep, nutrition, and physical symptoms within the context of where you are in your cycle, making it easier to identify whether your symptoms follow a hormonal pattern. This phase-linked symptom log is exactly the kind of data an endocrinologist or gynaecologist finds most useful. See our broader guide to <a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">tracking your hormones at home</a> for more options.</p>
+
+<h3>Clue</h3>
+<p><a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a> offers granular symptom tracking with a science-forward interface. It is particularly strong for women investigating conditions like endometriosis or PCOS, where detailed records of pain, bleeding, and cycle irregularity are critical for clinical assessment.</p>
+
+<h3>Flo</h3>
+<p><a href="https://flo.health" target="_blank" rel="noopener noreferrer">Flo</a> includes a symptom checker that flags potential hormonal concerns and a library of clinically reviewed content on conditions like PCOS, thyroid dysfunction, and perimenopause. Its AI health assistant can help you understand which symptoms are worth investigating further.</p>
+
+<h2>What hormonal conditions can apps help identify?</h2>
+<p>Apps can surface symptom patterns consistent with:</p>
+<ul>
+  <li><strong>PCOS:</strong> Irregular cycles, missed periods, elevated androgens causing acne and hair changes</li>
+  <li><strong>Thyroid dysfunction:</strong> Persistent fatigue, temperature sensitivity, weight fluctuations, cycle changes</li>
+  <li><strong>Oestrogen dominance:</strong> Heavy periods, breast tenderness, bloating, mood swings in the luteal phase</li>
+  <li><strong>Low progesterone:</strong> Short luteal phases, spotting before periods, anxiety and poor sleep pre-period</li>
+  <li><strong>PMDD:</strong> Severe mood symptoms in the 7 to 10 days before menstruation, resolving with the onset of bleeding</li>
+  <li><strong>Perimenopause:</strong> Cycle irregularity, sleep disruption, increased PMS symptoms in women over 35</li>
+</ul>
+<p>Research published in <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer">NPJ Digital Medicine</a> found that cycle-tracking app data was significantly associated with clinically confirmed diagnoses of PCOS and endometriosis, suggesting that structured symptom logs can meaningfully support diagnostic pathways.</p>
+
+<h2>What should I do if I think I have a hormonal imbalance?</h2>
+<p>Start tracking now, before your next GP appointment. Log your cycle dates, daily energy, mood, sleep, skin, and any physical symptoms. Do this for at least six to eight weeks. When you see your doctor, bring your app data or a printed summary: this gives them far more to work with than a verbal description of how you have been feeling.</p>
+<p>Blood tests can confirm specific hormonal levels. The <a href="https://www.nhs.uk" target="_blank" rel="noopener noreferrer">NHS</a> and most private clinics can test oestrogen, progesterone, testosterone, FSH, LH, TSH (thyroid), and cortisol. Timing matters for some tests: progesterone, for example, should be measured seven days after ovulation for an accurate result, which is something your cycle tracking data can help time correctly.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What Is the Best Way to Track Your Hormones at Home?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What Is Perimenopause and When Does It Start?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "can-a-wearable-track-your-hormones",
+    trending: true,
+    title: "Can a Wearable Track Your Hormones? What the Latest Tech Can (and Can't) Do",
+    excerpt: "Wearables from WHOOP, Oura, and new startups are now promising hormonal insights from your wrist. Here is an honest look at what the technology can actually measure, what it is inferring, and whether it is worth using in 2026.",
+    date: "June 29, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>No mainstream wearable in 2026 directly measures hormone levels in your blood. What devices like Oura, WHOOP, and the new Clair Health wristband do is track physiological signals, primarily skin temperature, heart rate variability (HRV), resting heart rate, and sleep data, and use these to infer where you are in your hormonal cycle. It is a meaningful and useful capability, but it is important to understand the difference between measurement and inference.</p>
+
+<h2>Why are wearables getting into hormone tracking?</h2>
+<p>The commercial opportunity is significant. Women's health technology is one of the fastest-growing sectors in consumer health, and hormonal cycle tracking is at its centre. In June 2026, <a href="https://fortune.com/2026/06/17/clair-khosla-anne-wojcicki-wearble-oura-whoop-hormone-women-health/" target="_blank" rel="noopener noreferrer">Clair Health raised $11 million</a> to build a wearable designed specifically to model women's hormonal cycles using continuous biometric data. WHOOP launched its first women's hormonal insights feature in 2025 and expanded into blood testing panels in spring 2026. Oura released an AI model for women's health in February 2026.</p>
+<p>The underlying science is sound: your body temperature, heart rate, and autonomic nervous system response all shift measurably across the menstrual cycle in response to changing oestrogen and progesterone levels. The question is how precisely these proxy signals can reconstruct your actual hormonal state.</p>
+
+<h2>What can wearables actually measure?</h2>
+<p>Current consumer wearables measure:</p>
+<ul>
+  <li><strong>Skin temperature:</strong> Rises by 0.2 to 0.5 degrees Celsius after ovulation due to progesterone. This is the most reliable hormonal signal available to wearables and was the basis for traditional basal body temperature tracking.</li>
+  <li><strong>Heart rate variability (HRV):</strong> Tends to be higher in the follicular phase (when oestrogen dominates) and lower in the luteal phase (when progesterone rises). Changes are subtle and vary significantly between individuals.</li>
+  <li><strong>Resting heart rate:</strong> Slightly elevated in the luteal phase, though the difference is small (typically 1 to 3 beats per minute).</li>
+  <li><strong>Sleep architecture:</strong> REM sleep and sleep quality are affected by progesterone and body temperature, both of which wearables can track.</li>
+</ul>
+<p>What they cannot directly measure: blood oestrogen, blood progesterone, LH (the ovulation trigger), FSH, cortisol, or testosterone. If you want those numbers, you need a blood or urine test.</p>
+
+<h2>How accurate are wearables at predicting ovulation?</h2>
+<p>This depends heavily on the device and how long you have been wearing it. Temperature-based ovulation detection improves significantly with more data: a device that has tracked three or more cycles performs considerably better than one used for the first time. A 2024 study published in <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer">Fertility and Sterility</a> found that wearable temperature tracking correctly identified the fertile window in approximately 87% of cycles after three months of baseline data, compared to 61% in the first cycle.</p>
+<p>For most women, wearables are best used as a complement to other methods (OPKs, cervical mucus observation) rather than as a standalone fertility tool. See our guide to <a href="/blog/how-to-track-female-fertility">tracking female fertility</a> for a full comparison of methods.</p>
+
+<h2>Which wearables offer women's hormonal insights in 2026?</h2>
+
+<h3>Oura Ring</h3>
+<p><a href="https://ouraring.com" target="_blank" rel="noopener noreferrer">Oura</a> was one of the first mainstream wearables to offer cycle tracking, using temperature and HRV data. Its February 2026 AI model for women's health added more personalised phase predictions and symptom correlation features. Best for: women who want cycle insights integrated with sleep and recovery data in a discreet, ring-based form factor.</p>
+
+<h3>WHOOP</h3>
+<p><a href="https://www.whoop.com" target="_blank" rel="noopener noreferrer">WHOOP's</a> women's hormonal insight feature links strain recommendations, recovery scores, and sleep coaching to your cycle phase. Its 2026 blood testing panel partnership extends tracking beyond the wrist into actual hormone level monitoring. Best for: fitness-focused women who want training advice calibrated to their hormonal phase.</p>
+
+<h3>Clair Health</h3>
+<p>The most ambitious new entrant: Clair Health is building a wearable designed from the ground up to continuously model hormonal cycles rather than bolting cycle tracking onto a general wellness device. Still in development as of mid-2026, but one to watch.</p>
+
+<h2>How does wearable data pair with cycle tracking apps?</h2>
+<p>The most powerful setup combines wearable data with a dedicated cycle tracking app. Apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> use your cycle phase data to give context-aware recommendations on nutrition, fitness, and recovery, while a wearable provides the continuous biometric stream that keeps that phase prediction accurate. The wearable supplies the raw data; the app provides the framework for acting on it.</p>
+<p>This combination is particularly valuable for women with irregular cycles, where calendar-based predictions fail. Continuous temperature data can detect ovulation even when it occurs outside the expected window, keeping your cycle picture accurate month to month. Read more on <a href="/blog/is-there-an-app-for-hormonal-imbalance">how apps help identify hormonal imbalances</a>.</p>
+
+<h2>Is a hormone-tracking wearable worth buying?</h2>
+<p>For most women, yes, with realistic expectations. A temperature-tracking wearable worn consistently over several months will give you a significantly better picture of your cycle than calendar counting alone. It will not replace a blood test for diagnosing a hormonal condition, but it can surface patterns worth investigating and improve the quality of any conversation you have with a clinician.</p>
+<p>The honest summary: wearables are getting meaningfully better at hormonal cycle modelling every year. In 2026 they are useful tools with real limitations. In 2028 they will likely be considerably more capable. If you are going to buy one, wear it for at least three full cycles before drawing conclusions from the data.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
+  <li><a href="/blog/which-health-tracker-is-best-for-women">Which Health Tracker Is Best for Women?</a></li>
+  <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What Is the Best Way to Track Your Hormones at Home?</a></li>
 </ul>
     `.trim(),
   },
