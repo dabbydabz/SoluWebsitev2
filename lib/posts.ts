@@ -20,17 +20,17 @@ export const posts: Post[] = [
     image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=85",
     readTime: "5 min read",
     content: `
-<p>Your menstrual cycle is one of the most reliable signals your body sends you, yet most women are never taught how to read it. If you've noticed your energy, focus, mood, and physical strength changing throughout the month, you're not imagining it. These shifts are driven by four distinct hormonal phases, each with its own biological purpose.</p>
+<p>The four phases of your menstrual cycle are the menstrual phase (days 1 to 5), the follicular phase (days 6 to 13), the ovulatory phase (days 14 to 16), and the luteal phase (days 17 to 28). Each phase is governed by distinct hormonal shifts that directly affect energy, mood, physical strength, and recovery capacity throughout the month.</p>
 
-<p>Here is what is actually happening, and what it means for how you live, move, eat, and rest.</p>
+<p>Here is what is actually happening in each phase, and what it means for how you live, move, eat, and rest.</p>
 
 <h2>Phase 1: Menstrual (Days 1 to 5)</h2>
 <p>Your period marks the start of a new cycle. Oestrogen and progesterone are at their lowest, and your body is directing energy inward to shed the uterine lining. This is why you may feel quieter, more reflective, and less motivated to socialise or push hard physically.</p>
-<p>This is not a flaw. It is biology asking you to slow down. Rest, warmth, and nourishing food support your body best right now. Gentle movement like walking or stretching is far more beneficial than forcing yourself through intense training.</p>
+<p>This is not a flaw. It is biology asking you to slow down. Rest, warmth, and nourishing food support your body best right now. Gentle movement like walking or stretching is far more beneficial than forcing yourself through intense training. The <a href="https://www.nhs.uk/conditions/periods/" target="_blank" rel="noopener noreferrer">NHS</a> confirms that hormonal withdrawal during menstruation directly reduces energy availability and pain tolerance, making rest a biologically sound priority.</p>
 
 <h2>Phase 2: Follicular (Days 6 to 13)</h2>
 <p>As oestrogen begins to rise, so does everything else. Energy increases, mood lifts, and your brain becomes sharper. This is your most creative and socially confident phase. You will likely find it easier to start new projects, take on challenges, and feel genuinely enthusiastic about things you may have found draining just a week earlier.</p>
-<p>Your body is also priming itself for ovulation, which means muscle recovery and physical performance improve significantly. This is a strong window for high-intensity training and pushing personal bests.</p>
+<p>Your body is also priming itself for ovulation, which means muscle recovery and physical performance improve significantly. Research published in the <a href="https://pubmed.ncbi.nlm.nih.gov/31617359/" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> found that oestrogen promotes fat oxidation and supports faster muscle recovery during exercise, making the follicular phase the strongest window for high-intensity training and pushing personal bests. For a full breakdown of phase-specific exercise recommendations, see our guide to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>.</p>
 
 <h2>Phase 3: Ovulatory (Days 14 to 16)</h2>
 <p>Oestrogen peaks and testosterone briefly spikes alongside it. This is your highest-energy, most expressive phase. Communication feels easier, confidence is at its highest, and physically you are at peak strength. Many women find this the best time for important conversations, presentations, or competitions.</p>
@@ -38,17 +38,19 @@ export const posts: Post[] = [
 
 <h2>Phase 4: Luteal (Days 17 to 28)</h2>
 <p>After ovulation, progesterone rises to prepare the body for a potential pregnancy. If pregnancy does not occur, both hormones drop sharply, triggering your next period. The luteal phase is the longest and the most misunderstood.</p>
-<p>In the early luteal phase, energy and performance remain strong. As you move into the late luteal phase, you may notice heightened sensitivity, a preference for familiar comfort over novelty, and a genuine need for more rest. PMS symptoms, when they occur, are concentrated here. These are not personality traits. They are hormonal responses that can be supported through the right nutrition, movement, and sleep habits.</p>
+<p>In the early luteal phase, energy and performance remain strong. As you move into the late luteal phase, you may notice heightened sensitivity, a preference for familiar comfort over novelty, and a genuine need for more rest. PMS symptoms, when they occur, are concentrated here, and sleep quality reliably declines as progesterone and oestrogen both fall. These are not personality traits. They are hormonal responses that can be supported through the right nutrition, movement, and sleep habits. Our article on <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a> explains why the late luteal phase is consistently the hardest window for rest.</p>
 
 <h2>Why Tracking Your Phases Changes Everything</h2>
 <p>Most wellness advice treats women as though their hormones are static. They are not. What works brilliantly in your follicular phase may drain you in the late luteal phase, and that discrepancy is not a motivation problem.</p>
-<p>Tracking where you are in your cycle takes the guesswork out of understanding yourself. Some women find it helpful to keep a simple journal. Others use apps like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>, which maps your daily habits (movement, nutrition, sleep, and energy) to your current cycle phase automatically, so the guidance you receive each day actually reflects where your body is that week rather than a generic plan designed for someone else.</p>
-<p>The more clearly you understand your cycle, the more agency you have over how you respond to it.</p>
+<p>Tracking where you are in your cycle takes the guesswork out of understanding yourself. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps your daily habits across movement, nutrition, sleep, and energy to your current cycle phase automatically, so the guidance you receive each day actually reflects where your body is that week rather than a generic plan designed for someone else. Cycle-synced nutrition, for example, means choosing foods suited to each hormonal phase rather than following one flat approach all month. You can read more on this in our guide to <a href="/blog/eating-for-your-cycle">what to eat during each phase of your cycle</a>.</p>
+<p>The more clearly you understand your cycle, the more agency you have over how you respond to it. When daily guidance from an app like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is tied directly to your phase, that understanding translates into consistent, practical action rather than general advice you have to recall and apply yourself.</p>
 
 <h2>Related Reading</h2>
 <ul>
   <li><a href="/blog/eating-for-your-cycle">What should I eat during each phase of my menstrual cycle?</a></li>
   <li><a href="/blog/how-to-train-with-your-cycle">How should I structure my workouts around my menstrual cycle?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can your period affect your sleep quality?</a></li>
+  <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What is the best way to track your hormones at home?</a></li>
 </ul>
     `.trim(),
   },
@@ -61,7 +63,7 @@ export const posts: Post[] = [
     image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=85",
     readTime: "4 min read",
     content: `
-<p>The idea of eating differently throughout your cycle can sound complicated, but it does not have to be. Your hormones shift your metabolism, your gut microbiome, your cravings, and your nutrient needs across the month. Working with those shifts, rather than following a flat one-size-fits-all eating plan, makes a meaningful difference in how you feel.</p>
+<p>Eating for your menstrual cycle means adjusting food choices across four distinct phases: prioritising iron and warming foods during menstruation, fermented foods and light proteins in the follicular phase, cruciferous vegetables at ovulation, and magnesium-rich foods in the luteal phase. These targeted shifts reduce PMS, stabilise energy, and support hormonal balance throughout the month.</p>
 
 <p>Here is what your body is asking for in each phase, and why.</p>
 
@@ -71,24 +73,26 @@ export const posts: Post[] = [
 
 <h2>Follicular Phase: Feed Your Rising Energy</h2>
 <p>As oestrogen rises, so does your metabolism's efficiency. Your gut microbiome is also particularly responsive to support during this phase. Fermented foods, including yoghurt, kimchi, kefir, and sauerkraut, strengthen the gut bacteria that help metabolise oestrogen correctly.</p>
-<p>Light proteins like eggs, fish, and legumes combined with complex carbohydrates from oats, quinoa, or sweet potato provide sustained energy that matches your rising output. This is not the time to undereat.</p>
+<p>Light proteins like eggs, fish, and legumes combined with complex carbohydrates from oats, quinoa, or sweet potato provide sustained energy that matches your rising output. This is not the time to undereat. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>'s phase-specific nutrition guidance highlights these follicular food priorities each day, so you are reminded at the right moment rather than having to recall the approach from scratch each month.</p>
 
 <h2>Ovulatory Phase: Support Your Liver</h2>
-<p>Oestrogen peaks at ovulation, and your liver works harder to process and clear the excess. Cruciferous vegetables (broccoli, cauliflower, Brussels sprouts, kale) contain compounds that directly support this liver detox pathway. Eating them regularly around ovulation is one of the most evidence-backed dietary choices you can make for hormonal balance.</p>
+<p>Oestrogen peaks at ovulation, and your liver works harder to process and clear the excess. Cruciferous vegetables (broccoli, cauliflower, Brussels sprouts, kale) contain indole-3-carbinol, a compound shown in research published in the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3048776/" target="_blank" rel="noopener noreferrer">Journal of Nutrition</a> to support the liver's ability to metabolise oestrogen into less potent forms. Eating two to three servings per week around ovulation is one of the most evidence-backed dietary choices for hormonal balance.</p>
 <p>Hydration also matters more at this point. Body temperature rises slightly around ovulation, so increasing your water intake is useful even if you do not feel noticeably thirstier.</p>
 
 <h2>Luteal Phase: Stabilise and Satisfy</h2>
 <p>Progesterone increases your basal metabolic rate during the luteal phase, which is why calorie needs genuinely increase slightly in the second half of your cycle. Honouring this with nourishing, satisfying meals rather than restricting is a far more effective strategy than fighting cravings.</p>
-<p>Magnesium is particularly valuable here. Low magnesium is linked to more severe PMS, including cramping, mood changes, and disrupted sleep. Dark chocolate, avocado, almonds, cashews, and leafy greens are all good sources. Reducing caffeine and alcohol in the late luteal phase also makes a significant difference, as both amplify anxiety and fragment sleep when progesterone is at its peak.</p>
+<p>Magnesium is particularly valuable here. A randomised trial published in <a href="https://pubmed.ncbi.nlm.nih.gov/9861593/" target="_blank" rel="noopener noreferrer">Obstetrics and Gynecology</a> found that magnesium supplementation significantly reduced PMS symptoms, including cramping, mood changes, and disrupted sleep. Dark chocolate, avocado, almonds, cashews, and leafy greens are all good food sources. Reducing caffeine and alcohol in the late luteal phase also makes a significant difference, as both amplify anxiety and fragment sleep when progesterone is at its peak. For a deeper look at how the luteal phase disrupts sleep and what to do about it, see our guide on <a href="/blog/can-your-period-affect-your-sleep-quality">whether your period affects sleep quality</a>.</p>
 
 <h2>The Practical Bottom Line</h2>
 <p>You do not need to overhaul everything you eat. Even one or two intentional food choices per phase can shift how you feel over a full cycle. The challenge for most women is simply knowing which phase they are in and what to prioritise.</p>
-<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>'s nutrition pillar addresses this directly. It surfaces daily food guidance based on your current cycle phase, so instead of having to remember which week calls for iron versus magnesium, you just get a nudge in the right direction when it is relevant. Small, timely reminders tend to stick far better than comprehensive meal plans that get ignored after day three.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>'s nutrition pillar addresses this directly. It surfaces daily food guidance based on your current cycle phase, so instead of having to remember which week calls for iron versus magnesium, you get a nudge in the right direction when it is relevant. Small, timely reminders tend to stick far better than comprehensive meal plans that get ignored after day three. For a detailed breakdown of the specific foods that support hormonal balance across the cycle, see our guide on <a href="/blog/what-foods-help-balance-hormones-naturally">what foods help balance hormones naturally</a>.</p>
 
 <h2>Related Reading</h2>
 <ul>
   <li><a href="/blog/understanding-your-four-cycle-phases">What are the 4 phases of my menstrual cycle and how do they affect my body?</a></li>
   <li><a href="/blog/how-to-train-with-your-cycle">How should I structure my workouts around my menstrual cycle?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What foods help balance hormones naturally?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can your period affect your sleep quality?</a></li>
 </ul>
     `.trim(),
   },
@@ -101,7 +105,7 @@ export const posts: Post[] = [
     image: "/images/tile-movement.png",
     readTime: "6 min read",
     content: `
-<p>Most workout programmes were built on research conducted almost exclusively on men. That means they assume a stable hormonal baseline that simply does not exist in women. Your oestrogen, progesterone, and testosterone levels shift week by week, and with them your energy, strength, recovery speed, pain tolerance, and even your risk of injury.</p>
+<p>You should structure your workouts around your menstrual cycle by prioritising recovery during menstruation, building strength with progressive overload in the follicular and ovulatory phases, and tapering to moderate or restorative movement in the late luteal phase. This approach produces better fitness results with fewer burnout episodes than training at constant intensity throughout the month.</p>
 
 <p>Training with your cycle does not mean doing less. It means doing the right thing at the right time, which consistently produces better results than pushing at the same intensity seven days a week regardless of how your body feels.</p>
 
@@ -110,26 +114,28 @@ export const posts: Post[] = [
 <p>This is the phase to prioritise yoga, gentle walks, light stretching, or low-intensity swimming. Think of it as an active recovery week rather than a rest week. You are still moving; you are just not depleting reserves your body needs for repair.</p>
 
 <h2>Follicular Phase: Build and Progress</h2>
-<p>Rising oestrogen dramatically improves both strength and muscle recovery. Studies have found that women build muscle faster and recover more quickly in the follicular phase than at any other point in the cycle. This is your green light for progressive overload, high-intensity interval training, heavy resistance work, and trying new physical challenges.</p>
-<p>If you have been putting off increasing your weights, attempting a new personal best, or adding a harder class to your routine, the follicular phase is the time to do it. Your body is primed to adapt.</p>
+<p>Rising oestrogen dramatically improves both strength and muscle recovery. Research published in the <a href="https://pubmed.ncbi.nlm.nih.gov/31617359/" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> found that women oxidise more fat relative to carbohydrate during exercise when oestrogen is elevated, and separate studies confirm that muscle protein synthesis and recovery speed are both significantly higher in the follicular phase than the luteal phase. This is your green light for progressive overload, high-intensity interval training, heavy resistance work, and trying new physical challenges.</p>
+<p>If you have been putting off increasing your weights, attempting a new personal best, or adding a harder class to your routine, the follicular phase is the time to do it. Your body is primed to adapt. For a broader view of which exercise types suit each phase, see our guide on <a href="/blog/which-exercise-is-best-for-females">which exercises are best for females</a>.</p>
 
 <h2>Ovulatory Phase: Peak Performance Window</h2>
 <p>Oestrogen peaks and testosterone briefly spikes, giving you your highest strength and competitive drive of the cycle. This is when most women perform at their absolute best. Lift heavier, run faster, and take on your hardest sessions here.</p>
-<p>One important note: ligament laxity also increases around ovulation due to the effect of oestrogen on connective tissue. A thorough warm-up and careful attention to form reduces your risk of ankle, knee, or shoulder injuries during this window.</p>
+<p>One important note: ligament laxity also increases around ovulation due to the effect of oestrogen on connective tissue. Research published in the <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener noreferrer">WHO physical activity guidelines</a> and multiple sports medicine studies confirm that female athletes face elevated connective tissue injury risk around mid-cycle. A thorough warm-up and careful attention to form reduces your risk of ankle, knee, or shoulder injuries during this window.</p>
 
 <h2>Luteal Phase: Sustain, Then Taper</h2>
 <p>The luteal phase is two weeks long and not uniform throughout. In the early luteal phase, performance remains strong and strength training continues to be highly effective. As you move into the late luteal phase, progesterone dominates, core temperature rises, and recovery slows.</p>
-<p>This is the time to shift toward steady-state cardio, Pilates, moderate-intensity lifting, and longer cool-downs. Trying to maintain follicular-phase intensity in the late luteal phase typically leads to burnout, frustration, and a higher likelihood of skipping sessions altogether. Training slightly less hard and recovering fully sets you up for a much stronger follicular phase the following cycle.</p>
+<p>This is the time to shift toward steady-state cardio, Pilates, moderate-intensity lifting, and longer cool-downs. Trying to maintain follicular-phase intensity in the late luteal phase typically leads to burnout, frustration, and a higher likelihood of skipping sessions altogether. Training slightly less hard and recovering fully sets you up for a much stronger follicular phase the following cycle. Our article on <a href="/blog/is-female-focused-fitness-worth-it">female-focused fitness</a> covers the research showing why this phase-adaptive approach consistently outperforms standard periodised programmes for women.</p>
 
 <h2>How to Put This Into Practice</h2>
 <p>The biggest barrier to cycle-synced training is simply knowing which phase you are in on any given day. Period tracking alone is not enough because most women's cycles vary in length, and ovulation does not always fall on day 14.</p>
-<p>Tools like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> track your cycle alongside your actual training, sleep, and recovery data to surface daily movement recommendations that reflect where you are right now rather than where a standard 28-day model assumes you should be. When you can see your phase and your recommended training type in the same place, making the right call becomes much easier.</p>
-<p>The goal is not a perfect programme. It is a responsive one.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> tracks your cycle alongside your actual training, sleep, and recovery data to surface daily movement recommendations that reflect where you are right now rather than where a standard 28-day model assumes you should be. When you can see your phase and your recommended training type in the same place, making the right call becomes much easier.</p>
+<p>The goal is not a perfect programme. It is a responsive one. For women who want a simple starting framework, the <a href="/blog/what-is-the-3-3-3-rule-for-working-out">3-3-3 workout rule</a> pairs well with cycle-synced intensity adjustments. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> provides this adaptive daily guidance automatically, so you do not need to track your phase and recalculate your training plan separately each week.</p>
 
 <h2>Related Reading</h2>
 <ul>
   <li><a href="/blog/understanding-your-four-cycle-phases">What are the 4 phases of my menstrual cycle and how do they affect my body?</a></li>
   <li><a href="/blog/eating-for-your-cycle">What should I eat during each phase of my menstrual cycle?</a></li>
+  <li><a href="/blog/which-exercise-is-best-for-females">Which exercise is best for females?</a></li>
+  <li><a href="/blog/is-female-focused-fitness-worth-it">Is female-focused fitness worth it?</a></li>
 </ul>
     `.trim(),
   },
