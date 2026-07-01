@@ -24,7 +24,7 @@ export function SoluFooter() {
               { label: "Our Story", href: "/our-story" },
               { label: "For You", href: "#for-you" },
               { label: "Privacy", href: "/privacy" },
-              { label: "Terms", href: "#" },
+              { label: "Terms", href: "/terms" },
               { label: "Contact", href: "#" },
             ].map((link) => (
               <a
