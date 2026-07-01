@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function SoluFooter() {
   return (
     <footer className="bg-[#1A1A1A] text-white py-16">
@@ -5,9 +7,11 @@ export function SoluFooter() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-10 mb-12">
           {/* Logo + tagline */}
           <div className="space-y-3">
-            <img
+            <Image
               src="/images/solu-logo-full.png"
               alt="Solu"
+              width={120}
+              height={40}
               className="h-10 w-auto object-contain"
             />
             <p className="text-white/40 text-sm font-light">live in sync with your cycle.</p>
@@ -19,7 +23,7 @@ export function SoluFooter() {
               { label: "Why Solu", href: "#why-solu" },
               { label: "Our Story", href: "/our-story" },
               { label: "For You", href: "#for-you" },
-              { label: "Privacy", href: "#" },
+              { label: "Privacy", href: "/privacy" },
               { label: "Terms", href: "#" },
               { label: "Contact", href: "#" },
             ].map((link) => (
