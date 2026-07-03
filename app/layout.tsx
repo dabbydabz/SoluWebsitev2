@@ -47,6 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Women's health, fitness & wellness in sync with your cycle | Solu",
     description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
+    images: [`${SITE_URL}/icon.svg`],
   },
 }
 
@@ -88,6 +89,10 @@ export default function RootLayout({
                 "description": "Women's wellness app that personalises health guidance to the menstrual cycle.",
                 "foundingDate": "2024",
                 "areaServed": "Worldwide",
+                "sameAs": [
+                  "https://www.instagram.com/solu.ae",
+                  "https://www.tiktok.com/@solu.ae",
+                ],
                 "knowsAbout": [
                   "Women's health",
                   "Menstrual cycle tracking",

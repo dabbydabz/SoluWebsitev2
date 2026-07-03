@@ -4,6 +4,22 @@ import { SoluFooter } from "@/components/solu-footer"
 export const metadata = {
   title: "Our Story — Solu",
   description: "How Solu began, and why we're building a new kind of wellness for women.",
+  alternates: {
+    canonical: "https://www.solu.ae/our-story",
+  },
+  openGraph: {
+    title: "Our Story — Solu",
+    description: "How Solu began, and why we're building a new kind of wellness for women.",
+    url: "https://www.solu.ae/our-story",
+    siteName: "Solu",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Story — Solu",
+    description: "How Solu began, and why we're building a new kind of wellness for women.",
+  },
 }
 
 export default function OurStoryPage() {
