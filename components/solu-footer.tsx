@@ -25,7 +25,7 @@ export function SoluFooter() {
               { label: "For You", href: "#for-you" },
               { label: "Privacy", href: "/privacy" },
               { label: "Terms", href: "/terms" },
-              { label: "Contact", href: "#" },
+              { label: "Contact", href: "/contact" },
             ].map((link) => (
               <a
                 key={link.label}
