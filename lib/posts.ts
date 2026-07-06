@@ -1100,7 +1100,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "can-a-wearable-track-your-hormones",
-    trending: true,
     title: "Can a Wearable Track Your Hormones? What the Latest Tech Can (and Can't) Do",
     excerpt: "Wearables from WHOOP, Oura, and new startups are now promising hormonal insights from your wrist. Here is an honest look at what the technology can actually measure, what it is inferring, and whether it is worth using in 2026.",
     date: "June 29, 2026",
@@ -1154,6 +1153,277 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/which-health-tracker-is-best-for-women">Which Health Tracker Is Best for Women?</a></li>
   <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What Is the Best Way to Track Your Hormones at Home?</a></li>
 </ul>
+    `.trim(),
+  },
+  {
+    slug: "how-to-check-ovulation-on-your-phone",
+    title: "How Do You Check Ovulation on Your Phone?",
+    excerpt: "You check ovulation on your phone by logging cycle data, basal body temperature, or ovulation predictor kit results into a fertility app that estimates your fertile window. Accuracy depends heavily on which data you feed the app, not just which app you download.",
+    date: "July 6, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1512069772995-ec65ed45a7ee?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>You check ovulation on your phone by logging cycle data, basal body temperature (BBT), or ovulation predictor kit (OPK) results into a fertility tracking app, which uses that data to estimate your fertile window and predicted ovulation day. Apps that connect to a Bluetooth-enabled OPK or smart thermometer generally outperform apps that rely on calendar dates alone.</p>
+
+<h2>How Do Ovulation Tracking Apps Work?</h2>
+<p>Ovulation apps fall into two broad categories: calendar-based apps that predict ovulation from your average cycle length, and data-driven apps that incorporate biological signals such as temperature, hormone levels, or cervical mucus. Calendar-only apps assume ovulation occurs at a fixed point relative to your last period, which works reasonably well for women with very regular cycles but breaks down quickly for anyone with cycle length variation.</p>
+<p>Data-driven apps instead build a picture from what your body is actually doing that month. Basal body temperature rises by 0.2 to 0.5 degrees Celsius after ovulation due to progesterone, giving a confirmed (rather than predicted) ovulation signal once enough data has been logged. Apps that also accept OPK results, which detect the luteinising hormone (LH) surge 24 to 36 hours before ovulation, can flag the fertile window in advance rather than only after the fact.</p>
+
+<h2>Which Data Points Give the Most Accurate Ovulation Prediction?</h2>
+<p>The most accurate phone-based predictions combine at least two independent signals: a hormone-based signal (LH from an OPK) and a temperature-based signal (BBT). Cervical mucus observation, logged manually, adds a third layer that many apps still underuse despite it being one of the more reliable low-cost fertility signs.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, using logged symptoms and cycle history to refine its picture of where a woman is in her cycle over time. Rather than treating each month in isolation, it builds a longitudinal pattern, which matters because a single month of data is rarely enough to identify a reliable fertile window.</p>
+
+<h2>How Accurate Are Phone-Based Ovulation Predictions?</h2>
+<p>Accuracy varies enormously between apps, and the research is less flattering than most marketing suggests. A widely cited study in <a href="https://pubmed.ncbi.nlm.nih.gov/27275788/" target="_blank" rel="noopener noreferrer">Obstetrics & Gynecology</a> tested 20 websites and 33 apps and found that only one website and three apps correctly predicted the precise fertile window. Calendar-only apps performed the worst, often flagging a "fertile window" spanning 10 to 16 days, far wider than the medically established six-day window.</p>
+<p>Apps that incorporate an OPK perform meaningfully better. A randomised controlled trial published in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6983750/" target="_blank" rel="noopener noreferrer">PMC</a> found that couples using an app-connected ovulation test system had a significantly higher likelihood of pregnancy within three cycles compared to couples using standard methods. The lesson is consistent across the research: the accuracy gain comes from the biological data feeding the app, not the app's interface or design.</p>
+
+<h2>What Is the Difference Between Calendar Apps and Hormone-Connected Apps?</h2>
+<p>Calendar apps assume ovulation falls roughly 14 days before the next period, which only holds true for cycles that are highly regular. Hormone-connected apps, by contrast, respond to what is actually happening in a given cycle. This distinction matters most for the substantial number of women whose cycle length varies from month to month, since a calendar prediction can miss the real fertile window by several days in those cases. For a full comparison of tracking methods beyond apps alone, see the guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>.</p>
+
+<h2>How Do You Check Ovulation on Your Phone, Step by Step?</h2>
+<p>Checking ovulation accurately on a phone follows a consistent process regardless of which app is used:</p>
+<ul>
+  <li>Log the first day of each period consistently to establish a baseline cycle length</li>
+  <li>Take basal body temperature each morning before rising, using a BBT thermometer, and enter it into the app</li>
+  <li>Use an OPK starting a few days before the earliest expected ovulation date and log the result</li>
+  <li>Note cervical mucus changes daily, since fertile-quality mucus (clear and stretchy) typically appears in the days before ovulation</li>
+  <li>Review the app's fertile window prediction after at least two to three cycles of consistent logging, since accuracy improves substantially with more data</li>
+</ul>
+
+<h2>What Should You Do If Your App Prediction Doesn't Match Your Symptoms?</h2>
+<p>Body signals should take priority over an app's calendar-based guess when the two disagree. If cervical mucus or OPK results point to ovulation on a different day than the app predicts, the biological signal is generally more reliable, particularly for irregular cycles. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> addresses this by adjusting its cycle-phase model as new symptom and temperature data comes in, rather than locking in a single prediction at the start of the cycle, which keeps the guidance aligned with what the body is actually doing that month rather than a fixed calendar assumption. This adaptive approach is particularly relevant for women researching <a href="/blog/when-am-i-most-fertile">when they are most fertile during their cycle</a>, since the fertile window shifts from month to month for most women.</p>
+<p>If irregular predictions persist across several cycles, or ovulation signs are consistently absent, it is worth discussing the data with a GP or gynaecologist, since this can indicate an underlying condition such as PCOS.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/when-am-i-most-fertile">When Am I Most Fertile During My Cycle?</a></li>
+  <li><a href="/blog/can-a-wearable-track-your-hormones">Can a Wearable Track Your Hormones?</a></li>
+</ul>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Do Ovulation Tracking Apps Work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ovulation apps fall into two broad categories: calendar-based apps that predict ovulation from average cycle length, and data-driven apps that incorporate biological signals such as temperature, hormone levels, or cervical mucus. Calendar-only apps assume ovulation occurs at a fixed point relative to the last period, which works for very regular cycles but breaks down for cycle length variation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Data Points Give the Most Accurate Ovulation Prediction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most accurate phone-based predictions combine at least two independent signals: a hormone-based signal (LH from an ovulation predictor kit) and a temperature-based signal (basal body temperature). Cervical mucus observation adds a third layer that many apps still underuse."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Accurate Are Phone-Based Ovulation Predictions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accuracy varies enormously between apps. A study in Obstetrics & Gynecology tested 20 websites and 33 apps and found only one website and three apps correctly predicted the precise fertile window, with calendar-only apps performing worst."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is the Difference Between Calendar Apps and Hormone-Connected Apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Calendar apps assume ovulation falls roughly 14 days before the next period, which only holds true for highly regular cycles. Hormone-connected apps respond to what is actually happening in a given cycle using real biological data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Should You Do If Your App Prediction Doesn't Match Your Symptoms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Body signals should take priority over an app's calendar-based guess when the two disagree. If cervical mucus or ovulation predictor kit results point to a different day than the app predicts, the biological signal is generally more reliable, particularly for irregular cycles."
+      }
+    }
+  ]
+}
+</script>
+    `.trim(),
+  },
+  {
+    slug: "when-am-i-most-fertile",
+    title: "When Am I Most Fertile During My Cycle?",
+    excerpt: "You are most fertile in the five days leading up to and including ovulation, with the single highest chance of conception the day before ovulation itself. Sperm can survive several days inside the reproductive tract, which is why the fertile window opens before the egg is even released.",
+    date: "July 6, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>You are most fertile in the five days leading up to and including the day of ovulation, with the single highest probability of conception on the day before ovulation. This six-day fertile window exists because sperm can survive up to five days in the reproductive tract, while a released egg survives for only 12 to 24 hours.</p>
+
+<h2>When Exactly Does the Fertile Window Occur?</h2>
+<p>The fertile window is defined as the five days before ovulation plus the day of ovulation itself, six days in total. A frequently cited prospective study published in the <em>New England Journal of Medicine</em> tracked daily intercourse and hormone data across hundreds of cycles and found that pregnancy occurred only when intercourse took place within this six-day span. No conception occurred from intercourse outside this window in the study's dataset.</p>
+
+<h2>Why Is the Day Before Ovulation the Most Fertile?</h2>
+<p>Conception probability rises steadily as intercourse gets closer to ovulation, then drops sharply afterward. The same NEJM research found that the probability of pregnancy from a single act of intercourse rose from around 4% five days before ovulation to approximately 41% the day before ovulation, then fell to about 8% on the day of ovulation itself. The day-before peak reflects the time sperm need to travel and reach the egg, combined with cervical mucus being at its most sperm-friendly consistency just ahead of ovulation.</p>
+
+<h2>Why Doesn't the Fertile Window Fall on the Same Cycle Day Every Month?</h2>
+<p>Ovulation timing varies more than most people expect, even in women who consider their cycles regular. A prospective study in <em>Human Reproduction</em>, tracking daily hormone data, found that the fertile window fell entirely within the "textbook" days 10 to 17 of the cycle in only about 30% of women. For the majority, ovulation happened either earlier or later than the standard calendar assumption.</p>
+<p>This variability is exactly why single-cycle calendar counting produces unreliable fertile window estimates. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, refining its picture of ovulation timing from logged cycle history and symptoms rather than assuming a fixed 28-day pattern. Tracking across several consecutive cycles reveals a woman's actual pattern of variation, which a single month of data cannot show.</p>
+
+<h2>How Can You Identify Your Fertile Window Accurately?</h2>
+<p>Three methods, used together, give the clearest picture of the fertile window in any given cycle: basal body temperature (BBT), which confirms ovulation has occurred through a small rise after the fact; cervical mucus observation, which becomes clear and stretchy as oestrogen peaks in the days before ovulation; and ovulation predictor kits (OPKs), which detect the LH surge 24 to 36 hours before ovulation and give the clearest advance warning. For a full breakdown of each method and how to combine them, see the guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>, or the walkthrough on <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>How Does an Irregular Cycle Change the Fertile Window?</h2>
+<p>Cycle irregularity makes fertile window prediction significantly harder, since calendar-based estimates depend on a consistent cycle length. Women with cycles that vary by more than seven or eight days month to month, a pattern sometimes linked to conditions like polycystic ovary syndrome (PCOS) or thyroid dysfunction, need biological signals (BBT and OPK) rather than calendar counting to identify their fertile window reliably.</p>
+<p>Apps built specifically around adaptive cycle-phase tracking, rather than fixed calendar math, handle this variability better. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> adjusts its cycle-phase estimate as new temperature and symptom data comes in each month, which keeps guidance accurate even when a cycle runs longer or shorter than the previous one. This adaptive approach matters most for women whose ovulation date shifts noticeably from cycle to cycle.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/how-to-check-ovulation-on-your-phone">How Do You Check Ovulation on Your Phone?</a></li>
+  <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
+</ul>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When Exactly Does the Fertile Window Occur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fertile window is the five days before ovulation plus the day of ovulation itself, six days in total. Research tracking daily intercourse and hormone data found pregnancy occurred only when intercourse took place within this six-day span."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why Is the Day Before Ovulation the Most Fertile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Conception probability rises as intercourse gets closer to ovulation, peaking the day before at around 41%, then drops sharply to about 8% on the day of ovulation itself. This reflects sperm travel time and cervical mucus being most sperm-friendly just ahead of ovulation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why Doesn't the Fertile Window Fall on the Same Cycle Day Every Month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ovulation timing varies more than most people expect. A prospective study found the fertile window fell entirely within the textbook days 10 to 17 of the cycle in only about 30% of women."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Can You Identify Your Fertile Window Accurately?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three methods used together give the clearest picture: basal body temperature, which confirms ovulation after the fact; cervical mucus observation, which becomes clear and stretchy before ovulation; and ovulation predictor kits, which detect the LH surge 24 to 36 hours in advance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Does an Irregular Cycle Change the Fertile Window?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cycle irregularity makes fertile window prediction significantly harder since calendar-based estimates depend on consistent cycle length. Women with cycles varying by more than seven or eight days need biological signals rather than calendar counting to identify their fertile window reliably."
+      }
+    }
+  ]
+}
+</script>
+    `.trim(),
+  },
+  {
+    slug: "does-cycle-syncing-actually-work",
+    trending: true,
+    title: "Does Cycle Syncing Actually Work? What the Science Really Says",
+    excerpt: "Cycle syncing holds up for nutrition, sleep, and subjective energy awareness, but the claim that women must train in rigid phase-specific splits is not well supported. A 2024 study in The Journal of Physiology found menstrual cycle phase had no measurable effect on muscle protein synthesis after resistance exercise.",
+    date: "July 6, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Cycle syncing works for some aspects of health, particularly nutrition, sleep, and subjective energy awareness, but the claim that women must follow rigid phase-specific training splits is not well supported by current evidence. A 2024 study in <em>The Journal of Physiology</em> found that menstrual cycle phase had no measurable effect on muscle protein synthesis after resistance exercise, directly challenging one of cycle syncing's central training claims.</p>
+
+<h2>What Does Cycle Syncing Actually Claim?</h2>
+<p>Cycle syncing is the practice of adjusting diet, exercise, and lifestyle habits to match the four phases of the menstrual cycle: menstrual, follicular, ovulatory, and luteal. The concept, popularised through wellness books and social media over the past several years, argues that oestrogen and progesterone fluctuations should dictate specific training types and intensities in each phase, such as high-intensity workouts only in the follicular phase and lighter movement only in the luteal phase.</p>
+<p>The underlying premise is reasonable: hormones genuinely fluctuate across the cycle and do affect the body in measurable ways. Where cycle syncing as a movement has overreached is in translating that general truth into highly specific, prescriptive training rules that go beyond what the research currently supports.</p>
+
+<h2>What Does the Newest Research Say About Cycle Syncing and Training?</h2>
+<p>A rigorous 2024 study from McMaster University, published in <a href="https://pubmed.ncbi.nlm.nih.gov/39630025/" target="_blank" rel="noopener noreferrer">The Journal of Physiology</a>, directly tested one of cycle syncing's foundational training claims. Researchers confirmed each participant's cycle phase using hormone blood tests and ovulation tests, then measured muscle protein synthesis and protein breakdown following resistance exercise in both the high-oestrogen follicular phase and the high-progesterone luteal phase.</p>
+<p>The finding was unambiguous: menstrual cycle phase had no measurable effect on muscle protein synthesis or myofibrillar protein breakdown in response to resistance exercise. This directly contradicts the popular claim that strength training is meaningfully more or less effective depending on cycle phase, at least at the level of the muscle-building mechanism itself.</p>
+
+<h2>Which Parts of Cycle Syncing Are Backed by Evidence?</h2>
+<p>Not all of cycle syncing is overstated. The parts of the framework with the strongest evidence are nutritional and related to sleep and subjective energy, rather than training prescriptions. Progesterone rises after ovulation and is known to raise core body temperature and disrupt sleep onset in the late luteal phase, a well-documented effect covered in the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>. Appetite and cravings also shift measurably across the cycle, generally increasing in the luteal phase as progesterone rises and metabolic rate ticks up slightly.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, focusing on the areas where cycle-linked changes are well documented, such as sleep support in the late luteal phase and nutrition timing around ovulation, rather than prescribing rigid workout splits the evidence does not support.</p>
+
+<h2>Which Cycle-Syncing Claims Are Overstated?</h2>
+<p>The most overstated claim is that resistance training results are meaningfully better or worse depending on cycle phase. As the 2024 Journal of Physiology data shows, the muscle-building response to lifting weights does not change across the cycle in a way that justifies restructuring an entire training program around it. Claims that women should avoid strength training entirely during menstruation or the luteal phase also go beyond what the evidence supports; for most women, training capacity is influenced far more by sleep, energy, and pain levels that day than by cycle phase itself.</p>
+<p>Subjective energy and perceived exertion do shift across the cycle for many women, and that experience is real. The overreach is in treating a subjective, individually variable pattern as a fixed physiological rule that applies the same way to every woman's training program.</p>
+
+<h2>What Is the Evidence-Based Way to Use Cycle Awareness?</h2>
+<p>The most defensible approach treats cycle tracking as a source of personal data rather than a rulebook. Logging energy, sleep quality, and how workouts feel across a full cycle reveals an individual's actual pattern, which may or may not match popular cycle-syncing claims. Some women notice a real dip in motivation in the late luteal phase; others notice very little variation at all.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> supports this individualised approach by tracking movement, nutrition, sleep, and energy against a woman's actual logged cycle data over time, surfacing her personal patterns rather than applying a generic phase-based template to everyone. This is a meaningfully different approach from rigid cycle-syncing programs, and it is backed by the more modest, well-supported claim that self-knowledge, not blanket phase rules, is what actually helps. For more on how cycle phases affect training more broadly, see the guide to <a href="/blog/how-to-train-with-your-cycle">how to train with your cycle</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-train-with-your-cycle">How Should I Structure My Workouts Around My Menstrual Cycle?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
+  <li><a href="/blog/understanding-your-four-cycle-phases">What Are the 4 Phases of My Menstrual Cycle?</a></li>
+</ul>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What Does Cycle Syncing Actually Claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cycle syncing is the practice of adjusting diet, exercise, and lifestyle habits to match the four phases of the menstrual cycle: menstrual, follicular, ovulatory, and luteal. It argues that hormone fluctuations should dictate specific training types and intensities in each phase."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Does the Newest Research Say About Cycle Syncing and Training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 2024 study from McMaster University published in The Journal of Physiology found that menstrual cycle phase had no measurable effect on muscle protein synthesis or protein breakdown in response to resistance exercise, directly contradicting a core cycle-syncing training claim."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Parts of Cycle Syncing Are Backed by Evidence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The parts of cycle syncing with the strongest evidence relate to sleep and nutrition rather than training. Progesterone is known to raise core body temperature and disrupt sleep onset in the late luteal phase, and appetite shifts measurably across the cycle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Cycle-Syncing Claims Are Overstated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most overstated claim is that resistance training results are meaningfully better or worse depending on cycle phase. Current research shows the muscle-building response to lifting weights does not change across the cycle enough to justify restructuring a training program around it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is the Evidence-Based Way to Use Cycle Awareness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most defensible approach treats cycle tracking as a source of personal data rather than a rulebook. Logging energy, sleep, and how workouts feel across a full cycle reveals an individual's actual pattern rather than applying a generic phase-based template."
+      }
+    }
+  ]
+}
+</script>
     `.trim(),
   },
 ]
