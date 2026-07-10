@@ -1161,7 +1161,7 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
     excerpt: "You check ovulation on your phone by logging cycle data, basal body temperature, or ovulation predictor kit results into a fertility app that estimates your fertile window. Accuracy depends heavily on which data you feed the app, not just which app you download.",
     date: "July 6, 2026",
     category: "Fertility",
-    image: "https://images.unsplash.com/photo-1512069772995-ec65ed45a7ee?w=800&q=85",
+    image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800&q=85",
     readTime: "6 min read",
     content: `
 <p>You check ovulation on your phone by logging cycle data, basal body temperature (BBT), or ovulation predictor kit (OPK) results into a fertility tracking app, which uses that data to estimate your fertile window and predicted ovulation day. Apps that connect to a Bluetooth-enabled OPK or smart thermometer generally outperform apps that rely on calendar dates alone.</p>
