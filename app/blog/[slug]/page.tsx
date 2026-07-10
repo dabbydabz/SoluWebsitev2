@@ -11,6 +11,13 @@ function toISODate(dateStr: string): string {
   return isNaN(d.getTime()) ? dateStr : d.toISOString().split("T")[0]
 }
 
+function metaDescription(excerpt: string, maxLength = 155): string {
+  if (excerpt.length <= maxLength) return excerpt
+  const truncated = excerpt.slice(0, maxLength)
+  const lastSpace = truncated.lastIndexOf(" ")
+  return `${truncated.slice(0, lastSpace).replace(/[.,;:]$/, "")}...`
+}
+
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }))
 }
@@ -20,13 +27,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = getPostBySlug(slug)
   if (!post) return {}
   const url = `https://www.solu.ae/blog/${slug}`
+  const description = metaDescription(post.excerpt)
   return {
     title: `${post.title} | Solu`,
-    description: post.excerpt,
+    description,
     alternates: { canonical: url },
     openGraph: {
       title: `${post.title} | Solu`,
-      description: post.excerpt,
+      description,
       url,
       siteName: "Solu",
       type: "article",
@@ -37,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     twitter: {
       card: "summary_large_image",
       title: `${post.title} | Solu`,
-      description: post.excerpt,
+      description,
       images: post.image ? [post.image] : undefined,
     },
   }
