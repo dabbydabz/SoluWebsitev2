@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: `${SITE_URL}/icon.svg`,
+        url: `${SITE_URL}/icon.png`,
         width: 512,
         height: 512,
         alt: "Solu — Women's wellness app",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Women's health, fitness & wellness in sync with your cycle | Solu",
     description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
-    images: [`${SITE_URL}/icon.svg`],
+    images: [`${SITE_URL}/icon.png`],
   },
 }
 
@@ -85,7 +85,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 "name": "Solu",
                 "url": "https://www.solu.ae",
-                "logo": "https://www.solu.ae/icon.svg",
+                "logo": "https://www.solu.ae/icon.png",
                 "description": "Women's wellness app that personalises health guidance to the menstrual cycle.",
                 "foundingDate": "2024",
                 "areaServed": "Worldwide",

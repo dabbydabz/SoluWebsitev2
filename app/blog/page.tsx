@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Script from "next/script"
 import { posts, getTrendingPost } from "@/lib/posts"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
@@ -40,8 +41,30 @@ export default function BlogPage() {
   const categories = Array.from(new Set(sortedPosts.map((p) => p.category)))
   const trendingPost = getTrendingPost()
 
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Solu Health Blog",
+    "url": "https://www.solu.ae/blog",
+    "description": "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": sortedPosts.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": `https://www.solu.ae/blog/${p.slug}`,
+        "name": p.title,
+      })),
+    },
+  }
+
   return (
     <>
+      <Script
+        id="schema-blog-collection"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
       <SoluHeader />
       <main className="min-h-screen bg-white">
 

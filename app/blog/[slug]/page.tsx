@@ -77,8 +77,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     "dateModified": toISODate(post.date),
     "author": {
       "@type": "Organization",
-      "name": "Solu",
-      "url": "https://www.solu.ae",
+      "name": "Solu Editorial Team",
+      "url": "https://www.solu.ae/our-story",
+      "description": "Reviewed against NHS, PubMed, and peer-reviewed sources.",
     },
     "publisher": {
       "@type": "Organization",
@@ -137,6 +138,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
         {/* Article body */}
         <article className="max-w-3xl mx-auto px-6 py-12 sm:py-16">
+          <p className="text-gray-400 text-xs font-medium mb-6">
+            Reviewed by the Solu Editorial Team against NHS, PubMed, and peer-reviewed sources.
+          </p>
           <p className="text-gray-500 text-lg leading-relaxed font-light mb-10 border-l-4 border-[#F7941D] pl-5">
             {post.excerpt}
           </p>
