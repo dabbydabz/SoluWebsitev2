@@ -1476,7 +1476,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "does-stress-really-delay-your-period",
-    trending: true,
     title: "Does Stress Really Delay Your Period? What Cortisol Does to Your Cycle",
     excerpt: "Chronic stress can delay your period by suppressing the hormone pulses that trigger ovulation each cycle. A single stressful day rarely shifts a cycle, but sustained stress from undereating, overtraining, or poor sleep can measurably delay or skip a period.",
     date: "July 20, 2026",
@@ -1508,6 +1507,155 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
 <h2>Related Reading</h2>
 <ul>
   <li><a href="/blog/how-to-increase-ovulation-naturally">How Do You Increase Ovulation Naturally?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "7-signs-of-ovulation",
+    title: "What Are the 7 Signs of Ovulation?",
+    excerpt: "The seven signs of ovulation are cervical mucus changes, a BBT rise, a positive OPK, mittelschmerz, higher libido, breast tenderness, and cervix changes. Tracking two or more of these signs together, rather than relying on any single symptom, gives a far more accurate picture of the fertile window.",
+    date: "July 27, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>The seven most reliable signs of ovulation are egg white cervical mucus, a basal body temperature (BBT) rise, a positive ovulation predictor kit (OPK) result, mittelschmerz (mild one sided pelvic pain), increased libido, breast tenderness, and a higher, softer cervix. Tracking two or more of these signs together, rather than relying on any single symptom during a monthly cycle, produces a far more accurate estimate of the fertile window.</p>
+<p>This article is based on peer-reviewed research and guidance from Mayo Clinic, NCBI Bookshelf, and PubMed-indexed fertility studies current as of July 2026.</p>
+
+<h2>What Are the 7 Signs of Ovulation?</h2>
+<p>Ovulation produces a recognisable cluster of physical signs as oestrogen peaks and luteinising hormone (LH) surges to release an egg from the ovary. According to <a href="https://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/expert-answers/ovulation-signs/faq-20058000" target="_blank" rel="noopener noreferrer">Mayo Clinic</a>, fertility is highest during the two to three days around the basal temperature rise, though multiple signs together give a clearer picture than temperature alone. Most women notice only one or two of these signs unless deliberately watching for them, which is why many people trying to conceive, or simply trying to understand their period and monthly cycle better, miss the fertile window entirely.</p>
+<ul>
+  <li>Egg white, stretchy cervical mucus</li>
+  <li>A basal body temperature (BBT) rise of about 0.3 to 0.5°C</li>
+  <li>A positive ovulation predictor kit (OPK) reading</li>
+  <li>Mittelschmerz, or mild one-sided pelvic pain</li>
+  <li>Increased libido</li>
+  <li>Breast tenderness</li>
+  <li>A higher, softer, more open cervix</li>
+</ul>
+<p>For a broader breakdown of how these signals fit into a full method of tracking, see the guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>.</p>
+
+<h2>What Does Cervical Mucus Look Like When You Are Ovulating?</h2>
+<p>Cervical mucus shifts from dry or sticky earlier in the cycle to a clear, stretchy, egg white texture in the one to two days before ovulation, driven by rising oestrogen. A study on the <a href="https://pubmed.ncbi.nlm.nih.gov/25724738/" target="_blank" rel="noopener noreferrer">self-identification of the fertile window</a> found that observing any cervical mucus gave 100% sensitivity for the fertile window, though peak mucus specifically identified ovulation with 96% sensitivity, making it one of the most dependable single signs available without any device. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, which makes it easier to log a cervical mucus observation directly against where a woman actually is in her cycle rather than tracking it in isolation.</p>
+
+<h2>How Does Basal Body Temperature Confirm Ovulation?</h2>
+<p>Basal body temperature (BBT) rises by roughly 0.3 to 0.5°C after ovulation, driven by progesterone, and stays elevated until the next period unless pregnancy occurs. A 2024 study comparing <a href="https://pubmed.ncbi.nlm.nih.gov/38705979/" target="_blank" rel="noopener noreferrer">cervical mucus electrical impedance to basal body temperature</a> found that BBT confirms ovulation only after it has already happened, since the temperature shift lags a day or two behind the actual release of the egg. This makes BBT most useful for confirming a pattern across several cycles rather than predicting a single fertile day in real time, a distinction covered further in the guide to <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>What Does a Positive OPK Result Actually Mean?</h2>
+<p>A positive ovulation predictor kit (OPK) detects the surge in luteinising hormone (LH) that triggers ovulation, typically 24 to 36 hours before the egg is released. A 2024 study evaluating <a href="https://pubmed.ncbi.nlm.nih.gov/39326629/" target="_blank" rel="noopener noreferrer">five commercially available OPKs</a> against blood LH testing found surge-detection accuracy ranging from 91.75% to 96.90% across kits, with sensitivity varying more widely between brands. This variation is one reason a woman asking how fertility apps predict ovulation day often gets a more reliable answer by combining an OPK with a second sign, such as cervical mucus or BBT, rather than trusting a single test result alone.</p>
+
+<h2>Can You Actually Feel Ovulation Pain?</h2>
+<p>Mittelschmerz, the German term for "middle pain," is a real and well documented mid-cycle sensation felt on one side of the lower abdomen as a follicle ruptures to release an egg. According to <a href="https://www.ncbi.nlm.nih.gov/books/NBK549822/" target="_blank" rel="noopener noreferrer">StatPearls</a>, published by the NCBI Bookshelf, prevalence estimates vary widely across studies, from roughly 20% to over 40% of women of reproductive age, largely because pain is defined and self-reported differently between studies. Women who track cycle symptoms alongside sleep and mood data often notice mittelschmerz, breast tenderness, or a shift in libido appearing a day or two before a confirmed BBT rise, turning an isolated ache into a recognisable pre-ovulatory pattern rather than a one-off sensation, which is a practical answer to how do you know when you're ovulating without a test.</p>
+
+<h2>Do Libido and Cervix Position Really Change During Ovulation?</h2>
+<p>Both increased libido and physical cervix changes are well established, if less commonly tracked, signs of ovulation. Rising oestrogen and a brief testosterone spike around ovulation are linked to heightened sexual desire in many women, while the cervix itself becomes higher, softer, and more open to facilitate sperm passage, a change some women learn to check manually as part of a fuller fertility awareness method. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> gives a practical way to compare these softer, harder to measure signs against harder data like BBT and OPK results over multiple cycles, which helps clarify whether subjective symptoms like libido or breast tenderness actually line up with a woman's confirmed fertile window or whether they are cycle noise.</p>
+
+<h2>How Many Signs Should You Track to Confirm Ovulation?</h2>
+<p>No single sign confirms ovulation with full confidence, which is why fertility awareness methods that combine multiple signs consistently outperform single sign tracking. Combining cervical mucus with BBT and OPK results, an approach sometimes called the symptothermal method, gives a substantially more accurate picture than any one method alone, and is especially useful for women asking when they are most fertile during their cycle rather than simply confirming that ovulation happened. For guidance on interpreting these signs against fertility goals directly, see the guide to <a href="/blog/when-am-i-most-fertile">when you are most fertile during your cycle</a>.</p>
+<p>The bottom line: cervical mucus and OPK results are the most useful for predicting the fertile window before it arrives, while BBT and mittelschmerz are more useful for confirming ovulation after it has happened.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/how-to-check-ovulation-on-your-phone">How Do You Check Ovulation on Your Phone?</a></li>
+  <li><a href="/blog/when-am-i-most-fertile">When Am I Most Fertile During My Cycle?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "period-tracking-app-made-by-a-woman",
+    title: "Which Period Tracking App Is Made by a Woman?",
+    excerpt: "Clue, founded by Danish entrepreneur Ida Tin in 2012, is the most widely used period tracking app founded by a woman. Natural Cycles, co-founded by physicist Elina Berglund, is another prominent woman-led fertility app built around an FDA-cleared algorithm.",
+    date: "July 27, 2026",
+    category: "Wellbeing",
+    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>Clue, founded by Danish entrepreneur Ida Tin in 2012, is the most widely used period tracking app founded by a woman, with more than 10 million users worldwide. Natural Cycles, a fertility awareness app and cycle tracker co-founded by physicist Elina Berglund in 2013, is another prominent woman-led option, built around an FDA-cleared algorithm rather than a simple calendar estimate.</p>
+<p>This article is based on public company records and verified reporting from Forbes and The Bureau of Investigative Journalism, alongside PubMed-indexed research on period app data privacy current as of July 2026.</p>
+
+<h2>Which Period Tracking Apps Were Founded by a Woman?</h2>
+<p>Two period and cycle tracking apps stand out for being founded or co-founded by a woman: Clue and Natural Cycles. Clue was built by Ida Tin, who launched the app in 2012 and later coined the term "femtech" to describe technology built around female biology. Natural Cycles was co-founded in 2013 by Elina Berglund, a particle physicist who had worked on the team that discovered the Higgs boson at CERN, alongside her husband Raoul Scherwitzl. Both apps sit in contrast to Flo, currently one of the most downloaded period trackers worldwide, which was founded by two brothers with no clinical or reproductive health background at the time of launch, a detail covered further in the guide to <a href="/blog/top-10-health-and-fitness-apps-for-women">the top health and fitness apps for women</a>.</p>
+
+<h2>Who Is Ida Tin and Why Did She Build Clue?</h2>
+<p>Ida Tin built Clue after growing frustrated with the side effects of her own hormonal birth control and finding no app that tracked cycles with real scientific rigour. According to <a href="https://www.forbes.com/sites/macaelamackenzie/2018/09/13/data-privacy-and-health-how-the-founder-of-clue-is-using-user-data-for-good/" target="_blank" rel="noopener noreferrer">Forbes</a>, Tin built Clue's early data practices around research partnerships with universities rather than advertising, a decision that has shaped how the company still handles user data today. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, a design approach that, like Clue's founding motivation, starts from a woman's lived cycle experience rather than a generic health calendar.</p>
+
+<h2>How Is Natural Cycles Different From Clue?</h2>
+<p>Natural Cycles functions as a certified method of contraception, not just a period tracker, using an algorithm that combines daily basal body temperature readings with cycle data to indicate fertile and non-fertile days. A <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">2025 Forbes feature</a> on the rise of hormone-free birth control confirmed the app remains an FDA-cleared algorithm-based contraceptive method classified as a medical device. This distinguishes it from calendar-based cycle trackers, and from apps that estimate rather than clinically indicate fertility, a difference explained further in the guide to <a href="/blog/how-do-fertility-apps-work">how fertility apps actually work</a>.</p>
+
+<h2>Does the Founder's Gender Affect a Period App's Privacy or Accuracy?</h2>
+<p>Founder gender alone does not guarantee a safer or more accurate app, but it has shaped which design and privacy failures have come to light over time. A 2025 lawsuit covered by <a href="https://www.thebureauinvestigates.com/stories/2025-09-03/meta-was-caught-eavesdropping-on-a-period-app-could-this-be-the-start-of-a-pushback-against-big-tech" target="_blank" rel="noopener noreferrer">The Bureau of Investigative Journalism</a> found that Meta had intercepted sensitive menstrual and reproductive health data from Flo through embedded third-party tracking software, despite the app's own privacy assurances, resulting in a jury ruling that Meta violated California's privacy law. Questions like which period app is safest for your data or is Flo actually private tend to matter more in practice than who built the app, though founder background often correlates with how seriously a company treats that question from the start. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> takes a different practical approach by keeping cycle, sleep, and nutrition guidance tied directly to the user's own logged data rather than monetising it through third-party advertising partnerships.</p>
+
+<h2>What Do Privacy Studies Actually Say About Period Tracking Apps?</h2>
+<p>Independent research on period app privacy paints a consistent picture of user unease. A 2025 qualitative study published in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12131320/" target="_blank" rel="noopener noreferrer">PMC</a>, interviewing 25 women aged 19 to 38 about their period tracking app habits, found that users felt powerless and uninformed about how to mitigate privacy risks despite expressing significant concern about data access by employers, insurers, and law enforcement. Women who compare an app's actual privacy policy against its marketing claims, rather than assuming a period tracker is safe by default, often notice a gap between the two that only becomes obvious on close reading. This is a large part of why the guide to <a href="/blog/is-a-period-tracking-app-100-percent-accurate">whether period tracking apps are 100% accurate</a> is worth reading alongside any privacy comparison, since accuracy and privacy are separate questions that get conflated in most app store reviews.</p>
+
+<h2>What Should You Actually Look for in a Period Tracking App?</h2>
+<p>Choosing a period tracking app on founder identity alone overlooks several factors that matter more day to day. The following checklist covers what is worth confirming before committing months of logged health data to any single app:</p>
+<ul>
+  <li>Who built the app and what motivated its founding</li>
+  <li>Whether the privacy policy names specific third parties data is shared with</li>
+  <li>Whether predictions come from a validated algorithm or a simple calendar average</li>
+  <li>Whether the app is free, subscription-based, or monetised through advertising</li>
+  <li>Whether the app links cycle data to other health signals like sleep, nutrition, or movement</li>
+</ul>
+<p>The bottom line: Clue and Natural Cycles are the clearest examples of period and fertility apps founded or co-founded by a woman, but privacy policy, algorithm quality, and data-sharing practices matter more for day-to-day trust than founder identity alone.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/is-a-period-tracking-app-100-percent-accurate">Is a Period Tracking App 100% Accurate?</a></li>
+  <li><a href="/blog/how-do-fertility-apps-work">How Do Fertility Apps Work?</a></li>
+  <li><a href="/blog/top-10-health-and-fitness-apps-for-women">What Are the Top 10 Health and Fitness Apps for Women?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-are-the-signs-of-high-cortisol-in-women",
+    trending: true,
+    title: "What Are the Signs of High Cortisol in Women?",
+    excerpt: "The real signs of high cortisol in women are disrupted sleep, fatigue, midsection weight gain, anxiety, and irregular cycles, not TikTok's cortisol face. Endocrinologists say true cortisol face is a rare sign of conditions like Cushing's syndrome, while everyday puffiness usually comes from poor sleep, alcohol, or sodium.",
+    date: "July 27, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>The real signs of chronically high cortisol in women are disrupted sleep, persistent fatigue, midsection weight gain, heightened anxiety, and irregular menstrual cycles, not the facial puffiness described in TikTok's viral "cortisol face" trend. Endocrinologists say true cortisol face is a rare clinical sign linked to conditions like Cushing's syndrome, while the puffiness most people notice day to day is far more often explained by poor sleep, alcohol, or sodium intake.</p>
+<p>This article is based on peer-reviewed research and guidance from the NHS, endocrinology reporting from the University of Colorado Department of Medicine, and PubMed-indexed studies current as of July 2026.</p>
+
+<h2>What Does Cortisol Actually Do in the Body?</h2>
+<p>Cortisol is a steroid hormone released by the adrenal glands under control of the hypothalamic-pituitary-adrenal (HPA) axis, the body's central stress-response system. It follows a natural daily rhythm, rising sharply within the first hour after waking and gradually declining through the day, and it also plays a central role in regulating blood sugar, blood pressure, inflammation, and metabolism, not only the acute stress response that earned it the nickname "stress hormone." Cortisol becomes a problem not because it exists, since a healthy cortisol rhythm is essential, but when it stays chronically elevated or loses its normal daily pattern.</p>
+
+<h2>What Are the Real Signs of Chronically High Cortisol in Women?</h2>
+<p>Chronically elevated cortisol produces a cluster of physical and cognitive symptoms that build gradually rather than appearing overnight. These are the signs most consistently linked to sustained high cortisol, rather than a single stressful day:</p>
+<ul>
+  <li>Disrupted or lighter sleep, particularly frequent early waking</li>
+  <li>Persistent fatigue that does not resolve with rest</li>
+  <li>Weight gain concentrated around the midsection</li>
+  <li>Heightened anxiety or a constant sense of being "on edge"</li>
+  <li>Irregular or delayed menstrual cycles</li>
+</ul>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, which makes it easier to notice when several of these signs, like poor sleep and cycle irregularity, are showing up together rather than being logged as separate, unrelated complaints.</p>
+
+<h2>Is TikTok's "Cortisol Face" Trend Actually Real?</h2>
+<p>"Cortisol face" describes a face that looks puffier, rounder, or more flushed than usual, and the term has driven a wave of patients requesting cortisol testing after seeing the trend online. According to <a href="https://news.cuanschutz.edu/department-of-medicine/cortisol-face" target="_blank" rel="noopener noreferrer">endocrinologists at the University of Colorado Department of Medicine</a>, "cortisol face" is not a recognised medical diagnosis, and the puffiness most people are seeing on social media is far more commonly caused by poor sleep, alcohol, high sodium intake, or allergies than by elevated cortisol itself. The genuine clinical sign, sometimes called moon face, is associated with <a href="https://www.nhs.uk/conditions/cushings-syndrome/" target="_blank" rel="noopener noreferrer">Cushing's syndrome</a>, a rare condition involving severe, sustained cortisol excess, according to the NHS, which is a very different picture from the ordinary stress most people experience.</p>
+
+<h2>How Does Cortisol Interact With Oestrogen and Progesterone?</h2>
+<p>Cortisol does not operate independently of reproductive hormones, and the two systems influence each other throughout the menstrual cycle. A meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/32582024/" target="_blank" rel="noopener noreferrer">Psychoneuroendocrinology</a> found significantly higher circulating cortisol in the luteal phase compared with the follicular phase, coinciding with the period when progesterone is also at its highest. A separate systematic review and meta-analysis of <a href="https://pubmed.ncbi.nlm.nih.gov/35597328/" target="_blank" rel="noopener noreferrer">HPA axis activity across the menstrual cycle</a> confirmed that both basal cortisol levels and the HPA axis's reactivity to stress shift across cycle phases, meaning the same stressor can produce a measurably different cortisol response depending on where a woman is in her cycle. This is closely related to the mechanism explained in the guide to <a href="/blog/does-stress-really-delay-your-period">whether stress really delays your period</a>, since sustained cortisol elevation is what interferes with the hormone pulses that trigger ovulation on schedule. Women who track their cycle phase alongside sleep and training data often notice the connection between late-luteal fatigue and reduced recovery capacity before it would otherwise register as a clear pattern.</p>
+
+<h2>Can You Track Rising Cortisol Before It Becomes a Problem?</h2>
+<p>Several consumer tools now offer some visibility into cortisol-related patterns before they escalate into the signs listed above. Wearable devices that track heart rate variability (HRV) and sleep quality can flag early signs of sustained physiological stress, since <a href="https://pubmed.ncbi.nlm.nih.gov/32853053/" target="_blank" rel="noopener noreferrer">research on the cortisol awakening response in sportswomen</a> found a measurable relationship between cortisol secretion patterns and HRV across the menstrual cycle. At-home saliva cortisol tests have also become more accessible for people who want a direct biochemical reading rather than an indirect proxy. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> takes a complementary approach by surfacing declining sleep quality or a drop in daily energy as an early pattern worth addressing, tied to the user's actual cycle phase, rather than waiting for a missed period or a training slump to make the connection obvious.</p>
+
+<h2>What Actually Helps Lower Chronically High Cortisol?</h2>
+<p>Addressing the physiological drivers of sustained cortisol elevation is more effective than trying to manage stress through willpower alone. Adequate sleep is the single most consistent lever, since cortisol and sleep quality reinforce each other in both directions, a relationship explored further in the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>. Cycle-matched movement also matters: high-intensity training during the late luteal phase, when cortisol already tends to run higher, can compound rather than relieve the load, while gentler movement supports recovery instead. Nutrition plays a supporting role as well, and the guide to <a href="/blog/what-foods-help-balance-hormones-naturally">what foods help balance hormones naturally</a> covers dietary patterns linked to lower inflammatory and stress markers.</p>
+<p>The bottom line: chronically high cortisol shows up as disrupted sleep, fatigue, midsection weight changes, anxiety, and irregular cycles, not facial puffiness, and it responds best to consistent sleep, cycle-aware movement, and adequate nutrition rather than any single quick fix.</p>
+
+<h2>When Should You See a Doctor About High Cortisol?</h2>
+<p>Persistent symptoms that do not improve with better sleep, reduced training load, and stress management are worth raising with a GP, particularly when they include rapid or unexplained weight gain, purple stretch marks, muscle weakness, or a menstrual cycle that has stopped entirely rather than simply become irregular. These specific signs are more consistent with a genuine cortisol-related medical condition than with everyday stress, and a doctor can order blood or saliva cortisol testing to confirm what is actually happening rather than guessing from symptoms alone.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/does-stress-really-delay-your-period">Does Stress Really Delay Your Period?</a></li>
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
   <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
 </ul>
