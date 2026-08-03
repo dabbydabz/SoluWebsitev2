@@ -1663,7 +1663,7 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
     excerpt: "Being fertile 2 to 3 days before your period is unlikely, since ovulation usually happens 12 to 16 days earlier, not right before it. Irregular cycles and a short luteal phase can shift the timing enough to cause real confusion.",
     date: "August 3, 2026",
     category: "Fertility",
-    image: "https://images.unsplash.com/photo-1584982751601?w=800&q=85",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
     readTime: "7 min read",
     content: `
 <p>Being fertile 2 to 3 days before your period is biologically unlikely for most women, since ovulation typically occurs 12 to 16 days before the next period starts, not immediately beforehand. Confusion usually comes from irregular cycles, a naturally short luteal phase, or simply mistiming when ovulation happened that month, all of which can shift the fertile window away from where a calendar app assumes it falls.</p>
@@ -1705,7 +1705,7 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
     excerpt: "Period tracking apps range from about 72% to 88% accurate, depending on the tracking method rather than the brand. Wearable-based apps outperform calendar-only predictions, especially for irregular cycles.",
     date: "August 3, 2026",
     category: "Fertility",
-    image: "https://images.unsplash.com/photo-1607619056574?w=800&q=85",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
     readTime: "7 min read",
     content: `
 <p>Period tracking apps range widely in accuracy, from about 72% for calendar-only predictions on irregular cycles to 88% for apps that combine wearable data like temperature and heart rate. The single biggest factor is not the app brand but whether its underlying method accounts for a woman's actual cycle regularity, rather than assuming a fixed 28-day pattern for every user.</p>
@@ -1748,7 +1748,7 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
     excerpt: "Libido changes throughout the menstrual cycle because oestrogen and testosterone rise before ovulation, then progesterone rises and suppresses desire. Desire typically peaks near ovulation and dips before a period starts.",
     date: "August 3, 2026",
     category: "Hormonal Health",
-    image: "https://images.unsplash.com/photo-1521737711867?w=800&q=85",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
     readTime: "7 min read",
     content: `
 <p>Libido changes throughout the menstrual cycle because oestrogen and testosterone rise in the days leading up to ovulation and heighten sexual desire, while progesterone rises afterward and suppresses it. Desire typically peaks in the fertile window just before ovulation and dips in the late luteal phase, in the days before a period starts.</p>
