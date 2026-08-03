@@ -1609,7 +1609,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "what-are-the-signs-of-high-cortisol-in-women",
-    trending: true,
     title: "What Are the Signs of High Cortisol in Women?",
     excerpt: "The real signs of high cortisol in women are disrupted sleep, fatigue, midsection weight gain, anxiety, and irregular cycles, not TikTok's cortisol face. Endocrinologists say true cortisol face is a rare sign of conditions like Cushing's syndrome, while everyday puffiness usually comes from poor sleep, alcohol, or sodium.",
     date: "July 27, 2026",
@@ -1655,6 +1654,132 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/does-stress-really-delay-your-period">Does Stress Really Delay Your Period?</a></li>
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
   <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "am-i-fertile-before-my-period",
+    title: "Am I Fertile 2 to 3 Days Before My Period?",
+    excerpt: "Being fertile 2 to 3 days before your period is unlikely, since ovulation usually happens 12 to 16 days earlier, not right before it. Irregular cycles and a short luteal phase can shift the timing enough to cause real confusion.",
+    date: "August 3, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1584982751601?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Being fertile 2 to 3 days before your period is biologically unlikely for most women, since ovulation typically occurs 12 to 16 days before the next period starts, not immediately beforehand. Confusion usually comes from irregular cycles, a naturally short luteal phase, or simply mistiming when ovulation happened that month, all of which can shift the fertile window away from where a calendar app assumes it falls.</p>
+
+<h2>What Does "Fertile 2 to 3 Days Before Your Period" Actually Mean?</h2>
+<p>This article draws on peer-reviewed research published in the New England Journal of Medicine and Human Reproduction, along with NHS fertility guidance current as of August 2026. In a typical monthly cycle, the phrase describes a mismatch: a woman believes she is fertile in the days right before her period, when the fertile window is actually defined by ovulation, not by the start of menstruation. A landmark study on <a href="https://pubmed.ncbi.nlm.nih.gov/7477165/" target="_blank" rel="noopener noreferrer">timing of intercourse in relation to ovulation</a>, published in the New England Journal of Medicine, tracked 625 cycles and found that pregnancy only occurred within a six-day window ending on the day of ovulation itself, with conception odds falling to nearly zero more than a day or two afterward. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> addresses this gap by building each woman's fertile-window estimate from her own logged temperature, cervical mucus, and ovulation predictor kit (OPK) results, rather than a generic 28-day template, which is usually where the "fertile right before my period" confusion starts in the first place.</p>
+
+<h2>When Does Ovulation Actually Happen Relative to Your Period?</h2>
+<p>Ovulation occurs roughly two weeks before the next period in a standard cycle, not two to three days before it. The gap between ovulation and the next period is called the luteal phase, and a 2024 study in Human Reproduction (PMID: 39320898) followed 53 healthy women for a full year and found this phase is far less fixed than the textbook 13 to 14 days: about 26% of cycles had a luteal phase shorter than 10 days, even in women with otherwise regular, normal-length monthly cycles. A short luteal phase compresses the gap between ovulation and the period, which can make a woman feel fertile closer to her period than the standard timeline suggests, a pattern covered in the broader guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>.</p>
+
+<h2>Why Do Some Women Feel Fertile Right Before Their Period?</h2>
+<p>A short luteal phase, an unusually long cycle, or ovulating later than expected in a given month are the three most common reasons the fertile window can appear to sit closer to a period than the standard 12 to 16 day gap suggests. Because <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> calculates luteal phase length from a woman's own logged ovulation and period start dates across several cycles, it can flag a persistently short luteal phase as a pattern worth raising with a doctor, rather than leaving that anomaly buried inside raw calendar data. Women who track basal body temperature (BBT) alongside cycle length sometimes discover that their assumed day-14-ovulation pattern does not match their actual luteal phase at all, which explains why a fertile window calculated from a generic calendar app rarely lines up with what their body is actually doing. This is also why questions like "can you get pregnant right before your period" and "why do I feel fertile late in my cycle" keep surfacing in fertility forums: the standard 28-day assumption simply does not describe every woman's monthly cycle.</p>
+
+<h2>How Do You Find Your Real Fertile Window?</h2>
+<p>Identifying an individual fertile window requires tracking a marker of ovulation directly, rather than counting days from the start of a period. The <a href="https://www.nhs.uk/conditions/getting-pregnant/trying-to-get-pregnant/" target="_blank" rel="noopener noreferrer">NHS guidance on trying to get pregnant</a> recommends combining several of the following approaches for the most reliable picture:</p>
+<ul>
+  <li>Track basal body temperature (BBT) daily upon waking to detect the small rise that follows ovulation</li>
+  <li>Monitor cervical mucus for the clear, stretchy, egg-white texture that signals peak fertility</li>
+  <li>Use an ovulation predictor kit (OPK) to catch the LH surge 24 to 36 hours before ovulation</li>
+  <li>Log 3 to 6 full cycles to establish a personal luteal phase length instead of assuming 14 days</li>
+  <li>See a doctor if the luteal phase is consistently shorter than 10 days, since this can affect fertility</li>
+</ul>
+<p>For a full walkthrough of using a smartphone for this kind of tracking, see the guide to <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>What Should You Do If Your Cycle Does Not Match the Textbook Pattern?</h2>
+<p>A monthly cycle that does not fit the standard 28-day, day-14-ovulation model is common rather than abnormal, and the research above suggests it may be closer to the norm than the exception. Mayo Clinic's overview of the <a href="https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menstrual-cycle/art-20047186" target="_blank" rel="noopener noreferrer">menstrual cycle</a> notes that cycle length and phase duration vary meaningfully between women, and even between cycles for the same woman. Rather than relying on a fixed rule about how many days before a period fertility ends, tracking an actual ovulation signal over several months gives a far more reliable answer than counting backward from an assumed period date, an idea explored further in the companion piece on <a href="/blog/how-accurate-are-period-tracking-apps">how accurate period tracking apps really are</a>. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> supports this by keeping BBT, mucus, and OPK entries alongside period start dates in one place, so the pattern becomes visible across cycles instead of being re-guessed every month.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/when-am-i-most-fertile">When Am I Most Fertile During My Cycle?</a></li>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/how-accurate-are-period-tracking-apps">How Accurate Are Period Tracking Apps?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-accurate-are-period-tracking-apps",
+    title: "How Accurate Are Period Tracking Apps?",
+    excerpt: "Period tracking apps range from about 72% to 88% accurate, depending on the tracking method rather than the brand. Wearable-based apps outperform calendar-only predictions, especially for irregular cycles.",
+    date: "August 3, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1607619056574?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Period tracking apps range widely in accuracy, from about 72% for calendar-only predictions on irregular cycles to 88% for apps that combine wearable data like temperature and heart rate. The single biggest factor is not the app brand but whether its underlying method accounts for a woman's actual cycle regularity, rather than assuming a fixed 28-day pattern for every user.</p>
+
+<h2>How Accurate Are Period Tracking Apps, Really?</h2>
+<p>This article is based on a 2026 systematic review in NPJ Digital Medicine, a 2025 wearable ovulation study, and peer-reviewed research current as of August 2026. A <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12886881/" target="_blank" rel="noopener noreferrer">systematic review and Bayesian network meta-analysis</a> (PMID: 41580499) covering 27 studies and more than 6,000 cycles found wearable digital technology reached a pooled accuracy of 0.88 for detecting the fertility window, compared with 0.72 for calendar-based methods and 0.75 for self-reported basal body temperature (BBT) tracking alone, numbers that matter regardless of which specific cycle tracker or fertility app a woman uses. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> builds its fertile-window estimate from a woman's own logged BBT, OPK results, and cycle history, rather than defaulting every account to the same 28-day, day-14-ovulation assumption that many calendar-only apps still rely on.</p>
+
+<h2>What Makes One Period App More Accurate Than Another?</h2>
+<p>The prediction method behind a cycle tracking app matters far more than its interface or popularity. An older but still widely cited study on period tracker applications published in Women's Health (PMID: 34629005) tested ten popular apps against simulated user profiles and found only 8% of ovulation-day predictions were exactly correct, with 67% landing two to nine days early. Apps relying purely on calendar math tend to assume a standard cycle, while apps that ingest a real physiological signal, such as temperature, heart rate, or an LH surge, can adjust their prediction to what is actually happening in a given cycle rather than what is statistically average. This distinction is covered from a different angle in the guide to <a href="/blog/is-a-period-tracking-app-100-percent-accurate">whether a period tracking app is 100% accurate</a>, which looks at overall reliability rather than the specific factors driving the gap between methods.</p>
+
+<h2>Does Cycle Regularity Change How Accurate an App Is?</h2>
+<p>Cycle regularity has a measurable effect on prediction accuracy, and the gap widens significantly for women whose cycles vary month to month. A 2025 study presented at the <a href="https://pubmed.ncbi.nlm.nih.gov/41336207/" target="_blank" rel="noopener noreferrer">IEEE Engineering in Medicine and Biology Society conference</a> (PMID: 41336207) combined heart rate variability and temperature data through a machine-learning model and achieved an AUROC of 0.84 in women with highly irregular cycles and 0.88 in an undefined group, substantially outperforming calendar-based prediction for the same participants. When a woman's cycle length shifts from month to month, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> widens or narrows its predicted fertile window based on her own recorded variability, instead of applying one static formula to a highly irregular cycle and a textbook-regular one alike. This addresses a common question, "why is my period tracker always wrong," which usually traces back to cycle irregularity the app was never designed to account for.</p>
+
+<h2>Calendar Apps vs. Wearables vs. Hormone Tests: Which Is Most Accurate?</h2>
+<p>Comparing tracking methods side by side makes the accuracy gap easier to see than any single statistic on its own. Based on the research cited above, rough accuracy ranges by method include:</p>
+<ul>
+  <li>Calendar-only predictions: around 72% accuracy, noticeably worse on irregular cycles</li>
+  <li>Self-reported basal body temperature alone: around 75% accuracy</li>
+  <li>Wearable devices combining temperature and heart rate: around 88% pooled accuracy</li>
+  <li>Machine-learning models trained on wearable data for irregular cycles: AUROC up to 0.88</li>
+  <li>Electronic LH (ovulation predictor kit) testing: broadly comparable accuracy to top wearables</li>
+</ul>
+<p>None of these methods reach 100%, which is also explored in the companion article on <a href="/blog/am-i-fertile-before-my-period">whether you can be fertile 2 to 3 days before your period</a>, since even a highly accurate method still reports a window rather than a single guaranteed day.</p>
+
+<h2>How Can You Get More Reliable Predictions From Any App?</h2>
+<p>Improving the accuracy of any period or fertility tracker mostly comes down to feeding it better data rather than switching apps repeatedly. Women who log a direct ovulation signal, such as BBT or OPK results, alongside period start dates for at least three cycles tend to see meaningfully tighter fertile-window predictions than those who rely on calendar entries alone. This also applies to whether a period app can be trusted for contraception: the research above suggests calendar-only methods should not be relied on as birth control, since the underlying prediction accuracy is not high enough to guarantee safety. For step-by-step tracking guidance, see the article on <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/is-a-period-tracking-app-100-percent-accurate">Is a Period Tracking App 100% Accurate?</a></li>
+  <li><a href="/blog/am-i-fertile-before-my-period">Am I Fertile 2 to 3 Days Before My Period?</a></li>
+  <li><a href="/blog/how-to-check-ovulation-on-your-phone">How Do You Check Ovulation on Your Phone?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "why-does-my-libido-change-throughout-my-cycle",
+    trending: true,
+    title: "Why Does My Libido Change Throughout My Cycle?",
+    excerpt: "Libido changes throughout the menstrual cycle because oestrogen and testosterone rise before ovulation, then progesterone rises and suppresses desire. Desire typically peaks near ovulation and dips before a period starts.",
+    date: "August 3, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1521737711867?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Libido changes throughout the menstrual cycle because oestrogen and testosterone rise in the days leading up to ovulation and heighten sexual desire, while progesterone rises afterward and suppresses it. Desire typically peaks in the fertile window just before ovulation and dips in the late luteal phase, in the days before a period starts.</p>
+
+<h2>Why Does Libido Change Throughout the Menstrual Cycle?</h2>
+<p>This article is based on peer-reviewed research published in Hormones and Behavior and the Journal of Sex Research, alongside NHS guidance on the menstrual cycle current as of August 2026. A study on <a href="https://pubmed.ncbi.nlm.nih.gov/23601091/" target="_blank" rel="noopener noreferrer">hormonal predictors of sexual motivation</a> (PMID: 23601091) tracked daily saliva hormone levels and diary reports across natural monthly cycles and found that oestrogen consistently predicted higher sexual desire and behavior, while progesterone was a consistent negative predictor, explaining much of the fall in desire from mid-cycle into the luteal phase. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> connects logged mood and desire entries to the hormone pattern typical of a woman's current cycle phase, which can help clarify whether a dip in interest lines up with the expected luteal-phase progesterone rise rather than feeling like an unexplained shift in mood or attraction.</p>
+
+<h2>Which Hormones Drive Changes in Sexual Desire?</h2>
+<p>Three hormones account for most of the shift in libido across a typical cycle: oestrogen, progesterone, and, to a lesser extent, testosterone. Oestrogen rises steadily through the follicular phase and peaks just before ovulation, and research consistently links this rise to increased sexual interest, confidence, and, for some women, more attention to appearance. Progesterone rises sharply after ovulation during the luteal phase and has a well-documented suppressive effect on desire, part of the same hormonal shift explored in the guide to <a href="/blog/why-do-i-feel-more-anxious-before-my-period">why anxiety often increases before a period</a>. Testosterone, though present in much smaller amounts in women than in men, spikes briefly around ovulation, but the same 2013 study found it did not independently predict sexual motivation once oestrogen and progesterone were accounted for.</p>
+
+<h2>When in Your Cycle Is Libido Usually Highest?</h2>
+<p>Sexual desire is typically highest in the days immediately surrounding ovulation, when oestrogen is at its peak and conception is biologically possible. A 2022 study in the <a href="https://www.tandfonline.com/doi/full/10.1080/00224499.2022.2110558" target="_blank" rel="noopener noreferrer">Journal of Sex Research</a> measured oestrogen and progesterone in 97 women across peri-ovulatory and luteal testing sessions and found a significant difference in sexual desire and activity frequency between the two phases, with within-subject oestrogen positively, and progesterone negatively, predicting desire. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> compares a low-libido week against a woman's own ovulation and period history rather than treating it as an isolated data point, so a pattern of peaks and dips becomes visible across several cycles instead of one. This is the same mechanism behind the phase-by-phase changes covered in the guide to <a href="/blog/understanding-your-four-cycle-phases">understanding your four cycle phases</a>.</p>
+
+<h2>What Are Other Signs Linked to the Same Hormonal Shifts?</h2>
+<p>The hormones that drive libido changes also influence several other symptoms women notice at the same points in their cycle. A quick phase-by-phase breakdown of how desire typically tracks:</p>
+<ul>
+  <li>Menstrual phase: desire is often lowest, alongside low oestrogen and progesterone</li>
+  <li>Follicular phase: desire begins rising as oestrogen climbs toward ovulation</li>
+  <li>Ovulatory phase: desire typically peaks alongside the oestrogen and LH surge</li>
+  <li>Luteal phase: desire declines as progesterone rises, dropping further in the late luteal phase</li>
+</ul>
+<p>Women who track energy, mood, and desire alongside cycle phase often notice their motivation to initiate intimacy tracks more closely with rising oestrogen near ovulation than with any particular day of the week or external circumstance. This overlaps with common questions like "why is my sex drive so low before my period" and "can hormones explain low libido," both of which point to the same luteal-phase progesterone rise rather than a psychological cause alone.</p>
+
+<h2>Is a Change in Libido Ever a Sign Something Is Wrong?</h2>
+<p>Cyclical changes in desire are expected and generally not a cause for concern on their own, but a persistent, unexplained drop in libido across most or all of the cycle can sometimes point to an underlying hormonal imbalance. NHS guidance on the menstrual cycle notes that conditions affecting oestrogen or thyroid hormone levels can flatten the usual mid-cycle rise in desire, which is worth discussing with a doctor if it persists for several months. For a broader look at what a flattened hormonal pattern can indicate, see the guide to <a href="/blog/is-there-an-app-for-hormonal-imbalance">whether there is an app for hormonal imbalance</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/understanding-your-four-cycle-phases">Understanding Your Four Cycle Phases</a></li>
+  <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
+  <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
 </ul>
     `.trim(),
   },
