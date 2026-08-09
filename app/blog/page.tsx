@@ -18,11 +18,13 @@ export const metadata = {
     siteName: "Solu",
     type: "website",
     locale: "en_US",
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
     description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    images: ["https://www.solu.ae/opengraph-image"],
   },
 }
 
