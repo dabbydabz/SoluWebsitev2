@@ -14,11 +14,13 @@ export const metadata = {
     siteName: "Solu",
     type: "website",
     locale: "en_US",
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Our Story — Solu",
     description: "How Solu began, and why we're building a new kind of wellness for women.",
+    images: ["https://www.solu.ae/opengraph-image"],
   },
 }
 

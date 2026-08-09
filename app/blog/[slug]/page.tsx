@@ -72,7 +72,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     "@type": "Article",
     "headline": post.title,
     "description": post.excerpt,
-    "image": post.image || "https://www.solu.ae/icon.svg",
+    "image": post.image || "https://www.solu.ae/icon.png",
     "datePublished": toISODate(post.date),
     "dateModified": toISODate(post.date),
     "author": {
@@ -87,7 +87,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       "url": "https://www.solu.ae",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.solu.ae/icon.svg",
+        "url": "https://www.solu.ae/icon.png",
       },
     },
     "mainEntityOfPage": {

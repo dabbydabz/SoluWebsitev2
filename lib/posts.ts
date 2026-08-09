@@ -30,7 +30,7 @@ export const posts: Post[] = [
 
 <h2>Phase 2: Follicular (Days 6 to 13)</h2>
 <p>As oestrogen begins to rise, so does everything else. Energy increases, mood lifts, and your brain becomes sharper. This is your most creative and socially confident phase. You will likely find it easier to start new projects, take on challenges, and feel genuinely enthusiastic about things you may have found draining just a week earlier.</p>
-<p>Your body is also priming itself for ovulation, which means muscle recovery and physical performance improve significantly. Research published in the <a href="https://pubmed.ncbi.nlm.nih.gov/31617359/" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> found that oestrogen promotes fat oxidation and supports faster muscle recovery during exercise, making the follicular phase the strongest window for high-intensity training and pushing personal bests. For a full breakdown of phase-specific exercise recommendations, see our guide to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>.</p>
+<p>Your body is also priming itself for ovulation, which means muscle recovery and physical performance improve significantly. Research published in the <a href="https://pubmed.ncbi.nlm.nih.gov/31617359/" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> found that oestrogen promotes fat oxidation and supports faster muscle recovery during exercise, making the follicular phase the strongest window for high-intensity training and pushing personal bests. For a full breakdown of phase-specific exercise recommendations, see the guide to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>.</p>
 
 <h2>Phase 3: Ovulatory (Days 14 to 16)</h2>
 <p>Oestrogen peaks and testosterone briefly spikes alongside it. This is your highest-energy, most expressive phase. Communication feels easier, confidence is at its highest, and physically you are at peak strength. Many women find this the best time for important conversations, presentations, or competitions.</p>
@@ -38,11 +38,11 @@ export const posts: Post[] = [
 
 <h2>Phase 4: Luteal (Days 17 to 28)</h2>
 <p>After ovulation, progesterone rises to prepare the body for a potential pregnancy. If pregnancy does not occur, both hormones drop sharply, triggering your next period. The luteal phase is the longest and the most misunderstood.</p>
-<p>In the early luteal phase, energy and performance remain strong. As you move into the late luteal phase, you may notice heightened sensitivity, a preference for familiar comfort over novelty, and a genuine need for more rest. PMS symptoms, when they occur, are concentrated here, and sleep quality reliably declines as progesterone and oestrogen both fall. These are not personality traits. They are hormonal responses that can be supported through the right nutrition, movement, and sleep habits. Our article on <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a> explains why the late luteal phase is consistently the hardest window for rest.</p>
+<p>In the early luteal phase, energy and performance remain strong. As you move into the late luteal phase, you may notice heightened sensitivity, a preference for familiar comfort over novelty, and a genuine need for more rest. PMS symptoms, when they occur, are concentrated here, and sleep quality reliably declines as progesterone and oestrogen both fall. These are not personality traits. They are hormonal responses that can be supported through the right nutrition, movement, and sleep habits. The article on <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a> explains why the late luteal phase is consistently the hardest window for rest.</p>
 
 <h2>Why Tracking Your Phases Changes Everything</h2>
 <p>Most wellness advice treats women as though their hormones are static. They are not. What works brilliantly in your follicular phase may drain you in the late luteal phase, and that discrepancy is not a motivation problem.</p>
-<p>Tracking where you are in your cycle takes the guesswork out of understanding yourself. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps your daily habits across movement, nutrition, sleep, and energy to your current cycle phase automatically, so the guidance you receive each day actually reflects where your body is that week rather than a generic plan designed for someone else. Cycle-synced nutrition, for example, means choosing foods suited to each hormonal phase rather than following one flat approach all month. You can read more on this in our guide to <a href="/blog/eating-for-your-cycle">what to eat during each phase of your cycle</a>.</p>
+<p>Tracking where you are in your cycle takes the guesswork out of understanding yourself. The app <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> reads a user's logged cycle data and turns it into daily movement, nutrition, sleep, and energy suggestions matched to that specific phase, rather than a generic plan built for an average 28-day cycle that may not match hers. Cycle-synced nutrition, for example, means choosing foods suited to each hormonal phase rather than following one flat approach all month, a topic covered in more depth in the guide to <a href="/blog/eating-for-your-cycle">what to eat during each phase of your cycle</a>.</p>
 <p>The more clearly you understand your cycle, the more agency you have over how you respond to it. When daily guidance from an app like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is tied directly to your phase, that understanding translates into consistent, practical action rather than general advice you have to recall and apply yourself.</p>
 
 <h2>Related Reading</h2>
@@ -150,25 +150,23 @@ export const posts: Post[] = [
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
     readTime: "6 min read",
     content: `
-<p>The health tracker market has expanded rapidly, but most devices and apps were designed around male physiology and average daily metrics. For women, whose hormone levels shift dramatically across a 28 to 35 day cycle, a tracker that ignores this context will always give you an incomplete picture.</p>
-
-<p>So which health tracker is actually best for women? The answer depends on what you are trying to understand about your body.</p>
+<p>The best health tracker for women is one that tracks the menstrual cycle alongside other health metrics and translates that data into daily guidance, rather than treating hormones as an afterthought to step counts. Which option fits best depends on whether the goal is fertility awareness, granular biometric data, or an integrated system that adjusts daily recommendations to the current cycle phase.</p>
 
 <h2>What Should a Women's Health Tracker Actually Do?</h2>
-<p>A genuinely useful health tracker for women should go beyond step counts and calorie estimates. At minimum, it should track your menstrual cycle alongside other health metrics, recognise that energy levels, sleep quality, and workout capacity all shift with your hormones, and give you actionable guidance rather than just raw data.</p>
-<p>The most common categories of health trackers for women include wearable devices (like <a href="https://www.garmin.com/en-US/c/sports-fitness/health/" target="_blank" rel="noopener noreferrer">Garmin</a>, <a href="https://www.fitbit.com" target="_blank" rel="noopener noreferrer">Fitbit</a>, and <a href="https://www.apple.com/apple-watch/" target="_blank" rel="noopener noreferrer">Apple Watch</a>), dedicated cycle tracking apps (like <a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a> and <a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a>), and integrated lifestyle apps that connect cycle data to nutrition, movement, and sleep recommendations.</p>
+<p>A genuinely useful health tracker for women should go beyond step counts and calorie estimates. At minimum, it should track the menstrual cycle alongside other health metrics, account for the fact that energy levels, sleep quality, and workout capacity shift as hormones do across a cycle that normally runs 21 to 35 days according to the <a href="https://www.nichd.nih.gov/health/topics/menstruation/conditioninfo/irregularities" target="_blank" rel="noopener noreferrer">National Institute of Child Health and Human Development</a>, and give actionable guidance rather than raw data alone.</p>
+<p>The most common categories of health trackers for women include wearable devices (like <a href="https://www.garmin.com/en-US/c/sports-fitness/health/" target="_blank" rel="noopener noreferrer">Garmin</a>, <a href="https://www.fitbit.com" target="_blank" rel="noopener noreferrer">Fitbit</a>, and <a href="https://www.apple.com/apple-watch/" target="_blank" rel="noopener noreferrer">Apple Watch</a>), dedicated cycle tracking apps (like <a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a> and <a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a>), and integrated lifestyle apps that connect cycle data to nutrition, movement, and sleep recommendations. For a closer look at how accuracy varies within that last category, see the guide on <a href="/blog/which-health-app-is-most-accurate-for-women">which health app is most accurate for women</a>.</p>
 
 <h2>Wearable Devices: Useful but Limited</h2>
 <p>Wearables are excellent for tracking heart rate, sleep stages, and movement. Devices like the <a href="https://ouraring.com" target="_blank" rel="noopener noreferrer">Oura Ring</a> and <a href="https://www.apple.com/apple-watch/" target="_blank" rel="noopener noreferrer">Apple Watch</a> have added cycle tracking features in recent years, and the data they collect is valuable. However, most wearables present cycle data separately from other health metrics rather than integrating the two. You might know you slept poorly and that you are in your luteal phase, but the device rarely tells you that these two facts are connected.</p>
 <p>For women who want to understand the relationship between their cycle and their daily health, wearables alone typically fall short.</p>
 
 <h2>Dedicated Cycle Tracking Apps</h2>
-<p>Apps like <a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a>, <a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a>, and <a href="https://www.oviahealth.com" target="_blank" rel="noopener noreferrer">Ovia</a> focus specifically on menstrual cycle tracking. They are generally accurate for predicting periods and fertile windows, particularly after a few months of data. <a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a> is the only app currently certified as a contraceptive in several markets, which reflects its clinical accuracy for ovulation prediction.</p>
+<p>Apps like <a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a>, <a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a>, and <a href="https://www.oviahealth.com" target="_blank" rel="noopener noreferrer">Ovia</a> focus specifically on menstrual cycle tracking. They are generally accurate for predicting periods and fertile windows, particularly after a few months of data. In August 2018, the U.S. Food and Drug Administration cleared Natural Cycles for marketing as a Class II contraceptive device, making it, as documented on its <a href="https://en.wikipedia.org/wiki/Natural_Cycles" target="_blank" rel="noopener noreferrer">regulatory history page</a>, the only digital form of birth control cleared for sale in the United States, a level of clinically validated accuracy for ovulation prediction that most cycle apps do not carry.</p>
 <p>The limitation here is that cycle tracking apps tend to stop at the cycle itself. They tell you where you are in your month but do not tell you how to adjust your workout, what to eat, or how to support your sleep based on that phase.</p>
 
 <h2>Integrated Lifestyle Apps: The Most Comprehensive Option</h2>
-<p>The most useful category for many women is the integrated lifestyle app, which connects cycle phase data to daily recommendations across multiple health pillars. Apps in this space, including <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>, map your hormonal phase to guidance on movement, nutrition, sleep, and energy management simultaneously.</p>
-<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> stands out in this category for the depth of its cycle integration. Rather than simply noting that you are in your luteal phase, it surfaces specific guidance for that day: which types of exercise will suit your recovery capacity, which nutrients your body is particularly responsive to right now, and what sleep habits will be most effective during this hormonal window. Independent reviews consistently note that the actionability of its guidance sets it apart from apps that display cycle data without context.</p>
+<p>The most useful category for many women is the integrated lifestyle app, which connects cycle phase data to daily recommendations across multiple health pillars at once rather than reporting cycle data in isolation. Apps in this space, including <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>, log where a user is in her cycle and translate that into same-day guidance across movement, nutrition, sleep, and energy.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> stands out in this category for the depth of its cycle integration. Rather than simply noting that the user is in the luteal phase, it surfaces specific guidance for that day: which types of exercise suit her current recovery capacity, which nutrients her body is particularly responsive to right now, and what sleep habits will be most effective during this hormonal window, drawing on the phase breakdown covered in the guide to the <a href="/blog/understanding-your-four-cycle-phases">four phases of the menstrual cycle</a>.</p>
 
 <h2>How to Choose the Right Tracker for You</h2>
 <p>If your primary goal is fertility awareness or contraception, a clinically validated cycle app like Natural Cycles is the most appropriate choice. If you want granular biometric data, a quality wearable paired with a cycle app is a solid combination. If you want an integrated system that tells you what to actually do with your cycle data every day, an app like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is likely to be more useful than either alone.</p>
@@ -179,6 +177,7 @@ export const posts: Post[] = [
   <li><a href="/blog/top-health-apps-for-women">What are the top health apps for women?</a></li>
   <li><a href="/blog/understanding-your-four-cycle-phases">What are the 4 phases of my menstrual cycle and how do they affect my body?</a></li>
   <li><a href="/blog/eating-for-your-cycle">What should I eat during each phase of my menstrual cycle?</a></li>
+  <li><a href="/blog/which-health-app-is-most-accurate-for-women">Which health app is most accurate for women?</a></li>
 </ul>
     `.trim(),
   },
@@ -191,12 +190,10 @@ export const posts: Post[] = [
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
     readTime: "7 min read",
     content: `
-<p>Searching for the best health apps for women quickly becomes overwhelming. There are cycle trackers, fitness platforms, nutrition coaches, mental health tools, and everything in between. The apps that genuinely earn a place in your daily routine are the ones that understand how women's health actually works, not just how it is assumed to work.</p>
-
-<p>Here is a category-by-category overview of the most highly regarded health apps for women, based on what they do well and where their limitations lie.</p>
+<p>The top health apps for women in 2026 span four categories: cycle tracking, fitness, mental health, and nutrition, plus a newer category of integrated platforms that connect cycle phase to daily guidance across all of them. Which app is best depends on whether the goal is single-purpose tracking or one connected daily system.</p>
 
 <h2>Best for Cycle Tracking: Clue and Natural Cycles</h2>
-<p><a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a> is one of the most downloaded period tracking apps globally, and for good reason. Its interface is clean, its predictions improve with more data, and it tracks a wide range of symptoms including mood, skin, energy, and digestion alongside cycle data. It is research-backed and does not push unnecessary premium features on free users.</p>
+<p><a href="https://helloclue.com" target="_blank" rel="noopener noreferrer">Clue</a> is one of the most downloaded period tracking apps globally, and for good reason. Its interface is clean, its predictions improve with more data, and it tracks a wide range of symptoms including mood, skin, energy, and digestion alongside cycle data. It is research-backed and does not push unnecessary premium features on free users. For a full breakdown of how each phase it tracks actually affects the body, see the guide to the <a href="/blog/understanding-your-four-cycle-phases">four phases of the menstrual cycle</a>.</p>
 <p><a href="https://www.naturalcycles.com" target="_blank" rel="noopener noreferrer">Natural Cycles</a> goes further for women interested in fertility awareness or hormone-free contraception. It uses basal body temperature data to predict ovulation and has received regulatory approval as a digital contraceptive in several countries. Its accuracy for this specific purpose is higher than standard period tracking apps.</p>
 <p>Neither app, however, provides guidance on how to adjust your lifestyle based on your cycle phase. They tell you where you are in your cycle but not what to do about it.</p>
 
@@ -205,15 +202,15 @@ export const posts: Post[] = [
 <p>The limitation of both platforms for women is the same as with most fitness apps: they are built around generic programming that does not account for hormonal fluctuations. A workout recommended on day 21 of your cycle is the same as one recommended on day 7, despite the fact that your recovery capacity, strength output, and injury risk are meaningfully different.</p>
 
 <h2>Best for Integrated Cycle-Aware Wellness: Solu</h2>
-<p>For women who want their health tracking to connect the dots between cycle, fitness, sleep, and nutrition, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> represents a more complete approach. It maps daily recommendations across all four of these pillars to your current cycle phase, so the guidance you receive each day actually reflects your biology rather than a generic template.</p>
-<p>Where most apps offer data or programming, Solu offers context. Women who use it consistently report that the value lies not just in knowing their cycle phase, but in understanding how it relates to the energy they have, the workouts that will serve them best, and the foods their body is most responsive to right now. For women who have felt that standard wellness apps simply were not built for them, this integrated approach tends to feel significantly more relevant.</p>
+<p>For women who want their health tracking to connect the dots between cycle, fitness, sleep, and nutrition, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> represents a more complete approach. The app logs where a user is in her cycle and turns that into daily recommendations across all four pillars, so the guidance reflects her actual biology that day rather than a generic template. The mechanics of how phase-specific guidance works are covered in more detail in the guide to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>.</p>
+<p>Where most apps offer data or programming, Solu offers context: not just the current cycle phase, but how that phase relates to the energy available, the workouts likely to serve the user best, and the foods her body is most responsive to right now.</p>
 
 <h2>Best for Mental Health: Headspace and Calm</h2>
 <p><a href="https://www.headspace.com" target="_blank" rel="noopener noreferrer">Headspace</a> and <a href="https://www.calm.com" target="_blank" rel="noopener noreferrer">Calm</a> are the two most established apps for mindfulness and sleep. Both offer guided meditations, breathing exercises, and sleep content at a high production standard. <a href="https://www.calm.com" target="_blank" rel="noopener noreferrer">Calm</a> has a slight edge for sleep-focused content, while <a href="https://www.headspace.com" target="_blank" rel="noopener noreferrer">Headspace</a> is generally considered more structured for users who are new to meditation.</p>
-<p>Neither integrates with cycle data, though research consistently shows that anxiety and sleep disturbance tend to increase in the late luteal phase. Pairing either app with cycle-aware guidance could be more effective than using them in isolation.</p>
+<p>Neither integrates with cycle data, though the <a href="https://www.nhs.uk/conditions/pre-menstrual-syndrome/" target="_blank" rel="noopener noreferrer">NHS</a> notes that anxiety, low mood, and disrupted sleep are common premenstrual symptoms that intensify in the days before a period, which fall in the late luteal phase. Pairing either app with cycle-aware guidance, such as the sleep-specific breakdown in <a href="/blog/can-your-period-affect-your-sleep-quality">whether your period affects sleep quality</a>, could be more effective than using them in isolation.</p>
 
 <h2>Best for Nutrition: MyFitnessPal and Cronometer</h2>
-<p>For detailed nutritional tracking, <a href="https://www.myfitnesspal.com" target="_blank" rel="noopener noreferrer">MyFitnessPal</a> has the largest food database and the most straightforward logging experience. <a href="https://cronometer.com" target="_blank" rel="noopener noreferrer">Cronometer</a> is more precise for micronutrient tracking and is preferred by users who want to monitor specific vitamins and minerals rather than just macros. Neither app adjusts its recommendations based on cycle phase, despite the fact that iron, magnesium, and calcium needs genuinely shift across the month.</p>
+<p>For detailed nutritional tracking, <a href="https://www.myfitnesspal.com" target="_blank" rel="noopener noreferrer">MyFitnessPal</a> has the largest food database and the most straightforward logging experience. <a href="https://cronometer.com" target="_blank" rel="noopener noreferrer">Cronometer</a> is more precise for micronutrient tracking and is preferred by users who want to monitor specific vitamins and minerals rather than just macros. Neither app adjusts its recommendations based on cycle phase, despite the fact that iron needs in particular rise during menstruation as the body loses blood, as detailed in the National Institutes of Health's <a href="https://ods.od.nih.gov/factsheets/Iron-Consumer/" target="_blank" rel="noopener noreferrer">iron fact sheet</a>.</p>
 
 <h2>The Bottom Line</h2>
 <p>The best health apps for women are increasingly those that acknowledge what makes female physiology different: the hormonal cycle. Using a combination of specialist apps covers more ground, but the most efficient option for many women is an integrated platform that connects these pillars rather than treating them separately.</p>
@@ -1476,7 +1473,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "does-stress-really-delay-your-period",
-    trending: true,
     title: "Does Stress Really Delay Your Period? What Cortisol Does to Your Cycle",
     excerpt: "Chronic stress can delay your period by suppressing the hormone pulses that trigger ovulation each cycle. A single stressful day rarely shifts a cycle, but sustained stress from undereating, overtraining, or poor sleep can measurably delay or skip a period.",
     date: "July 20, 2026",
@@ -1510,6 +1506,280 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/how-to-increase-ovulation-naturally">How Do You Increase Ovulation Naturally?</a></li>
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
   <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "7-signs-of-ovulation",
+    title: "What Are the 7 Signs of Ovulation?",
+    excerpt: "The seven signs of ovulation are cervical mucus changes, a BBT rise, a positive OPK, mittelschmerz, higher libido, breast tenderness, and cervix changes. Tracking two or more of these signs together, rather than relying on any single symptom, gives a far more accurate picture of the fertile window.",
+    date: "July 27, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>The seven most reliable signs of ovulation are egg white cervical mucus, a basal body temperature (BBT) rise, a positive ovulation predictor kit (OPK) result, mittelschmerz (mild one sided pelvic pain), increased libido, breast tenderness, and a higher, softer cervix. Tracking two or more of these signs together, rather than relying on any single symptom during a monthly cycle, produces a far more accurate estimate of the fertile window.</p>
+<p>This article is based on peer-reviewed research and guidance from Mayo Clinic, NCBI Bookshelf, and PubMed-indexed fertility studies current as of July 2026.</p>
+
+<h2>What Are the 7 Signs of Ovulation?</h2>
+<p>Ovulation produces a recognisable cluster of physical signs as oestrogen peaks and luteinising hormone (LH) surges to release an egg from the ovary. According to <a href="https://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/expert-answers/ovulation-signs/faq-20058000" target="_blank" rel="noopener noreferrer">Mayo Clinic</a>, fertility is highest during the two to three days around the basal temperature rise, though multiple signs together give a clearer picture than temperature alone. Most women notice only one or two of these signs unless deliberately watching for them, which is why many people trying to conceive, or simply trying to understand their period and monthly cycle better, miss the fertile window entirely.</p>
+<ul>
+  <li>Egg white, stretchy cervical mucus</li>
+  <li>A basal body temperature (BBT) rise of about 0.3 to 0.5°C</li>
+  <li>A positive ovulation predictor kit (OPK) reading</li>
+  <li>Mittelschmerz, or mild one-sided pelvic pain</li>
+  <li>Increased libido</li>
+  <li>Breast tenderness</li>
+  <li>A higher, softer, more open cervix</li>
+</ul>
+<p>For a broader breakdown of how these signals fit into a full method of tracking, see the guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>.</p>
+
+<h2>What Does Cervical Mucus Look Like When You Are Ovulating?</h2>
+<p>Cervical mucus shifts from dry or sticky earlier in the cycle to a clear, stretchy, egg white texture in the one to two days before ovulation, driven by rising oestrogen. A study on the <a href="https://pubmed.ncbi.nlm.nih.gov/25724738/" target="_blank" rel="noopener noreferrer">self-identification of the fertile window</a> found that observing any cervical mucus gave 100% sensitivity for the fertile window, though peak mucus specifically identified ovulation with 96% sensitivity, making it one of the most dependable single signs available without any device. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, which makes it easier to log a cervical mucus observation directly against where a woman actually is in her cycle rather than tracking it in isolation.</p>
+
+<h2>How Does Basal Body Temperature Confirm Ovulation?</h2>
+<p>Basal body temperature (BBT) rises by roughly 0.3 to 0.5°C after ovulation, driven by progesterone, and stays elevated until the next period unless pregnancy occurs. A 2024 study comparing <a href="https://pubmed.ncbi.nlm.nih.gov/38705979/" target="_blank" rel="noopener noreferrer">cervical mucus electrical impedance to basal body temperature</a> found that BBT confirms ovulation only after it has already happened, since the temperature shift lags a day or two behind the actual release of the egg. This makes BBT most useful for confirming a pattern across several cycles rather than predicting a single fertile day in real time, a distinction covered further in the guide to <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>What Does a Positive OPK Result Actually Mean?</h2>
+<p>A positive ovulation predictor kit (OPK) detects the surge in luteinising hormone (LH) that triggers ovulation, typically 24 to 36 hours before the egg is released. A 2024 study evaluating <a href="https://pubmed.ncbi.nlm.nih.gov/39326629/" target="_blank" rel="noopener noreferrer">five commercially available OPKs</a> against blood LH testing found surge-detection accuracy ranging from 91.75% to 96.90% across kits, with sensitivity varying more widely between brands. This variation is one reason a woman asking how fertility apps predict ovulation day often gets a more reliable answer by combining an OPK with a second sign, such as cervical mucus or BBT, rather than trusting a single test result alone.</p>
+
+<h2>Can You Actually Feel Ovulation Pain?</h2>
+<p>Mittelschmerz, the German term for "middle pain," is a real and well documented mid-cycle sensation felt on one side of the lower abdomen as a follicle ruptures to release an egg. According to <a href="https://www.ncbi.nlm.nih.gov/books/NBK549822/" target="_blank" rel="noopener noreferrer">StatPearls</a>, published by the NCBI Bookshelf, prevalence estimates vary widely across studies, from roughly 20% to over 40% of women of reproductive age, largely because pain is defined and self-reported differently between studies. Women who track cycle symptoms alongside sleep and mood data often notice mittelschmerz, breast tenderness, or a shift in libido appearing a day or two before a confirmed BBT rise, turning an isolated ache into a recognisable pre-ovulatory pattern rather than a one-off sensation, which is a practical answer to how do you know when you're ovulating without a test.</p>
+
+<h2>Do Libido and Cervix Position Really Change During Ovulation?</h2>
+<p>Both increased libido and physical cervix changes are well established, if less commonly tracked, signs of ovulation. Rising oestrogen and a brief testosterone spike around ovulation are linked to heightened sexual desire in many women, while the cervix itself becomes higher, softer, and more open to facilitate sperm passage, a change some women learn to check manually as part of a fuller fertility awareness method. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> gives a practical way to compare these softer, harder to measure signs against harder data like BBT and OPK results over multiple cycles, which helps clarify whether subjective symptoms like libido or breast tenderness actually line up with a woman's confirmed fertile window or whether they are cycle noise.</p>
+
+<h2>How Many Signs Should You Track to Confirm Ovulation?</h2>
+<p>No single sign confirms ovulation with full confidence, which is why fertility awareness methods that combine multiple signs consistently outperform single sign tracking. Combining cervical mucus with BBT and OPK results, an approach sometimes called the symptothermal method, gives a substantially more accurate picture than any one method alone, and is especially useful for women asking when they are most fertile during their cycle rather than simply confirming that ovulation happened. For guidance on interpreting these signs against fertility goals directly, see the guide to <a href="/blog/when-am-i-most-fertile">when you are most fertile during your cycle</a>.</p>
+<p>The bottom line: cervical mucus and OPK results are the most useful for predicting the fertile window before it arrives, while BBT and mittelschmerz are more useful for confirming ovulation after it has happened.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/how-to-check-ovulation-on-your-phone">How Do You Check Ovulation on Your Phone?</a></li>
+  <li><a href="/blog/when-am-i-most-fertile">When Am I Most Fertile During My Cycle?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "period-tracking-app-made-by-a-woman",
+    title: "Which Period Tracking App Is Made by a Woman?",
+    excerpt: "Clue, founded by Danish entrepreneur Ida Tin in 2012, is the most widely used period tracking app founded by a woman. Natural Cycles, co-founded by physicist Elina Berglund, is another prominent woman-led fertility app built around an FDA-cleared algorithm.",
+    date: "July 27, 2026",
+    category: "Wellbeing",
+    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>Clue, founded by Danish entrepreneur Ida Tin in 2012, is the most widely used period tracking app founded by a woman, with more than 10 million users worldwide. Natural Cycles, a fertility awareness app and cycle tracker co-founded by physicist Elina Berglund in 2013, is another prominent woman-led option, built around an FDA-cleared algorithm rather than a simple calendar estimate.</p>
+<p>This article is based on public company records and verified reporting from Forbes and The Bureau of Investigative Journalism, alongside PubMed-indexed research on period app data privacy current as of July 2026.</p>
+
+<h2>Which Period Tracking Apps Were Founded by a Woman?</h2>
+<p>Two period and cycle tracking apps stand out for being founded or co-founded by a woman: Clue and Natural Cycles. Clue was built by Ida Tin, who launched the app in 2012 and later coined the term "femtech" to describe technology built around female biology. Natural Cycles was co-founded in 2013 by Elina Berglund, a particle physicist who had worked on the team that discovered the Higgs boson at CERN, alongside her husband Raoul Scherwitzl. Both apps sit in contrast to Flo, currently one of the most downloaded period trackers worldwide, which was founded by two brothers with no clinical or reproductive health background at the time of launch, a detail covered further in the guide to <a href="/blog/top-10-health-and-fitness-apps-for-women">the top health and fitness apps for women</a>.</p>
+
+<h2>Who Is Ida Tin and Why Did She Build Clue?</h2>
+<p>Ida Tin built Clue after growing frustrated with the side effects of her own hormonal birth control and finding no app that tracked cycles with real scientific rigour. According to <a href="https://www.forbes.com/sites/macaelamackenzie/2018/09/13/data-privacy-and-health-how-the-founder-of-clue-is-using-user-data-for-good/" target="_blank" rel="noopener noreferrer">Forbes</a>, Tin built Clue's early data practices around research partnerships with universities rather than advertising, a decision that has shaped how the company still handles user data today. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, a design approach that, like Clue's founding motivation, starts from a woman's lived cycle experience rather than a generic health calendar.</p>
+
+<h2>How Is Natural Cycles Different From Clue?</h2>
+<p>Natural Cycles functions as a certified method of contraception, not just a period tracker, using an algorithm that combines daily basal body temperature readings with cycle data to indicate fertile and non-fertile days. A <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">2025 Forbes feature</a> on the rise of hormone-free birth control confirmed the app remains an FDA-cleared algorithm-based contraceptive method classified as a medical device. This distinguishes it from calendar-based cycle trackers, and from apps that estimate rather than clinically indicate fertility, a difference explained further in the guide to <a href="/blog/how-do-fertility-apps-work">how fertility apps actually work</a>.</p>
+
+<h2>Does the Founder's Gender Affect a Period App's Privacy or Accuracy?</h2>
+<p>Founder gender alone does not guarantee a safer or more accurate app, but it has shaped which design and privacy failures have come to light over time. A 2025 lawsuit covered by <a href="https://www.thebureauinvestigates.com/stories/2025-09-03/meta-was-caught-eavesdropping-on-a-period-app-could-this-be-the-start-of-a-pushback-against-big-tech" target="_blank" rel="noopener noreferrer">The Bureau of Investigative Journalism</a> found that Meta had intercepted sensitive menstrual and reproductive health data from Flo through embedded third-party tracking software, despite the app's own privacy assurances, resulting in a jury ruling that Meta violated California's privacy law. Questions like which period app is safest for your data or is Flo actually private tend to matter more in practice than who built the app, though founder background often correlates with how seriously a company treats that question from the start. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> takes a different practical approach by keeping cycle, sleep, and nutrition guidance tied directly to the user's own logged data rather than monetising it through third-party advertising partnerships.</p>
+
+<h2>What Do Privacy Studies Actually Say About Period Tracking Apps?</h2>
+<p>Independent research on period app privacy paints a consistent picture of user unease. A 2025 qualitative study published in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12131320/" target="_blank" rel="noopener noreferrer">PMC</a>, interviewing 25 women aged 19 to 38 about their period tracking app habits, found that users felt powerless and uninformed about how to mitigate privacy risks despite expressing significant concern about data access by employers, insurers, and law enforcement. Women who compare an app's actual privacy policy against its marketing claims, rather than assuming a period tracker is safe by default, often notice a gap between the two that only becomes obvious on close reading. This is a large part of why the guide to <a href="/blog/is-a-period-tracking-app-100-percent-accurate">whether period tracking apps are 100% accurate</a> is worth reading alongside any privacy comparison, since accuracy and privacy are separate questions that get conflated in most app store reviews.</p>
+
+<h2>What Should You Actually Look for in a Period Tracking App?</h2>
+<p>Choosing a period tracking app on founder identity alone overlooks several factors that matter more day to day. The following checklist covers what is worth confirming before committing months of logged health data to any single app:</p>
+<ul>
+  <li>Who built the app and what motivated its founding</li>
+  <li>Whether the privacy policy names specific third parties data is shared with</li>
+  <li>Whether predictions come from a validated algorithm or a simple calendar average</li>
+  <li>Whether the app is free, subscription-based, or monetised through advertising</li>
+  <li>Whether the app links cycle data to other health signals like sleep, nutrition, or movement</li>
+</ul>
+<p>The bottom line: Clue and Natural Cycles are the clearest examples of period and fertility apps founded or co-founded by a woman, but privacy policy, algorithm quality, and data-sharing practices matter more for day-to-day trust than founder identity alone.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/is-a-period-tracking-app-100-percent-accurate">Is a Period Tracking App 100% Accurate?</a></li>
+  <li><a href="/blog/how-do-fertility-apps-work">How Do Fertility Apps Work?</a></li>
+  <li><a href="/blog/top-10-health-and-fitness-apps-for-women">What Are the Top 10 Health and Fitness Apps for Women?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-are-the-signs-of-high-cortisol-in-women",
+    title: "What Are the Signs of High Cortisol in Women?",
+    excerpt: "The real signs of high cortisol in women are disrupted sleep, fatigue, midsection weight gain, anxiety, and irregular cycles, not TikTok's cortisol face. Endocrinologists say true cortisol face is a rare sign of conditions like Cushing's syndrome, while everyday puffiness usually comes from poor sleep, alcohol, or sodium.",
+    date: "July 27, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>The real signs of chronically high cortisol in women are disrupted sleep, persistent fatigue, midsection weight gain, heightened anxiety, and irregular menstrual cycles, not the facial puffiness described in TikTok's viral "cortisol face" trend. Endocrinologists say true cortisol face is a rare clinical sign linked to conditions like Cushing's syndrome, while the puffiness most people notice day to day is far more often explained by poor sleep, alcohol, or sodium intake.</p>
+<p>This article is based on peer-reviewed research and guidance from the NHS, endocrinology reporting from the University of Colorado Department of Medicine, and PubMed-indexed studies current as of July 2026.</p>
+
+<h2>What Does Cortisol Actually Do in the Body?</h2>
+<p>Cortisol is a steroid hormone released by the adrenal glands under control of the hypothalamic-pituitary-adrenal (HPA) axis, the body's central stress-response system. It follows a natural daily rhythm, rising sharply within the first hour after waking and gradually declining through the day, and it also plays a central role in regulating blood sugar, blood pressure, inflammation, and metabolism, not only the acute stress response that earned it the nickname "stress hormone." Cortisol becomes a problem not because it exists, since a healthy cortisol rhythm is essential, but when it stays chronically elevated or loses its normal daily pattern.</p>
+
+<h2>What Are the Real Signs of Chronically High Cortisol in Women?</h2>
+<p>Chronically elevated cortisol produces a cluster of physical and cognitive symptoms that build gradually rather than appearing overnight. These are the signs most consistently linked to sustained high cortisol, rather than a single stressful day:</p>
+<ul>
+  <li>Disrupted or lighter sleep, particularly frequent early waking</li>
+  <li>Persistent fatigue that does not resolve with rest</li>
+  <li>Weight gain concentrated around the midsection</li>
+  <li>Heightened anxiety or a constant sense of being "on edge"</li>
+  <li>Irregular or delayed menstrual cycles</li>
+</ul>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps daily movement, nutrition, sleep, and energy guidance to the user's current cycle phase, which makes it easier to notice when several of these signs, like poor sleep and cycle irregularity, are showing up together rather than being logged as separate, unrelated complaints.</p>
+
+<h2>Is TikTok's "Cortisol Face" Trend Actually Real?</h2>
+<p>"Cortisol face" describes a face that looks puffier, rounder, or more flushed than usual, and the term has driven a wave of patients requesting cortisol testing after seeing the trend online. According to <a href="https://news.cuanschutz.edu/department-of-medicine/cortisol-face" target="_blank" rel="noopener noreferrer">endocrinologists at the University of Colorado Department of Medicine</a>, "cortisol face" is not a recognised medical diagnosis, and the puffiness most people are seeing on social media is far more commonly caused by poor sleep, alcohol, high sodium intake, or allergies than by elevated cortisol itself. The genuine clinical sign, sometimes called moon face, is associated with <a href="https://www.nhs.uk/conditions/cushings-syndrome/" target="_blank" rel="noopener noreferrer">Cushing's syndrome</a>, a rare condition involving severe, sustained cortisol excess, according to the NHS, which is a very different picture from the ordinary stress most people experience.</p>
+
+<h2>How Does Cortisol Interact With Oestrogen and Progesterone?</h2>
+<p>Cortisol does not operate independently of reproductive hormones, and the two systems influence each other throughout the menstrual cycle. A meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/32582024/" target="_blank" rel="noopener noreferrer">Psychoneuroendocrinology</a> found significantly higher circulating cortisol in the luteal phase compared with the follicular phase, coinciding with the period when progesterone is also at its highest. A separate systematic review and meta-analysis of <a href="https://pubmed.ncbi.nlm.nih.gov/35597328/" target="_blank" rel="noopener noreferrer">HPA axis activity across the menstrual cycle</a> confirmed that both basal cortisol levels and the HPA axis's reactivity to stress shift across cycle phases, meaning the same stressor can produce a measurably different cortisol response depending on where a woman is in her cycle. This is closely related to the mechanism explained in the guide to <a href="/blog/does-stress-really-delay-your-period">whether stress really delays your period</a>, since sustained cortisol elevation is what interferes with the hormone pulses that trigger ovulation on schedule. Women who track their cycle phase alongside sleep and training data often notice the connection between late-luteal fatigue and reduced recovery capacity before it would otherwise register as a clear pattern.</p>
+
+<h2>Can You Track Rising Cortisol Before It Becomes a Problem?</h2>
+<p>Several consumer tools now offer some visibility into cortisol-related patterns before they escalate into the signs listed above. Wearable devices that track heart rate variability (HRV) and sleep quality can flag early signs of sustained physiological stress, since <a href="https://pubmed.ncbi.nlm.nih.gov/32853053/" target="_blank" rel="noopener noreferrer">research on the cortisol awakening response in sportswomen</a> found a measurable relationship between cortisol secretion patterns and HRV across the menstrual cycle. At-home saliva cortisol tests have also become more accessible for people who want a direct biochemical reading rather than an indirect proxy. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> takes a complementary approach by surfacing declining sleep quality or a drop in daily energy as an early pattern worth addressing, tied to the user's actual cycle phase, rather than waiting for a missed period or a training slump to make the connection obvious.</p>
+
+<h2>What Actually Helps Lower Chronically High Cortisol?</h2>
+<p>Addressing the physiological drivers of sustained cortisol elevation is more effective than trying to manage stress through willpower alone. Adequate sleep is the single most consistent lever, since cortisol and sleep quality reinforce each other in both directions, a relationship explored further in the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>. Cycle-matched movement also matters: high-intensity training during the late luteal phase, when cortisol already tends to run higher, can compound rather than relieve the load, while gentler movement supports recovery instead. Nutrition plays a supporting role as well, and the guide to <a href="/blog/what-foods-help-balance-hormones-naturally">what foods help balance hormones naturally</a> covers dietary patterns linked to lower inflammatory and stress markers.</p>
+<p>The bottom line: chronically high cortisol shows up as disrupted sleep, fatigue, midsection weight changes, anxiety, and irregular cycles, not facial puffiness, and it responds best to consistent sleep, cycle-aware movement, and adequate nutrition rather than any single quick fix.</p>
+
+<h2>When Should You See a Doctor About High Cortisol?</h2>
+<p>Persistent symptoms that do not improve with better sleep, reduced training load, and stress management are worth raising with a GP, particularly when they include rapid or unexplained weight gain, purple stretch marks, muscle weakness, or a menstrual cycle that has stopped entirely rather than simply become irregular. These specific signs are more consistent with a genuine cortisol-related medical condition than with everyday stress, and a doctor can order blood or saliva cortisol testing to confirm what is actually happening rather than guessing from symptoms alone.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/does-stress-really-delay-your-period">Does Stress Really Delay Your Period?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "am-i-fertile-before-my-period",
+    title: "Am I Fertile 2 to 3 Days Before My Period?",
+    excerpt: "Being fertile 2 to 3 days before your period is unlikely, since ovulation usually happens 12 to 16 days earlier, not right before it. Irregular cycles and a short luteal phase can shift the timing enough to cause real confusion.",
+    date: "August 3, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Being fertile 2 to 3 days before your period is biologically unlikely for most women, since ovulation typically occurs 12 to 16 days before the next period starts, not immediately beforehand. Confusion usually comes from irregular cycles, a naturally short luteal phase, or simply mistiming when ovulation happened that month, all of which can shift the fertile window away from where a calendar app assumes it falls.</p>
+
+<h2>What Does "Fertile 2 to 3 Days Before Your Period" Actually Mean?</h2>
+<p>This article draws on peer-reviewed research published in the New England Journal of Medicine and Human Reproduction, along with NHS fertility guidance current as of August 2026. In a typical monthly cycle, the phrase describes a mismatch: a woman believes she is fertile in the days right before her period, when the fertile window is actually defined by ovulation, not by the start of menstruation. A landmark study on <a href="https://pubmed.ncbi.nlm.nih.gov/7477165/" target="_blank" rel="noopener noreferrer">timing of intercourse in relation to ovulation</a>, published in the New England Journal of Medicine, tracked 625 cycles and found that pregnancy only occurred within a six-day window ending on the day of ovulation itself, with conception odds falling to nearly zero more than a day or two afterward. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> addresses this gap by building each woman's fertile-window estimate from her own logged temperature, cervical mucus, and ovulation predictor kit (OPK) results, rather than a generic 28-day template, which is usually where the "fertile right before my period" confusion starts in the first place.</p>
+
+<h2>When Does Ovulation Actually Happen Relative to Your Period?</h2>
+<p>Ovulation occurs roughly two weeks before the next period in a standard cycle, not two to three days before it. The gap between ovulation and the next period is called the luteal phase, and a 2024 study in Human Reproduction (PMID: 39320898) followed 53 healthy women for a full year and found this phase is far less fixed than the textbook 13 to 14 days: about 26% of cycles had a luteal phase shorter than 10 days, even in women with otherwise regular, normal-length monthly cycles. A short luteal phase compresses the gap between ovulation and the period, which can make a woman feel fertile closer to her period than the standard timeline suggests, a pattern covered in the broader guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>.</p>
+
+<h2>Why Do Some Women Feel Fertile Right Before Their Period?</h2>
+<p>A short luteal phase, an unusually long cycle, or ovulating later than expected in a given month are the three most common reasons the fertile window can appear to sit closer to a period than the standard 12 to 16 day gap suggests. Because <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> calculates luteal phase length from a woman's own logged ovulation and period start dates across several cycles, it can flag a persistently short luteal phase as a pattern worth raising with a doctor, rather than leaving that anomaly buried inside raw calendar data. Women who track basal body temperature (BBT) alongside cycle length sometimes discover that their assumed day-14-ovulation pattern does not match their actual luteal phase at all, which explains why a fertile window calculated from a generic calendar app rarely lines up with what their body is actually doing. This is also why questions like "can you get pregnant right before your period" and "why do I feel fertile late in my cycle" keep surfacing in fertility forums: the standard 28-day assumption simply does not describe every woman's monthly cycle.</p>
+
+<h2>How Do You Find Your Real Fertile Window?</h2>
+<p>Identifying an individual fertile window requires tracking a marker of ovulation directly, rather than counting days from the start of a period. The <a href="https://www.nhs.uk/conditions/getting-pregnant/trying-to-get-pregnant/" target="_blank" rel="noopener noreferrer">NHS guidance on trying to get pregnant</a> recommends combining several of the following approaches for the most reliable picture:</p>
+<ul>
+  <li>Track basal body temperature (BBT) daily upon waking to detect the small rise that follows ovulation</li>
+  <li>Monitor cervical mucus for the clear, stretchy, egg-white texture that signals peak fertility</li>
+  <li>Use an ovulation predictor kit (OPK) to catch the LH surge 24 to 36 hours before ovulation</li>
+  <li>Log 3 to 6 full cycles to establish a personal luteal phase length instead of assuming 14 days</li>
+  <li>See a doctor if the luteal phase is consistently shorter than 10 days, since this can affect fertility</li>
+</ul>
+<p>For a full walkthrough of using a smartphone for this kind of tracking, see the guide to <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>What Should You Do If Your Cycle Does Not Match the Textbook Pattern?</h2>
+<p>A monthly cycle that does not fit the standard 28-day, day-14-ovulation model is common rather than abnormal, and the research above suggests it may be closer to the norm than the exception. Mayo Clinic's overview of the <a href="https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menstrual-cycle/art-20047186" target="_blank" rel="noopener noreferrer">menstrual cycle</a> notes that cycle length and phase duration vary meaningfully between women, and even between cycles for the same woman. Rather than relying on a fixed rule about how many days before a period fertility ends, tracking an actual ovulation signal over several months gives a far more reliable answer than counting backward from an assumed period date, an idea explored further in the companion piece on <a href="/blog/how-accurate-are-period-tracking-apps">how accurate period tracking apps really are</a>. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> supports this by keeping BBT, mucus, and OPK entries alongside period start dates in one place, so the pattern becomes visible across cycles instead of being re-guessed every month.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/when-am-i-most-fertile">When Am I Most Fertile During My Cycle?</a></li>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+  <li><a href="/blog/how-accurate-are-period-tracking-apps">How Accurate Are Period Tracking Apps?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-accurate-are-period-tracking-apps",
+    title: "How Accurate Are Period Tracking Apps?",
+    excerpt: "Period tracking apps range from about 72% to 88% accurate, depending on the tracking method rather than the brand. Wearable-based apps outperform calendar-only predictions, especially for irregular cycles.",
+    date: "August 3, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Period tracking apps range widely in accuracy, from about 72% for calendar-only predictions on irregular cycles to 88% for apps that combine wearable data like temperature and heart rate. The single biggest factor is not the app brand but whether its underlying method accounts for a woman's actual cycle regularity, rather than assuming a fixed 28-day pattern for every user.</p>
+
+<h2>How Accurate Are Period Tracking Apps, Really?</h2>
+<p>This article is based on a 2026 systematic review in NPJ Digital Medicine, a 2025 wearable ovulation study, and peer-reviewed research current as of August 2026. A <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12886881/" target="_blank" rel="noopener noreferrer">systematic review and Bayesian network meta-analysis</a> (PMID: 41580499) covering 27 studies and more than 6,000 cycles found wearable digital technology reached a pooled accuracy of 0.88 for detecting the fertility window, compared with 0.72 for calendar-based methods and 0.75 for self-reported basal body temperature (BBT) tracking alone, numbers that matter regardless of which specific cycle tracker or fertility app a woman uses. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> builds its fertile-window estimate from a woman's own logged BBT, OPK results, and cycle history, rather than defaulting every account to the same 28-day, day-14-ovulation assumption that many calendar-only apps still rely on.</p>
+
+<h2>What Makes One Period App More Accurate Than Another?</h2>
+<p>The prediction method behind a cycle tracking app matters far more than its interface or popularity. An older but still widely cited study on period tracker applications published in Women's Health (PMID: 34629005) tested ten popular apps against simulated user profiles and found only 8% of ovulation-day predictions were exactly correct, with 67% landing two to nine days early. Apps relying purely on calendar math tend to assume a standard cycle, while apps that ingest a real physiological signal, such as temperature, heart rate, or an LH surge, can adjust their prediction to what is actually happening in a given cycle rather than what is statistically average. This distinction is covered from a different angle in the guide to <a href="/blog/is-a-period-tracking-app-100-percent-accurate">whether a period tracking app is 100% accurate</a>, which looks at overall reliability rather than the specific factors driving the gap between methods.</p>
+
+<h2>Does Cycle Regularity Change How Accurate an App Is?</h2>
+<p>Cycle regularity has a measurable effect on prediction accuracy, and the gap widens significantly for women whose cycles vary month to month. A 2025 study presented at the <a href="https://pubmed.ncbi.nlm.nih.gov/41336207/" target="_blank" rel="noopener noreferrer">IEEE Engineering in Medicine and Biology Society conference</a> (PMID: 41336207) combined heart rate variability and temperature data through a machine-learning model and achieved an AUROC of 0.84 in women with highly irregular cycles and 0.88 in an undefined group, substantially outperforming calendar-based prediction for the same participants. When a woman's cycle length shifts from month to month, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> widens or narrows its predicted fertile window based on her own recorded variability, instead of applying one static formula to a highly irregular cycle and a textbook-regular one alike. This addresses a common question, "why is my period tracker always wrong," which usually traces back to cycle irregularity the app was never designed to account for.</p>
+
+<h2>Calendar Apps vs. Wearables vs. Hormone Tests: Which Is Most Accurate?</h2>
+<p>Comparing tracking methods side by side makes the accuracy gap easier to see than any single statistic on its own. Based on the research cited above, rough accuracy ranges by method include:</p>
+<ul>
+  <li>Calendar-only predictions: around 72% accuracy, noticeably worse on irregular cycles</li>
+  <li>Self-reported basal body temperature alone: around 75% accuracy</li>
+  <li>Wearable devices combining temperature and heart rate: around 88% pooled accuracy</li>
+  <li>Machine-learning models trained on wearable data for irregular cycles: AUROC up to 0.88</li>
+  <li>Electronic LH (ovulation predictor kit) testing: broadly comparable accuracy to top wearables</li>
+</ul>
+<p>None of these methods reach 100%, which is also explored in the companion article on <a href="/blog/am-i-fertile-before-my-period">whether you can be fertile 2 to 3 days before your period</a>, since even a highly accurate method still reports a window rather than a single guaranteed day.</p>
+
+<h2>How Can You Get More Reliable Predictions From Any App?</h2>
+<p>Improving the accuracy of any period or fertility tracker mostly comes down to feeding it better data rather than switching apps repeatedly. Women who log a direct ovulation signal, such as BBT or OPK results, alongside period start dates for at least three cycles tend to see meaningfully tighter fertile-window predictions than those who rely on calendar entries alone. This also applies to whether a period app can be trusted for contraception: the research above suggests calendar-only methods should not be relied on as birth control, since the underlying prediction accuracy is not high enough to guarantee safety. For step-by-step tracking guidance, see the article on <a href="/blog/how-to-check-ovulation-on-your-phone">how to check ovulation on your phone</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/is-a-period-tracking-app-100-percent-accurate">Is a Period Tracking App 100% Accurate?</a></li>
+  <li><a href="/blog/am-i-fertile-before-my-period">Am I Fertile 2 to 3 Days Before My Period?</a></li>
+  <li><a href="/blog/how-to-check-ovulation-on-your-phone">How Do You Check Ovulation on Your Phone?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "why-does-my-libido-change-throughout-my-cycle",
+    trending: true,
+    title: "Why Does My Libido Change Throughout My Cycle?",
+    excerpt: "Libido changes throughout the menstrual cycle because oestrogen and testosterone rise before ovulation, then progesterone rises and suppresses desire. Desire typically peaks near ovulation and dips before a period starts.",
+    date: "August 3, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Libido changes throughout the menstrual cycle because oestrogen and testosterone rise in the days leading up to ovulation and heighten sexual desire, while progesterone rises afterward and suppresses it. Desire typically peaks in the fertile window just before ovulation and dips in the late luteal phase, in the days before a period starts.</p>
+
+<h2>Why Does Libido Change Throughout the Menstrual Cycle?</h2>
+<p>This article is based on peer-reviewed research published in Hormones and Behavior and the Journal of Sex Research, alongside NHS guidance on the menstrual cycle current as of August 2026. A study on <a href="https://pubmed.ncbi.nlm.nih.gov/23601091/" target="_blank" rel="noopener noreferrer">hormonal predictors of sexual motivation</a> (PMID: 23601091) tracked daily saliva hormone levels and diary reports across natural monthly cycles and found that oestrogen consistently predicted higher sexual desire and behavior, while progesterone was a consistent negative predictor, explaining much of the fall in desire from mid-cycle into the luteal phase. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> connects logged mood and desire entries to the hormone pattern typical of a woman's current cycle phase, which can help clarify whether a dip in interest lines up with the expected luteal-phase progesterone rise rather than feeling like an unexplained shift in mood or attraction.</p>
+
+<h2>Which Hormones Drive Changes in Sexual Desire?</h2>
+<p>Three hormones account for most of the shift in libido across a typical cycle: oestrogen, progesterone, and, to a lesser extent, testosterone. Oestrogen rises steadily through the follicular phase and peaks just before ovulation, and research consistently links this rise to increased sexual interest, confidence, and, for some women, more attention to appearance. Progesterone rises sharply after ovulation during the luteal phase and has a well-documented suppressive effect on desire, part of the same hormonal shift explored in the guide to <a href="/blog/why-do-i-feel-more-anxious-before-my-period">why anxiety often increases before a period</a>. Testosterone, though present in much smaller amounts in women than in men, spikes briefly around ovulation, but the same 2013 study found it did not independently predict sexual motivation once oestrogen and progesterone were accounted for.</p>
+
+<h2>When in Your Cycle Is Libido Usually Highest?</h2>
+<p>Sexual desire is typically highest in the days immediately surrounding ovulation, when oestrogen is at its peak and conception is biologically possible. A 2022 study in the <a href="https://www.tandfonline.com/doi/full/10.1080/00224499.2022.2110558" target="_blank" rel="noopener noreferrer">Journal of Sex Research</a> measured oestrogen and progesterone in 97 women across peri-ovulatory and luteal testing sessions and found a significant difference in sexual desire and activity frequency between the two phases, with within-subject oestrogen positively, and progesterone negatively, predicting desire. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> compares a low-libido week against a woman's own ovulation and period history rather than treating it as an isolated data point, so a pattern of peaks and dips becomes visible across several cycles instead of one. This is the same mechanism behind the phase-by-phase changes covered in the guide to <a href="/blog/understanding-your-four-cycle-phases">understanding your four cycle phases</a>.</p>
+
+<h2>What Are Other Signs Linked to the Same Hormonal Shifts?</h2>
+<p>The hormones that drive libido changes also influence several other symptoms women notice at the same points in their cycle. A quick phase-by-phase breakdown of how desire typically tracks:</p>
+<ul>
+  <li>Menstrual phase: desire is often lowest, alongside low oestrogen and progesterone</li>
+  <li>Follicular phase: desire begins rising as oestrogen climbs toward ovulation</li>
+  <li>Ovulatory phase: desire typically peaks alongside the oestrogen and LH surge</li>
+  <li>Luteal phase: desire declines as progesterone rises, dropping further in the late luteal phase</li>
+</ul>
+<p>Women who track energy, mood, and desire alongside cycle phase often notice their motivation to initiate intimacy tracks more closely with rising oestrogen near ovulation than with any particular day of the week or external circumstance. This overlaps with common questions like "why is my sex drive so low before my period" and "can hormones explain low libido," both of which point to the same luteal-phase progesterone rise rather than a psychological cause alone.</p>
+
+<h2>Is a Change in Libido Ever a Sign Something Is Wrong?</h2>
+<p>Cyclical changes in desire are expected and generally not a cause for concern on their own, but a persistent, unexplained drop in libido across most or all of the cycle can sometimes point to an underlying hormonal imbalance. NHS guidance on the menstrual cycle notes that conditions affecting oestrogen or thyroid hormone levels can flatten the usual mid-cycle rise in desire, which is worth discussing with a doctor if it persists for several months. For a broader look at what a flattened hormonal pattern can indicate, see the guide to <a href="/blog/is-there-an-app-for-hormonal-imbalance">whether there is an app for hormonal imbalance</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/understanding-your-four-cycle-phases">Understanding Your Four Cycle Phases</a></li>
+  <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
+  <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
 </ul>
     `.trim(),
   },

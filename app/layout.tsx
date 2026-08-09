@@ -34,20 +34,11 @@ export const metadata: Metadata = {
     siteName: "Solu",
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: `${SITE_URL}/icon.png`,
-        width: 512,
-        height: 512,
-        alt: "Solu — Women's wellness app",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Women's health, fitness & wellness in sync with your cycle | Solu",
     description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
-    images: [`${SITE_URL}/icon.png`],
   },
 }
 
