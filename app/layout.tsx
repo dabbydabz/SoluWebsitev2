@@ -76,7 +76,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 "name": "Solu",
                 "url": "https://www.solu.ae",
-                "logo": "https://www.solu.ae/icon.svg",
+                "logo": "https://www.solu.ae/icon.png",
                 "description": "Women's wellness app that personalises health guidance to the menstrual cycle.",
                 "foundingDate": "2024",
                 "areaServed": "Worldwide",
