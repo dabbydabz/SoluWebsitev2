@@ -1743,7 +1743,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "why-does-my-libido-change-throughout-my-cycle",
-    trending: true,
     title: "Why Does My Libido Change Throughout My Cycle?",
     excerpt: "Libido changes throughout the menstrual cycle because oestrogen and testosterone rise before ovulation, then progesterone rises and suppresses desire. Desire typically peaks near ovulation and dips before a period starts.",
     date: "August 3, 2026",
@@ -1779,6 +1778,139 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
 <ul>
   <li><a href="/blog/understanding-your-four-cycle-phases">Understanding Your Four Cycle Phases</a></li>
   <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
+  <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-app-for-menstrual-health",
+    title: "What Is the Best App for Menstrual Health?",
+    excerpt: "The best app for menstrual health links your cycle to daily symptoms, not just period dates. This guide compares Flo, Clue, Natural Cycles, Apple Health, and Solu honestly.",
+    date: "August 10, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>The best app for menstrual health is the one that connects cycle tracking to daily symptoms like sleep, mood, and energy, not one that only logs period start and end dates. Leading options range from calendar-based predictors to apps that layer in wearable data, research partnerships, or cycle-phase-specific guidance.</p>
+<p>This article is based on peer-reviewed research, published app-effectiveness data, and NHS guidance on menstrual health tracking current as of August 2026.</p>
+
+<h2>What Should You Actually Look For in a Menstrual Health App?</h2>
+<p>A genuinely useful menstrual health app, sometimes called a cycle tracker or period app, does more than predict a start date. The most useful tools combine three things: an accurate prediction method, the ability to log symptoms beyond bleeding, such as mood, sleep, or energy, and some way of turning that data into a pattern rather than a static calendar entry. Women who log symptoms like bloating, mood, and sleep alongside period dates often notice a repeating pattern in the days before a period starts that a symptom-blind calendar app would never surface on its own.</p>
+
+<h2>How Do the Most Popular Menstrual Health Apps Compare?</h2>
+<p>Several apps dominate this category, and each takes a different approach to the same underlying problem. Flo is the most widely downloaded period tracker and relies primarily on calendar and symptom-based predictions with an AI assistant layered on top. Clue has built its reputation on research credibility, partnering with institutions including the <a href="https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/global-researchers-team-with-menstrual-health-app-clue-to-research-female-health-conditions/" target="_blank" rel="noopener noreferrer">University of Oxford, Kinsey Institute, and Johns Hopkins University</a> to study menstrual health at population scale. Apple's built-in Cycle Tracking uses retrospective logging synced across an iPhone and Apple Watch. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> takes a different angle again, correlating sleep, mood, energy, and nutrition signals against a woman's current cycle phase in one place, rather than treating cycle length as the only data point worth tracking. This is a meaningfully different question from <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>, since fertility tracking is narrowly focused on the ovulation window, while a menstrual health app is meant to cover the full month.</p>
+
+<h2>Which Menstrual Health Apps Are Backed by Real Research?</h2>
+<p>Research backing varies significantly between apps, and this is one of the clearest ways to separate marketing claims from substantiated performance. Clue's dataset has powered several large academic studies, including a 2025 collaboration with MIT's Senseable City Lab and the University of Colorado Denver examining air pollution's effect on menstrual cycles across more than 2.2 million tracked cycles. Natural Cycles has gone furthest on the regulatory side, becoming the <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">first FDA-cleared birth control app</a> and continuing to update its algorithm under further FDA clearances. Independent of any single app, a <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12886881/" target="_blank" rel="noopener noreferrer">2026 systematic review in NPJ Digital Medicine</a> (PMID: 41580499) covering 27 studies and more than 6,000 cycles found wearable-based methods reached 0.88 pooled accuracy for the fertile window, compared with 0.72 for calendar-only prediction, a gap that matters more than which specific brand a woman chooses.</p>
+
+<h2>Does a Free Menstrual Health App Work As Well As a Paid One?</h2>
+<p>Price is a weaker predictor of app quality than most people assume. Many free tiers offer solid calendar-based prediction and basic symptom logging, which is often enough for a woman with a regular cycle who mainly wants a reminder before her period starts. The gap widens for irregular cycles, PMS symptom tracking, or anyone trying to correlate cycle phase with training, food, or sleep, features that tend to sit behind a paywall or simply are not built into free calendar apps at all. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> approaches this gap by extending past calendar prediction into daily, phase-specific guidance across movement, nutrition, and sleep, so the app is doing something with the data beyond telling a woman when to expect her next period. This addresses a common version of the question, "is there an app that tracks your whole menstrual health and not just your period," which a purely predictive calendar app was never designed to answer. An older but still widely cited study on <a href="https://pubmed.ncbi.nlm.nih.gov/34629005/" target="_blank" rel="noopener noreferrer">ten popular period tracker apps</a> (PMID: 34629005) found only 8% of ovulation-day predictions were exactly correct, a reminder that prediction accuracy, not price, is what should drive the comparison.</p>
+
+<h2>How Do You Choose the Right Menstrual Health App for You?</h2>
+<p>The right choice depends more on what a woman wants to understand about her body than on which app has the most downloads. A few practical questions to run through before choosing:</p>
+<ul>
+  <li>Does it log more than period dates, such as mood, sleep, energy, or symptoms?</li>
+  <li>Is the prediction method calendar-only, or does it use temperature, OPK, or wearable data?</li>
+  <li>Does it explain patterns across cycles, or just display one month at a time?</li>
+  <li>Is there any published research or clinical validation behind the app?</li>
+  <li>Does it offer guidance you can act on, not just a log of what already happened?</li>
+</ul>
+<p>For a closer look at prediction accuracy specifically, see the companion guide to <a href="/blog/best-period-tracker-app">the best period tracker app</a>, which breaks down how calendar, wearable, and hormone-based methods compare on accuracy alone.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/best-period-tracker-app">What Is the Best Period Tracker App?</a></li>
+  <li><a href="/blog/how-accurate-are-period-tracking-apps">How Accurate Are Period Tracking Apps?</a></li>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-period-tracker-app",
+    title: "What Is the Best Period Tracker App?",
+    excerpt: "The best period tracker app matches its prediction method to how regular your cycles are, since accuracy ranges from 72% to 88%. No single app is most accurate for every cycle.",
+    date: "August 10, 2026",
+    category: "Fertility",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>The best period tracker app is the one whose prediction method matches how regular your own cycles actually are, since accuracy ranges from about 72% for calendar-only apps to 88% for apps that use wearable data like temperature and heart rate. No single app is universally the most accurate for every woman's monthly cycle.</p>
+<p>This article draws on a 2026 systematic review published in NPJ Digital Medicine, FDA clearance records, and NHS fertility guidance current as of August 2026.</p>
+
+<h2>What Actually Makes a Period Tracker App Accurate?</h2>
+<p>Accuracy in a period tracking app, also called a cycle tracker or menstrual calendar app, comes down to the prediction method behind it rather than its design or popularity. Calendar-only apps assume a fixed average cycle length and count forward from a woman's last period, which works reasonably well for a textbook 28-day cycle and breaks down quickly for anyone whose cycle varies month to month. A <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12886881/" target="_blank" rel="noopener noreferrer">2026 systematic review in NPJ Digital Medicine</a> (PMID: 41580499) covering 27 studies and more than 6,000 cycles found calendar-only prediction reached just 0.72 pooled accuracy for the fertility window, compared with 0.88 for methods using wearable temperature and heart rate data. Apps that ingest a direct physiological signal, such as basal body temperature (BBT), an ovulation predictor kit (OPK) result, or heart rate variability from a wearable, can adjust their prediction to what is actually happening in a given cycle instead of relying on a population average.</p>
+
+<h2>How Do the Leading Period Tracker Apps Compare?</h2>
+<p>The major period tracker apps split into two broad categories: prediction-first apps and data-first apps. Flo and Apple's built-in Cycle Tracking lean heavily on calendar and self-reported symptom data. Clue has invested in research validation, syncing with Apple HealthKit and contributing anonymized data to studies run with <a href="https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/global-researchers-team-with-menstrual-health-app-clue-to-research-female-health-conditions/" target="_blank" rel="noopener noreferrer">Oxford, Johns Hopkins, and other research institutions</a>. Natural Cycles built its entire product around a single physiological signal, BBT, which is precise enough that it became the <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">first FDA-cleared birth control app</a> and now also syncs with Oura for automated temperature readings. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> builds its fertile-window estimate from a woman's own logged BBT, OPK results, and cycle history, rather than defaulting every account to the same generic 28-day, day-14-ovulation template most calendar apps still assume.</p>
+
+<h2>Is a Period Tracker App Ever Accurate Enough to Use as Birth Control?</h2>
+<p>Most period tracker apps are not designed or cleared for contraceptive use, and treating one as birth control without checking its regulatory status carries real risk. Natural Cycles is the exception: its algorithm has received <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">multiple FDA clearances</a>, with published effectiveness rates of 98% with perfect use and 93% with typical use, comparable to the range reported for combined oral contraceptive pills. That level of validation does not extend to most other trackers, including apps that are excellent for general cycle awareness but were never tested or cleared as a standalone contraceptive method. This distinction is explored further in the guide to <a href="/blog/is-a-period-tracking-app-100-percent-accurate">whether a period tracking app is 100% accurate</a>, since general prediction accuracy and contraceptive-grade accuracy are not the same claim.</p>
+
+<h2>How Do You Pick the Right Period Tracker for an Irregular Cycle?</h2>
+<p>An irregular cycle exposes the weaknesses of calendar-only prediction faster than a regular one does, which makes the choice of app more consequential for anyone whose cycle length shifts month to month. A 2025 study presented at the <a href="https://pubmed.ncbi.nlm.nih.gov/41336207/" target="_blank" rel="noopener noreferrer">IEEE Engineering in Medicine and Biology Society conference</a> (PMID: 41336207) combined wearable heart rate and temperature data through a machine-learning model and reached an AUROC of 0.84 for highly irregular cycles, well above what calendar prediction alone typically achieves for the same women. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> tracks luteal phase length across a woman's own logged cycles and can flag a persistently short or shifting luteal phase as a pattern worth raising with a doctor, rather than surfacing a single date prediction with no visibility into why it keeps moving. This addresses a version of the question women often type into a search bar directly: "why does my period tracker keep getting it wrong."</p>
+<p>A quick comparison of accuracy by method, drawn from the research above:</p>
+<ul>
+  <li>Calendar-only prediction: around 72% accuracy, weaker on irregular cycles</li>
+  <li>Self-reported basal body temperature alone: around 75% accuracy</li>
+  <li>Wearable devices combining temperature and heart rate: around 88% pooled accuracy</li>
+  <li>FDA-cleared algorithms using BBT for contraception: 93 to 98% effectiveness with typical to perfect use</li>
+  <li>Machine-learning models trained on wearable data for irregular cycles: AUROC up to 0.84</li>
+</ul>
+
+<h2>What Is the Bottom Line on Choosing a Period Tracker App?</h2>
+<p>The most accurate period tracker for one woman is not necessarily the most accurate for another, since the deciding factor is cycle regularity and how much physiological data the app actually uses rather than brand recognition. Someone with a highly regular cycle may find a free calendar app perfectly adequate, while someone with PCOS, perimenopause, or a naturally variable cycle length will get more reliable predictions from an app built around logged temperature or OPK data. For a broader comparison that goes beyond prediction accuracy into daily symptom tracking, see the companion guide to <a href="/blog/best-app-for-menstrual-health">the best app for menstrual health</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/best-app-for-menstrual-health">What Is the Best App for Menstrual Health?</a></li>
+  <li><a href="/blog/how-accurate-are-period-tracking-apps">How Accurate Are Period Tracking Apps?</a></li>
+  <li><a href="/blog/is-a-period-tracking-app-100-percent-accurate">Is a Period Tracking App 100% Accurate?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "why-do-i-crave-sugar-before-my-period",
+    trending: true,
+    title: "Why Do I Crave Sugar Before My Period?",
+    excerpt: "Sugar cravings before a period are driven by rising progesterone and falling serotonin, not a lack of willpower. Here is what causes the luteal-phase craving window and how to manage it.",
+    date: "August 10, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Sugar cravings before a period happen because rising progesterone increases appetite for calorie-dense food while falling serotonin creates a pull toward carbohydrates that temporarily lift mood. The luteal phase, the roughly two-week stretch between ovulation and a period, is when both of these hormonal shifts peak at the same time.</p>
+<p>This article is based on peer-reviewed research published in Nutrients and the Journal of Clinical Psychiatry, along with NHS guidance on premenstrual syndrome current as of August 2026.</p>
+
+<h2>Why Do Sugar Cravings Happen Before a Period?</h2>
+<p>Premenstrual sugar and carbohydrate cravings are a documented physiological shift, not a failure of willpower or a sign of poor discipline. A 2023 study in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10005553/" target="_blank" rel="noopener noreferrer">Nutrients</a> (PMID: 36904096) measured mid-luteal progesterone levels directly and found a significant inverse relationship with premenstrual food cravings, with progesterone alone accounting for nearly 15% of the variation in craving intensity. The monthly cycle, sometimes just called a period cycle in everyday conversation, drives this pattern predictably enough that many women could set a rough calendar to it.</p>
+
+<h2>What Role Does Progesterone Play in Premenstrual Cravings?</h2>
+<p>Progesterone rises sharply after ovulation and stays elevated through the luteal phase before dropping just before a period starts, and this rise is closely linked to increased appetite and a preference for calorie-dense, carbohydrate-rich food. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> maps this rise against a woman's own logged cycle data so the late-luteal craving window shows up in advance, rather than being experienced each month as a sudden and unexplained pull toward sweets. Women who log cravings alongside cycle phase often notice the same window opening in the days before a period, arriving on a predictable schedule rather than at random.</p>
+
+<h2>Why Do Cravings Skew Toward Sugar and Carbs Specifically?</h2>
+<p>Cravings before a period tend to concentrate on sweet and starchy foods rather than food in general, and the mechanism behind this is fairly well understood. Carbohydrate intake raises the ratio of tryptophan reaching the brain relative to other amino acids, and tryptophan is the direct precursor to serotonin, the neurotransmitter most closely tied to mood regulation. A classic paper on <a href="https://pubmed.ncbi.nlm.nih.gov/3045110/" target="_blank" rel="noopener noreferrer">carbohydrate craving and mood</a> (PMID: 3045110) found that boosting serotonin activity with a serotonergic drug reduced carbohydrate consumption in craving-prone individuals by 40%, supporting the idea that reaching for sugar in the luteal phase is partly the brain attempting to self-medicate a temporary dip in serotonin. This overlaps with a related mechanism covered in the guide to <a href="/blog/why-do-i-feel-more-anxious-before-my-period">why anxiety often increases before a period</a>, since both patterns trace back to the same premenstrual serotonin dip.</p>
+
+<h2>Does Blood Sugar Regulation Change Before a Period Too?</h2>
+<p>Insulin sensitivity also shifts across the menstrual cycle for some women, which can compound the craving-crash cycle already driven by progesterone and serotonin. A study in <a href="https://pubmed.ncbi.nlm.nih.gov/10071420/" target="_blank" rel="noopener noreferrer">Archives of Medical Research</a> (PMID: 10071420) measured insulin sensitivity directly using intravenous glucose tolerance testing and found it dropped by roughly 56% from the follicular to the luteal phase in a small cohort of healthy women, though evidence across larger studies remains mixed. Women who track energy dips alongside food cravings and cycle phase sometimes notice their afternoon energy crash and their sugar craving arrive within the same one-to-two-hour window, a correlation a food log alone would not obviously reveal. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> surfaces exactly this kind of overlap by correlating logged energy, mood, and cravings against cycle phase, rather than treating each as an unrelated daily data point.</p>
+
+<h2>What Actually Helps Manage Premenstrual Sugar Cravings?</h2>
+<p>Managing luteal-phase cravings works better through anticipation and food pairing than through restriction, which tends to intensify cravings rather than reduce them. Practical, evidence-informed strategies include:</p>
+<ul>
+  <li>Pairing carbohydrates with protein or fiber to slow the blood sugar spike and crash</li>
+  <li>Prioritizing magnesium-rich foods, since a <a href="https://pubmed.ncbi.nlm.nih.gov/25276694/" target="_blank" rel="noopener noreferrer">randomized trial on magnesium and vitamin B6</a> (PMID: 25276694) found measurable improvement in premenstrual symptom severity</li>
+  <li>Anticipating the craving window by cycle phase rather than reacting to it once it hits</li>
+  <li>Keeping protein-forward snacks available in the late luteal phase specifically</li>
+  <li>Getting consistent sleep, since poor sleep independently increases next-day sugar cravings</li>
+</ul>
+<p>This is also where questions like "why am I so hungry before my period" and "is it normal to crave chocolate before my period" usually lead, and the answer is the same hormonal mechanism described above rather than a separate issue.</p>
+
+<h2>Are Sugar Cravings Ever a Sign Something Else Is Going On?</h2>
+<p>Mild, predictable cravings in the week before a period are normal and expected. NHS guidance on <a href="https://www.nhs.uk/conditions/pre-menstrual-syndrome/" target="_blank" rel="noopener noreferrer">premenstrual syndrome</a> notes that cravings severe enough to disrupt daily life, or accompanied by significant mood changes, can indicate premenstrual dysphoric disorder (PMDD), a more intense condition worth discussing with a doctor. For context on the broader nutritional picture across the cycle, see the guide to <a href="/blog/what-foods-help-balance-hormones-naturally">what foods help balance hormones naturally</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
   <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
 </ul>
     `.trim(),
