@@ -1870,7 +1870,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "why-do-i-crave-sugar-before-my-period",
-    trending: true,
     title: "Why Do I Crave Sugar Before My Period?",
     excerpt: "Sugar cravings before a period are driven by rising progesterone and falling serotonin, not a lack of willpower. Here is what causes the luteal-phase craving window and how to manage it.",
     date: "August 10, 2026",
@@ -1912,6 +1911,135 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
   <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
   <li><a href="/blog/is-there-an-app-for-hormonal-imbalance">Is There an App for Hormonal Imbalance?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "best-flo-alternatives",
+    title: "What Are the Best Flo Alternatives?",
+    excerpt: "The best Flo alternatives are Clue, Natural Cycles, Apple Cycle Tracking, and Solu, each handling your data differently. This guide compares privacy practices, prediction accuracy, and daily guidance so you can choose based on what matters most to you.",
+    date: "August 17, 2026",
+    category: "Wellbeing",
+    image: "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>The best Flo alternatives are Clue, Natural Cycles, Apple's built-in Cycle Tracking, and Solu, each handling cycle data and prediction differently. Clue leads on research credibility, Natural Cycles is the only FDA-cleared option for contraception, and Solu extends tracking into daily cycle-phase guidance rather than prediction alone.</p>
+<p>This article is based on Federal Trade Commission enforcement records, peer-reviewed research on health app data privacy, and NHS guidance on menstrual tracking current as of August 2026.</p>
+
+<h2>Why Are Women Looking for Alternatives to Flo?</h2>
+<p>Flo, formally the Flo Period & Ovulation Tracker, is the most downloaded menstrual cycle app in the world, but its history with user data is what pushes a meaningful number of women toward a different period app. In 2021, the <a href="https://www.ftc.gov/news-events/news/press-releases/2021/06/ftc-finalizes-order-flo-health-fertility-tracking-app-shared-sensitive-health-data-facebook-google" target="_blank" rel="noopener noreferrer">US Federal Trade Commission finalized an order against Flo Health</a>, finding the company had shared sensitive health data, including when a user was trying to get pregnant, with Facebook, Google, and other marketing and analytics firms despite promising to keep that data private. A 2025 qualitative study in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12131320/" target="_blank" rel="noopener noreferrer">Oxford Open Digital Health</a> found that women using cycle tracking apps frequently reported not trusting the app with sensitive information, yet continued using it anyway because the day-to-day benefit still outweighed the stated privacy worry. Women who have switched trackers after a privacy scare often report reading a privacy policy in full for the first time only after deciding to leave, rather than before first signing up.</p>
+
+<h2>How Do the Leading Flo Alternatives Actually Compare?</h2>
+<p>Each major alternative to Flo solves the same basic problem, tracking a menstrual cycle, in a different way. Clue has built its reputation on research partnerships, working with institutions including the <a href="https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/global-researchers-team-with-menstrual-health-app-clue-to-research-female-health-conditions/" target="_blank" rel="noopener noreferrer">University of Oxford, Kinsey Institute, and Johns Hopkins University</a> to study menstrual health at population scale. Natural Cycles built its product around a single physiological signal, basal body temperature, precise enough that it became the <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">first FDA-cleared birth control app</a>. Apple's built-in Cycle Tracking relies on retrospective logging synced across an iPhone and Apple Watch, with no separate account required. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> takes a different approach again, using a woman's logged cycle phase to time movement and nutrition recommendations for that specific day, turning her data into a same-day plan rather than a static log of dates. For a fuller side-by-side on prediction accuracy across these tools, see the companion guide to <a href="/blog/best-period-tracker-app">the best period tracker app</a>.</p>
+
+<h2>Is Natural Cycles a Safer Flo Alternative for Birth Control Specifically?</h2>
+<p>Most period trackers, including Flo, Clue, and Apple's Cycle Tracking, are not designed or cleared for contraceptive use. Natural Cycles is the exception: its algorithm holds <a href="https://www.forbes.com/sites/geristengel/2025/08/18/natural-cycles-and-the-rise-of-hormone-free-birth-control/" target="_blank" rel="noopener noreferrer">multiple FDA clearances</a>, with published effectiveness of 98% with perfect use and 93% with typical use, a range comparable to combined oral contraceptive pills. That distinction matters for anyone specifically leaving Flo to use an alternative as birth control rather than simply to track a monthly cycle, since general cycle awareness and contraceptive-grade accuracy are not the same claim.</p>
+
+<h2>Which Flo Alternative Gives You More Than Just Predictions?</h2>
+<p>A 2025 content analysis in the <a href="https://pubmed.ncbi.nlm.nih.gov/40053713/" target="_blank" rel="noopener noreferrer">Journal of Medical Internet Research</a> reviewing several major reproductive health apps found that most tools still center almost entirely on prediction and logging, with comparatively little app functionality dedicated to acting on what a woman has already recorded. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> pairs logged cycle phase with a woman's own sleep and recovery data to flag when late-luteal fatigue is likely, rather than only marking a date on a calendar and leaving the interpretation to her. Before switching trackers, it helps to check a short list of practical points:</p>
+<ul>
+  <li>Is the privacy policy written in plain language, not just dense legal text?</li>
+  <li>Does the app require an account or email address to function at all?</li>
+  <li>Can you export or fully delete your data if you decide to leave?</li>
+  <li>Is it FDA-cleared, if you plan to use it for contraception?</li>
+  <li>Does it offer any guidance beyond a predicted date, such as symptom or phase-based recommendations?</li>
+</ul>
+
+<h2>How Do You Choose the Right Flo Alternative for Your Needs?</h2>
+<p>The right Flo alternative depends on what specifically pushed a woman to look for one. Someone motivated purely by a privacy concern should weigh each app's data practices first, using the FTC record and app-specific privacy policy as a starting point rather than marketing copy. Someone asking "is there a period tracker that doesn't sell my data" is really asking a data-practices question, not an accuracy question, and the two should be researched separately. For a broader comparison across accuracy, privacy, and features together, see the guide to <a href="/blog/best-app-for-menstrual-health">the best app for menstrual health</a>, and for a closer look at what these apps actually do day to day beyond prediction, see <a href="/blog/what-does-a-period-tracking-app-do">what a period tracking app actually does</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/best-app-for-menstrual-health">What Is the Best App for Menstrual Health?</a></li>
+  <li><a href="/blog/best-period-tracker-app">What Is the Best Period Tracker App?</a></li>
+  <li><a href="/blog/what-does-a-period-tracking-app-do">What Does a Period Tracking App Actually Do?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-does-a-period-tracking-app-do",
+    title: "What Does a Period Tracking App Actually Do?",
+    excerpt: "A period tracking app logs your cycle dates and symptoms to predict your period, ovulation, and PMS timing. The best ones turn that data into daily guidance, not just a calendar.",
+    date: "August 17, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>A period tracking app logs menstrual cycle dates and daily symptoms, then uses that history to predict your next period, ovulation window, and PMS timing. The more useful apps go further, turning logged data into guidance on nutrition, movement, sleep, or energy for the specific day a woman opens the app, rather than just a calendar view.</p>
+<p>This article draws on 2024 and 2025 studies published in the Journal of Medical Internet Research, alongside NHS guidance on menstrual cycle tracking current as of August 2026.</p>
+
+<h2>What Data Does a Period Tracking App Actually Collect?</h2>
+<p>A period tracker, sometimes called a cycle tracking app or monthly cycle app, is built around one core input: the start and end date of bleeding. From there, most apps let a woman log additional signals such as mood, cramps, sleep quality, basal body temperature, ovulation predictor kit (OPK) results, and sexual activity. A 2024 mixed-methods study in the <a href="https://pubmed.ncbi.nlm.nih.gov/39388687/" target="_blank" rel="noopener noreferrer">Journal of Medical Internet Research</a> surveying millennial and Generation Z users found that most respondents logged period dates consistently but logged additional symptoms far less reliably, which limits how much a tracker can learn about an individual pattern. Women who log symptoms daily rather than only period start and end dates often build a large enough personal dataset within two or three cycles to spot a pattern that a single month alone would never reveal.</p>
+
+<h2>How Does a Period Tracking App Predict Your Next Cycle?</h2>
+<p>Prediction in most period tracking apps works by averaging a woman's past cycle lengths and counting forward from her last period, a method that works reasonably well for a regular cycle and less well for an irregular one. An older but still widely cited study of <a href="https://pubmed.ncbi.nlm.nih.gov/34629005/" target="_blank" rel="noopener noreferrer">ten popular period tracker apps</a> found only 8% of ovulation-day predictions were exactly correct, a reminder that calendar-based prediction alone has real limits. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> turns the same logged data into a same-day recommendation, such as a lighter workout suggestion or an earlier wind-down time, rather than only displaying a predicted date on a calendar and leaving a woman to interpret it herself.</p>
+
+<h2>Can a Period Tracking App Do More Than Predict Dates?</h2>
+<p>The most capable period apps now go beyond a monthly calendar and correlate logged symptoms against cycle phase over time, sometimes pulling in wearable data like heart rate variability or sleep stages. NHS guidance on <a href="https://www.nhs.uk/conditions/periods/fertility-in-the-menstrual-cycle/" target="_blank" rel="noopener noreferrer">periods and the menstrual cycle</a> notes that tracking symptoms over several months, not just bleeding dates, is one of the more useful things a woman can bring to a GP appointment about irregular or painful periods. This is a different question from simply asking which app is most accurate; it is asking which app does something useful with the accuracy it has. For a full comparison of app features side by side, see the guide to <a href="/blog/best-app-for-menstrual-health">the best app for menstrual health</a>, and for a privacy-focused comparison of the major players, see the guide to <a href="/blog/best-flo-alternatives">the best Flo alternatives</a>.</p>
+
+<h2>Is a Period Tracking App the Same as a Fertility App?</h2>
+<p>A period tracking app and a fertility app overlap but are not identical tools. A period app is built to cover the full monthly cycle, including PMS symptoms and general cycle awareness, while a fertility-focused app narrows in specifically on the fertile window using basal body temperature, OPK results, and cervical mucus changes, a combination the <a href="https://www.acog.org/womens-health/faqs/fertility-awareness-based-methods-of-family-planning" target="_blank" rel="noopener noreferrer">American College of Obstetricians and Gynecologists</a> groups together as fertility awareness-based methods, as covered in the guide to <a href="/blog/how-to-track-female-fertility">how to track female fertility</a>. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> compares a newly logged symptom against a woman's own recent cycle history, distinguishing an unusual spike in fatigue or cramping from what has been a normal pattern for her personally, rather than judging every entry against a generic population average. This addresses a version of the question women often type directly into a search bar: "why does my period app say something different every month."</p>
+
+<h2>What Should You Actually Look for in a Period Tracking App?</h2>
+<p>Choosing a period tracking app comes down to a short list of practical questions rather than downloads or star ratings alone:</p>
+<ul>
+  <li>Does it log more than just bleeding dates, such as mood, sleep, or energy?</li>
+  <li>Is prediction calendar-only, or does it use temperature, OPK, or wearable data?</li>
+  <li>Does it explain patterns across several cycles, or only show one month at a time?</li>
+  <li>Is there a clear, readable privacy policy covering how your data is used?</li>
+  <li>Does it turn logged data into a same-day recommendation, or only a prediction?</li>
+</ul>
+<p>The difference between a basic period tracker and a full cycle tracking app usually comes down to that last point: whether the tool only tells a woman what is likely to happen, or also tells her what to do about it today. This is also the practical answer to a question many women type into a search bar rather than ask a doctor directly: "is a period app worth using if my cycle is already regular." Even a regular cycle produces symptom data worth logging, since mood, energy, and sleep can vary meaningfully month to month even when bleeding dates barely move.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/best-app-for-menstrual-health">What Is the Best App for Menstrual Health?</a></li>
+  <li><a href="/blog/best-flo-alternatives">What Are the Best Flo Alternatives?</a></li>
+  <li><a href="/blog/how-to-track-female-fertility">How Do You Track Female Fertility?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "does-your-menstrual-cycle-affect-muscle-growth",
+    trending: true,
+    title: "Does Your Menstrual Cycle Affect Muscle Growth?",
+    excerpt: "Your menstrual cycle phase does not measurably affect muscle growth, a 2025 muscle-biopsy study confirms. Energy, effort, and injury risk still shift by phase, just not the muscle-building response itself.",
+    date: "August 17, 2026",
+    category: "Movement",
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>A woman's menstrual cycle phase does not measurably affect muscle growth itself: a 2025 muscle-biopsy study found no difference in muscle protein synthesis between the high-oestrogen follicular phase and the high-progesterone luteal phase. What does shift across the cycle is energy, perceived exertion, and injury risk, none of which change how a muscle actually builds in response to training.</p>
+<p>This article is based on a 2025 muscle-biopsy study in The Journal of Physiology, a systematic review in the Orthopaedic Journal of Sports Medicine, and a meta-analysis in the British Journal of Sports Medicine.</p>
+
+<h2>Does Training During a Specific Cycle Phase Build More Muscle?</h2>
+<p>The popular version of cycle-syncing advice for strength training claims that lifting heavy in the follicular phase, when oestrogen is highest, builds more muscle than lifting during the luteal phase. A 2025 study from McMaster University, published in <a href="https://pubmed.ncbi.nlm.nih.gov/39630025/" target="_blank" rel="noopener noreferrer">The Journal of Physiology</a>, tested that claim directly using muscle biopsies, blood hormone analysis, and urinary ovulation tests to confirm each participant's cycle phase, then measured muscle protein synthesis after resistance exercise in both phases. The result found no measurable difference in muscle protein synthesis or muscle protein breakdown between phases. For the full breakdown of that study and what it means for cycle-syncing more broadly, see the deep dive on <a href="/blog/does-cycle-syncing-actually-work">whether cycle syncing actually works</a>. Strength coaches who log training load across a full training block often find perceived exertion swings more with sleep and stress the night before than with where a woman happens to be in her cycle that week.</p>
+
+<h2>What Actually Drives Muscle Growth, If Not Cycle Phase?</h2>
+<p>Muscle growth responds to a small set of well-established drivers that apply the same way regardless of hormonal phase. A 2018 meta-analysis in the <a href="https://pubmed.ncbi.nlm.nih.gov/28698222/" target="_blank" rel="noopener noreferrer">British Journal of Sports Medicine</a>, covering 49 studies and more than 1,800 participants, found that protein intake up to roughly 1.6 grams per kilogram of body weight per day meaningfully increased strength and muscle size gains from resistance training, with little additional benefit above that threshold. Alongside adequate protein, the other consistent drivers are:</p>
+<ul>
+  <li>Progressive overload, gradually increasing weight, reps, or training volume over time</li>
+  <li>Consistent training frequency, hitting each muscle group often enough to drive adaptation</li>
+  <li>Sufficient recovery between sessions, including sleep quality</li>
+  <li>Total protein intake around 1.6 grams per kilogram of body weight daily</li>
+  <li>Training to a meaningful level of effort, not necessarily to complete failure</li>
+</ul>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> does not tell a woman to skip heavy lifting outside a specific cycle phase; it logs training load, sleep, and how a session actually felt, so decisions about intensity stay grounded in that day's data rather than a blanket cycle-based rule.</p>
+
+<h2>Where Does Cycle Phase Actually Matter for Training?</h2>
+<p>Cycle phase is not irrelevant to training, it simply affects different things than muscle-building mechanics. A systematic review and meta-analysis in the <a href="https://pubmed.ncbi.nlm.nih.gov/28795075/" target="_blank" rel="noopener noreferrer">Orthopaedic Journal of Sports Medicine</a>, covering more than 68,000 participants across 21 studies, found significantly increased knee ligament laxity during the ovulatory phase compared with the follicular phase, alongside moderate evidence linking the ovulatory phase to a higher rate of ACL injury. This is a genuine, well-documented answer to questions like "why do I feel weaker before my period" or "why does my knee feel less stable around ovulation," even though the underlying muscle-building response stays constant. Subjective energy and perceived exertion also shift for many women across the cycle, which is real, even though it is not the same claim as cycle phase changing muscle protein synthesis.</p>
+
+<h2>Is Cycle-Syncing Fitness Advice Completely Wrong, Then?</h2>
+<p>Cycle-syncing advice is not entirely wrong, it is overprecise in the specific claim about muscle growth. The broader framework of <a href="/blog/how-to-train-with-your-cycle">structuring workouts around your cycle</a> still has value for recovery pacing and injury awareness, particularly around the ovulatory window described above, even though the strict claim that follicular-phase training builds more muscle does not hold up under direct testing. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> surfaces a woman's own recovery pattern, sleep quality, and soreness logged across multiple cycles, so a real dip gets flagged as her personal pattern specifically, rather than assumed automatically from cycle phase alone.</p>
+
+<h2>What Is the Bottom Line for Women Who Lift Weights?</h2>
+<p>Consistency in training beats trying to time workouts around a cycle for anyone whose primary goal is building muscle. Progressive overload, adequate protein, and recovery drive muscle growth regardless of hormonal phase, while cycle phase is more relevant to energy, injury-risk awareness around ovulation, and how a session subjectively feels. For a closer look at how resistance training benefits women beyond muscle size, see the guide to <a href="/blog/can-strength-training-protect-womens-heart-health">whether strength training can protect women's heart health</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/does-cycle-syncing-actually-work">Does Cycle Syncing Actually Work?</a></li>
+  <li><a href="/blog/how-to-train-with-your-cycle">How Should I Structure My Workouts Around My Menstrual Cycle?</a></li>
+  <li><a href="/blog/can-strength-training-protect-womens-heart-health">Can Strength Training Protect Women's Heart Health?</a></li>
 </ul>
     `.trim(),
   },
