@@ -18,6 +18,12 @@ function metaDescription(excerpt: string, maxLength = 155): string {
   return `${truncated.slice(0, lastSpace).replace(/[.,;:]$/, "")}...`
 }
 
+function ogImageUrl(url: string): string {
+  if (!url.startsWith("https://images.unsplash.com/")) return url
+  const [base] = url.split("?")
+  return `${base}?w=1200&h=630&fit=crop&q=80`
+}
+
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }))
 }
@@ -40,13 +46,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       locale: "en_US",
       publishedTime: toISODate(post.date),
-      images: post.image ? [{ url: post.image, alt: post.title }] : undefined,
+      images: post.image ? [{ url: ogImageUrl(post.image), width: 1200, height: 630, alt: post.title }] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: `${post.title} | Solu`,
       description,
-      images: post.image ? [post.image] : undefined,
+      images: post.image ? [ogImageUrl(post.image)] : undefined,
     },
   }
 }
