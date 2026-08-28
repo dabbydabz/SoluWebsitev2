@@ -49,6 +49,8 @@ export default function BlogPage() {
     "name": "Solu Health Blog",
     "url": "https://www.solu.ae/blog",
     "description": "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    "inLanguage": "en",
+    "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
     "mainEntity": {
       "@type": "ItemList",
       "itemListElement": sortedPosts.map((p, i) => ({
@@ -60,12 +62,21 @@ export default function BlogPage() {
     },
   }
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.solu.ae" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.solu.ae/blog" },
+    ],
+  }
+
   return (
     <>
       <Script
         id="schema-blog-collection"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([collectionSchema, breadcrumbSchema]) }}
       />
       <SoluHeader />
       <main className="min-h-screen bg-white">
