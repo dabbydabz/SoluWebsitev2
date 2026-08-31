@@ -2001,7 +2001,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "does-your-menstrual-cycle-affect-muscle-growth",
-    trending: true,
     title: "Does Your Menstrual Cycle Affect Muscle Growth?",
     excerpt: "Your menstrual cycle phase does not measurably affect muscle growth, a 2025 muscle-biopsy study confirms. Energy, effort, and injury risk still shift by phase, just not the muscle-building response itself.",
     date: "August 17, 2026",
@@ -2040,6 +2039,148 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/does-cycle-syncing-actually-work">Does Cycle Syncing Actually Work?</a></li>
   <li><a href="/blog/how-to-train-with-your-cycle">How Should I Structure My Workouts Around My Menstrual Cycle?</a></li>
   <li><a href="/blog/can-strength-training-protect-womens-heart-health">Can Strength Training Protect Women's Heart Health?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-causes-hormonal-imbalance-in-women",
+    title: "What Causes Hormonal Imbalance in Women?",
+    excerpt: "Hormonal imbalance in women is most often caused by PCOS, thyroid disorders, chronic stress, insulin resistance, or the menopause transition. Each disrupts the hormone signalling between the brain and the ovaries in a different way.",
+    date: "August 31, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1540206395-68808572332f?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Hormonal imbalance in women is most often caused by polycystic ovary syndrome (PCOS), thyroid dysfunction, chronic stress, insulin resistance, and the perimenopause transition. Each of these disrupts the feedback loop between the brain, the ovaries, and the endocrine glands, changing levels of oestrogen, progesterone, cortisol, or thyroid hormone.</p>
+<p>This article draws on World Health Organization guidance on polycystic ovary syndrome, a peer-reviewed review in Endocrinology on how stress hormones affect reproduction, and NHS and American Thyroid Association clinical guidance current as of August 2026.</p>
+
+<h2>What Does Hormonal Imbalance Actually Mean?</h2>
+<p>A hormonal imbalance means one or more hormones sit outside their normal range relative to the others, enough to produce symptoms. The female endocrine system runs on feedback: the hypothalamus and pituitary in the brain send luteinising hormone (LH) and follicle-stimulating hormone (FSH) to the ovaries, which release oestrogen and progesterone in response. When any part of that loop is disrupted, the effects show up as changes in periods, energy, mood, skin, weight, or sleep. People often describe this as their hormones being off or out of whack, and the phrase usually points to a real, measurable shift. The monthly cycle is the clearest place these changes appear, which is why an irregular period is often the first clue. This is the territory behind searches like "why is my period so irregular" and "how do I know if my hormones are unbalanced." For a full picture of how these hormones move across a normal month, see the guide to <a href="/blog/understanding-your-four-cycle-phases">the four phases of the menstrual cycle</a>.</p>
+
+<h2>How Does PCOS Cause Hormonal Imbalance?</h2>
+<p>Polycystic ovary syndrome is the most common hormonal disorder in women of reproductive age and a leading cause of irregular periods and infertility. The World Health Organization's 2025 guidance estimates that PCOS affects 8 to 13 percent of reproductive-age women, and that up to 70 percent of affected women are never diagnosed (<a href="https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome" target="_blank" rel="noopener noreferrer">WHO polycystic ovary syndrome fact sheet</a>). In PCOS, the ovaries produce excess androgens such as testosterone, often alongside raised LH and high insulin, which together stop regular ovulation. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy. It logs daily inputs such as sleep, stress, training load, and food alongside cycle symptoms, so a woman can see which specific factor tracks with her most disrupted weeks rather than guessing. Women who record cycle length and symptoms across several months often build a clearer case for a PCOS assessment than a single appointment allows.</p>
+
+<h2>Can Thyroid Problems Throw Your Hormones Off?</h2>
+<p>Thyroid disorders are a frequently missed cause of hormonal imbalance in women, who are five to eight times more likely than men to develop them. The <a href="https://www.thyroid.org/media-main/press-room/" target="_blank" rel="noopener noreferrer">American Thyroid Association</a> estimates that one woman in eight will develop a thyroid disorder in her lifetime. An underactive thyroid, or hypothyroidism, slows metabolism and can cause fatigue, cold sensitivity, weight gain, heavier or irregular periods, and low mood. An overactive thyroid can shorten or lighten periods and raise resting heart rate. Because thyroid hormone interacts with oestrogen and prolactin, an untreated thyroid problem often looks like a reproductive one. A blood test measuring thyroid-stimulating hormone (TSH) is the standard first check, and many women request it only after tracking a cluster of symptoms over time.</p>
+
+<h2>How Does Chronic Stress Disrupt Female Hormones?</h2>
+<p>Chronic stress disrupts female hormones by keeping cortisol elevated, which suppresses the reproductive axis. A review in <a href="https://pubmed.ncbi.nlm.nih.gov/24064362/" target="_blank" rel="noopener noreferrer">Endocrinology</a> (PMID: 24064362) found that glucocorticoids like cortisol block the reproductive system at every level: the hypothalamus, the pituitary, and the ovaries. In practice this can delay or skip ovulation, lengthen a cycle, or stop periods altogether during prolonged stress. This is the mechanism behind the common question "can stress delay your period," and the answer is yes, as covered in the guide to <a href="/blog/does-stress-really-delay-your-period">whether stress really delays your period</a>. High cortisol also drives its own symptom set, including poor sleep, belly-weight gain, and afternoon energy crashes, detailed in the article on <a href="/blog/what-are-the-signs-of-high-cortisol-in-women">the signs of high cortisol in women</a>.</p>
+
+<h2>Does Insulin Resistance Affect Hormones in Women?</h2>
+<p>Insulin resistance is a common and often overlooked driver of hormonal imbalance, especially where irregular periods and stubborn weight sit together. When cells respond poorly to insulin, the pancreas produces more of it, and high insulin pushes the ovaries to make more androgens while lowering sex hormone-binding globulin (SHBG), the protein that keeps testosterone in check. The result is more free testosterone, which can cause acne, unwanted hair growth, and disrupted ovulation. Insulin resistance frequently overlaps with PCOS but also appears on its own, particularly in the years before menopause. Strength training, protein-forward meals, and reducing refined sugar all improve insulin sensitivity, which is why they appear repeatedly in hormone-focused advice.</p>
+
+<h2>Is Perimenopause a Hormonal Imbalance?</h2>
+<p>Perimenopause is a natural hormonal transition, not a disorder, but it produces many of the same symptoms as a pathological imbalance. It typically begins in the mid-forties and can last four to ten years, during which oestrogen and progesterone fluctuate unpredictably before declining. Cycles often shorten first, then lengthen and skip, and symptoms can include hot flushes, disrupted sleep, mood changes, and heavier or lighter bleeding. A 2023 analysis of more than 165,000 cycles from the <a href="https://pubmed.ncbi.nlm.nih.gov/37248288/" target="_blank" rel="noopener noreferrer">Apple Women's Health Study</a> (PMID: 37248288) found cycle variability rises sharply after age 45, which helps explain why perimenopausal cycles feel so erratic. For the full timeline, see the guide to <a href="/blog/what-is-perimenopause-and-when-does-it-start">what perimenopause is and when it starts</a>.</p>
+
+<h2>What Can You Do About Hormonal Imbalance?</h2>
+<p>Addressing hormonal imbalance starts with identifying the likely cause, then matching the response to it rather than treating symptoms in isolation. Practical first steps include:</p>
+<ul>
+  <li>Track cycle length and symptoms for at least three months before a doctor's appointment</li>
+  <li>Ask for baseline blood tests: TSH, fasting insulin or glucose, and, where relevant, testosterone and prolactin</li>
+  <li>Prioritise consistent sleep and protein intake, which support insulin sensitivity and cortisol regulation</li>
+  <li>Add resistance training two to three times a week</li>
+  <li>Limit alcohol and refined sugar, which worsen both insulin resistance and premenstrual symptoms</li>
+</ul>
+<p>When a woman changes one variable, such as cutting evening alcohol or adding a magnesium supplement, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> uses its phase-aligned logs to show whether her luteal symptoms actually eased over the following cycles, rather than leaving the result to memory. Diet is one of the more controllable levers, and the guide to <a href="/blog/what-foods-help-balance-hormones-naturally">foods that help balance hormones naturally</a> covers it in detail. If symptoms point to a specific pattern, the companion articles on <a href="/blog/how-do-you-know-if-your-hormones-are-off">how to know if your hormones are off</a> and <a href="/blog/what-is-the-luteal-phase">what the luteal phase is</a> can help narrow it down. Women who log fatigue, cycle length, and mood alongside sleep and stress data often see which input is moving their symptoms before a single blood test is ordered.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/how-do-you-know-if-your-hormones-are-off">How Do You Know If Your Hormones Are Off?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What Is Perimenopause and When Does It Start?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-do-you-know-if-your-hormones-are-off",
+    title: "How Do You Know If Your Hormones Are Off?",
+    excerpt: "Hormones being off usually shows up as several signs at once: irregular periods, fatigue, mood swings, sleep trouble, and weight changes. One symptom alone rarely means much; a repeating pattern across cycles does.",
+    date: "August 31, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>You know your hormones are off when several symptoms cluster together and persist across more than one cycle: irregular or missed periods, ongoing fatigue, mood swings, disrupted sleep, unexplained weight change, acne, or hair thinning. A single off week is normal, but a repeating pattern across two or three cycles is the signal worth investigating.</p>
+<p>This article draws on American College of Obstetricians and Gynecologists guidance on the menstrual cycle as a vital sign, two large datasets published in npj Digital Medicine, and NHS and American Thyroid Association guidance current as of August 2026.</p>
+
+<h2>What Are the Most Common Signs Your Hormones Are Off?</h2>
+<p>The most common signs of a hormonal imbalance in women affect the menstrual cycle first, then energy, mood, sleep, skin, and weight. Hormones rarely shift one at a time, so the useful pattern is a group of changes appearing together over the same few months. The signs most often reported include:</p>
+<ul>
+  <li>Periods that become irregular, much heavier or lighter, or stop</li>
+  <li>Fatigue that does not improve with rest, especially in the luteal phase</li>
+  <li>Mood swings, new anxiety, or low mood tied to a specific part of the cycle</li>
+  <li>Trouble falling or staying asleep, often worse before a period</li>
+  <li>New adult acne, unwanted facial hair, or hair thinning on the scalp</li>
+</ul>
+<p>Unexplained weight change, low libido, and breast tenderness round out the list. This is the cluster behind searches like "how do I know if my hormones are unbalanced" and "why do I feel off all the time."</p>
+
+<h2>How Irregular Does a Period Have To Be To Signal a Problem?</h2>
+<p>A period is worth investigating when the cycle regularly runs shorter than 21 days or longer than 35 days, or when the length swings by more than 7 to 9 days from cycle to cycle. Contrary to popular belief, a 28-day cycle is not the norm for most women. An analysis of more than 600,000 cycles in <a href="https://pubmed.ncbi.nlm.nih.gov/31482137/" target="_blank" rel="noopener noreferrer">npj Digital Medicine</a> (PMID: 31482137) found the average ovulatory cycle was 29.3 days, with wide natural variation between individuals. A 2023 study of more than 165,000 cycles from the <a href="https://pubmed.ncbi.nlm.nih.gov/37248288/" target="_blank" rel="noopener noreferrer">Apple Women's Health Study</a> (PMID: 37248288) found cycle variability is lowest between ages 35 and 39 and rises sharply under 20 and over 45. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy. It builds a phase-by-phase baseline from a woman's own logged cycles, so a change like a shortening luteal phase or a rising resting heart rate is flagged against her personal norm rather than a textbook average.</p>
+
+<h2>Can You Tell If Your Hormones Are Off Without a Blood Test?</h2>
+<p>You can gather strong evidence that your hormones are off without a blood test, though confirming which hormone requires one. Consistent tracking of cycle length, bleeding, basal body temperature (BBT), mood, sleep, and energy over two to three months produces a record a clinician can act on. BBT is particularly useful: a sustained rise of about 0.3 degrees Celsius after ovulation confirms that ovulation happened, and its absence suggests it did not. Wearables add resting heart rate and heart rate variability (HRV), which shift predictably across a healthy cycle. For the options and their limits, see the guides to <a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">tracking your hormones at home</a> and <a href="/blog/can-a-wearable-track-your-hormones">whether a wearable can track your hormones</a>.</p>
+
+<h2>Which Hormone Is Likely Off Based on Your Symptoms?</h2>
+<p>Symptom patterns point toward specific hormones, which helps target the right test. Short luteal phases, premenstrual spotting, and anxiety in the week before a period suggest low progesterone. Acne along the jaw, facial hair, and scalp thinning point to excess androgens, often with insulin resistance. Fatigue, cold sensitivity, constipation, and weight gain suggest an underactive thyroid. Poor sleep, belly-weight gain, and wired-but-tired evenings suggest high cortisol. Hot flushes, night sweats, and shorter then skipped cycles in the forties suggest falling oestrogen. The companion guide to <a href="/blog/what-causes-hormonal-imbalance-in-women">what causes hormonal imbalance in women</a> covers the mechanisms, and the deep dive on <a href="/blog/what-is-the-luteal-phase">the luteal phase</a> explains why so many of these symptoms peak premenstrually. Cyclical anxiety specifically is covered in the article on <a href="/blog/why-do-i-feel-more-anxious-before-my-period">why anxiety rises before a period</a>.</p>
+
+<h2>When Should You See a Doctor About Hormone Symptoms?</h2>
+<p>Some hormone symptoms warrant a prompt medical appointment rather than more tracking. The <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/12/menstruation-in-girls-and-adolescents-using-the-menstrual-cycle-as-a-vital-sign" target="_blank" rel="noopener noreferrer">American College of Obstetricians and Gynecologists</a> treats the menstrual cycle as a vital sign and flags several patterns for review: cycles consistently shorter than 21 days or longer than 45 days, no period for 90 days or more, bleeding between periods, and a clear change from a previously regular pattern. Milk-like nipple discharge unrelated to breastfeeding, sudden severe acne or hair growth, and premenstrual mood symptoms severe enough to disrupt work or relationships also need assessment. Severe cyclical mood symptoms can indicate premenstrual dysphoric disorder (PMDD), which a <a href="https://pubmed.ncbi.nlm.nih.gov/12892987/" target="_blank" rel="noopener noreferrer">review in Psychoneuroendocrinology</a> (PMID: 12892987) estimates affects 3 to 8 percent of women of reproductive age.</p>
+
+<h2>How Do You Track Whether Your Hormones Are Off Over Time?</h2>
+<p>Tracking whether your hormones are off over time works best when you compare whole cycles against each other, not single days. Logging the same signals each cycle, then reviewing them side by side, turns a vague sense that "this month felt worse" into a specific, visible difference. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> lets a woman line up one full cycle against the previous several, so a lengthening or shortening trend, or a symptom that is creeping earlier each month, becomes obvious rather than something she has to hold in memory. Women who track cycle length, mood, and sleep together often identify a consistent luteal-phase dip two or three cycles before they would have described it to a doctor as a pattern. For the underlying map of what each phase should feel like, see the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-causes-hormonal-imbalance-in-women">What Causes Hormonal Imbalance in Women?</a></li>
+  <li><a href="/blog/what-is-the-luteal-phase">What Is the Luteal Phase and Why Does It Affect Mood?</a></li>
+  <li><a href="/blog/what-is-the-best-way-to-track-your-hormones-at-home">What Is the Best Way to Track Your Hormones at Home?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-is-the-luteal-phase",
+    trending: true,
+    title: "What Is the Luteal Phase and Why Does It Affect Mood?",
+    excerpt: "The luteal phase is the 10 to 14 days between ovulation and your period, when progesterone peaks then falls sharply. That hormone swing acts on GABA and serotonin, which is why mood, sleep, and hunger shift premenstrually.",
+    date: "August 31, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>The luteal phase is the roughly 10 to 14 days between ovulation and the start of your next period, when progesterone rises to its monthly peak and then falls sharply alongside oestrogen. That late-phase hormone withdrawal affects GABA and serotonin signalling, body temperature, and appetite, which produces the lower mood, lighter sleep, and increased hunger many women notice premenstrually.</p>
+<p>This article draws on a 2025 systematic review in Nutrition Reviews, a review in Frontiers in Psychiatry on progesterone metabolites and GABA-A receptors, a 2019 npj Digital Medicine analysis of more than 600,000 cycles, and NHS guidance on premenstrual syndrome current as of August 2026.</p>
+
+<h2>What Happens Hormonally During the Luteal Phase?</h2>
+<p>The luteal phase is the roughly two-week stretch between ovulation and a period when progesterone peaks. After the egg is released, the empty follicle becomes the corpus luteum, a temporary gland that produces progesterone, with a smaller secondary rise in oestrogen. Progesterone raises basal body temperature by about 0.3 degrees Celsius and prepares the uterine lining for a possible pregnancy. If no pregnancy occurs, the corpus luteum breaks down, progesterone and oestrogen both drop, and that withdrawal triggers the period. An analysis of more than 600,000 ovulatory cycles in <a href="https://pubmed.ncbi.nlm.nih.gov/31482137/" target="_blank" rel="noopener noreferrer">npj Digital Medicine</a> (PMID: 31482137) found the average luteal phase lasts 12.4 days. For how this phase fits with menstruation, the follicular phase, and ovulation, see the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>.</p>
+
+<h2>Why Does the Luteal Phase Affect Your Mood?</h2>
+<p>The luteal phase affects mood mainly through allopregnanolone, a metabolite of progesterone that acts on GABA-A receptors, the brain's main calming system. A 2023 review in <a href="https://pubmed.ncbi.nlm.nih.gov/36937732/" target="_blank" rel="noopener noreferrer">Frontiers in Psychiatry</a> (PMID: 36937732) describes how some women's GABA-A receptors adapt poorly to shifting allopregnanolone levels, producing anxiety, irritability, and low mood in the luteal phase. Falling oestrogen also lowers serotonin activity, which affects mood and carbohydrate cravings. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy. It aligns logged workouts, sleep, and energy with the day of a woman's cycle, so a late-luteal drop in recovery or mood shows up as connected to her phase rather than filed away as an unrelated bad week. The same serotonin mechanism drives premenstrual anxiety, covered in the guide to <a href="/blog/why-do-i-feel-more-anxious-before-my-period">why anxiety rises before a period</a>.</p>
+
+<h2>Why Am I So Hungry and Tired in the Luteal Phase?</h2>
+<p>Hunger and fatigue rise in the luteal phase because progesterone increases appetite and metabolic rate while the late-phase hormone drop disrupts sleep. A 2025 systematic review and meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/39008822/" target="_blank" rel="noopener noreferrer">Nutrition Reviews</a> (PMID: 39008822) found energy intake is about 168 calories per day higher in the luteal phase than the follicular phase. Resting metabolism also rises modestly, by roughly 2 to 5 percent, according to a meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/32658929/" target="_blank" rel="noopener noreferrer">PLOS One</a> (PMID: 32658929). Progesterone's warming effect and the pre-period hormone drop both fragment sleep, and resting heart rate often ticks up while heart rate variability falls. The guides to <a href="/blog/why-do-i-crave-sugar-before-my-period">why sugar cravings spike before a period</a> and <a href="/blog/can-your-period-affect-your-sleep-quality">how periods affect sleep quality</a> cover these two effects in detail.</p>
+
+<h2>What Helps With Luteal Phase Symptoms?</h2>
+<p>Luteal phase symptoms respond better to small, consistent adjustments than to major changes in the few days before a period. Evidence-informed steps include:</p>
+<ul>
+  <li>Pair complex carbohydrates with protein to steady blood sugar and support serotonin</li>
+  <li>Prioritise magnesium, vitamin B6, calcium, and vitamin C-rich foods</li>
+  <li>Limit alcohol, caffeine, and refined sugar, which sharpen mood swings and disrupt sleep</li>
+  <li>Shift toward lower-intensity strength work, walking, and yoga in the late luteal week</li>
+  <li>Keep sleep and wake times consistent, even when sleep quality dips</li>
+</ul>
+<p>In the late luteal week, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> shifts its movement suggestions toward lower-intensity strength training, walking, and mobility, and nudges nutrition toward the carbohydrate-plus-protein pairings that blunt the progesterone-driven appetite rise. For the full framework, see the guides to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a> and <a href="/blog/eating-for-your-cycle">eating for your cycle</a>. Strength coaches who track training load often see perceived effort climb in the late luteal week even when the programmed weights have not changed.</p>
+
+<h2>When Is It PMDD and Not Just PMS?</h2>
+<p>Premenstrual dysphoric disorder (PMDD) is a severe, luteal-phase-specific mood disorder that is distinct from ordinary premenstrual syndrome. A <a href="https://pubmed.ncbi.nlm.nih.gov/12892987/" target="_blank" rel="noopener noreferrer">review in Psychoneuroendocrinology</a> (PMID: 12892987) estimates PMDD affects 3 to 8 percent of women of reproductive age. The defining feature is timing: symptoms such as marked depression, hopelessness, anxiety, or anger appear in the luteal phase and lift within a few days of the period starting. Tracking symptoms daily for at least two cycles is the standard way to confirm the pattern before seeing a clinician. A persistently short luteal phase, under about 10 days, is a separate pattern worth tracking, since it can make conception harder.</p>
+
+<h2>Why Does Tracking the Luteal Phase Matter?</h2>
+<p>Tracking the luteal phase matters because it converts a confusing "off" week into a predictable, plannable part of the month. Identifying the post-ovulation temperature rise confirms that ovulation happened, and logging mood, energy, and symptoms across several cycles shows exactly when the dip starts and how long it lasts. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> pairs that phase history with daily guidance, so a woman can move a demanding workout or an important meeting out of her hardest two days rather than being caught off guard each cycle. The companion guides to <a href="/blog/what-causes-hormonal-imbalance-in-women">what causes hormonal imbalance in women</a> and <a href="/blog/how-do-you-know-if-your-hormones-are-off">how to know if your hormones are off</a> put the luteal phase in the wider context of hormonal health.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/understanding-your-four-cycle-phases">Understanding Your Four Cycle Phases</a></li>
+  <li><a href="/blog/why-do-i-crave-sugar-before-my-period">Why Do I Crave Sugar Before My Period?</a></li>
+  <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
 </ul>
     `.trim(),
   },
