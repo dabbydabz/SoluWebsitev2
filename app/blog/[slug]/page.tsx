@@ -4,13 +4,9 @@ import Link from "next/link"
 import Script from "next/script"
 import { posts, getPostBySlug } from "@/lib/posts"
 import { getRevisionDate } from "@/lib/post-revisions"
+import { toISODateUTC as toISODate } from "@/lib/dates"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
-
-function toISODate(dateStr: string): string {
-  const d = new Date(dateStr)
-  return isNaN(d.getTime()) ? dateStr : d.toISOString().split("T")[0]
-}
 
 function formatLongDate(isoDate: string): string {
   const d = new Date(isoDate)

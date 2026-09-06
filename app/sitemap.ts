@@ -1,13 +1,21 @@
 import { MetadataRoute } from "next"
 import { posts } from "@/lib/posts"
+import { getRevisionDate } from "@/lib/post-revisions"
+import { parseDateUTC } from "@/lib/dates"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const blogPosts = posts.map((post) => ({
-    url: `https://www.solu.ae/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }))
+  const blogPosts = posts.map((post) => {
+    // Prefer the most recent substantive content revision so sitemap lastmod,
+    // Article dateModified and the visible "Last updated" line all agree — 2026
+    // AEO guidance treats a mismatch between them as a freshness-signal failure.
+    const revisionDate = getRevisionDate(post.slug)
+    return {
+      url: `https://www.solu.ae/blog/${post.slug}`,
+      lastModified: revisionDate ? new Date(revisionDate) : parseDateUTC(post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    }
+  })
 
   return [
     {
