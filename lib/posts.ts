@@ -2150,7 +2150,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "what-is-the-luteal-phase",
-    trending: true,
     title: "What Is the Luteal Phase and Why Does It Affect Mood?",
     excerpt: "The luteal phase is the 10 to 14 days between ovulation and your period, when progesterone peaks then falls sharply. That hormone swing acts on GABA and serotonin, which is why mood, sleep, and hunger shift premenstrually.",
     date: "August 31, 2026",
@@ -2192,6 +2191,147 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/understanding-your-four-cycle-phases">Understanding Your Four Cycle Phases</a></li>
   <li><a href="/blog/why-do-i-crave-sugar-before-my-period">Why Do I Crave Sugar Before My Period?</a></li>
   <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "does-sugar-affect-your-hormones",
+    title: "Does Sugar Affect Your Hormones?",
+    excerpt: "Sugar affects hormones through insulin: repeated blood-sugar spikes raise testosterone and lower SHBG, and WHO advises keeping free sugars under 10% of daily calories. Whole fruit is not the concern; refined sugar and sweet drinks drive the effect.",
+    date: "September 7, 2026",
+    category: "Nutrition",
+    image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Sugar affects hormones mainly through insulin. Frequent spikes in blood glucose raise insulin, which signals the ovaries to make more testosterone and lowers sex hormone-binding globulin (SHBG), the protein that keeps sex hormones in balance. Over time this can disrupt ovulation, worsen acne, and intensify premenstrual symptoms.</p>
+<p>This article draws on a 2015 Harvard prospective cohort study in Human Reproduction, a 2025 review in Frontiers in Nutrition, a diet and sex-hormone review in Nutrition Reviews, and World Health Organization dietary guidance current as of September 2026.</p>
+
+<h2>How Does Sugar Actually Affect Your Hormones?</h2>
+<p>Sugar affects hormones through the insulin response it triggers. When you eat refined sugar or refined carbohydrates, blood glucose rises quickly and the pancreas releases insulin to move it into cells. Repeated large spikes push insulin chronically higher, and high insulin tells the ovaries to produce more androgens such as testosterone while suppressing SHBG. SHBG binds testosterone and oestrogen in the bloodstream, so when it falls, more free hormone circulates and can act on the skin, hair follicles, and ovaries. A review in <a href="https://pubmed.ncbi.nlm.nih.gov/18752474/" target="_blank" rel="noopener noreferrer">Nutrition Reviews</a> (PMID: 18752474) concluded that measurable dietary effects on SHBG and androgens appear mainly when body weight or insulin balance shifts, not from single foods in isolation. For how oestrogen, progesterone, and testosterone move across a normal month, see the guide to <a href="/blog/understanding-your-four-cycle-phases">the four phases of the menstrual cycle</a>.</p>
+
+<h2>Can Too Much Sugar Cause Hormonal Imbalance?</h2>
+<p>A consistently high-sugar diet can contribute to hormonal imbalance, mostly by driving insulin resistance. When cells respond poorly to insulin, levels stay elevated, which raises ovarian androgen output, lowers SHBG, and can disrupt regular ovulation. This pattern overlaps closely with polycystic ovary syndrome (PCOS). A 2025 review in <a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1578459/full" target="_blank" rel="noopener noreferrer">Frontiers in Nutrition</a> found that low glycaemic index diets significantly reduced insulin resistance in women with PCOS, and that low glycaemic load diets reduced total testosterone and DHEAS in shorter trials. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It pairs each logged meal and craving with that day's skin, mood, and energy ratings, so the effect of a sugar-heavy day is visible the next morning rather than lost. The wider picture is covered in the guide to <a href="/blog/what-causes-hormonal-imbalance-in-women">what causes hormonal imbalance in women</a>.</p>
+
+<h2>Does Sugar Raise Cortisol, the Stress Hormone?</h2>
+<p>Sugar's effect on cortisol is smaller and less consistent than its effect on insulin, and some evidence points the other way. A 2015 study in the <a href="https://pubmed.ncbi.nlm.nih.gov/25879513/" target="_blank" rel="noopener noreferrer">Journal of Clinical Endocrinology and Metabolism</a> (PMID: 25879513) gave 19 women sucrose- or aspartame-sweetened drinks three times a day for two weeks and found that sucrose, but not aspartame, was linked to reduced stress-induced cortisol and higher activity in the hippocampus. The researchers proposed that sugar may quiet the stress response through a glucocorticoid feedback pathway, which could reinforce habitual overconsumption. Separately, a large blood-sugar crash a few hours after a sugary meal can trigger a rebound release of adrenaline and cortisol. For the full picture of what cortisol does in women, see the guide to <a href="/blog/what-is-cortisol-and-why-does-it-matter-for-women">cortisol and why it matters for women</a>.</p>
+
+<h2>Does Sugar Affect Oestrogen and Your Period?</h2>
+<p>High sugar intake is linked to changes in reproductive timing and menstrual symptoms. A 2015 Harvard prospective study of 5,583 US girls in <a href="https://pubmed.ncbi.nlm.nih.gov/25628346/" target="_blank" rel="noopener noreferrer">Human Reproduction</a> (PMID: 25628346) found that those drinking more than 1.5 sugar-sweetened beverages a day reached their first period about 2.7 months earlier than those drinking two or fewer per week, independent of body weight. The proposed mechanism is that insulin and insulin-like growth factor 1 influence the reproductive axis, while lower SHBG raises free oestrogen. In adult women, blood-sugar swings can sharpen premenstrual mood changes and cravings, which is why "can eating sugar make PMS worse" is a common question. The luteal-phase craving side of this is covered in detail in the guide to <a href="/blog/why-do-i-crave-sugar-before-my-period">why sugar cravings spike before a period</a>.</p>
+
+<h2>How Much Sugar Is Too Much for Hormone Health?</h2>
+<p>The World Health Organization recommends keeping free sugars under 10% of daily calories, and ideally under 5%. For a 2,000-calorie diet, 10% is about 50 grams, or roughly 12 teaspoons. Free sugars include table sugar, honey, and the sugar in fruit juice and soft drinks, but not the sugar naturally present in whole fruit and milk. WHO guidance states that "The consumption of free sugars should be limited to less than 10% of total daily energy intake" (<a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank" rel="noopener noreferrer">WHO healthy diet fact sheet</a>). Practical ways to stay near that level:</p>
+<ul>
+  <li>Check labels for added sugars in sauces, flavoured yoghurt, granola, and breakfast cereal</li>
+  <li>Pair any sweet food with protein, fat, or fibre to slow the glucose rise</li>
+  <li>Treat sugar-sweetened drinks as the highest-impact target, since they raise blood glucose fastest</li>
+  <li>Keep whole fruit, since its fibre blunts the sugar response</li>
+  <li>Expect stronger cravings in the late luteal week, when appetite and insulin resistance both rise</li>
+</ul>
+
+<h2>What Should You Eat Instead to Keep Hormones Stable?</h2>
+<p>Stable hormones are supported by meals that keep blood sugar steady: adequate protein, high-fibre carbohydrates, healthy fats, and minimal refined sugar. This lowers average insulin, which supports healthy SHBG, regular ovulation, and premenstrual mood. As of 2026, the evidence still points to consistency across weeks mattering more than a perfect single day. Replacing one sugar-sweetened drink a day with water or an unsweetened version cuts roughly 35 to 50 grams of free sugar, and many women report steadier late-afternoon energy within two weeks, while premenstrual cravings take two or three cycles to shift. In practical terms, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> can line up the two months before and after a change like this to show whether breakouts and premenstrual cravings actually eased, rather than leaving the result to memory. Blood-sugar swings also feed the premenstrual concentration dip described in the guide to <a href="/blog/why-do-i-get-brain-fog-before-my-period">why brain fog strikes before a period</a>. For the full framework, see the guides to <a href="/blog/what-foods-help-balance-hormones-naturally">foods that help balance hormones naturally</a> and <a href="/blog/eating-for-your-cycle">eating for your cycle</a>.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/why-do-i-crave-sugar-before-my-period">Why Do I Crave Sugar Before My Period?</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+  <li><a href="/blog/what-is-cortisol-and-why-does-it-matter-for-women">What Is Cortisol and Why Does It Matter for Women?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-is-cortisol-and-why-does-it-matter-for-women",
+    title: "What Is Cortisol and Why Does It Matter for Women?",
+    excerpt: "Cortisol is the body's main stress hormone, made by the adrenal glands on a 24-hour rhythm. It matters for women because chronically high levels suppress ovulation and can stop periods, disrupt sleep, and worsen PMS.",
+    date: "September 7, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Cortisol is the body's main stress hormone, released by the adrenal glands on a daily rhythm to regulate blood sugar, blood pressure, metabolism, and the immune response. It matters for women because chronically high cortisol suppresses the reproductive axis, which can delay ovulation, disrupt periods, worsen sleep, and amplify premenstrual symptoms.</p>
+<p>This article draws on a 2023 systematic review and meta-analysis in Neuroscience and Biobehavioral Reviews, a 2024 review in Frontiers in Neuroendocrinology, a review of functional hypothalamic amenorrhoea in Clinical Endocrinology, and NHS guidance current as of September 2026.</p>
+
+<h2>What Is Cortisol and What Does It Do?</h2>
+<p>Cortisol is a steroid hormone made by the adrenal glands, two small glands above the kidneys, under the control of the hypothalamic-pituitary-adrenal (HPA) axis. It follows a daily rhythm, peaking about 30 to 45 minutes after waking and reaching its lowest point around midnight. Its jobs go well beyond stress: cortisol regulates blood glucose, blood pressure, inflammation, and how the body uses fat and protein. A healthy cortisol rhythm is essential for waking up, steady daytime energy, and a normal immune response. Problems arise when cortisol stays elevated or loses its normal curve, usually from ongoing psychological stress, under-eating, over-exercising, or poor sleep. Blood-sugar swings from a high-sugar diet can blunt the cortisol response over time too, discussed in the guide to <a href="/blog/does-sugar-affect-your-hormones">whether sugar affects your hormones</a>.</p>
+
+<h2>Why Does Cortisol Matter More for Women?</h2>
+<p>Cortisol matters distinctly for women because the stress axis and the reproductive axis are directly linked. When cortisol and its upstream signal, corticotropin-releasing hormone (CRH), stay high, they suppress the release of gonadotropin-releasing hormone (GnRH), which lowers luteinising hormone (LH), oestrogen, and progesterone. The result can be delayed ovulation, a shorter luteal phase, or missed periods. A 2023 meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/37149074/" target="_blank" rel="noopener noreferrer">Neuroscience and Biobehavioral Reviews</a> (PMID: 37149074) notes that "Sex disparities are evident in the biological response to acute stressors, with a suggested influence of ovarian hormones on hypothalamic-pituitary-adrenal (HPA) axis functioning." <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It keeps sleep, energy, training load, and cycle length in one timeline, so the link between a high-stress fortnight and a late or missed period is visible rather than guessed. For how the reproductive hormones move across a month, see the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>.</p>
+
+<h2>Can High Cortisol Stop Your Period?</h2>
+<p>Yes. Sustained high cortisol from psychological stress, low energy availability, or heavy training can suppress GnRH enough to stop ovulation and periods, a condition called functional hypothalamic amenorrhoea (FHA). A review in <a href="https://pubmed.ncbi.nlm.nih.gov/33345352/" target="_blank" rel="noopener noreferrer">Clinical Endocrinology</a> (PMID: 33345352) lists raised basal cortisol among the endocrine features of this low-energy state, and notes that untreated FHA raises longer-term risks to bone density, heart health, and fertility. Milder versions are far more common than full FHA: a stressful month that pushes ovulation later, lengthens the cycle, or causes premenstrual spotting. This is the mechanism behind the question "can stress delay your period," explained in the guide to <a href="/blog/does-stress-really-delay-your-period">whether stress really delays your period</a>.</p>
+
+<h2>What Are the Signs Cortisol Is Too High in Women?</h2>
+<p>The signs of chronically high cortisol in women build gradually and cluster together rather than appearing after a single stressful day. The pattern most consistently linked to sustained elevation includes:</p>
+<ul>
+  <li>Trouble falling asleep, or waking at 3 to 4 am and struggling to settle</li>
+  <li>Feeling wired but tired, especially in the evening</li>
+  <li>New or increased weight around the abdomen</li>
+  <li>Anxiety, irritability, or a constant sense of being on alert</li>
+  <li>Cycles that lengthen, become irregular, or stop</li>
+</ul>
+<p>Facial puffiness alone, the viral "cortisol face," is rarely a reliable sign. For the full breakdown of what is and is not a cortisol symptom, see the guide to <a href="/blog/what-are-the-signs-of-high-cortisol-in-women">the signs of high cortisol in women</a>.</p>
+
+<h2>Does Cortisol Change Across the Menstrual Cycle?</h2>
+<p>Cortisol does shift across the menstrual cycle. A 2023 systematic review and meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/37149074/" target="_blank" rel="noopener noreferrer">Neuroscience and Biobehavioral Reviews</a> (PMID: 37149074) pooled longitudinal studies and found cortisol reactivity to acute stress is modestly higher in the luteal phase than the follicular phase. In practice, the same stressor can produce a larger cortisol response in the two weeks before a period, which is part of why premenstrual weeks can feel harder to cope with and why intense training in the late luteal phase can add rather than relieve load. A 2024 review in <a href="https://pubmed.ncbi.nlm.nih.gov/38176541/" target="_blank" rel="noopener noreferrer">Frontiers in Neuroendocrinology</a> (PMID: 38176541) reported that women with depression show higher long-term cortisol and a larger cortisol awakening response than men with depression. This luteal cortisol rise also feeds the premenstrual concentration dip covered in the guide to <a href="/blog/why-do-i-get-brain-fog-before-my-period">premenstrual brain fog</a>.</p>
+
+<h2>How Do You Keep Cortisol in a Healthy Range?</h2>
+<p>Keeping cortisol in a healthy range depends less on stress-management techniques and more on the physiological inputs that set the rhythm: consistent sleep, adequate calories and protein, and training that matches recovery capacity. Sleep is the single most consistent lever, because poor sleep and high cortisol reinforce each other. As of 2026, at-home saliva and hair cortisol tests are widely available, but a single reading is hard to interpret without the daily pattern. A woman training five times a week who cuts back to three sessions and holds a consistent 11 pm bedtime often sees a stress-lengthened cycle move from 40-plus days back toward her usual 30 within two to three cycles. As a practical tool, <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> shifts its movement suggestions toward walking, mobility, and lower-intensity strength work in the late luteal week, when cortisol reactivity already runs higher, and flags a run of poor-sleep nights before it turns into a missed period. The sleep side is covered in the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>, and the wider symptom picture in <a href="/blog/how-do-you-know-if-your-hormones-are-off">how to know if your hormones are off</a>.</p>
+
+<h2>When Should You See a Doctor About Cortisol?</h2>
+<p>See a doctor about cortisol when symptoms are severe, worsening, or include rapid unexplained weight gain, purple stretch marks, easy bruising, muscle weakness, or a period that has stopped completely rather than just become irregular. These point toward a medical cause such as <a href="https://www.nhs.uk/conditions/cushings-syndrome/" target="_blank" rel="noopener noreferrer">Cushing's syndrome</a>, which is rare, rather than everyday stress. A GP can arrange blood or saliva cortisol testing and check thyroid function and iron levels at the same time.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-are-the-signs-of-high-cortisol-in-women">What Are the Signs of High Cortisol in Women?</a></li>
+  <li><a href="/blog/does-stress-really-delay-your-period">Does Stress Really Delay Your Period?</a></li>
+  <li><a href="/blog/how-do-you-know-if-your-hormones-are-off">How Do You Know If Your Hormones Are Off?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "why-do-i-get-brain-fog-before-my-period",
+    trending: true,
+    title: "Why Do I Get Brain Fog Before My Period?",
+    excerpt: "Brain fog before your period comes from the premenstrual drop in oestrogen and progesterone, and it peaks in the 3 to 5 days before bleeding. It affects concentration, word recall, and memory, then clears once your period starts.",
+    date: "September 7, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Brain fog before a period is driven by the sharp premenstrual drop in oestrogen and progesterone, which lowers dopamine, serotonin, and GABA activity in the brain and disrupts sleep. It usually appears in the late luteal phase, the few days before bleeding, and clears within a day or two of the period starting.</p>
+<p>This article draws on a 2025 meta-analysis in PLOS One, a study of cognition across perimenopause in Menopause, a review of premenstrual mood mechanisms in Frontiers in Psychiatry, and NHS guidance on premenstrual syndrome current as of September 2026.</p>
+
+<h2>What Is Menstrual Brain Fog?</h2>
+<p>Menstrual brain fog is a cluster of temporary cognitive symptoms that follow a monthly pattern: trouble concentrating, word-finding difficulty, forgetfulness, and mental sluggishness. It is not a formal medical diagnosis but a common description of how the premenstrual phase feels. The defining feature is timing: it recurs in the days before a period and lifts once bleeding starts. It overlaps with the wider premenstrual syndrome (PMS) picture, which <a href="https://www.nhs.uk/conditions/pre-menstrual-syndrome/" target="_blank" rel="noopener noreferrer">NHS guidance</a> says affects most women of reproductive age to some degree. Everyday searches for this include "why can't I think straight before my period" and "why is my memory bad before my period."</p>
+
+<h2>Why Does Brain Fog Happen Before Your Period?</h2>
+<p>Brain fog happens before a period because oestrogen and progesterone both fall sharply in the late luteal phase. Oestrogen supports verbal memory, dopamine signalling, and blood flow to the prefrontal cortex, so when it drops, recall and focus can dip. Progesterone's calming metabolite, allopregnanolone, also falls, which can add restlessness and lighter sleep. Falling oestrogen lowers serotonin activity as well, the same mechanism behind premenstrual low mood explained in the guide to <a href="/blog/why-do-i-feel-more-anxious-before-my-period">why anxiety rises before a period</a>. A 2023 review in <a href="https://pubmed.ncbi.nlm.nih.gov/36937732/" target="_blank" rel="noopener noreferrer">Frontiers in Psychiatry</a> (PMID: 36937732) describes how some women's GABA-A receptors adapt poorly to shifting allopregnanolone, producing luteal-phase symptoms. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. Because it forecasts the late luteal window from a woman's logged cycles, she can schedule demanding cognitive work, presentations, or exams into the higher-focus follicular and ovulatory phases where possible. The full hormone map is in the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>.</p>
+
+<h2>Is Period Brain Fog Real or in Your Head?</h2>
+<p>Period brain fog is a real, widely reported experience, though objective testing shows the effect on measured performance is small. A 2025 meta-analysis in <a href="https://pubmed.ncbi.nlm.nih.gov/40096188/" target="_blank" rel="noopener noreferrer">PLOS One</a> (PMID: 40096188) of 102 studies and 3,943 participants found no robust, consistent shifts in objective cognitive test scores across the cycle. What does show up reliably is how women feel: the review notes that "Women report higher mental fatigue in the luteal compared to the follicular phase, while levels of physical fatigue did not fluctuate." The typical pattern is a near-normal test score alongside a genuinely harder subjective experience. That gap does not make the experience imagined; it makes it a real symptom that standard cognitive tests are not designed to capture.</p>
+
+<h2>When Is Brain Fog Worst in Your Cycle?</h2>
+<p>Brain fog is usually worst in the late luteal phase, the roughly three to five days before a period, when oestrogen and progesterone are falling fastest. It often eases within one to two days of bleeding starting, as hormone levels settle at their low baseline. The follicular phase, in the week after a period, is typically the clearest window. Sleep is part of this timing: progesterone withdrawal and the premenstrual rise in core body temperature fragment sleep, and one poor night measurably slows next-day processing speed, as covered in the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>. In a typical late-luteal pattern, a 27-day cycle produces its two or three worst concentration days between day 24 and day 27, resolving within about 48 hours of bleeding starting.</p>
+
+<h2>What Helps With Premenstrual Brain Fog?</h2>
+<p>Premenstrual brain fog responds best to preparation rather than last-minute effort: predicting the foggy window, protecting sleep, steadying blood sugar, and lowering the cognitive stakes for those days. No single supplement reliably fixes it, but several habits reduce its impact:</p>
+<ul>
+  <li>Track your cycle so the low-focus days are expected, not a surprise</li>
+  <li>Move demanding mental work to the follicular and ovulatory phases where you can</li>
+  <li>Prioritise sleep in the late luteal week, when it is most easily disrupted</li>
+  <li>Eat protein with each meal and limit refined sugar to avoid glucose crashes</li>
+  <li>Include magnesium-, omega-3-, and iron-rich foods, and stay hydrated</li>
+</ul>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> correlates logged sleep quality with next-day focus and mood, so a woman can see how much of her premenstrual fog tracks with broken sleep specifically rather than treating the two as unrelated. Blood-sugar swings also make the fog worse, as covered in the guide to <a href="/blog/does-sugar-affect-your-hormones">whether sugar affects your hormones</a>, and the nutrition framework is in <a href="/blog/eating-for-your-cycle">eating for your cycle</a>.</p>
+
+<h2>When Is Brain Fog a Sign of Something Else?</h2>
+<p>Brain fog needs medical review when it is severe, getting worse, or present throughout the cycle rather than only before a period. Persistent fog can point to low iron or ferritin, an underactive thyroid, low vitamin B12 or vitamin D, perimenopause, or a sleep disorder rather than the menstrual cycle itself. Perimenopause is a common cause from the mid-forties: a study of cognition across perimenopause in <a href="https://pubmed.ncbi.nlm.nih.gov/23615642/" target="_blank" rel="noopener noreferrer">Menopause</a> (PMID: 23615642) found women in the first year after their final period scored significantly lower on verbal learning and memory than women still cycling regularly. Chronic stress and cortisol dysregulation can also cause all-cycle fog, covered in the guide to <a href="/blog/what-is-cortisol-and-why-does-it-matter-for-women">cortisol and why it matters for women</a>. If several symptoms cluster, the guide to <a href="/blog/how-do-you-know-if-your-hormones-are-off">how to know if your hormones are off</a> can help narrow it down.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-the-luteal-phase">What Is the Luteal Phase and Why Does It Affect Mood?</a></li>
+  <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
 </ul>
     `.trim(),
   },
