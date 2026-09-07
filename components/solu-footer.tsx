@@ -22,6 +22,7 @@ export function SoluFooter() {
             {[
               { label: "Why Solu", href: "#why-solu" },
               { label: "Our Story", href: "/our-story" },
+              { label: "Health Blog", href: "/blog" },
               { label: "For You", href: "#for-you" },
               { label: "Privacy", href: "/privacy" },
               { label: "Terms", href: "/terms" },

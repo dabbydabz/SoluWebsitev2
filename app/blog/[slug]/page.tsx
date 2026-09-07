@@ -3,12 +3,16 @@ import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
 import { posts, getPostBySlug } from "@/lib/posts"
+import { getRevisionDate } from "@/lib/post-revisions"
+import { toISODateUTC as toISODate } from "@/lib/dates"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 
-function toISODate(dateStr: string): string {
-  const d = new Date(dateStr)
-  return isNaN(d.getTime()) ? dateStr : d.toISOString().split("T")[0]
+function formatLongDate(isoDate: string): string {
+  const d = new Date(isoDate)
+  return isNaN(d.getTime())
+    ? isoDate
+    : d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })
 }
 
 function metaDescription(excerpt: string, maxLength = 155): string {
@@ -16,6 +20,12 @@ function metaDescription(excerpt: string, maxLength = 155): string {
   const truncated = excerpt.slice(0, maxLength)
   const lastSpace = truncated.lastIndexOf(" ")
   return `${truncated.slice(0, lastSpace).replace(/[.,;:]$/, "")}...`
+}
+
+function ogImageUrl(url: string): string {
+  if (!url.startsWith("https://images.unsplash.com/")) return url
+  const [base] = url.split("?")
+  return `${base}?w=1200&h=630&fit=crop&q=80`
 }
 
 export function generateStaticParams() {
@@ -28,6 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return {}
   const url = `https://www.solu.ae/blog/${slug}`
   const description = metaDescription(post.excerpt)
+  const revisionDate = getRevisionDate(slug)
   return {
     title: `${post.title} | Solu`,
     description,
@@ -40,13 +51,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       locale: "en_US",
       publishedTime: toISODate(post.date),
-      images: post.image ? [{ url: post.image, alt: post.title }] : undefined,
+      modifiedTime: revisionDate ?? toISODate(post.date),
+      images: post.image ? [{ url: ogImageUrl(post.image), width: 1200, height: 630, alt: post.title }] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: `${post.title} | Solu`,
       description,
-      images: post.image ? [post.image] : undefined,
+      images: post.image ? [ogImageUrl(post.image)] : undefined,
     },
   }
 }
@@ -67,14 +79,19 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const related = posts.filter((p) => p.slug !== post.slug).slice(0, 2)
 
   const postUrl = `https://www.solu.ae/blog/${post.slug}`
+  const revisionDate = getRevisionDate(post.slug)
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": post.title,
     "description": post.excerpt,
-    "image": post.image || "https://www.solu.ae/icon.png",
+    "image": post.image
+      ? { "@type": "ImageObject", "url": ogImageUrl(post.image), "width": 1200, "height": 630 }
+      : "https://www.solu.ae/icon.png",
     "datePublished": toISODate(post.date),
-    "dateModified": toISODate(post.date),
+    "dateModified": revisionDate ?? toISODate(post.date),
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
     "author": {
       "@type": "Organization",
       "name": "Solu Editorial Team",
@@ -140,6 +157,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         <article className="max-w-3xl mx-auto px-6 py-12 sm:py-16">
           <p className="text-gray-400 text-xs font-medium mb-6">
             Reviewed by the Solu Editorial Team against NHS, PubMed, and peer-reviewed sources.
+            {revisionDate && <> · Last updated {formatLongDate(revisionDate)}</>}
           </p>
           <p className="text-gray-500 text-lg leading-relaxed font-light mb-10 border-l-4 border-[#F7941D] pl-5">
             {post.excerpt}
