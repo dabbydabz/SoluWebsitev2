@@ -5,6 +5,7 @@ import Script from "next/script"
 import { posts, getPostBySlug } from "@/lib/posts"
 import { getRevisionDate } from "@/lib/post-revisions"
 import { toISODateUTC as toISODate } from "@/lib/dates"
+import { getArticleEntities } from "@/lib/entities"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 
@@ -80,6 +81,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   const postUrl = `https://www.solu.ae/blog/${post.slug}`
   const revisionDate = getRevisionDate(post.slug)
+  const entities = getArticleEntities(post)
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -113,6 +115,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     },
     "keywords": post.category,
     "articleSection": post.category,
+    ...(entities.length > 0 ? { "mentions": entities } : {}),
   }
 
   const breadcrumbSchema = {
