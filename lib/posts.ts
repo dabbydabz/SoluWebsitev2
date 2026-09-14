@@ -2290,7 +2290,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "why-do-i-get-brain-fog-before-my-period",
-    trending: true,
     title: "Why Do I Get Brain Fog Before My Period?",
     excerpt: "Brain fog before your period comes from the premenstrual drop in oestrogen and progesterone, and it peaks in the 3 to 5 days before bleeding. It affects concentration, word recall, and memory, then clears once your period starts.",
     date: "September 7, 2026",
@@ -2332,6 +2331,159 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/what-is-the-luteal-phase">What Is the Luteal Phase and Why Does It Affect Mood?</a></li>
   <li><a href="/blog/why-do-i-feel-more-anxious-before-my-period">Why Do I Feel More Anxious Before My Period?</a></li>
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-do-you-reduce-cortisol-naturally",
+    title: "How Do You Reduce Cortisol Naturally?",
+    excerpt: "Cortisol drops naturally with consistent sleep, moderate exercise, and mindfulness practice, which a 2024 meta-analysis of 58 trials found measurably lowers levels. No supplement works as reliably as these daily habits.",
+    date: "September 14, 2026",
+    category: "Wellbeing",
+    image: "https://images.unsplash.com/photo-1554244933-d876deb6b2ff?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Cortisol, the body's main stress hormone, is reduced naturally through consistent sleep, regular moderate exercise, and structured stress-management practices such as mindfulness and slow breathing, which a 2024 meta-analysis found produce a measurable drop in levels. No single supplement or quick fix lowers cortisol reliably; the effect comes from sustained daily habits rather than a one-time intervention.</p>
+<p>This article draws on a 2024 meta-analysis in Psychoneuroendocrinology, sleep-and-cortisol research in Sleep Medicine Clinics, functional hypothalamic amenorrhoea guidance in Clinical Endocrinology, and NHS stress-management guidance current as of September 2026.</p>
+
+<h2>What Actually Lowers Cortisol Naturally?</h2>
+<p>Cortisol is lowered naturally by consistent sleep timing, moderate regular exercise, and structured stress-management practices such as mindfulness, meditation, or slow breathing. A 2024 meta-analysis of 58 randomised trials found these approaches produced a measurable drop in cortisol compared with control conditions, with mindfulness and relaxation techniques producing the strongest effects of the categories tested.</p>
+<p>The review, published in <a href="https://pubmed.ncbi.nlm.nih.gov/37879237/" target="_blank" rel="noopener noreferrer">Psychoneuroendocrinology</a> (PMID: 37879237), pooled data from 3,508 participants and concluded that "the current findings confirm that stress management interventions can positively influence cortisol levels." No single supplement or one-off session produces a lasting change; the effect comes from repeating the same input often enough that the body's baseline shifts. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It tracks sleep, training load, and logged stress side by side, so a woman can see which of the three is actually moving with her energy dips, rather than assuming the cause is always stress.</p>
+
+<h2>Does Exercise Lower Cortisol, or Can It Raise It?</h2>
+<p>Moderate exercise lowers resting cortisol over time, but a single hard session temporarily raises it as part of the normal stress response, and this becomes a problem only when training volume consistently outpaces recovery. Walking, swimming, cycling, and moderate strength training are the forms most consistently linked to lower baseline cortisol in research.</p>
+<p>The distinction is intensity and recovery, not exercise itself. Chronic overtraining without adequate sleep or fuel can keep cortisol elevated and, in severe cases, suppress ovulation entirely, a condition covered in the guide to <a href="/blog/what-is-cortisol-and-why-does-it-matter-for-women">what cortisol is and why it matters for women</a>. A woman training six days a week who adds two full rest days typically sees her resting heart rate and perceived stress both settle within ten to fourteen days, well before any change shows up in a lab test.</p>
+
+<h2>Can Sleep Alone Lower Your Cortisol Levels?</h2>
+<p>Sleep is the single most consistent lever for lowering cortisol, because cortisol's daily rhythm and sleep architecture regulate each other in both directions. Poor sleep raises next-day cortisol, and elevated evening cortisol makes falling asleep harder, so the two reinforce one another until one is deliberately corrected.</p>
+<p>A consistent wake time, even on weekends, stabilises the cortisol awakening response more reliably than sleep duration alone. Screens and bright light in the hour before bed delay the evening cortisol decline that should precede sleep onset. This link between disrupted sleep and hormonal symptoms is explored further in the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>.</p>
+
+<h2>Do Supplements Like Magnesium or Ashwagandha Actually Reduce Cortisol?</h2>
+<p>Magnesium and ashwagandha have modest, inconsistent evidence behind them for lowering cortisol, and neither works as reliably as sleep and exercise changes. Small trials suggest ashwagandha may reduce self-reported stress and, in some cases, morning cortisol, but sample sizes are typically under 100 participants and results vary by dose and extract.</p>
+<p>Practical steps with the strongest evidence base for lowering cortisol, in rough order of impact:</p>
+<ul>
+  <li>Keep a consistent wake time seven days a week, not just on weekdays</li>
+  <li>Get outdoor daylight within an hour of waking to anchor the cortisol rhythm</li>
+  <li>Practise slow breathing or a short mindfulness session most days, not only during high-stress weeks</li>
+  <li>Match training intensity to recovery, adding rest days after poor sleep rather than pushing through</li>
+  <li>Treat supplements as a minor addition to these habits, not a replacement for them</li>
+</ul>
+
+<h2>How Long Does It Take to Lower Cortisol Naturally?</h2>
+<p>Most people notice subjective stress easing within one to two weeks of consistent changes, while measurable shifts in cortisol rhythm typically take three to six weeks of sustained practice. Ten minutes of slow paced breathing before bed, at roughly six breaths per minute, measurably lowers salivary cortisol within that same evening in laboratory studies, though the effect on next-morning baseline levels takes about two to three weeks of nightly repetition to show up consistently.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> shifts its suggested movement toward walking or mobility work in the days after a run of poor sleep, rather than defaulting to high-intensity training regardless of recovery, which matches the lower capacity that comes with elevated cortisol. As of 2026, at-home saliva cortisol tests are widely available but a single reading is hard to interpret without the surrounding pattern of sleep and training. For the broader symptom picture, see the guide to <a href="/blog/what-are-the-signs-of-high-cortisol-in-women">the signs of high cortisol in women</a>.</p>
+
+<h2>When Is High Cortisol a Medical Issue Rather Than Everyday Stress?</h2>
+<p>High cortisol needs medical review when lifestyle changes do not help after six to eight weeks, or when symptoms include rapid weight gain, purple stretch marks, muscle weakness, or a period that has stopped rather than just become irregular. These point toward a distinct medical cause rather than ordinary stress load.</p>
+<p>A review of functional hypothalamic amenorrhoea in <a href="https://pubmed.ncbi.nlm.nih.gov/33345352/" target="_blank" rel="noopener noreferrer">Clinical Endocrinology</a> (PMID: 33345352) lists raised basal cortisol among the endocrine features of this low-energy state, which carries longer-term risks to bone density and fertility if untreated. A GP can arrange cortisol testing alongside thyroid and iron checks, and can rule out <a href="https://www.nhs.uk/conditions/cushings-syndrome/" target="_blank" rel="noopener noreferrer">Cushing's syndrome</a>, which is rare but requires a different treatment path entirely. Persistent exhaustion alongside high stress is also worth reviewing against the guide to <a href="/blog/why-am-i-so-tired-before-my-period">why premenstrual fatigue happens</a>, since the two can compound each other.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-cortisol-and-why-does-it-matter-for-women">What Is Cortisol and Why Does It Matter for Women?</a></li>
+  <li><a href="/blog/what-are-the-signs-of-high-cortisol-in-women">What Are the Signs of High Cortisol in Women?</a></li>
+  <li><a href="/blog/why-am-i-so-tired-before-my-period">Why Am I So Tired Before My Period?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-is-oestrogen-dominance",
+    title: "What Is Oestrogen Dominance and Is It Real?",
+    excerpt: "Oestrogen dominance is not a formal diagnosis; it describes oestrogen acting unopposed by progesterone, most often across the 3.4% to 18.6% of cycles that do not produce ovulation.",
+    date: "September 14, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Oestrogen dominance is not a formal medical diagnosis; bodies such as the NHS and NICE do not use the term in their guidance on menstrual or menopausal symptoms. It describes a real physiological pattern, oestrogen acting unopposed by progesterone, which most often happens when a cycle does not produce ovulation, so the useful question is what is causing that pattern rather than what to call it.</p>
+<p>This article draws on 2025 NCBI Bookshelf clinical guidance on anovulatory bleeding, a 2019 study in Psychoneuroendocrinology on luteal progesterone and premenstrual syndrome, and NHS premenstrual syndrome guidance current as of September 2026.</p>
+
+<h2>What Does "Oestrogen Dominance" Actually Mean?</h2>
+<p>Oestrogen dominance is a popular term for a cycle in which oestrogen's effects go unchecked because progesterone, the hormone that normally balances it after ovulation, is low or absent. It is not a lab value or a diagnosis on its own; it describes a ratio, not a single number.</p>
+<p>Progesterone is produced by the corpus luteum after ovulation, so when a cycle is anovulatory, no corpus luteum forms and progesterone stays low for that entire cycle while oestrogen continues acting on the uterine lining unopposed. This mechanism, and how oestrogen and progesterone are supposed to move across a normal month, is explained fully in the guide to <a href="/blog/understanding-your-four-cycle-phases">the four phases of the menstrual cycle</a>.</p>
+
+<h2>Is Oestrogen Dominance a Real Medical Diagnosis?</h2>
+<p>Oestrogen dominance is not a diagnosis found in NHS, NICE, or standard gynaecology guidance, though the underlying hormonal pattern it describes is real and well documented. Clinicians instead diagnose the specific cause, such as anovulatory cycles, polycystic ovary syndrome, or perimenopause, rather than labelling the ratio itself.</p>
+<p>NCBI Bookshelf clinical guidance on <a href="https://www.ncbi.nlm.nih.gov/books/NBK549773/" target="_blank" rel="noopener noreferrer">anovulatory bleeding</a>, last updated March 2025, states plainly that "without ovulation, progesterone is not produced, resulting in unopposed estrogen stimulation of the endometrial lining." <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It keeps a running record of cycle length, flow, and spotting, so a pattern of anovulatory-type cycles becomes visible over several months rather than being judged from a single heavy period.</p>
+
+<h2>What Causes Oestrogen to Go Unopposed by Progesterone?</h2>
+<p>Oestrogen goes unopposed by progesterone whenever ovulation does not happen, since progesterone is only made after an egg is released. Common causes include polycystic ovary syndrome, perimenopause, high stress or under-eating, thyroid dysfunction, and simply the natural anovulatory cycles that happen occasionally even in healthy women.</p>
+<p>NCBI Bookshelf guidance notes that anovulation is identified in roughly 3.4% to 18.6% of menstruating women depending on diagnostic criteria, and that it is most common around the first few years after a first period and in the lead-up to menopause. Chronic stress is a contributing cause covered in the guide to <a href="/blog/how-do-you-reduce-cortisol-naturally">how to reduce cortisol naturally</a>, since sustained high cortisol can itself suppress ovulation.</p>
+
+<h2>What Symptoms Do People Attribute to Oestrogen Dominance?</h2>
+<p>The symptoms commonly attributed to this pattern include heavy or prolonged periods, breast tenderness, bloating, mood swings, and worsened premenstrual symptoms, though none of these are unique to it and all have other possible causes. A 2019 study of luteal progesterone in <a href="https://pubmed.ncbi.nlm.nih.gov/31736837/" target="_blank" rel="noopener noreferrer">Psychoneuroendocrinology</a> (PMID: 31736837) found that a sharp decline in progesterone during the luteal phase, rather than progesterone's absolute level, predicted peri-menstrual syndrome and its major symptom clusters. Commonly reported symptoms include:</p>
+<ul>
+  <li>Heavy, prolonged, or unpredictable bleeding</li>
+  <li>Breast tenderness and bloating in the days before a period</li>
+  <li>Mood swings, irritability, or worsened anxiety premenstrually</li>
+  <li>Short luteal phases or premenstrual spotting</li>
+  <li>Fatigue that clusters in the days before bleeding, discussed in the guide to <a href="/blog/why-am-i-so-tired-before-my-period">why premenstrual fatigue happens</a></li>
+</ul>
+
+<h2>How Do You Address the Pattern Behind "Oestrogen Dominance"?</h2>
+<p>Addressing this pattern means identifying and treating its underlying cause rather than trying to lower oestrogen directly, since oestrogen itself is not usually elevated beyond a normal range. A GP typically starts with a menstrual and symptom history, blood tests for thyroid function and hormone levels, and sometimes an ultrasound to check for polycystic ovaries.</p>
+<p>For irregular or heavy cycles specifically, tracking timing and flow consistently over several cycles is what turns a vague impression into something a doctor can act on. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a>'s daily log captures cycle length and flow automatically as a woman uses the app, giving a doctor concrete cycle data to review at an appointment rather than a remembered estimate. The wider symptom picture, including how to tell whether several hormones are involved at once, is covered in the guide to <a href="/blog/how-do-you-know-if-your-hormones-are-off">how to know if your hormones are off</a>.</p>
+
+<h2>When Should You See a Doctor About This Pattern?</h2>
+<p>See a doctor when bleeding is heavy enough to soak through protection hourly, when cycles are consistently shorter than 21 days or longer than 35, or when periods stop altogether outside of pregnancy or menopause. These patterns need direct evaluation rather than self-management.</p>
+<p>Untreated anovulatory bleeding can, over years, raise the risk of endometrial hyperplasia because the uterine lining keeps building without the regular shedding a normal cycle provides. As of 2026, first-line treatment is usually a form of progesterone or a combined hormonal method to reintroduce that balance, decided between a patient and her GP or gynaecologist.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/understanding-your-four-cycle-phases">What Are the 4 Phases of My Menstrual Cycle?</a></li>
+  <li><a href="/blog/how-do-you-know-if-your-hormones-are-off">How Do You Know If Your Hormones Are Off?</a></li>
+  <li><a href="/blog/how-do-you-reduce-cortisol-naturally">How Do You Reduce Cortisol Naturally?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "why-am-i-so-tired-before-my-period",
+    trending: true,
+    title: "Why Am I So Tired Before My Period?",
+    excerpt: "Premenstrual fatigue comes from falling progesterone disrupting sleep quality in the 3 to 5 days before a period, not from shorter sleep. It lifts once bleeding starts.",
+    date: "September 14, 2026",
+    category: "Sleep",
+    image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=800&q=85",
+    readTime: "7 min read",
+    content: `
+<p>Fatigue before a period comes mainly from the rise and fall of progesterone in the luteal phase, which fragments sleep quality even when total sleep time stays the same. It typically peaks in the three to five days before bleeding and lifts once a period starts, though iron deficiency and thyroid issues can worsen or mimic it.</p>
+<p>This article draws on a 2023 review in Sleep Medicine Clinics, a 2019 study in Psychoneuroendocrinology on luteal progesterone, a 2026 letter in the Journal of General Internal Medicine on iron deficiency and fatigue, and NHS premenstrual syndrome guidance current as of September 2026.</p>
+
+<h2>Why Do You Feel So Tired Before Your Period?</h2>
+<p>Premenstrual tiredness happens because progesterone and oestrogen both fall sharply in the late luteal phase, and this drop disrupts sleep architecture, raises core body temperature slightly, and lowers the calming brain chemical GABA that progesterone's metabolite normally supports. The result is lower-quality sleep even when a woman is in bed for the same number of hours as usual.</p>
+<p>A 2023 review in <a href="https://pubmed.ncbi.nlm.nih.gov/38501513/" target="_blank" rel="noopener noreferrer">Sleep Medicine Clinics</a> (PMID: 38501513) found that "poorer sleep quality in the premenstrual phase and menstruation is common in women with premenstrual symptoms or painful menstrual cramps," and identified a rise in sleep spindle activity in the luteal phase linked to progesterone. This is a common search alongside "why is my period making me so exhausted" and "does progesterone make you tired." For a full breakdown of how sleep changes across the whole cycle, not just premenstrually, see the guide to <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>.</p>
+
+<h2>Does Progesterone Make You Tired?</h2>
+<p>Progesterone itself has a mild sedative effect through its metabolite allopregnanolone, which is why some women feel sleepy rather than wired as it rises after ovulation. The tiredness that shows up before a period is less about progesterone's level and more about how sharply it falls in the final days of the luteal phase.</p>
+<p>A 2019 study of luteal hormone patterns in <a href="https://pubmed.ncbi.nlm.nih.gov/31736837/" target="_blank" rel="noopener noreferrer">Psychoneuroendocrinology</a> (PMID: 31736837) found that a steep late-luteal progesterone decline, rather than a gradual one, was the stronger predictor of peri-menstrual symptoms including fatigue. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It lets a woman log daily energy next to her actual cycle day, turning a vague sense of always feeling tired before her period into a visible, dated pattern specific to her own cycle length rather than a generic 28-day assumption.</p>
+
+<h2>How Long Does Premenstrual Fatigue Usually Last?</h2>
+<p>Premenstrual fatigue typically lasts three to five days, beginning in the late luteal phase and lifting within a day or two of bleeding starting. In a 28-day cycle, that window usually falls between day 24 and day 27, though it shifts with cycle length.</p>
+<p>A woman with a consistent 28-day cycle who rates her energy daily on a simple ten-point scale often sees a two-point drop beginning around day 24, even on nights she logged a full eight hours of sleep, because the sleep that week is lower quality rather than shorter. The fog that frequently accompanies this fatigue is covered separately in the guide to <a href="/blog/why-do-i-get-brain-fog-before-my-period">why brain fog strikes before a period</a>.</p>
+
+<h2>Could Something Other Than Your Period Be Causing the Fatigue?</h2>
+<p>Fatigue that is severe, constant throughout the cycle, or not clearly tied to the days before a period is more likely to have a separate cause such as iron deficiency, thyroid dysfunction, or poor sleep habits unrelated to hormones. Heavy periods make iron deficiency especially common in women who menstruate, and heavy or unpredictable bleeding is itself sometimes a sign of the anovulatory pattern covered in the guide to <a href="/blog/what-is-oestrogen-dominance">what oestrogen dominance actually means</a>.</p>
+<p>A 2026 letter in the <a href="https://pubmed.ncbi.nlm.nih.gov/40659970/" target="_blank" rel="noopener noreferrer">Journal of General Internal Medicine</a> (PMID: 40659970) notes that iron deficiency without anaemia is an increasingly recognised, and likely underdiagnosed, cause of fatigue in women, since standard blood counts can look normal while ferritin is already low. A GP can check ferritin, thyroid-stimulating hormone, and vitamin D alongside routine bloods when fatigue does not clearly track with cycle timing, a distinction explored further in <a href="/blog/how-do-you-know-if-your-hormones-are-off">how to know if your hormones are off</a>.</p>
+
+<h2>What Helps With Premenstrual Fatigue?</h2>
+<p>Premenstrual fatigue responds best to protecting sleep and pacing demands during the predictable low-energy window rather than pushing through it, since forcing normal output against a hormonal dip tends to extend the crash into the following days. No single fix eliminates it entirely, but a handful of habits, applied consistently in the days before a period, measurably reduce its severity:</p>
+<ul>
+  <li>Keep a consistent bedtime in the week before your period, when sleep is most easily disrupted</li>
+  <li>Prioritise iron-rich foods, or ask a GP about testing ferritin if fatigue feels disproportionate</li>
+  <li>Lower training intensity slightly in the late luteal week rather than forcing a personal best</li>
+  <li>Limit late caffeine, since a fragmented night compounds the next day's tiredness</li>
+  <li>Track the pattern for two to three cycles before assuming it is unrelated to hormones</li>
+</ul>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> also lines up logged sleep quality against next-day energy ratings, so a woman can see whether one bad night is driving a slump or whether the dip shows up regardless of how she slept. The nutrition side of this is covered in the guide to <a href="/blog/does-sugar-affect-your-hormones">whether sugar affects your hormones</a>, since blood-sugar swings compound premenstrual tiredness.</p>
+
+<h2>When Is Premenstrual Fatigue a Sign You Should See a Doctor?</h2>
+<p>See a doctor when fatigue is severe enough to disrupt daily function, lasts most of the month rather than a predictable few days, or comes with other symptoms like unusually heavy periods, hair changes, or persistent low mood. These patterns point toward causes beyond normal hormonal fluctuation.</p>
+<p><a href="https://www.nhs.uk/conditions/pre-menstrual-syndrome/" target="_blank" rel="noopener noreferrer">NHS guidance</a> lists tiredness and trouble sleeping among the most common PMS symptoms, and recommends keeping a symptom diary for at least two cycles before a GP appointment so patterns are clear rather than recalled from memory. Persistent stress alongside the fatigue is worth reviewing against the guide to <a href="/blog/how-do-you-reduce-cortisol-naturally">how to reduce cortisol naturally</a>, since chronically high cortisol can add to premenstrual exhaustion.</p>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
+  <li><a href="/blog/why-do-i-get-brain-fog-before-my-period">Why Do I Get Brain Fog Before My Period?</a></li>
+  <li><a href="/blog/what-is-oestrogen-dominance">What Is Oestrogen Dominance?</a></li>
 </ul>
     `.trim(),
   },
