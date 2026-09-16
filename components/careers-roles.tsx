@@ -60,7 +60,9 @@ export function CareersRoles() {
 
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
+  const [portfolio, setPortfolio] = useState("")
   const [message, setMessage] = useState("")
+  const [cvFile, setCvFile] = useState<File | null>(null)
   const [formState, setFormState] = useState<FormState>("idle")
   const [errors, setErrors] = useState<{ name?: string; email?: string }>({})
 
@@ -69,7 +71,9 @@ export function CareersRoles() {
     setFormState("idle")
     setName("")
     setEmail("")
+    setPortfolio("")
     setMessage("")
+    setCvFile(null)
     setErrors({})
   }
 
@@ -89,10 +93,17 @@ export function CareersRoles() {
     setErrors({})
     setFormState("submitting")
     try {
+      const fd = new FormData()
+      fd.append("name", name)
+      fd.append("email", email)
+      fd.append("role", applyRole ?? "")
+      if (portfolio.trim()) fd.append("portfolio", portfolio.trim())
+      if (message.trim()) fd.append("message", message.trim())
+      if (cvFile) fd.append("cv", cvFile)
       const res = await fetch("https://formspree.io/f/xjykbaqz", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ name, email, role: applyRole, message }),
+        headers: { Accept: "application/json" },
+        body: fd,
       })
       setFormState(res.ok ? "success" : "error")
     } catch {
@@ -239,15 +250,63 @@ export function CareersRoles() {
                   </div>
 
                   <div>
+                    <label className="block text-xs font-medium text-gray-500 mb-1.5" htmlFor="apply-portfolio">Portfolio or work you're proud of <span className="text-gray-300">(optional)</span></label>
+                    <input
+                      id="apply-portfolio"
+                      type="url"
+                      value={portfolio}
+                      onChange={(e) => setPortfolio(e.target.value)}
+                      placeholder="https://yourwork.com"
+                      className="w-full px-4 py-2.5 text-sm rounded-xl border border-gray-200 focus:outline-none focus:border-[#F7941D] transition-colors"
+                    />
+                  </div>
+
+                  <div>
                     <label className="block text-xs font-medium text-gray-500 mb-1.5" htmlFor="apply-message">Tell us about yourself <span className="text-gray-300">(optional)</span></label>
                     <textarea
                       id="apply-message"
-                      rows={4}
+                      rows={3}
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                       placeholder="Why does Solu's mission resonate with you?"
                       className="w-full px-4 py-2.5 text-sm rounded-xl border border-gray-200 focus:outline-none focus:border-[#F7941D] transition-colors resize-none"
                     />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-medium text-gray-500 mb-1.5">CV / Resume <span className="text-gray-300">(optional)</span></label>
+                    <label
+                      htmlFor="apply-cv"
+                      className={`flex items-center gap-3 px-4 py-2.5 rounded-xl border cursor-pointer transition-colors text-sm ${
+                        cvFile ? "border-[#F7941D] bg-orange-50" : "border-gray-200 hover:border-gray-300 bg-white"
+                      }`}
+                    >
+                      <svg width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true" className="shrink-0 text-[#F7941D]">
+                        <path d="M9 1H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6L9 1z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"/>
+                        <path d="M9 1v5h5M5.5 9.5 8 7l2.5 2.5M8 7v5.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <span className={cvFile ? "text-gray-800 truncate" : "text-gray-400"}>
+                        {cvFile ? cvFile.name : "Upload your CV or resume"}
+                      </span>
+                      {cvFile && (
+                        <button
+                          type="button"
+                          onClick={(e) => { e.preventDefault(); setCvFile(null) }}
+                          className="ml-auto shrink-0 text-gray-400 hover:text-gray-600"
+                          aria-label="Remove file"
+                        >
+                          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>
+                        </button>
+                      )}
+                    </label>
+                    <input
+                      id="apply-cv"
+                      type="file"
+                      accept=".pdf,.doc,.docx"
+                      className="sr-only"
+                      onChange={(e) => setCvFile(e.target.files?.[0] ?? null)}
+                    />
+                    <p className="text-xs text-gray-400 mt-1">PDF, DOC or DOCX up to 10 MB</p>
                   </div>
 
                   {formState === "error" && (
