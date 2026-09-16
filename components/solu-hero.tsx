@@ -7,10 +7,10 @@ export function SoluHero() {
 
   return (
     <>
-      <section className="relative bg-white pt-0 sm:pt-6 pb-0 sm:pb-6 px-0 sm:px-4">
+      <section className="relative bg-white pt-2 sm:pt-6 pb-5 sm:pb-6 px-3 sm:px-4">
 
         {/* Inset rounded container */}
-        <div className="relative w-full rounded-none sm:rounded-[40px] overflow-hidden h-[63vh] sm:h-auto sm:min-h-[calc(100vh-48px)]">
+        <div className="relative w-full rounded-[28px] sm:rounded-[40px] overflow-hidden h-[63vh] sm:h-auto sm:min-h-[calc(100vh-48px)]">
 
           {/* Background photo */}
           <Image
@@ -29,8 +29,6 @@ export function SoluHero() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
           {/* Bottom fade */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-          {/* Mobile: white bleed at the very bottom so it dissolves into the next section */}
-          <div className="sm:hidden absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-white pointer-events-none" style={{ zIndex: 1 }} />
 
           {/* ── MOBILE layout: spacer top, everything at bottom ── */}
           <div className="sm:hidden relative z-10 h-full flex flex-col px-6 pt-0 pb-7">
