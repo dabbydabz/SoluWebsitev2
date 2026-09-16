@@ -65,11 +65,6 @@ export default function RootLayout({
                 "name": "Solu",
                 "url": "https://www.solu.ae",
                 "description": "The women's wellness app that works with your cycle, not against it.",
-                "potentialAction": {
-                  "@type": "SearchAction",
-                  "target": "https://www.solu.ae/blog?q={search_term_string}",
-                  "query-input": "required name=search_term_string",
-                },
               },
               {
                 "@context": "https://schema.org",
