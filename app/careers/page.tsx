@@ -68,7 +68,7 @@ export default function CareersPage() {
                 <span className="text-sm font-medium text-gray-700">Fully remote</span>
               </div>
               <div className="flex items-center gap-2 bg-orange-50 border border-orange-100 rounded-full px-4 py-2">
-                <svg width="14" height="14" fill="none" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 12S1.5 8.5 1.5 5a5.5 5.5 0 0 1 11 0C12.5 8.5 7 12 7 12z" stroke="#F7941D" strokeWidth="1.2" strokeLinejoin="round"/></svg>
+                <svg width="14" height="14" fill="none" viewBox="0 -1 14 16" aria-hidden="true"><path d="M7 12S1.5 8.5 1.5 5a5.5 5.5 0 0 1 11 0C12.5 8.5 7 12 7 12z" stroke="#F7941D" strokeWidth="1.2" strokeLinejoin="round"/></svg>
                 <span className="text-sm font-medium text-gray-700">Mission first</span>
               </div>
             </div>
