@@ -78,7 +78,7 @@ export default function CareersPage() {
         {/* Right column — image, desktop only */}
         <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-[52%]">
           <Image
-            src="/images/careers-hero.jpg"
+            src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1400&q=85&auto=format&fit=crop"
             alt="Two women laughing together after a workout"
             fill
             className="object-cover object-center"
