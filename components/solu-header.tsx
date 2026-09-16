@@ -32,6 +32,7 @@ export function SoluHeader() {
     { label: "Why Solu", href: "/#why-solu" },
     { label: "For You", href: "/#for-you" },
     { label: "Health Blog", href: "/blog" },
+    { label: "Careers", href: "/careers" },
     { label: "Contact", href: "/contact" },
   ]
 

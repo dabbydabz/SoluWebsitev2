@@ -43,6 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.4,
     },
     {
+      url: "https://www.solu.ae/careers",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
       url: "https://www.solu.ae/privacy",
       lastModified: new Date("2026-07-01"),
       changeFrequency: "yearly",
