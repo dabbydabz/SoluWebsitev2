@@ -12,8 +12,6 @@ export default function Home() {
     <main className="min-h-screen bg-white overflow-x-hidden">
       <SoluHeader />
       <SoluHero />
-      {/* Mobile: fade the hard bottom edge of the hero image into white */}
-      <div className="sm:hidden h-20 bg-gradient-to-b from-black/50 to-white -mt-20 relative z-10 pointer-events-none" />
       <SoluTrack />
       {/* Desktop: white → dark gradient bridge (track → features) */}
       <div className="hidden sm:block h-24 bg-gradient-to-b from-white to-[#0D0D0D]" />

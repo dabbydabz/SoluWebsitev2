@@ -29,6 +29,8 @@ export function SoluHero() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
           {/* Bottom fade */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+          {/* Mobile: white bleed at the very bottom so it dissolves into the next section */}
+          <div className="sm:hidden absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-white pointer-events-none" style={{ zIndex: 1 }} />
 
           {/* ── MOBILE layout: spacer top, everything at bottom ── */}
           <div className="sm:hidden relative z-10 h-full flex flex-col px-6 pt-0 pb-7">
