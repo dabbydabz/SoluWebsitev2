@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
-import { posts, getPostBySlug } from "@/lib/posts"
+import { posts, getPostBySlug, EDITORIAL_REVIEW_PROCESS } from "@/lib/posts"
 import { getRevisionDate } from "@/lib/post-revisions"
 import { toISODateUTC as toISODate } from "@/lib/dates"
 import { getArticleEntities } from "@/lib/entities"
@@ -82,6 +82,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const postUrl = `https://www.solu.ae/blog/${post.slug}`
   const revisionDate = getRevisionDate(post.slug)
   const entities = getArticleEntities(post)
+  const reviewStatement = post.reviewedBy ?? EDITORIAL_REVIEW_PROCESS
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -98,7 +99,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       "@type": "Organization",
       "name": "Solu Editorial Team",
       "url": "https://www.solu.ae/our-story",
-      "description": "Reviewed against NHS, PubMed, and peer-reviewed sources.",
+      "description": reviewStatement,
+    },
+    "reviewedBy": {
+      "@type": "Organization",
+      "name": "Solu Editorial Team",
+      "description": reviewStatement,
     },
     "publisher": {
       "@type": "Organization",
@@ -159,7 +165,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         {/* Article body */}
         <article className="max-w-3xl mx-auto px-6 py-12 sm:py-16">
           <p className="text-gray-400 text-xs font-medium mb-6">
-            Reviewed by the Solu Editorial Team against NHS, PubMed, and peer-reviewed sources.
+            {reviewStatement}
             {revisionDate && <> · Last updated {formatLongDate(revisionDate)}</>}
           </p>
           <p className="text-gray-500 text-lg leading-relaxed font-light mb-10 border-l-4 border-[#F7941D] pl-5">

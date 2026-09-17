@@ -1,6 +1,10 @@
 import Link from "next/link"
+import Script from "next/script"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+
+const LAST_UPDATED = "1 July 2026"
+const LAST_UPDATED_ISO = "2026-07-01"
 
 export const metadata = {
   title: "Terms of Service — Solu",
@@ -8,9 +12,22 @@ export const metadata = {
   alternates: {
     canonical: "https://www.solu.ae/terms",
   },
+  openGraph: {
+    title: "Terms of Service — Solu",
+    description: "The terms and conditions governing your use of Solu's website and app.",
+    url: "https://www.solu.ae/terms",
+    siteName: "Solu",
+    type: "website",
+    locale: "en_US",
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms of Service — Solu",
+    description: "The terms and conditions governing your use of Solu's website and app.",
+    images: ["https://www.solu.ae/opengraph-image"],
+  },
 }
-
-const LAST_UPDATED = "1 July 2026"
 
 const sections = [
   {
@@ -246,6 +263,23 @@ We will respond to all enquiries within 30 days.`,
 
 export default function TermsPage() {
   return (
+    <>
+      <Script
+        id="schema-terms"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Terms of Service — Solu",
+            "url": "https://www.solu.ae/terms",
+            "description": "The terms and conditions governing your use of Solu's website and app.",
+            "dateModified": LAST_UPDATED_ISO,
+            "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
+            "publisher": { "@type": "Organization", "name": "Solu", "url": "https://www.solu.ae" },
+          }),
+        }}
+      />
     <main className="bg-white min-h-screen">
       <SoluHeader />
 
@@ -358,5 +392,6 @@ export default function TermsPage() {
 
       <SoluFooter />
     </main>
+    </>
   )
 }

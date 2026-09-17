@@ -7,13 +7,13 @@ import { SoluFooter } from "@/components/solu-footer"
 import { BlogGrid } from "@/components/blog-grid"
 
 export const metadata = {
-  title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
+  title: "Women's Health Blog: Hormones & Cycle Wellness | Solu",
   description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
   alternates: {
     canonical: "https://www.solu.ae/blog",
   },
   openGraph: {
-    title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
+    title: "Women's Health Blog: Hormones & Cycle Wellness | Solu",
     description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
     url: "https://www.solu.ae/blog",
     siteName: "Solu",
@@ -23,7 +23,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Women's Health Blog: Hormones, Nutrition & Cycle Wellness | Solu",
+    title: "Women's Health Blog: Hormones & Cycle Wellness | Solu",
     description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
     images: ["https://www.solu.ae/opengraph-image"],
   },

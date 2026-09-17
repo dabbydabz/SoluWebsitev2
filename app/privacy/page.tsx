@@ -1,6 +1,10 @@
 import Link from "next/link"
+import Script from "next/script"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+
+const LAST_UPDATED = "1 July 2026"
+const LAST_UPDATED_ISO = "2026-07-01"
 
 export const metadata = {
   title: "Privacy Policy — Solu",
@@ -8,9 +12,22 @@ export const metadata = {
   alternates: {
     canonical: "https://www.solu.ae/privacy",
   },
+  openGraph: {
+    title: "Privacy Policy — Solu",
+    description: "How Solu collects, uses, and protects your personal and health data.",
+    url: "https://www.solu.ae/privacy",
+    siteName: "Solu",
+    type: "website",
+    locale: "en_US",
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy — Solu",
+    description: "How Solu collects, uses, and protects your personal and health data.",
+    images: ["https://www.solu.ae/opengraph-image"],
+  },
 }
-
-const LAST_UPDATED = "1 July 2026"
 
 const sections = [
   {
@@ -157,6 +174,23 @@ We take all privacy enquiries seriously and will respond within 30 days.`,
 
 export default function PrivacyPage() {
   return (
+    <>
+      <Script
+        id="schema-privacy"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Privacy Policy — Solu",
+            "url": "https://www.solu.ae/privacy",
+            "description": "How Solu collects, uses, and protects your personal and health data.",
+            "dateModified": LAST_UPDATED_ISO,
+            "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
+            "publisher": { "@type": "Organization", "name": "Solu", "url": "https://www.solu.ae" },
+          }),
+        }}
+      />
     <main className="bg-white min-h-screen">
       <SoluHeader />
 
@@ -268,5 +302,6 @@ export default function PrivacyPage() {
 
       <SoluFooter />
     </main>
+    </>
   )
 }

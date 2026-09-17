@@ -22,13 +22,13 @@ const SITE_URL = "https://www.solu.ae"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Women's health, fitness & wellness in sync with your cycle | Solu",
+  title: "Women's Wellness App That Works With Your Cycle | Solu",
   description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: "Women's health, fitness & wellness in sync with your cycle | Solu",
+    title: "Women's Wellness App That Works With Your Cycle | Solu",
     description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
     url: SITE_URL,
     siteName: "Solu",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Women's health, fitness & wellness in sync with your cycle | Solu",
+    title: "Women's Wellness App That Works With Your Cycle | Solu",
     description: "The women's wellness app that works with your cycle, not against it. Track your period, workouts, sleep and nutrition in one beautifully simple app.",
   },
 }
