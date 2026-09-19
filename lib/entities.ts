@@ -46,7 +46,10 @@ function stripHtml(html: string): string {
 
 export function getArticleEntities(post: Post): { "@type": "DefinedTerm"; name: string }[] {
   const haystack = `${post.title} ${post.excerpt} ${stripHtml(post.content)}`
-  const matches = ENTITY_PATTERNS.filter((entity) => entity.pattern.test(haystack)).map((entity) => entity.name)
-  if (matches.length < MIN_ENTITIES) return []
-  return matches.slice(0, MAX_ENTITIES).map((name) => ({ "@type": "DefinedTerm", name }))
+  const matched = ENTITY_PATTERNS.filter((entity) => entity.pattern.test(haystack))
+  if (matched.length < MIN_ENTITIES) return []
+  // Title-matched entities first so the first result is the article's primary topic.
+  const inTitle = matched.filter((entity) => entity.pattern.test(post.title))
+  const ordered = [...inTitle, ...matched.filter((entity) => !inTitle.includes(entity))]
+  return ordered.slice(0, MAX_ENTITIES).map(({ name }) => ({ "@type": "DefinedTerm", name }))
 }

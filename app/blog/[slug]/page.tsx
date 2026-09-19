@@ -121,7 +121,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     },
     "keywords": post.category,
     "articleSection": post.category,
-    ...(entities.length > 0 ? { "mentions": entities } : {}),
+    ...(entities.length > 0 ? { "about": entities[0] } : {}),
+    ...(entities.length > 1 ? { "mentions": entities.slice(1) } : {}),
   }
 
   const breadcrumbSchema = {
