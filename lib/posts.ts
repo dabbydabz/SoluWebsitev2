@@ -2443,7 +2443,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   },
   {
     slug: "why-am-i-so-tired-before-my-period",
-    trending: true,
     title: "Why Am I So Tired Before My Period?",
     excerpt: "Premenstrual fatigue comes from falling progesterone disrupting sleep quality in the 3 to 5 days before a period, not from shorter sleep. It lifts once bleeding starts.",
     date: "September 14, 2026",
@@ -2490,6 +2489,184 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
   <li><a href="/blog/why-do-i-get-brain-fog-before-my-period">Why Do I Get Brain Fog Before My Period?</a></li>
   <li><a href="/blog/what-is-oestrogen-dominance">What Is Oestrogen Dominance?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-do-you-boost-progesterone-naturally",
+    title: "How Do You Boost Progesterone Naturally?",
+    excerpt: "You boost progesterone naturally by supporting ovulation: sleep, enough food, and low stress protect a 12 to 14 day luteal phase. Luteal phases of 10 days or less are worth a medical review.",
+    date: "September 21, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=85",
+    readTime: "5 min read",
+    content: `
+<p>You can support progesterone naturally by protecting ovulation, because the body makes almost all of its progesterone after an egg is released. Consistent sleep, enough food energy, stress management, and nutrients such as vitamin C, magnesium, and zinc all support the luteal phase, the roughly two-week stretch between ovulation and a period.</p>
+
+<p>This article draws on the American Society for Reproductive Medicine's <a href="https://pubmed.ncbi.nlm.nih.gov/33827766/" target="_blank" rel="noopener noreferrer">2021 committee opinion in Fertility and Sterility</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/8077314/" target="_blank" rel="noopener noreferrer">randomised crossover trial in the Journal of Clinical Endocrinology and Metabolism</a>, and <a href="https://www.nhs.uk/conditions/periods/" target="_blank" rel="noopener noreferrer">NHS guidance on periods</a>, current as of September 2026.</p>
+
+<h2>What Is Progesterone and When Does the Body Make It?</h2>
+<p>Progesterone is a hormone made mainly by the corpus luteum, the temporary gland left behind after ovulation, and it peaks about a week after the egg is released. It thickens the uterine lining, raises body temperature slightly, and drops sharply before a period if no pregnancy occurs. Without ovulation, progesterone stays low.</p>
+<p>Oestrogen leads the first half of the cycle, while progesterone leads the second. The full sequence is mapped in the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>, and the second half is covered in detail in the article on <a href="/blog/what-is-the-luteal-phase">what the luteal phase is</a>. Because progesterone depends on ovulation, "how to increase progesterone levels naturally" is really a question about supporting ovulation.</p>
+
+<h2>Can Diet and Lifestyle Really Raise Progesterone Levels?</h2>
+<p>Diet and lifestyle cannot add progesterone directly, but they can support the ovulation that produces it. Evidence for food is modest: in a crossover trial of 18 women, adding flax seed to the diet was linked to a longer luteal phase (12.6 versus 11.4 days) and no anovulatory cycles, compared with three in the control cycles.</p>
+<p>The trial did not find higher progesterone concentrations, only a higher progesterone-to-oestradiol ratio. The wider evidence on seeds is reviewed in the guide to <a href="/blog/does-seed-cycling-actually-work-for-hormone-balance">whether seed cycling actually works</a>.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. Its cycle history counts the days between a logged ovulation sign and the next period across several months, so a consistently short second half shows up as a trend rather than a single odd month.</p>
+
+<h2>Which Nutrients Support Progesterone Production?</h2>
+<p>Vitamin C, magnesium, zinc, and vitamin B6 are the nutrients most often linked to luteal phase function, largely through their roles in the corpus luteum and the nervous system. Evidence that supplements raise progesterone is limited, so food sources come first.</p>
+<ul>
+  <li>Vitamin C: citrus, peppers, and kiwi. A small <a href="https://pubmed.ncbi.nlm.nih.gov/12909517/" target="_blank" rel="noopener noreferrer">2003 trial in Fertility and Sterility</a> examined ascorbic acid and serum progesterone in women with a luteal phase defect, but it has not been widely replicated.</li>
+  <li>Magnesium: pumpkin seeds, almonds, leafy greens, and dark chocolate.</li>
+  <li>Zinc: chickpeas, beef, cashews, and oysters.</li>
+  <li>Vitamin B6: salmon, chicken, bananas, and sweet potato.</li>
+  <li>Enough total calories and healthy fats, since cholesterol is the raw material for every steroid hormone.</li>
+</ul>
+<p>A broader food list appears in the guide to <a href="/blog/what-foods-help-balance-hormones-naturally">foods that help balance hormones naturally</a>.</p>
+
+<h2>Can Stress and Poor Sleep Lower Progesterone?</h2>
+<p>Yes, chronic stress and poor sleep can lower progesterone indirectly by disrupting the hormonal signals that trigger ovulation. Progesterone also supports deep sleep, so the effect runs both ways. Regular sleep, daily stress relief, and eating enough are the most practical steps.</p>
+<p>A woman with a 30-day cycle who ovulates on day 16 has a 14-day luteal phase, while ovulating on day 21 of the same cycle leaves only nine days, which is why cycle length alone says little about progesterone. The stress pathway is explained in the guide to <a href="/blog/how-do-you-reduce-cortisol-naturally">reducing cortisol naturally</a>, and the sleep link in the article on <a href="/blog/can-your-period-affect-your-sleep-quality">how your period affects sleep quality</a>.</p>
+
+<h2>When Is Low Progesterone a Reason to See a Doctor?</h2>
+<p>Low progesterone is worth medical review when cycles are irregular, spotting appears for several days before a period, or the luteal phase repeatedly lasts 10 days or less. The ASRM defines luteal phase deficiency as an abnormal luteal phase length of 10 days or less, though the diagnosis itself remains debated.</p>
+<p>In the committee's own words, luteal phase deficiency <a href="https://pubmed.ncbi.nlm.nih.gov/33827766/" target="_blank" rel="noopener noreferrer">"has not been proven to be an independent entity causing infertility or recurrent pregnancy loss"</a>. As of 2026, no over-the-counter supplement is proven to correct low progesterone, and a clinician can order a mid-luteal blood test if symptoms persist.</p>
+<p>Solu's phase-based suggestions shift food and training in the second half of the cycle, for example adding a magnesium-rich snack and scaling back high-intensity sessions when energy dips, as described in the guide to <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>. Logged symptoms then give a doctor dated evidence instead of a remembered estimate.</p>
+
+<h2>Key Takeaways</h2>
+<ul>
+  <li>Progesterone is made after ovulation, so supporting ovulation is the most reliable natural way to support progesterone.</li>
+  <li>A luteal phase of 10 days or less meets the ASRM definition of luteal phase deficiency, though the diagnosis is debated.</li>
+  <li>Vitamin C, magnesium, zinc, and vitamin B6 support luteal function, but supplements are not proven to raise progesterone.</li>
+  <li>Persistent spotting before periods, short cycles, or irregular ovulation justify a medical review rather than more supplements.</li>
+</ul>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-the-luteal-phase">What Is the Luteal Phase?</a></li>
+  <li><a href="/blog/does-seed-cycling-actually-work-for-hormone-balance">Does Seed Cycling Actually Work for Hormone Balance?</a></li>
+  <li><a href="/blog/signs-of-low-oestrogen">What Are the Signs of Low Oestrogen?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "signs-of-low-oestrogen",
+    title: "What Are the Signs of Low Oestrogen?",
+    excerpt: "Signs of low oestrogen include hot flushes, night sweats, vaginal dryness, low mood, and irregular periods. Perimenopause begins 4 to 8 years before menopause, so symptoms can start early.",
+    date: "September 21, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=85",
+    readTime: "5 min read",
+    content: `
+<p>Signs of low oestrogen include hot flushes, night sweats, vaginal dryness, low mood, poor sleep, and irregular or missed periods. Oestrogen falls naturally during perimenopause and menopause, but low levels can also follow very low body weight, intense training with too little food, or premature ovarian insufficiency.</p>
+
+<p>This article draws on <a href="https://www.nhs.uk/conditions/menopause-and-perimenopause/symptoms/" target="_blank" rel="noopener noreferrer">NHS menopause and perimenopause guidance reviewed in May 2026</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/41476384/" target="_blank" rel="noopener noreferrer">2026 review in the International Journal of Gynecology and Obstetrics</a>, and a <a href="https://pubmed.ncbi.nlm.nih.gov/40377060/" target="_blank" rel="noopener noreferrer">2025 commentary in Climacteric</a>, current as of September 2026.</p>
+
+<h2>What Are the Most Common Signs of Low Oestrogen?</h2>
+<p>The most common signs of low oestrogen are hot flushes, night sweats, vaginal dryness, mood changes, sleep problems, and changes to periods. The NHS also lists poor memory, brain fog, weight gain, and recurrent urinary tract infections among the symptoms linked to falling oestrogen.</p>
+<ul>
+  <li>Hot flushes and night sweats: sudden heat in the face, neck, and chest, often with sweating.</li>
+  <li>Vaginal dryness or irritation: burning, itching, or painful sex.</li>
+  <li>Mood changes: low mood, anxiety, or irritability, which is why many women ask whether low oestrogen can cause anxiety.</li>
+  <li>Sleep problems and brain fog: waking early, difficulty concentrating, or poor memory.</li>
+  <li>Irregular, lighter, or missed periods.</li>
+</ul>
+
+<h2>What Does Oestrogen Do in the Body?</h2>
+<p>Oestrogen is the main female sex hormone, made mostly by the ovaries, and it regulates the menstrual cycle, keeps vaginal tissue moist, supports bone density, and influences mood, sleep, and temperature control. Levels rise through the follicular phase, peak just before ovulation, and fall toward a period.</p>
+<p>Because oestrogen touches so many systems, low levels rarely cause just one symptom. The cycle-by-cycle pattern is explained in the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>. The opposite problem, too much oestrogen relative to progesterone, is covered in the article on <a href="/blog/what-is-oestrogen-dominance">oestrogen dominance</a>.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. Its daily log lets a woman record hot flushes, mood, and night waking beside the date of her last period, producing a dated symptom timeline to bring to a GP.</p>
+
+<h2>Can Low Oestrogen Happen Before Menopause?</h2>
+<p>Yes, low oestrogen can occur well before menopause, most often during perimenopause, which begins 4 to 8 years before the final period. It can also follow under-eating, very low body weight, or premature ovarian insufficiency, a loss of normal ovarian function before age 40.</p>
+<p>The 2026 International Journal of Gynecology and Obstetrics review notes that perimenopause involves changing oestradiol and progesterone levels, and that anxiety and depression become more common in this phase. A woman of 44 whose cycles shorten from 28 to 25 days, then skip a month, while she wakes at 3 am drenched in sweat, matches a common early perimenopause sequence. The wider timeline is in the guide to <a href="/blog/what-is-perimenopause-and-when-does-it-start">when perimenopause starts</a>.</p>
+<p>Premature ovarian insufficiency is also more common than once believed, according to the 2025 Climacteric commentary on the updated ESHRE guideline.</p>
+
+<h2>How Do You Know If Your Oestrogen Is Low?</h2>
+<p>Doctors usually assess low oestrogen from symptoms, age, and cycle pattern, using blood tests for FSH and oestradiol selectively. A <a href="https://pubmed.ncbi.nlm.nih.gov/42085078/" target="_blank" rel="noopener noreferrer">2026 narrative review in the Nigerian Journal of Clinical Practice</a> found that single hormone measurements are limited by cyclic fluctuations, so one normal result does not rule out a problem.</p>
+<p>Self-diagnosis is equally unreliable. As the International Journal of Gynecology and Obstetrics review puts it, <a href="https://pubmed.ncbi.nlm.nih.gov/41476384/" target="_blank" rel="noopener noreferrer">"symptoms of perimenopause can easily be mistaken for other medical or mental health issues"</a>. Thyroid disease, iron deficiency, and stress can mimic low oestrogen, as discussed in the guide to <a href="/blog/how-do-you-know-if-your-hormones-are-off">signs your hormones are off</a>.</p>
+
+<h2>What Helps With Low Oestrogen Symptoms?</h2>
+<p>Hormone replacement therapy (HRT) is the main treatment for menopausal low oestrogen, and the <a href="https://www.nhs.uk/conditions/menopause-and-perimenopause/treatment/" target="_blank" rel="noopener noreferrer">NHS</a> notes it relieves most symptoms, while cognitive behavioural therapy and vaginal moisturisers help specific ones. As of 2026, treatment is individual, so a GP review comes first.</p>
+<p>The safety evidence is reviewed in the guide to <a href="/blog/is-hrt-safe-the-latest-science">whether HRT is safe</a>. Strength training also supports bone and heart health as oestrogen falls, as covered in the article on <a href="/blog/can-strength-training-protect-womens-heart-health">strength training and heart health</a>.</p>
+<p>Solu pairs logged symptoms with movement, so a woman can see whether hot flushes or fatigue cluster after hard sessions and choose lighter or heavier training days accordingly.</p>
+
+<h2>Key Takeaways</h2>
+<ul>
+  <li>Hot flushes, night sweats, vaginal dryness, low mood, and irregular periods are the most common signs of low oestrogen.</li>
+  <li>Perimenopause begins 4 to 8 years before menopause, so low oestrogen symptoms can start in the early to mid 40s.</li>
+  <li>Single hormone blood tests fluctuate with the cycle, so diagnosis relies on symptoms, age, and cycle pattern as well.</li>
+  <li>HRT relieves most menopausal symptoms according to the NHS, and a GP can advise on whether it suits an individual.</li>
+</ul>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What Is Perimenopause and When Does It Start?</a></li>
+  <li><a href="/blog/how-do-you-boost-progesterone-naturally">How Do You Boost Progesterone Naturally?</a></li>
+  <li><a href="/blog/is-hrt-safe-the-latest-science">Is HRT Safe? The Latest Science</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "does-seed-cycling-actually-work-for-hormone-balance",
+    title: "Does Seed Cycling Actually Work for Hormone Balance?",
+    excerpt: "Seed cycling is not proven to balance hormones, though a 2025 review of 10 small studies found promising PMS signals. The seeds themselves are nutritious and low risk for most women.",
+    date: "September 21, 2026",
+    category: "Nutrition",
+    image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=800&q=85",
+    readTime: "5 min read",
+    trending: true,
+    content: `
+<p>Seed cycling is not proven to balance hormones, although the seeds involved are nutritious and low risk for most women. A 2025 systematic review of ten small studies found encouraging signals for PMS and PCOS symptoms, but the authors called for larger trials.</p>
+
+<p>This article draws on a <a href="https://pubmed.ncbi.nlm.nih.gov/41018334/" target="_blank" rel="noopener noreferrer">2025 systematic review in Cureus</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/8077314/" target="_blank" rel="noopener noreferrer">randomised crossover trial in the Journal of Clinical Endocrinology and Metabolism</a>, and <a href="https://www.nhs.uk/conditions/periods/" target="_blank" rel="noopener noreferrer">NHS guidance on periods</a>, current as of September 2026.</p>
+
+<h2>What Is Seed Cycling and How Does It Work?</h2>
+<p>Seed cycling is a dietary routine that rotates four seeds across the menstrual cycle: flax and pumpkin in the follicular phase, then sesame and sunflower in the luteal phase. Supporters say the seeds' lignans, zinc, and vitamin E nudge oestrogen and progesterone, though this mechanism has not been proven.</p>
+<ul>
+  <li>Days 1 to 14 (follicular phase): about 1 tablespoon each of ground flax and pumpkin seeds daily.</li>
+  <li>Days 15 to 28 (luteal phase): about 1 tablespoon each of sesame and sunflower seeds daily.</li>
+  <li>The rationale: flax and sesame supply lignans, pumpkin supplies zinc, sunflower supplies vitamin E and selenium.</li>
+</ul>
+<p>The routine sits within the wider idea of eating by phase, explained in the guide to <a href="/blog/eating-for-your-cycle">eating for your cycle</a>.</p>
+
+<h2>Does Seed Cycling Actually Balance Hormones?</h2>
+<p>There is no large trial showing that seed cycling changes oestrogen or progesterone levels. The best evidence is a 2025 systematic review of ten small studies (635 women) that found improved menstrual regularity and PMS scores, with the authors describing the evidence as small in size and moderate in quality.</p>
+<p>The review concluded that seed cycling is <a href="https://pubmed.ncbi.nlm.nih.gov/41018334/" target="_blank" rel="noopener noreferrer">"a low-cost, safe, and potentially effective adjunct for managing PMS and PCOS"</a>. An older crossover trial of 18 women found that flax seed was linked to no anovulatory cycles, compared with three in the control cycles, and to a longer luteal phase of 12.6 versus 11.4 days. It found no significant change in oestradiol or estrone.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It lets a woman note whether she had her seeds that day beside a daily symptom rating, so after two or three cycles she can compare seed days with non-seed days.</p>
+
+<h2>Are Seeds Worth Eating Even Without Hormone Effects?</h2>
+<p>Yes, flax, pumpkin, sesame, and sunflower seeds are worth eating for their fibre, healthy fats, zinc, magnesium, and vitamin E, whether or not they shift hormones. As of 2026, that nutritional value is the best-supported reason to include them, rather than any proven effect on oestrogen or progesterone.</p>
+<p>Fibre helps the gut clear used oestrogen, an idea covered in the guide to <a href="/blog/what-foods-help-balance-hormones-naturally">foods that help balance hormones naturally</a>. Zinc and magnesium also feature in the article on <a href="/blog/how-do-you-boost-progesterone-naturally">how to boost progesterone naturally</a>.</p>
+
+<h2>Who Should Be Careful With Seed Cycling?</h2>
+<p>Women with irregular cycles, PCOS, seed allergies, or a hormone-sensitive condition should speak to a clinician before starting seed cycling. The routine assumes a 28-day cycle with ovulation on day 14, so it misfires for shorter or longer cycles.</p>
+<p>A woman with a 35-day cycle who switches to sesame and sunflower seeds on day 15 is giving luteal seeds during her follicular phase, since she probably ovulates near day 21. Irregular cycles deserve a proper assessment first, as discussed in the guide to <a href="/blog/what-causes-hormonal-imbalance-in-women">what causes hormonal imbalance in women</a>. Anyone unsure whether symptoms are hormonal can start with the article on <a href="/blog/how-do-you-know-if-your-hormones-are-off">signs your hormones are off</a>.</p>
+
+<h2>How Can You Try Seed Cycling Safely?</h2>
+<p>To try seed cycling safely, keep the amounts small, time the phases to your own cycle, and track symptoms for at least three cycles. If PMS, cycle length, or pain has not improved by then, seeds are unlikely to be the answer and a doctor visit is sensible.</p>
+<ol>
+  <li>Count from the first day of your period and note your typical cycle length.</li>
+  <li>Switch seeds after your ovulation signs appear, not automatically on day 15.</li>
+  <li>Log symptoms daily and compare across three cycles.</li>
+  <li>Stop and seek advice if you notice digestive upset, allergic reactions, or worsening symptoms.</li>
+</ol>
+<p>Solu's phase-aware nutrition prompts follow a woman's logged cycle day rather than a fixed calendar, so food suggestions change when her own pattern changes. The bigger picture on whether phase-based habits work is in the article on <a href="/blog/does-cycle-syncing-actually-work">whether cycle syncing actually works</a>.</p>
+
+<h2>Key Takeaways</h2>
+<ul>
+  <li>No large trial shows that seed cycling changes oestrogen or progesterone levels, though small studies report better PMS scores and regularity.</li>
+  <li>A 2025 review of ten studies and 635 women found encouraging but moderate-quality evidence for PMS and PCOS symptoms.</li>
+  <li>Flax, pumpkin, sesame, and sunflower seeds are nutritious and low risk, so they are worth eating even without a proven hormone effect.</li>
+  <li>Seed cycling assumes a 28-day cycle, so women with longer or irregular cycles should time seeds to ovulation and see a doctor.</li>
+</ul>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/eating-for-your-cycle">Eating for Your Cycle</a></li>
+  <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
+  <li><a href="/blog/does-cycle-syncing-actually-work">Does Cycle Syncing Actually Work?</a></li>
 </ul>
     `.trim(),
   },
