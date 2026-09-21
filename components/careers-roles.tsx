@@ -141,16 +141,12 @@ export function CareersRoles() {
       if (portfolio.trim()) fd.append("portfolio", portfolio.trim())
       if (message.trim()) fd.append("message", message.trim())
       if (cvFile) fd.append("attachment", cvFile)
-      // FormSubmit supports file uploads on free tier; FormSpree free does not
-      fd.append("_subject", `Solu job application: ${applyRole}`)
-      fd.append("_template", "table")
-      const res = await fetch("https://formsubmit.co/ajax/solu.app.ae@gmail.com", {
+      const res = await fetch("/api/apply", {
         method: "POST",
-        headers: { Accept: "application/json" },
         body: fd,
       })
       const json = await res.json().catch(() => null)
-      setFormState(res.ok && json?.success === "true" ? "success" : "error")
+      setFormState(res.ok && json?.success === true ? "success" : "error")
     } catch {
       setFormState("error")
     }
