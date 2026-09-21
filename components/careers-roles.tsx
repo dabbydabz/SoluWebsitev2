@@ -52,6 +52,24 @@ const roles = [
       "You'll own the entire stack from day one with no legacy code, modern tooling, and a clear roadmap. Direct line to the founders, fully remote (any timezone), and a genuine path to Tech Lead. Equity now, salary when Seed closes.",
   },
   {
+    id: "hom",
+    title: "Head of Marketing",
+    preview:
+      "Solu is built on a simple truth: most wellness products fail women because they ignore how a woman's body actually works. We need a Head of Marketing who doesn't just understand that insight, but feels it.",
+    description:
+      "Solu is built on a simple truth: most wellness products fail women because they ignore how a woman's body actually works. We need a Head of Marketing who doesn't just understand that insight, but feels it. This is a part-time or fractional role based in Dubai (remote-friendly), with a single mandate: take Solu from where it is now to 5,000 active users, and build the playbook that goes further.",
+    bullets: [
+      "Build the GTM strategy from scratch and then execute it yourself, no handoffs",
+      "Own content, community, influencer outreach, and partnerships hands-on",
+      "Translate Solu's core insight into messaging, copy, and campaigns that convert",
+      "Work directly with the PM on activation, retention, and funnel data",
+      "Drive tier conversion from Free to Solu+ and Solu Pro, not just downloads",
+      "Report weekly on what's working, what's not, and what you're changing",
+    ],
+    closing:
+      "You report directly to the Founder. There is no team to delegate to yet, which means what you build here is genuinely yours. Equity structured around growth milestones, salary when Seed closes.",
+  },
+  {
     id: "fd",
     title: "Finance Director & Investor Relations",
     preview:
@@ -77,17 +95,19 @@ export function CareersRoles() {
 
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
+  const [github, setGithub] = useState("")
   const [portfolio, setPortfolio] = useState("")
   const [message, setMessage] = useState("")
   const [cvFile, setCvFile] = useState<File | null>(null)
   const [formState, setFormState] = useState<FormState>("idle")
-  const [errors, setErrors] = useState<{ name?: string; email?: string }>({})
+  const [errors, setErrors] = useState<{ name?: string; email?: string; github?: string }>({})
 
   const openModal = (roleTitle: string) => {
     setApplyRole(roleTitle)
     setFormState("idle")
     setName("")
     setEmail("")
+    setGithub("")
     setPortfolio("")
     setMessage("")
     setCvFile(null)
@@ -96,10 +116,13 @@ export function CareersRoles() {
 
   const closeModal = () => setApplyRole(null)
 
+  const isFSE = applyRole === "Full-Stack Engineer → Tech Lead"
+
   const validate = () => {
-    const e: { name?: string; email?: string } = {}
+    const e: { name?: string; email?: string; github?: string } = {}
     if (!name.trim()) e.name = "Please enter your name."
     if (!email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) e.email = "Please enter a valid email address."
+    if (isFSE && !github.trim()) e.github = "Please share your GitHub profile URL."
     return e
   }
 
@@ -114,6 +137,7 @@ export function CareersRoles() {
       fd.append("name", name)
       fd.append("email", email)
       fd.append("role", applyRole ?? "")
+      if (isFSE && github.trim()) fd.append("github", github.trim())
       if (portfolio.trim()) fd.append("portfolio", portfolio.trim())
       if (message.trim()) fd.append("message", message.trim())
       if (cvFile) fd.append("cv", cvFile)
@@ -265,6 +289,23 @@ export function CareersRoles() {
                       ))}
                     </select>
                   </div>
+
+                  {isFSE && (
+                    <div>
+                      <label className="block text-xs font-medium text-gray-500 mb-1.5" htmlFor="apply-github">
+                        GitHub profile <span className="text-red-400">*</span>
+                      </label>
+                      <input
+                        id="apply-github"
+                        type="url"
+                        value={github}
+                        onChange={(e) => { setGithub(e.target.value); setErrors((p) => ({ ...p, github: undefined })) }}
+                        placeholder="https://github.com/yourhandle"
+                        className="w-full px-4 py-2.5 text-sm rounded-xl border border-gray-200 focus:outline-none focus:border-[#F7941D] transition-colors"
+                      />
+                      {errors.github && <p className="text-xs text-red-500 mt-1">{errors.github}</p>}
+                    </div>
+                  )}
 
                   <div>
                     <label className="block text-xs font-medium text-gray-500 mb-1.5" htmlFor="apply-portfolio">Portfolio or work you're proud of <span className="text-gray-300">(optional)</span></label>
