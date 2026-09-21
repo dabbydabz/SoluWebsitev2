@@ -144,7 +144,7 @@ export function CareersRoles() {
       // FormSubmit supports file uploads on free tier; FormSpree free does not
       fd.append("_subject", `Solu job application: ${applyRole}`)
       fd.append("_template", "table")
-      const res = await fetch("https://formsubmit.co/ajax/geraldtonymuoh@gmail.com", {
+      const res = await fetch("https://formsubmit.co/ajax/solu.app.ae@gmail.com", {
         method: "POST",
         headers: { Accept: "application/json" },
         body: fd,
