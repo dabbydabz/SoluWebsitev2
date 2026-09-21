@@ -368,7 +368,7 @@ export function CareersRoles() {
                       className="sr-only"
                       onChange={(e) => setCvFile(e.target.files?.[0] ?? null)}
                     />
-                    <p className="text-xs text-gray-400 mt-1">PDF, DOC or DOCX up to 10 MB</p>
+                    <p className="text-xs text-gray-400 mt-1">PDF, DOC or DOCX up to 5 MB</p>
                   </div>
 
                   {formState === "error" && (
