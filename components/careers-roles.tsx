@@ -35,6 +35,23 @@ const roles = [
       "You'll be the voice of Solu online. If you've ever felt let down by wellness content that doesn't speak to you as a woman, this is your chance to change that.",
   },
   {
+    id: "fse",
+    title: "Full-Stack Engineer → Tech Lead",
+    preview:
+      "Solu's app is live on the App Store and Google Play, the stack is modern, and there's a lot left to build. We're looking for an engineer who can own the backend and mobile codebases end to end and grow into the technical lead role as we scale.",
+    description:
+      "Solu's app is live on the App Store and Google Play, the stack is modern, and there's a lot left to build. We're looking for an engineer who can own two TypeScript codebases end to end: a NestJS GraphQL API on the backend and a React Native/Expo app on mobile. This role has a clear path to Tech Lead as we scale post-Seed.",
+    bullets: [
+      "Finish wiring mobile screens to the live API (feed, groups, hangouts, notifications)",
+      "Complete auth (token refresh), push notifications, and the notification dispatch pipeline",
+      "Set up CI/CD, database migrations, and staging/production deployments",
+      "Ship to TestFlight and the Play Store, iterating directly with the founders",
+      "Add tests where they matter and keep the architecture clean as the product scales",
+    ],
+    closing:
+      "You'll own the entire stack from day one with no legacy code, modern tooling, and a clear roadmap. Direct line to the founders, fully remote (any timezone), and a genuine path to Tech Lead. Equity now, salary when Seed closes.",
+  },
+  {
     id: "fd",
     title: "Finance Director & Investor Relations",
     preview:
