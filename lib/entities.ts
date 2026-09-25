@@ -7,6 +7,10 @@ import type { Post } from "./posts"
 const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Cortisol", pattern: /\bcortisol\b/i },
   { name: "Progesterone", pattern: /\bprogesterone\b/i },
+  // Specific conditions sit before their parent hormone so a title match on
+  // the condition becomes the article's primary "about" entity.
+  { name: "Oestrogen Dominance", pattern: /\b(o|e)estrogen dominance\b/i },
+  { name: "Low Oestrogen", pattern: /\blow (o|e)estrogen\b/i },
   { name: "Oestrogen", pattern: /\b(o|e)estrogen\b/i },
   { name: "Testosterone", pattern: /\btestosterone\b/i },
   { name: "Luteal Phase", pattern: /\bluteal phase\b/i },
@@ -35,6 +39,11 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "HPA Axis", pattern: /\bHPA axis\b|\bhypothalamic-pituitary-adrenal axis\b/i },
   { name: "Free Sugars", pattern: /\bfree sugars?\b/i },
   { name: "Cardiovascular Health", pattern: /\bcardiovascular (health|disease|system)\b|\bheart health\b/i },
+  { name: "Seed Cycling", pattern: /\bseed cycling\b/i },
+  { name: "Premenstrual Fatigue", pattern: /\bpremenstrual (fatigue|tiredness)\b|\btired before (my|your|a) period\b/i },
+  { name: "Premenstrual Anxiety", pattern: /\bpremenstrual anxiety\b|\banxious before (my|your|a) period\b/i },
+  { name: "Sugar Cravings", pattern: /\bsugar cravings?\b|\bcrave sugar\b/i },
+  { name: "Period Tracking App", pattern: /\bperiod track(ing|er) apps?\b/i },
 ]
 
 const MIN_ENTITIES = 2
