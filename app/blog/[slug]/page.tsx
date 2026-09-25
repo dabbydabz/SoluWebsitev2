@@ -16,8 +16,13 @@ function formatLongDate(isoDate: string): string {
     : d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })
 }
 
-function metaDescription(excerpt: string, maxLength = 155): string {
+// Prefer ending on a complete sentence so snippets keep their answer intact;
+// fall back to a word-boundary cut when the first sentence is too short.
+function metaDescription(excerpt: string, maxLength = 155, minSentenceLength = 100): string {
   if (excerpt.length <= maxLength) return excerpt
+  const window = excerpt.slice(0, maxLength + 1)
+  const sentenceEnd = Math.max(...[". ", "? ", "! "].map((mark) => window.lastIndexOf(mark)))
+  if (sentenceEnd + 1 >= minSentenceLength) return excerpt.slice(0, sentenceEnd + 1)
   const truncated = excerpt.slice(0, maxLength)
   const lastSpace = truncated.lastIndexOf(" ")
   return `${truncated.slice(0, lastSpace).replace(/[.,;:]$/, "")}...`
