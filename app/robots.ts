@@ -9,7 +9,17 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/maintenance", "/welcome"],
       },
       {
-        userAgent: ["GPTBot", "PerplexityBot", "ClaudeBot", "Googlebot-Extended"],
+        userAgent: [
+          "GPTBot",
+          "OAI-SearchBot",
+          "ChatGPT-User",
+          "PerplexityBot",
+          "Perplexity-User",
+          "ClaudeBot",
+          "Claude-SearchBot",
+          "Claude-User",
+          "Google-Extended",
+        ],
         allow: "/",
       },
     ],

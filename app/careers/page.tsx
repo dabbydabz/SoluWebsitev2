@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Script from "next/script"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 import { CareersRoles } from "@/components/careers-roles"
@@ -35,6 +36,22 @@ const valuePills = [
 export default function CareersPage() {
   return (
     <main className="bg-white min-h-screen font-sans">
+      <Script
+        id="schema-careers"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Careers — Solu",
+            "url": "https://www.solu.ae/careers",
+            "description": "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
+            "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
+            "about": { "@type": "Organization", "name": "Solu", "url": "https://www.solu.ae" },
+            "publisher": { "@type": "Organization", "name": "Solu", "url": "https://www.solu.ae" },
+          }),
+        }}
+      />
       <SoluHeader />
 
       {/* Hero — two-column, image right */}
