@@ -2616,7 +2616,6 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
     category: "Nutrition",
     image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=800&q=85",
     readTime: "5 min read",
-    trending: true,
     content: `
 <p>Seed cycling is not proven to balance hormones, although the seeds involved are nutritious and low risk for most women. A 2025 systematic review of ten small studies found encouraging signals for PMS and PCOS symptoms, but the authors called for larger trials.</p>
 
@@ -2667,6 +2666,199 @@ The strongest app for sleep-focused content. Sleep quality reliably decreases in
   <li><a href="/blog/eating-for-your-cycle">Eating for Your Cycle</a></li>
   <li><a href="/blog/what-foods-help-balance-hormones-naturally">What Foods Help Balance Hormones Naturally?</a></li>
   <li><a href="/blog/does-cycle-syncing-actually-work">Does Cycle Syncing Actually Work?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "what-vitamins-should-women-take-daily",
+    title: "What Vitamins Should Women Take Daily?",
+    excerpt: "Most women only need vitamin D daily from autumn to spring, plus folic acid if pregnancy is possible. Iron and B12 suit specific needs, not everyone.",
+    date: "September 28, 2026",
+    category: "Nutrition",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>Most women need only one or two daily supplements: vitamin D in autumn and winter, and folic acid if a pregnancy is possible. Iron, vitamin B12, and a multivitamin (a single pill combining many vitamins and minerals) suit specific groups, such as women with heavy periods or a vegan diet, rather than every woman.</p>
+
+<p>This article draws on NHS guidance on <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/" target="_blank" rel="noopener noreferrer">vitamin D</a> and <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/iron/" target="_blank" rel="noopener noreferrer">iron</a>, <a href="https://www.nhs.uk/medicines/folic-acid/" target="_blank" rel="noopener noreferrer">NHS folic acid guidance reviewed in May 2026</a>, the <a href="https://pubmed.ncbi.nlm.nih.gov/35727271/" target="_blank" rel="noopener noreferrer">US Preventive Services Task Force's 2022 recommendation statement in JAMA</a>, and a <a href="https://pubmed.ncbi.nlm.nih.gov/38922615/" target="_blank" rel="noopener noreferrer">2024 cohort study of 390,124 adults in JAMA Network Open</a>, current as of September 2026.</p>
+
+<h2>Which Vitamins Should Women Take Every Day?</h2>
+<p>The only supplement the NHS suggests for almost every adult woman is vitamin D, taken daily through autumn and winter. Folic acid is advised for women who could become pregnant, while iron and vitamin B12 are targeted fixes for heavy periods and vegan diets. The best vitamins for women therefore depend on season, diet, and period flow.</p>
+<p>Evidence strength for each option, based on the sources cited here:</p>
+<ul>
+  <li>Vitamin D: strong case for most women in autumn and winter, at the NHS dose of 10 micrograms a day.</li>
+  <li>Folic acid: strong case for anyone planning a pregnancy, ideally started 3 months before conceiving.</li>
+  <li>Iron: targeted case for heavy periods or confirmed low iron, not for routine use.</li>
+  <li>Vitamin B12: targeted case for vegans, since it is not found naturally in plant foods.</li>
+  <li>Multivitamin: limited case for disease prevention, according to the USPSTF and a 390,124-person cohort.</li>
+</ul>
+<p>Taken together, these sources support a short, targeted routine over a long list of daily supplements for women.</p>
+
+<h2>Do Women With Heavy Periods Need an Iron Supplement?</h2>
+<p>Women with heavy periods often need more iron than their diet provides, but a supplement works best after a blood test confirms low stores. The NHS sets the iron requirement at 14.8mg a day for women aged 19 to 49, compared with 8.7mg for men, because monthly blood loss drains iron.</p>
+<p>A <a href="https://pubmed.ncbi.nlm.nih.gov/37367984/" target="_blank" rel="noopener noreferrer">2023 research letter in JAMA</a> found iron deficiency in 38.6% of 3,490 US females aged 12 to 21. A 29-year-old who bleeds for eight days each month, changing her pad every two hours on the heaviest days, and who is breathless on the stairs by day three, fits the pattern that justifies a ferritin test (the blood marker of stored iron). The NHS notes that 17mg or less a day of supplemental iron is unlikely to cause harm.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. Its daily log records flow heaviness beside energy ratings, so a woman can show a GP how many heavy days came before her most tired week.</p>
+
+<h2>Should Women Take Vitamin D in Autumn and Winter?</h2>
+<p>Yes, the NHS advises everyone, including women, to consider a daily 10 microgram (400 IU) vitamin D supplement during autumn and winter. From late March or early April to the end of September, most people make enough vitamin D from sunlight on their skin, but the sun is too weak in the colder months.</p>
+<p>Vitamin D helps regulate calcium and phosphate, which keep bones, teeth, and muscles healthy. That matters for women because bone density falls as oestrogen (estrogen) declines, as covered in the guide to <a href="/blog/signs-of-low-oestrogen">the signs of low oestrogen</a>. As of 2026, the autumn and winter advice applies to all adults, including pregnant and breastfeeding women.</p>
+
+<h2>Is a Daily Multivitamin Worth It for Women?</h2>
+<p>A daily multivitamin is not proven to prevent heart disease, cancer, or early death in healthy adults, so most women do not need one. The US Preventive Services Task Force concluded that <a href="https://pubmed.ncbi.nlm.nih.gov/35727271/" target="_blank" rel="noopener noreferrer">"the evidence is insufficient to determine the balance of benefits and harms of supplementation with multivitamins for the prevention of cardiovascular disease or cancer"</a>.</p>
+<p>A 2024 study in JAMA Network Open followed 390,124 adults for up to 27 years and found multivitamin use was not linked to a lower risk of death. A multivitamin can still fill gaps in a restricted diet, but it is a backup, not a substitute for food. Food-first eating across the month is explained in the guide to <a href="/blog/eating-for-your-cycle">eating for your cycle</a>.</p>
+
+<h2>Which Women Need Folic Acid or Vitamin B12?</h2>
+<p>Women who could become pregnant need folic acid, and women on a vegan diet usually need vitamin B12. The NHS advises starting folic acid before pregnancy, ideally 3 months before, and continuing it for the first 12 weeks, because it helps a baby's brain, skull, and spinal cord develop and lowers the risk of spina bifida.</p>
+<p>Adults aged 19 to 64 need about 1.5 micrograms of vitamin B12 a day, according to the <a href="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b/" target="_blank" rel="noopener noreferrer">NHS</a>. B12 is not found naturally in fruit, vegetables, or grains, so vegans often rely on fortified foods or a supplement. Foods that support conception are covered in the guide to <a href="/blog/what-to-eat-to-get-pregnant-faster">what to eat to get pregnant faster</a>.</p>
+
+<h2>How Should a Woman Build a Simple Daily Supplement Routine?</h2>
+<p>A simple daily routine starts with food, adds vitamin D from autumn to early spring, and adds folic acid only if pregnancy is possible. Iron or B12 should follow a blood test or a clear dietary gap. Anyone taking several products should check that the combined dose of each nutrient stays within NHS upper limits.</p>
+<p>Solu's phase-based nutrition suggestions lean toward iron-rich meals, such as lentils, spinach, and red meat, during the menstrual phase, when blood loss is highest. Fatigue that clusters before bleeding can have other causes, explained in the article on <a href="/blog/why-am-i-so-tired-before-my-period">why women feel so tired before a period</a>. Stress can also disturb appetite and sleep, as covered in the guide to <a href="/blog/how-does-stress-affect-your-menstrual-cycle">how stress affects the menstrual cycle</a>.</p>
+
+<h2>When Should a Woman See a Doctor About Iron or Vitamin Levels?</h2>
+<p>A woman should see a GP if she changes a pad or tampon every 1 to 2 hours, bleeds for more than 7 days, or passes clots larger than about 2.5cm. These are the NHS markers of <a href="https://www.nhs.uk/conditions/heavy-periods/" target="_blank" rel="noopener noreferrer">heavy periods</a>, and with tiredness or breathlessness they justify an iron check before buying supplements.</p>
+<p>Pins and needles, a sore red tongue, or ongoing fatigue on a vegan diet justify a B12 test. Doses above the NHS limit of 100 micrograms (4,000 IU) of vitamin D a day, or above 17mg of iron without medical advice, should be reviewed with a pharmacist. Hormones are sometimes blamed for low energy too, a claim weighed in the guide to <a href="/blog/should-women-take-testosterone">whether women should take testosterone</a>.</p>
+
+<h2>Key Takeaways</h2>
+<ul>
+  <li>The NHS advises most adults, including women, to consider 10 micrograms of vitamin D daily in autumn and winter.</li>
+  <li>Folic acid is advised from about 3 months before pregnancy until 12 weeks into it, according to NHS guidance.</li>
+  <li>Women aged 19 to 49 need 14.8mg of iron a day, and heavy periods are a leading reason iron runs low.</li>
+  <li>A 2024 cohort of 390,124 adults found multivitamin use was not linked to a lower risk of death.</li>
+</ul>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/eating-for-your-cycle">Eating for Your Cycle</a></li>
+  <li><a href="/blog/what-to-eat-to-get-pregnant-faster">What Should You Eat to Get Pregnant Faster?</a></li>
+  <li><a href="/blog/how-does-stress-affect-your-menstrual-cycle">How Does Stress Affect Your Menstrual Cycle?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "how-does-stress-affect-your-menstrual-cycle",
+    title: "How Does Stress Affect Your Menstrual Cycle?",
+    excerpt: "Stress affects your menstrual cycle mainly by delaying ovulation, so periods come late or stop. High stress is also tied to worse PMS and period pain.",
+    date: "September 28, 2026",
+    category: "Wellbeing",
+    image: "https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=800&q=85",
+    readTime: "6 min read",
+    content: `
+<p>Stress affects the menstrual cycle mainly by delaying ovulation, which can make a period late, irregular, or skipped altogether. High stress is also linked to more severe premenstrual symptoms and more painful periods, so its effects reach beyond timing into how each monthly cycle feels.</p>
+
+<p>This article draws on the <a href="https://pubmed.ncbi.nlm.nih.gov/28368518/" target="_blank" rel="noopener noreferrer">Endocrine Society's clinical practice guideline on functional hypothalamic amenorrhoea</a>, the <a href="https://pubmed.ncbi.nlm.nih.gov/20384452/" target="_blank" rel="noopener noreferrer">BioCycle Study in the Journal of Women's Health</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/40188069/" target="_blank" rel="noopener noreferrer">2025 study of 2,505 women in BMC Public Health</a>, and <a href="https://www.nhs.uk/symptoms/missed-or-late-periods/" target="_blank" rel="noopener noreferrer">NHS guidance on missed or late periods reviewed in June 2026</a>, current as of September 2026.</p>
+
+<h2>What Does Stress Do to Your Menstrual Cycle?</h2>
+<p>Stress can change the timing, bleeding, and symptoms of a menstrual cycle. Sustained stress raises cortisol, the main stress hormone, which can suppress the brain signals that trigger ovulation. The result may be a late period, a skipped period, or a cycle that feels worse than usual, with stronger PMS (premenstrual syndrome) and cramps.</p>
+<ul>
+  <li>Timing: ovulation arrives later, so the period arrives later too.</li>
+  <li>Missed periods: prolonged stress can pause ovulation for months.</li>
+  <li>PMS: high perceived stress is linked to more moderate and severe premenstrual symptoms.</li>
+  <li>Period pain: women with painful periods report higher stress levels.</li>
+</ul>
+<p>The hormonal chain from cortisol to a late period is explained step by step in the guide to <a href="/blog/does-stress-really-delay-your-period">whether stress really delays your period</a>, and the normal hormone rhythm in the article on <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a>.</p>
+
+<h2>How Many Days Can Stress Delay Ovulation and a Period?</h2>
+<p>Stress can delay ovulation by days or weeks, and the period moves back by about the same amount. The second half of the cycle, the luteal phase, usually stays close to 12 to 14 days, so nearly all the extra length comes before ovulation. So yes, stress can mess up your period, mostly by moving ovulation.</p>
+<p>That makes a simple worked calculation possible: estimated ovulation day equals cycle length minus about 14 days. In a usual 28-day cycle, ovulation falls near day 14. If a stressful month stretches that cycle to 38 days, ovulation likely moved to around day 24, a delay of roughly 10 days. A 31-day cycle in the same woman places ovulation near day 17, a 3-day shift within normal variation. The <a href="https://www.nhs.uk/conditions/periods/" target="_blank" rel="noopener noreferrer">NHS</a> describes cycles from 21 to 35 days as common, and the second half is detailed in the guide to <a href="/blog/what-is-the-luteal-phase">what the luteal phase is</a>.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. Its logs put nightly sleep and daily mood beside cycle length, so a woman can check whether a fortnight of short nights came before her longest cycle of the year.</p>
+
+<h2>Can Stress Make PMS and Period Pain Worse?</h2>
+<p>Yes, higher stress is linked to worse PMS and more painful periods. In the BioCycle Study of 259 women, published in 2010, those in the highest stress quartile had 7.2 times the odds of reporting eight or more moderate or severe premenstrual symptoms, and higher stress came before the worse symptoms.</p>
+<p>Stress also tracks with cramps, and anxiety counts as stress here. The 2025 BMC Public Health study found that women with primary dysmenorrhoea (dysmenorrhea in US spelling, meaning period pain without an underlying disease) were 2.8 times more likely to report perceived stress. The link likely runs both ways, since severe pain is itself stressful. During a six-week stretch of exam revision, a student who usually bleeds every 29 days might see her period arrive on day 38, with cramps she rates two points higher on a ten-point scale. Anxiety that spikes before bleeding is covered in the guide to <a href="/blog/why-do-i-feel-more-anxious-before-my-period">premenstrual anxiety</a>.</p>
+
+<h2>Can Stress Stop Your Period Completely?</h2>
+<p>Yes, prolonged stress can stop periods, a condition called functional hypothalamic amenorrhoea (FHA). The Endocrine Society's guideline describes FHA as <a href="https://pubmed.ncbi.nlm.nih.gov/28368518/" target="_blank" rel="noopener noreferrer">"a form of chronic anovulation, not due to identifiable organic causes, but often associated with stress, weight loss, excessive exercise"</a>, or a combination of these.</p>
+<p>Anovulation means cycles in which no egg is released. Because oestrogen (estrogen) stays low in FHA, the guideline lists bone loss and infertility among its complications. Treatment combines medical, dietary, and mental health support rather than simply waiting for periods to return. Under-eating and over-training often sit alongside psychological stress, a pattern explored in the article on <a href="/blog/how-to-train-with-your-cycle">training with your cycle</a>.</p>
+
+<h2>How Can You Protect Your Cycle During Stressful Months?</h2>
+<p>The most useful steps are regular sleep, eating enough for your activity level, and easing training volume when stress is high. Stress, weight loss, and heavy exercise are the three triggers the Endocrine Society links to lost periods, so reducing any of them lowers the total load. Crash dieting in a stressful month adds a second strain.</p>
+<p>Practical habits for lowering stress hormones are listed in the guide to <a href="/blog/how-do-you-reduce-cortisol-naturally">reducing cortisol naturally</a>. Nutrient gaps can deepen fatigue in hard months, as explained in the article on <a href="/blog/what-vitamins-should-women-take-daily">which vitamins women should take daily</a>. Solu adjusts its movement suggestions by cycle phase, so on high-stress luteal days it can point toward walking or yoga instead of another interval session, keeping total training load in check.</p>
+
+<h2>When Should You See a Doctor About Stress and Your Period?</h2>
+<p>See a GP if you have missed three periods in a row, if periods have not started by age 15, or if a missed period comes with weight change, unusual tiredness, or new facial hair. These are the thresholds in NHS guidance reviewed in June 2026, and a clinician will rule out other causes before blaming stress.</p>
+<p>Pregnancy, thyroid disease, polycystic ovary syndrome (PCOS), and perimenopause can all mimic stress-related changes. Period pain that stops daily activities, bleeding between periods, or cycles shorter than 21 days also deserve review. As of 2026, no single blood test proves that stress alone caused a missed period, which is why the Endocrine Society calls FHA a diagnosis of exclusion.</p>
+
+<h2>Key Takeaways</h2>
+<ul>
+  <li>Stress mainly delays ovulation, so the period arrives later by roughly the same number of days.</li>
+  <li>Subtracting about 14 days from cycle length estimates ovulation day, showing how far a stressful month shifted it.</li>
+  <li>In the BioCycle Study, high stress carried 7.2 times the odds of eight or more moderate or severe PMS symptoms.</li>
+  <li>The NHS advises seeing a GP after three missed periods in a row, or sooner with weight change or new hair growth.</li>
+</ul>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/does-stress-really-delay-your-period">Does Stress Really Delay Your Period?</a></li>
+  <li><a href="/blog/what-is-cortisol-and-why-does-it-matter-for-women">What Is Cortisol and Why Does It Matter for Women?</a></li>
+  <li><a href="/blog/should-women-take-testosterone">Should Women Take Testosterone?</a></li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "should-women-take-testosterone",
+    title: "Should Women Take Testosterone?",
+    excerpt: "Women should take testosterone only for distressing low libido after menopause, the one use backed by trials. US prescriptions rose 146% since 2023.",
+    date: "September 28, 2026",
+    category: "Hormonal Health",
+    image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=85",
+    readTime: "6 min read",
+    trending: true,
+    content: `
+<p>Most women should not take testosterone, but it is an evidence-based option for one group: postmenopausal women with low sexual desire that causes distress, known as hypoactive sexual desire disorder (HSDD). For fatigue, mood, brain fog, or muscle strength, the evidence is still too limited to recommend testosterone for women.</p>
+
+<p>This article draws on the <a href="https://pubmed.ncbi.nlm.nih.gov/31498871/" target="_blank" rel="noopener noreferrer">2019 Global Consensus Position Statement in the Journal of Clinical Endocrinology and Metabolism</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/31353194/" target="_blank" rel="noopener noreferrer">2019 meta-analysis of 36 trials in The Lancet Diabetes and Endocrinology</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/39819275/" target="_blank" rel="noopener noreferrer">2025 review in Climacteric</a>, and <a href="https://www.nice.org.uk/guidance/ng23" target="_blank" rel="noopener noreferrer">NICE menopause guidance updated in April 2026</a>, current as of September 2026.</p>
+
+<h2>Why Are More Women Taking Testosterone in 2026?</h2>
+<p>Testosterone prescriptions for women rose 146% between January 2023 and July 2026, according to an analysis reported by <a href="https://www.healthline.com/health-news/testosterone-prescriptions-for-women-surge-amid-pharmacy-access-barriers" target="_blank" rel="noopener noreferrer">Healthline</a>. Telehealth menopause clinics and social media have driven interest, yet no testosterone product is approved by the US Food and Drug Administration (FDA) specifically for women, which creates dosing and pharmacy access problems.</p>
+<p>On September 17, 2026, the FDA called for more data on testosterone therapy for women and encouraged manufacturers to run studies that could support female-specific products. Until then, women are usually prescribed a dose-adjusted male product or a compounded preparation. Testosterone for women is therefore a real treatment with a narrow evidence base, not a general wellness supplement.</p>
+
+<h2>What Does Testosterone Do in the Female Body?</h2>
+<p>Testosterone is a normal female hormone made by the ovaries and adrenal glands, and it influences libido, muscle, bone, and energy. A 2025 review in Climacteric states that testosterone <a href="https://pubmed.ncbi.nlm.nih.gov/39819275/" target="_blank" rel="noopener noreferrer">"is unquestionably a normal female hormone that exerts important physiological effects in multiple tissues"</a>.</p>
+<p>Levels fall with age rather than suddenly at menopause. A <a href="https://pubmed.ncbi.nlm.nih.gov/15827095/" target="_blank" rel="noopener noreferrer">2005 study of 595 women in the Journal of Clinical Endocrinology and Metabolism</a> found testosterone declined steeply with age, most in the earlier decades, with no independent effect of natural menopause. Within each cycle, testosterone rises slightly around ovulation alongside oestrogen (estrogen), as mapped in the guide to <a href="/blog/understanding-your-four-cycle-phases">the four cycle phases</a> and the article on <a href="/blog/why-does-my-libido-change-throughout-my-cycle">how libido changes through the cycle</a>.</p>
+<p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. It keeps libido, energy, and mood ratings across many cycles, so a woman can tell a dip that returns every month from a steady decline lasting half a year.</p>
+
+<h2>What Can Testosterone Actually Treat in Women?</h2>
+<p>Testosterone is proven to treat only low sexual desire with distress in postmenopausal women. The 2019 Lancet Diabetes and Endocrinology meta-analysis pooled 36 randomised trials with 8,480 participants and found testosterone improved desire, arousal, orgasm, and pleasure, and reduced sexual distress, in postmenopausal women.</p>
+<p>The evidence for each commonly claimed benefit, built from the sources in this article, breaks down as follows:</p>
+<ul>
+  <li>Low sexual desire after menopause (HSDD): strong, backed by 36 trials and the 2019 consensus statement.</li>
+  <li>Muscle, bone, and body composition: limited, with no effects found in the 2019 meta-analysis.</li>
+  <li>Memory and cognition: limited, with no effects found, though few women contributed data.</li>
+  <li>Energy, mood, and wellbeing: uncertain, according to the 2025 Climacteric review.</li>
+  <li>Premenopausal women: insufficient data for any recommendation, per the consensus statement.</li>
+</ul>
+<p>Taken together, the trials support testosterone as a targeted sexual-health treatment after menopause, not as an energy or anti-ageing therapy. NICE similarly advises considering testosterone for menopausal low sexual desire only if HRT alone is not effective.</p>
+
+<h2>Is Testosterone Safe for Women, and What Are the Side Effects?</h2>
+<p>Testosterone is generally safe for women in the short term at doses matched to a younger woman's natural levels, and the main side effects are mild acne and extra body or facial hair. The 2019 consensus statement found these doses were not linked to hair loss, clitoral enlargement, or voice change.</p>
+<p>Route matters. Oral testosterone raised LDL cholesterol in the 2019 meta-analysis, while patches and creams did not, so non-oral forms are preferred. Weight also rose slightly on average, and no serious adverse events were recorded. The meta-analysis authors say long-term safety still needs investigation, so testosterone sits alongside the wider hormone decision covered in the guide to <a href="/blog/is-hrt-safe-the-latest-science">whether HRT is safe</a>.</p>
+
+<h2>Could Low Libido or Low Energy Have Another Cause?</h2>
+<p>Yes, symptoms blamed on low testosterone in women often have other causes, including low oestrogen, thyroid disease, iron deficiency, poor sleep, relationship strain, depression, and chronic stress. The consensus statement requires a formal biopsychosocial assessment, a review of physical, psychological, and relationship factors, before HSDD is diagnosed.</p>
+<p>Three years after her last period, a 54-year-old whose hot flushes have settled on HRT, but whose interest in sex has not returned and who finds that distressing, is the profile the 2019 consensus had in mind. A 38-year-old with heavy periods and exhaustion more likely needs an iron check first, as explained in the guide to <a href="/blog/what-vitamins-should-women-take-daily">which vitamins women should take daily</a>. Stress effects are covered in the article on <a href="/blog/how-does-stress-affect-your-menstrual-cycle">how stress affects the menstrual cycle</a>, and falling oestrogen in the guide to <a href="/blog/signs-of-low-oestrogen">the signs of low oestrogen</a>.</p>
+
+<h2>Can Lifestyle Changes Support Healthy Testosterone Levels?</h2>
+<p>No lifestyle change raises testosterone to treatment levels, but strength training, enough sleep, adequate protein and total calories, and stress management support the muscle, bone, and energy that testosterone is often sought for.</p>
+<p>Resistance training is a well-studied option for muscle and bone after 40, with wider benefits explained in the guide to <a href="/blog/can-strength-training-protect-womens-heart-health">strength training and heart health</a>. Solu times strength sessions to cycle phase, suggesting heavier lifts when energy tends to peak in the follicular phase and more recovery in the days before a period.</p>
+
+<h2>When Should a Woman See a Doctor About Testosterone?</h2>
+<p>A woman should see a doctor if low sexual desire has lasted for months and causes distress, especially after menopause or when HRT has not helped. Anyone starting testosterone needs a baseline blood level, a repeat test 3 to 6 weeks later, and checks every 6 months, according to the 2019 consensus statement.</p>
+<p>The same statement advises stopping treatment if there is no benefit by 6 months. New acne, extra facial hair, scalp hair thinning, or a deepening voice are signs of excess and warrant a prompt review. As of 2026, testosterone used without a prescription, or at doses meant for men, is the most likely to push levels above the female range.</p>
+
+<h2>Key Takeaways</h2>
+<ul>
+  <li>The only evidence-based use of testosterone for women is postmenopausal low sexual desire with distress, known as HSDD.</li>
+  <li>A 2019 meta-analysis of 36 trials and 8,480 participants found sexual function benefits but none for muscle, bone, or cognition.</li>
+  <li>US testosterone prescriptions for women rose 146% from January 2023 to July 2026, yet no FDA-approved female product exists.</li>
+  <li>Treatment should be checked with blood tests at 3 to 6 weeks and every 6 months, and stopped if no benefit by 6 months.</li>
+</ul>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/is-hrt-safe-the-latest-science">Is Hormone Replacement Therapy (HRT) Safe? The Latest Science Explained</a></li>
+  <li><a href="/blog/why-does-my-libido-change-throughout-my-cycle">Why Does My Libido Change Throughout My Cycle?</a></li>
+  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What Is Perimenopause and When Does It Start?</a></li>
 </ul>
     `.trim(),
   },

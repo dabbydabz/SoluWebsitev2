@@ -35,6 +35,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "HPA Axis", pattern: /\bHPA axis\b|\bhypothalamic-pituitary-adrenal axis\b/i },
   { name: "Free Sugars", pattern: /\bfree sugars?\b/i },
   { name: "Cardiovascular Health", pattern: /\bcardiovascular (health|disease|system)\b|\bheart health\b/i },
+  { name: "Vitamins", pattern: /\bvitamins\b|\bmultivitamins?\b/i },
 ]
 
 const MIN_ENTITIES = 2
