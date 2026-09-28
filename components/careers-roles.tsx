@@ -36,20 +36,22 @@ const roles = [
   },
   {
     id: "fse",
-    title: "Full-Stack Engineer → Tech Lead",
+    title: "Senior Full-Stack Engineer → Tech Lead",
     preview:
-      "Solu's app is live on the App Store and Google Play, the stack is modern, and there's a lot left to build. We're looking for an engineer who can own the backend and mobile codebases end to end and grow into the technical lead role as we scale.",
+      "You are not here to close tickets. You are here to set the standard: how the app is architected, how it feels to use, and how the team builds it going forward. We need a senior mind, not just a pair of hands.",
     description:
-      "Solu's app is live on the App Store and Google Play, the stack is modern, and there's a lot left to build. We're looking for an engineer who can own two TypeScript codebases end to end: a NestJS GraphQL API on the backend and a React Native/Expo app on mobile. This role has a clear path to Tech Lead as we scale post-Seed.",
+      "Solu is an AI-powered women's wellness app built for the MENA market, syncing nutrition, movement, and lifestyle guidance to each user's cycle. The MVP is built and we are heading to launch in Q4 2026. You are stepping in to build the base of the app, so we need someone senior — not just in code, but in architecture and user experience too. This is a senior, leadership-track role with a clear path to Tech Lead as Solu scales. You will own two TypeScript codebases end to end: a NestJS 11 GraphQL API on the backend and a React Native/Expo app on mobile.",
     bullets: [
+      "Own architecture decisions across backend and mobile, and keep them clean as the product grows",
+      "Lead on UX: review and guide our designer's flows and interaction decisions",
       "Finish wiring mobile screens to the live API (feed, groups, hangouts, notifications)",
       "Complete auth (token refresh), push notifications, and the notification dispatch pipeline",
       "Set up CI/CD, database migrations, and staging/production deployments",
-      "Ship to TestFlight and the Play Store, iterating directly with the founders",
-      "Add tests where they matter and keep the architecture clean as the product scales",
+      "Ship to TestFlight / Play Store and iterate directly with the founders",
+      "Add tests where they matter",
     ],
     closing:
-      "You'll own the entire stack from day one with no legacy code, modern tooling, and a clear roadmap. Direct line to the founders, fully remote (any timezone), and a genuine path to Tech Lead. Equity now, salary when Seed closes.",
+      "You bring 6+ years building mobile apps, strong NestJS and GraphQL experience, live products shipped to both stores, and the confidence to guide a designer on UX. Build the actual foundation of the product, not someone else's legacy. Modern tooling, no legacy code, clear roadmap, direct line to the founders. Fully remote, any timezone. Equity now, salary when Seed closes.",
   },
   {
     id: "hom",
@@ -116,7 +118,7 @@ export function CareersRoles() {
 
   const closeModal = () => setApplyRole(null)
 
-  const isFSE = applyRole === "Full-Stack Engineer → Tech Lead"
+  const isFSE = applyRole === "Senior Full-Stack Engineer → Tech Lead"
 
   const validate = () => {
     const e: { name?: string; email?: string; github?: string } = {}
