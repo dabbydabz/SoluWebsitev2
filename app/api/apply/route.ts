@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(req: NextRequest) {
   try {
+    // Created per request so builds without RESEND_API_KEY (e.g. Vercel previews) don't crash.
+    const resend = new Resend(process.env.RESEND_API_KEY)
     const fd = await req.formData()
 
     const name      = fd.get("name") as string

@@ -7,6 +7,10 @@ import type { Post } from "./posts"
 const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Cortisol", pattern: /\bcortisol\b/i },
   { name: "Progesterone", pattern: /\bprogesterone\b/i },
+  // Specific conditions sit before their parent hormone so a title match on
+  // the condition becomes the article's primary "about" entity.
+  { name: "Oestrogen Dominance", pattern: /\b(o|e)estrogen dominance\b/i },
+  { name: "Low Oestrogen", pattern: /\blow (o|e)estrogen\b/i },
   { name: "Oestrogen", pattern: /\b(o|e)estrogen\b/i },
   { name: "Testosterone", pattern: /\btestosterone\b/i },
   { name: "Luteal Phase", pattern: /\bluteal phase\b/i },
@@ -36,6 +40,19 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Free Sugars", pattern: /\bfree sugars?\b/i },
   { name: "Cardiovascular Health", pattern: /\bcardiovascular (health|disease|system)\b|\bheart health\b/i },
   { name: "Vitamins", pattern: /\bvitamins\b|\bmultivitamins?\b/i },
+  { name: "Seed Cycling", pattern: /\bseed cycling\b/i },
+  { name: "Premenstrual Fatigue", pattern: /\bpremenstrual (fatigue|tiredness)\b|\btired before (my|your|a) period\b/i },
+  { name: "Premenstrual Anxiety", pattern: /\bpremenstrual anxiety\b|\banxious before (my|your|a) period\b/i },
+  { name: "Sugar Cravings", pattern: /\bsugar cravings?\b|\bcrave sugar\b/i },
+  { name: "Period Tracking App", pattern: /\bperiod track(ing|er) apps?\b/i },
+  { name: "Women's Health Apps", pattern: /\b(health|fitness|ob-?gyn) apps?\b|\bhealth tracker\b|\bapp for (menstrual health|hormonal imbalance)\b|\bFlo alternatives\b/i },
+  { name: "Hormone Tracking", pattern: /\btrack(ing)? (your )?hormones\b/i },
+  { name: "Hormone Balance", pattern: /\bbalance hormones\b|\bhormone balance\b|\bhormones are off\b/i },
+  { name: "Women's Fitness", pattern: /\bfemale-focused fitness\b|\bwomen's fitness\b/i },
+  { name: "Exercise", pattern: /\bexercise\b|\bworking out\b|\bworkouts?\b/i },
+  { name: "Fertile Window", pattern: /\bfertile\b|\bfertile window\b/i },
+  { name: "Conception", pattern: /\bget pregnant\b|\bconception\b|\bconceive\b/i },
+  { name: "Dietary Sugar", pattern: /\bsugar\b/i },
 ]
 
 const MIN_ENTITIES = 2
