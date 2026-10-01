@@ -45,6 +45,14 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Premenstrual Anxiety", pattern: /\bpremenstrual anxiety\b|\banxious before (my|your|a) period\b/i },
   { name: "Sugar Cravings", pattern: /\bsugar cravings?\b|\bcrave sugar\b/i },
   { name: "Period Tracking App", pattern: /\bperiod track(ing|er) apps?\b/i },
+  { name: "Women's Health Apps", pattern: /\b(health|fitness|ob-?gyn) apps?\b|\bhealth tracker\b|\bapp for (menstrual health|hormonal imbalance)\b|\bFlo alternatives\b/i },
+  { name: "Hormone Tracking", pattern: /\btrack(ing)? (your )?hormones\b/i },
+  { name: "Hormone Balance", pattern: /\bbalance hormones\b|\bhormone balance\b|\bhormones are off\b/i },
+  { name: "Women's Fitness", pattern: /\bfemale-focused fitness\b|\bwomen's fitness\b/i },
+  { name: "Exercise", pattern: /\bexercise\b|\bworking out\b|\bworkouts?\b/i },
+  { name: "Fertile Window", pattern: /\bfertile\b|\bfertile window\b/i },
+  { name: "Conception", pattern: /\bget pregnant\b|\bconception\b|\bconceive\b/i },
+  { name: "Dietary Sugar", pattern: /\bsugar\b/i },
 ]
 
 const MIN_ENTITIES = 2
