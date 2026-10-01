@@ -16,10 +16,14 @@
 // or metadata-only edits. Dates below are sourced from real commits in this repo:
 //   43866b1  2026-07-01  Monthly article patch (Answer Blocks, citations)
 //   8c792b9  2026-08-02  Monthly article patch (Answer Blocks, Solu mentions, citations)
+//   (this)   2026-10-01  Monthly article patch (Answer Blocks, Solu mentions, PMID citations, internal links)
 //
 // The monthly article-patch cron should append to this map when it patches a post.
 
 export const postRevisions: Record<string, string> = {
+  "which-exercise-is-best-for-females": "2026-10-01",
+  "is-female-focused-fitness-worth-it": "2026-10-01",
+  "what-is-the-best-way-to-track-your-hormones-at-home": "2026-10-01",
   "understanding-your-four-cycle-phases": "2026-08-02",
   "which-health-tracker-is-best-for-women": "2026-08-02",
   "top-health-apps-for-women": "2026-08-02",
