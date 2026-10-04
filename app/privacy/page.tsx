@@ -1,6 +1,6 @@
 import Link from "next/link"
-import Script from "next/script"
 import { SoluHeader } from "@/components/solu-header"
+import { JsonLd } from "@/components/json-ld"
 import { SoluFooter } from "@/components/solu-footer"
 
 const LAST_UPDATED = "1 July 2026"
@@ -175,22 +175,16 @@ We take all privacy enquiries seriously and will respond within 30 days.`,
 export default function PrivacyPage() {
   return (
     <>
-      <Script
-        id="schema-privacy"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Privacy Policy — Solu",
-            "url": "https://www.solu.ae/privacy",
-            "description": "How Solu collects, uses, and protects your personal and health data.",
-            "dateModified": LAST_UPDATED_ISO,
-            "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
-            "publisher": { "@type": "Organization", "name": "Solu", "url": "https://www.solu.ae" },
-          }),
-        }}
-      />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Privacy Policy — Solu",
+        "url": "https://www.solu.ae/privacy",
+        "description": "How Solu collects, uses, and protects your personal and health data.",
+        "dateModified": LAST_UPDATED_ISO,
+        "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
+        "publisher": { "@type": "Organization", "@id": "https://www.solu.ae/#organization", "name": "Solu", "url": "https://www.solu.ae" },
+      }} />
     <main className="bg-white min-h-screen">
       <SoluHeader />
 

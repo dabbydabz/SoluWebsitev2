@@ -1,6 +1,6 @@
 import Link from "next/link"
-import Script from "next/script"
 import { SoluHeader } from "@/components/solu-header"
+import { JsonLd } from "@/components/json-ld"
 import { SoluFooter } from "@/components/solu-footer"
 
 const LAST_UPDATED = "1 July 2026"
@@ -264,22 +264,16 @@ We will respond to all enquiries within 30 days.`,
 export default function TermsPage() {
   return (
     <>
-      <Script
-        id="schema-terms"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Terms of Service — Solu",
-            "url": "https://www.solu.ae/terms",
-            "description": "The terms and conditions governing your use of Solu's website and app.",
-            "dateModified": LAST_UPDATED_ISO,
-            "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
-            "publisher": { "@type": "Organization", "name": "Solu", "url": "https://www.solu.ae" },
-          }),
-        }}
-      />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Terms of Service — Solu",
+        "url": "https://www.solu.ae/terms",
+        "description": "The terms and conditions governing your use of Solu's website and app.",
+        "dateModified": LAST_UPDATED_ISO,
+        "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
+        "publisher": { "@type": "Organization", "@id": "https://www.solu.ae/#organization", "name": "Solu", "url": "https://www.solu.ae" },
+      }} />
     <main className="bg-white min-h-screen">
       <SoluHeader />
 

@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import Script from "next/script"
 import { posts, getTrendingPost } from "@/lib/posts"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+import { JsonLd } from "@/components/json-ld"
 import { BlogGrid } from "@/components/blog-grid"
 
 export const metadata = {
@@ -50,7 +50,7 @@ export default function BlogPage() {
     "url": "https://www.solu.ae/blog",
     "description": "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
     "inLanguage": "en",
-    "isPartOf": { "@type": "WebSite", "name": "Solu", "url": "https://www.solu.ae" },
+    "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
     "mainEntity": {
       "@type": "ItemList",
       "itemListElement": sortedPosts.map((p, i) => ({
@@ -73,11 +73,7 @@ export default function BlogPage() {
 
   return (
     <>
-      <Script
-        id="schema-blog-collection"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([collectionSchema, breadcrumbSchema]) }}
-      />
+      <JsonLd data={[collectionSchema, breadcrumbSchema]} />
       <SoluHeader />
       <main className="min-h-screen bg-white">
 
