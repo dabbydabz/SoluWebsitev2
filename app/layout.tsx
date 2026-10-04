@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter, Cormorant_Garamond } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script"
+import { JsonLd } from "@/components/json-ld"
 import "./globals.css"
 
 const inter = Inter({
@@ -53,42 +54,40 @@ export default function RootLayout({
         <link rel="preconnect" href="https://images.unsplash.com" />
       </head>
       <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased`} style={{ "--font-display": "var(--font-cormorant)" } as React.CSSProperties}>
-        <Script
-          id="schema-website"
-          type="application/ld+json"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify([
-              {
-                "@context": "https://schema.org",
-                "@type": "WebSite",
-                "name": "Solu",
-                "url": "https://www.solu.ae",
-                "description": "The women's wellness app that works with your cycle, not against it.",
-              },
-              {
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "name": "Solu",
-                "url": "https://www.solu.ae",
-                "logo": "https://www.solu.ae/icon.png",
-                "description": "Women's wellness app that personalises health guidance to the menstrual cycle.",
-                "foundingDate": "2024",
-                "areaServed": "Worldwide",
-                "sameAs": [
-                  "https://www.instagram.com/solu.ae",
-                  "https://www.tiktok.com/@solu.ae",
-                ],
-                "knowsAbout": [
-                  "Women's health",
-                  "Menstrual cycle tracking",
-                  "Hormonal health",
-                  "Cycle syncing",
-                  "Female fitness",
-                ],
-              },
-            ]),
-          }}
+        <JsonLd
+          data={[
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": `${SITE_URL}/#website`,
+              "name": "Solu",
+              "url": "https://www.solu.ae",
+              "description": "The women's wellness app that works with your cycle, not against it.",
+              "publisher": { "@id": `${SITE_URL}/#organization` },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": `${SITE_URL}/#organization`,
+              "name": "Solu",
+              "url": "https://www.solu.ae",
+              "logo": "https://www.solu.ae/icon.png",
+              "description": "Women's wellness app that personalises health guidance to the menstrual cycle.",
+              "foundingDate": "2024",
+              "areaServed": "Worldwide",
+              "sameAs": [
+                "https://www.instagram.com/solu.ae",
+                "https://www.tiktok.com/@solu.ae",
+              ],
+              "knowsAbout": [
+                "Women's health",
+                "Menstrual cycle tracking",
+                "Hormonal health",
+                "Cycle syncing",
+                "Female fitness",
+              ],
+            },
+          ]}
         />
         {children}
         <Analytics />

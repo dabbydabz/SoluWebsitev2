@@ -1,6 +1,6 @@
-import Script from "next/script"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+import { JsonLd } from "@/components/json-ld"
 
 export const metadata = {
   title: "Our Story — Solu",
@@ -28,24 +28,19 @@ export const metadata = {
 export default function OurStoryPage() {
   return (
     <main className="bg-white min-h-screen">
-      <Script
-        id="schema-about"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "AboutPage",
-            "name": "Our Story — Solu",
-            "url": "https://www.solu.ae/our-story",
-            "description": "How Solu began, and why we're building a new kind of wellness for women.",
-            "mainEntity": {
-              "@type": "Organization",
-              "name": "Solu",
-              "url": "https://www.solu.ae",
-            },
-          }),
-        }}
-      />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "Our Story — Solu",
+        "url": "https://www.solu.ae/our-story",
+        "description": "How Solu began, and why we're building a new kind of wellness for women.",
+        "mainEntity": {
+          "@type": "Organization",
+          "@id": "https://www.solu.ae/#organization",
+          "name": "Solu",
+          "url": "https://www.solu.ae",
+        },
+      }} />
       <SoluHeader />
 
       {/* Hero */}

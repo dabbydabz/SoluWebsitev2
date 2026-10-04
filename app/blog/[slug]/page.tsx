@@ -1,12 +1,12 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
-import Script from "next/script"
 import { posts, getPostBySlug, EDITORIAL_REVIEW_PROCESS } from "@/lib/posts"
 import { getRevisionDate } from "@/lib/post-revisions"
 import { toISODateUTC as toISODate } from "@/lib/dates"
 import { getArticleEntities } from "@/lib/entities"
 import { SoluHeader } from "@/components/solu-header"
+import { JsonLd } from "@/components/json-ld"
 import { SoluFooter } from "@/components/solu-footer"
 
 function formatLongDate(isoDate: string): string {
@@ -113,6 +113,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://www.solu.ae/#organization",
       "name": "Solu",
       "url": "https://www.solu.ae",
       "logo": {
@@ -142,11 +143,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   return (
     <>
-      <Script
-        id={`schema-article-${post.slug}`}
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleSchema, breadcrumbSchema]) }}
-      />
+      <JsonLd data={[articleSchema, breadcrumbSchema]} />
       <SoluHeader />
       <main className="min-h-screen bg-white">
 
