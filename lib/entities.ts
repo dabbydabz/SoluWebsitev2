@@ -53,6 +53,8 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Fertile Window", pattern: /\bfertile\b|\bfertile window\b/i },
   { name: "Conception", pattern: /\bget pregnant\b|\bconception\b|\bconceive\b/i },
   { name: "Dietary Sugar", pattern: /\bsugar\b/i },
+  { name: "Sleep Duration", pattern: /\bhow much sleep\b|\bsleep duration\b|\bhours of sleep\b/i },
+  { name: "Mastalgia", pattern: /\bmastalgia\b|\bbreast (pain|tenderness)\b|\bbreasts hurt\b/i },
 ]
 
 const MIN_ENTITIES = 2
