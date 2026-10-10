@@ -5,23 +5,23 @@ import { JsonLd } from "@/components/json-ld"
 import { CareersRoles } from "@/components/careers-roles"
 
 export const metadata = {
-  title: "Careers — Solu",
+  title: "Careers at Solu: Remote Roles in Women's Health Tech",
   description: "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
   alternates: {
     canonical: "https://www.solu.ae/careers",
   },
   openGraph: {
-    title: "Careers — Solu",
+    title: "Careers at Solu: Remote Roles in Women's Health Tech",
     description: "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
     url: "https://www.solu.ae/careers",
     siteName: "Solu",
     type: "website",
     locale: "en_US",
-    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu: Women's health, fitness & wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Careers — Solu",
+    title: "Careers at Solu: Remote Roles in Women's Health Tech",
     description: "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
@@ -39,7 +39,7 @@ export default function CareersPage() {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Careers — Solu",
+        "name": "Careers at Solu: Remote Roles in Women's Health Tech",
         "url": "https://www.solu.ae/careers",
         "description": "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
         "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
