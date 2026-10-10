@@ -17,22 +17,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   })
 
+  // The homepage blog preview and the blog index both list the newest posts, so
+  // their lastmod tracks the most recent post change instead of a hardcoded date.
+  const latestPostChange = new Date(
+    Math.max(...blogPosts.map((p) => p.lastModified.getTime())),
+  )
+  const latest = (fixed: string) =>
+    new Date(Math.max(new Date(fixed).getTime(), latestPostChange.getTime()))
+
   return [
     {
       url: "https://www.solu.ae",
-      lastModified: new Date("2026-08-02"),
+      lastModified: latest("2026-09-16"),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: "https://www.solu.ae/blog",
-      lastModified: new Date("2026-08-09"),
+      lastModified: latest("2026-08-09"),
       changeFrequency: "daily",
       priority: 0.9,
     },
     {
       url: "https://www.solu.ae/our-story",
-      lastModified: new Date("2026-08-09"),
+      lastModified: new Date("2026-10-10"),
       changeFrequency: "monthly",
       priority: 0.5,
     },
@@ -44,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "https://www.solu.ae/careers",
-      lastModified: new Date(),
+      lastModified: new Date("2026-10-04"),
       changeFrequency: "monthly",
       priority: 0.6,
     },

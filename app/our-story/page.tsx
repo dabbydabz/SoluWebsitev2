@@ -3,24 +3,24 @@ import { SoluFooter } from "@/components/solu-footer"
 import { JsonLd } from "@/components/json-ld"
 
 export const metadata = {
-  title: "Our Story — Solu",
-  description: "How Solu began, and why we're building a new kind of wellness for women.",
+  title: "Our Story: A Women's Wellness App Built by Women | Solu",
+  description: "How Solu began: a women's wellness app, built by women, that matches movement, nutrition, sleep and energy to the menstrual cycle.",
   alternates: {
     canonical: "https://www.solu.ae/our-story",
   },
   openGraph: {
-    title: "Our Story — Solu",
-    description: "How Solu began, and why we're building a new kind of wellness for women.",
+    title: "Our Story: A Women's Wellness App Built by Women | Solu",
+    description: "How Solu began: a women's wellness app, built by women, that matches movement, nutrition, sleep and energy to the menstrual cycle.",
     url: "https://www.solu.ae/our-story",
     siteName: "Solu",
     type: "website",
     locale: "en_US",
-    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu: Women's health, fitness & wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Story — Solu",
-    description: "How Solu began, and why we're building a new kind of wellness for women.",
+    title: "Our Story: A Women's Wellness App Built by Women | Solu",
+    description: "How Solu began: a women's wellness app, built by women, that matches movement, nutrition, sleep and energy to the menstrual cycle.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
 }
@@ -31,9 +31,9 @@ export default function OurStoryPage() {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "name": "Our Story — Solu",
+        "name": "Our Story: A Women's Wellness App Built by Women",
         "url": "https://www.solu.ae/our-story",
-        "description": "How Solu began, and why we're building a new kind of wellness for women.",
+        "description": "How Solu began: a women's wellness app, built by women, that matches movement, nutrition, sleep and energy to the menstrual cycle.",
         "mainEntity": {
           "@type": "Organization",
           "@id": "https://www.solu.ae/#organization",
@@ -55,7 +55,7 @@ export default function OurStoryPage() {
             <span className="text-[#F7941D]">by women.</span>
           </h1>
           <p className="text-gray-500 text-xl leading-relaxed font-light">
-            Solu was born from a simple frustration — the wellness world wasn't built with women's biology in mind. So we built something that was.
+            Solu was born from a simple frustration: the wellness world wasn't built with women's biology in mind. So we built something that was.
           </p>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function OurStoryPage() {
                 We noticed something was missing.
               </h2>
               <p className="text-gray-500 leading-relaxed font-light">
-                Every wellness app we tried told us to push harder, track more, and stay consistent — as if a woman's body worked the same way every single day. It doesn't. Our energy, focus, strength, and mood shift throughout the month, and no app seemed to understand that.
+                Every wellness app we tried told us to push harder, track more, and stay consistent, as if a woman's body worked the same way every single day. It doesn't. Our energy, focus, strength, and mood <a href="/blog/understanding-your-four-cycle-phases" className="text-[#F7941D] underline underline-offset-4 decoration-orange-200 hover:decoration-[#F7941D] transition-colors">shift throughout the month</a>, and no app seemed to understand that.
               </p>
               <p className="text-gray-500 leading-relaxed font-light">
-                We started asking questions. Talking to women — athletes, mothers, professionals, students. The same answer came up again and again: they felt like they were fighting their own bodies instead of working with them.
+                We started asking questions. Talking to women: athletes, mothers, professionals, students. The same answer came up again and again: they felt like they were fighting their own bodies instead of working with them.
               </p>
             </div>
             <div className="rounded-[40px] overflow-hidden aspect-square">
@@ -109,10 +109,10 @@ export default function OurStoryPage() {
                 A lifestyle app, not just a tracker.
               </h2>
               <p className="text-gray-500 leading-relaxed font-light">
-                Solu isn't about logging calories or hitting arbitrary step goals. It's about helping women understand their own bodies deeply — and building a life that feels good from the inside out.
+                Solu isn't about logging calories or hitting arbitrary step goals. It's about helping women <a href="/blog/what-is-cycle-syncing-and-does-it-actually-work" className="text-[#F7941D] underline underline-offset-4 decoration-orange-200 hover:decoration-[#F7941D] transition-colors">understand their own bodies</a> deeply and build a life that feels good from the inside out.
               </p>
               <p className="text-gray-500 leading-relaxed font-light">
-                We also knew that wellness doesn't happen in isolation. Real change happens in community — when women share experiences, hold each other accountable, and celebrate each other's wins. That's why community is woven into every part of Solu.
+                We also knew that wellness doesn't happen in isolation. Real change happens in community, when women share experiences, hold each other accountable, and celebrate each other's wins. That's why community is woven into every part of Solu.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function OurStoryPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">What we believe</h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
-                { emoji: "🌙", title: "Cycle intelligence", body: "Your hormonal cycle is not a limitation — it's information. We help you read it and live accordingly." },
+                { emoji: "🌙", title: "Cycle intelligence", body: <>Your hormonal cycle is not a limitation. It's information. We help you read it and <a href="/blog/how-to-train-with-your-cycle" className="text-[#F7941D] underline underline-offset-4 decoration-orange-200 hover:decoration-[#F7941D] transition-colors">live accordingly</a>.</> },
                 { emoji: "🤝", title: "Real community", body: "Wellness is better together. Solu connects women in real life and online around shared health goals." },
                 { emoji: "✨", title: "Whole-life wellness", body: "We don't just count steps. We look at sleep, nutrition, movement, mood, and community as one interconnected whole." },
               ].map((v) => (
@@ -138,7 +138,7 @@ export default function OurStoryPage() {
           {/* CTA */}
           <div className="text-center space-y-6 pt-8">
             <h2 className="text-3xl font-bold text-gray-900">Ready to start your journey?</h2>
-            <p className="text-gray-500 font-light">Join thousands of women already living in sync with their bodies.</p>
+            <p className="text-gray-500 font-light">Start living in sync with your body, one phase at a time.</p>
             <a
               href="/#download"
               className="inline-block bg-[#F7941D] text-white px-10 py-4 rounded-full font-bold text-base hover:bg-[#e8850d] transition-all shadow-lg shadow-orange-200/60"
