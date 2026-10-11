@@ -1,6 +1,6 @@
 // Substantive-revision dates for blog posts.
 //
-// `lib/posts.ts` carries a single `date` (first publication) per post and is owned
+// Each post in `lib/posts/articles/` carries a single `date` (first publication) and is owned
 // by the article cron, so it has no place to record when an article's body was
 // later rewritten. This map fills that gap: it maps a post slug to the ISO date
 // (YYYY-MM-DD) of its most recent *substantive* content revision.
