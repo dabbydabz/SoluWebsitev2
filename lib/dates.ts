@@ -1,6 +1,6 @@
 // Shared date parsing for SEO date fields (datePublished, dateModified, sitemap lastmod).
 //
-// `lib/posts.ts` stores each post's `date` as a human string like "May 18, 2026".
+// `lib/posts/articles/*.ts` stores each post's `date` as a human string like "May 18, 2026".
 // V8 parses that format as *local* time, so `new Date(str).toISOString()` can shift
 // the calendar day backwards on a build machine west of UTC (observed 2026-08:
 // the muscle-growth post rendered datePublished 2026-08-16 for a stated Aug 17).
