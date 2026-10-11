@@ -32,7 +32,7 @@ const post: Post = {
 <h2>What Does a Balanced Weekly Exercise Plan for Women Look Like?</h2>
 <p>A balanced weekly plan for women combines two or three strength sessions, two or three cardio sessions, and one mobility session, adjusted for how energy changes across the cycle. The structure below is a starting template, not a prescription, and the <a href="/blog/what-is-the-3-3-3-rule-for-working-out">3-3-3 rule for working out</a> offers a simpler alternative.</p>
 <ul>
-  <li><strong>During a period:</strong> walking, yoga, or light strength work at reduced load if cramps or fatigue are present</li>
+  <li><strong>During a period:</strong> walking, yoga, or light strength work at reduced load if cramps or fatigue are present; the evidence is covered in the guide to <a href="/blog/can-exercise-reduce-period-pain">whether exercise can reduce period pain</a></li>
   <li><strong>After a period ends:</strong> progressive strength training and interval cardio</li>
   <li><strong>Around ovulation:</strong> strength and high-intensity work, with a thorough warm-up for jumping and cutting movements</li>
   <li><strong>Before the next period:</strong> moderate strength, steady cardio, Pilates, and more recovery time</li>

@@ -8,7 +8,6 @@ const post: Post = {
   category: "Hormonal Health",
   image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85",
   readTime: "6 min read",
-  trending: true,
   content: `
 <p>Breasts hurt before a period because rising oestrogen and progesterone in the second half of the cycle make breast tissue swell and hold fluid, which causes tenderness, heaviness, or aching. This cyclical breast pain, called cyclical mastalgia, usually starts up to 2 weeks before bleeding and eases once the period begins.</p>
 

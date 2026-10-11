@@ -38,7 +38,7 @@ const post: Post = {
 </ul>
 
 <h2>Can Tracking Your Cycle Help You Sleep Better?</h2>
-<p>Understanding your cycle gives you a meaningful advantage when it comes to sleep. If you know that days 22 to 28 are consistently your hardest for sleep, you can prepare rather than be surprised. That might mean scheduling fewer late commitments, being more intentional about your evening wind-down, or simply giving yourself permission to rest more during that window.</p>
+<p>Understanding your cycle gives you a meaningful advantage when it comes to sleep. If you know that days 22 to 28 are consistently your hardest for sleep, you can prepare rather than be surprised. That might mean scheduling fewer late commitments, being more intentional about your evening wind-down, or simply giving yourself permission to rest more during that window. Whether late workouts disturb sleep is covered in the guide to <a href="/blog/best-time-of-day-to-work-out-for-women">the best time of day to work out</a>.</p>
 <p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> integrates sleep guidance with your current cycle phase, so rather than applying the same sleep hygiene advice every night of the month, you receive recommendations that reflect where your hormones actually are. In the late luteal phase, that means earlier wind-down prompts, magnesium reminders, and recovery-focused sleep goals, while the follicular phase is used to build sleep consistency during your naturally better-rested window.</p>
 
 <h2>Related Reading</h2>

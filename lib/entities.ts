@@ -55,6 +55,8 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Dietary Sugar", pattern: /\bsugar\b/i },
   { name: "Sleep Duration", pattern: /\bhow much sleep\b|\bsleep duration\b|\bhours of sleep\b/i },
   { name: "Mastalgia", pattern: /\bmastalgia\b|\bbreast (pain|tenderness)\b|\bbreasts hurt\b/i },
+  { name: "Exercise Timing", pattern: /\btime of day to (work out|exercise)\b|\bexercise timing\b/i },
+  { name: "Dysmenorrhoea", pattern: /\bdysmenorrh(o)?ea\b|\bperiod pain\b|\bmenstrual cramps\b/i },
 ]
 
 const MIN_ENTITIES = 2

@@ -64,6 +64,9 @@ import shouldWomenTakeTestosterone from "./articles/should-women-take-testostero
 import whatIsCycleSyncingAndDoesItActuallyWork from "./articles/what-is-cycle-syncing-and-does-it-actually-work"
 import howMuchSleepDoWomenNeedComparedToMen from "./articles/how-much-sleep-do-women-need-compared-to-men"
 import whyDoMyBreastsHurtBeforeMyPeriod from "./articles/why-do-my-breasts-hurt-before-my-period"
+import bestTimeOfDayToWorkOutForWomen from "./articles/best-time-of-day-to-work-out-for-women"
+import canExerciseReducePeriodPain from "./articles/can-exercise-reduce-period-pain"
+import whatIsPmosAndWhyWasPcosRenamed from "./articles/what-is-pmos-and-why-was-pcos-renamed"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -132,6 +135,9 @@ export const posts: Post[] = [
   whatIsCycleSyncingAndDoesItActuallyWork,
   howMuchSleepDoWomenNeedComparedToMen,
   whyDoMyBreastsHurtBeforeMyPeriod,
+  bestTimeOfDayToWorkOutForWomen,
+  canExerciseReducePeriodPain,
+  whatIsPmosAndWhyWasPcosRenamed,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
