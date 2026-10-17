@@ -21,6 +21,7 @@ export default function robots(): MetadataRoute.Robots {
           "Google-Extended",
         ],
         allow: "/",
+        disallow: ["/maintenance", "/welcome"],
       },
     ],
     sitemap: "https://www.solu.ae/sitemap.xml",

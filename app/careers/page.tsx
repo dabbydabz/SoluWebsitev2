@@ -6,13 +6,13 @@ import { CareersRoles } from "@/components/careers-roles"
 
 export const metadata = {
   title: "Careers at Solu: Remote Roles in Women's Health Tech",
-  description: "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
+  description: "Join the team building a wellness app designed around how women actually live. Equity-based roles, fully remote.",
   alternates: {
     canonical: "https://www.solu.ae/careers",
   },
   openGraph: {
     title: "Careers at Solu: Remote Roles in Women's Health Tech",
-    description: "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
+    description: "Join the team building a wellness app designed around how women actually live. Equity-based roles, fully remote.",
     url: "https://www.solu.ae/careers",
     siteName: "Solu",
     type: "website",
@@ -22,7 +22,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Careers at Solu: Remote Roles in Women's Health Tech",
-    description: "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
+    description: "Join the team building a wellness app designed around how women actually live. Equity-based roles, fully remote.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
 }
@@ -41,7 +41,7 @@ export default function CareersPage() {
         "@type": "WebPage",
         "name": "Careers at Solu: Remote Roles in Women's Health Tech",
         "url": "https://www.solu.ae/careers",
-        "description": "Join the team building the first wellness app designed around how women actually live. Equity-based roles, fully remote.",
+        "description": "Join the team building a wellness app designed around how women actually live. Equity-based roles, fully remote.",
         "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
         "about": { "@type": "Organization", "@id": "https://www.solu.ae/#organization", "name": "Solu", "url": "https://www.solu.ae" },
         "publisher": { "@type": "Organization", "@id": "https://www.solu.ae/#organization", "name": "Solu", "url": "https://www.solu.ae" },

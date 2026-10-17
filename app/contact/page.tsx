@@ -2,14 +2,14 @@ import { JsonLd } from "@/components/json-ld"
 import { ContactForm } from "@/components/contact-form"
 
 export const metadata = {
-  title: "Contact Solu — Get in Touch",
-  description: "Have a question, partnership idea, or press enquiry? Reach the Solu team directly — we usually reply within 24 to 48 hours.",
+  title: "Contact Solu: Women's Wellness App Support and Press",
+  description: "Have a question, partnership idea, or press enquiry? Reach the Solu team directly. We usually reply within 24 to 48 hours.",
   alternates: {
     canonical: "https://www.solu.ae/contact",
   },
   openGraph: {
-    title: "Contact Solu — Get in Touch",
-    description: "Have a question, partnership idea, or press enquiry? Reach the Solu team directly — we usually reply within 24 to 48 hours.",
+    title: "Contact Solu: Women's Wellness App Support and Press",
+    description: "Have a question, partnership idea, or press enquiry? Reach the Solu team directly. We usually reply within 24 to 48 hours.",
     url: "https://www.solu.ae/contact",
     siteName: "Solu",
     type: "website",
@@ -18,8 +18,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Solu — Get in Touch",
-    description: "Have a question, partnership idea, or press enquiry? Reach the Solu team directly — we usually reply within 24 to 48 hours.",
+    title: "Contact Solu: Women's Wellness App Support and Press",
+    description: "Have a question, partnership idea, or press enquiry? Reach the Solu team directly. We usually reply within 24 to 48 hours.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
 }
@@ -30,9 +30,9 @@ export default function ContactPage() {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Contact Solu — Get in Touch",
+        "name": "Contact Solu: Women's Wellness App Support and Press",
         "url": "https://www.solu.ae/contact",
-        "description": "Have a question, partnership idea, or press enquiry? Reach the Solu team directly — we usually reply within 24 to 48 hours.",
+        "description": "Have a question, partnership idea, or press enquiry? Reach the Solu team directly. We usually reply within 24 to 48 hours.",
         "mainEntity": {
           "@type": "Organization",
           "@id": "https://www.solu.ae/#organization",
