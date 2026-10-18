@@ -46,13 +46,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "https://www.solu.ae/contact",
-      lastModified: new Date("2026-08-09"),
+      lastModified: new Date("2026-10-17"),
       changeFrequency: "monthly",
       priority: 0.4,
     },
     {
       url: "https://www.solu.ae/careers",
-      lastModified: new Date("2026-10-04"),
+      lastModified: new Date("2026-10-17"),
       changeFrequency: "monthly",
       priority: 0.6,
     },
