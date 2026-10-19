@@ -57,6 +57,8 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Mastalgia", pattern: /\bmastalgia\b|\bbreast (pain|tenderness)\b|\bbreasts hurt\b/i },
   { name: "Exercise Timing", pattern: /\btime of day to (work out|exercise)\b|\bexercise timing\b/i },
   { name: "Dysmenorrhoea", pattern: /\bdysmenorrh(o)?ea\b|\bperiod pain\b|\bmenstrual cramps\b/i },
+  { name: "Dubai Fitness Challenge", pattern: /\bDubai Fitness Challenge\b/i },
+  { name: "Anti-Müllerian Hormone", pattern: /\bAMH\b|\banti-m(u|ü)llerian hormone\b/i },
 ]
 
 const MIN_ENTITIES = 2

@@ -27,7 +27,7 @@ const post: Post = {
 <p>That study was observational and included men and women, so it shows a link rather than proof that evening is better. Every time slot beat doing little. The <a href="https://pubmed.ncbi.nlm.nih.gov/33239350/" target="_blank" rel="noopener noreferrer">WHO 2020 guidelines</a> advise 150 to 300 minutes of moderate activity a week, or 75 to 150 minutes of vigorous activity, plus muscle strengthening. They set no preferred time of day. Whether a daily 30 minutes covers those targets is covered in the guide to <a href="/blog/is-30-minutes-of-exercise-enough-for-females">30 minutes of exercise for women</a>.</p>
 
 <h2>How Should Women Choose a Workout Time?</h2>
-<p>Women can choose a workout time by matching it to the main goal, then checking it fits sleep and a realistic schedule. Morning suits fat-loss and blood pressure goals and busy evenings. Evening suits strength and power goals. Any slot works for general health if it is kept up week after week.</p>
+<p>Women can choose a workout time by matching it to the main goal, then checking it fits sleep and a realistic schedule. Morning suits fat-loss and blood pressure goals and busy evenings. Evening suits strength and power goals. Any slot works for general health if it is kept up week after week. Splitting the time into shorter bouts is covered in the guide to <a href="/blog/how-to-fit-30-minutes-of-exercise-into-a-busy-day">fitting exercise into a busy day</a>.</p>
 <p>Each time slot, rated against the sources cited here:</p>
 <ul>
   <li>Morning (6 to 8am): moderate evidence for larger falls in belly fat and blood pressure, from one 12-week trial.</li>

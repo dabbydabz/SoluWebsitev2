@@ -8,7 +8,6 @@ const post: Post = {
   category: "Hormonal Health",
   image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=85",
   readTime: "6 min read",
-  trending: true,
   content: `
 <p>PMOS, or polyendocrine metabolic ovarian syndrome, is the new name for polycystic ovary syndrome (PCOS), adopted in May 2026 after a global consensus published in <a href="https://pubmed.ncbi.nlm.nih.gov/42119588/" target="_blank" rel="noopener noreferrer">The Lancet</a>. It was renamed because most people with the condition do not have abnormal ovarian cysts, and the old name hid its hormonal and metabolic effects.</p>
 

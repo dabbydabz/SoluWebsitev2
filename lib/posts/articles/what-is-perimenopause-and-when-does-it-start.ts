@@ -19,7 +19,7 @@ const post: Post = {
 
 <h2>When Does Perimenopause Start?</h2>
 <p>Most women enter perimenopause in their mid-to-late 40s, but it can begin as early as the mid-30s. According to the <a href="https://www.menopause.org/for-women/sexual-health-menopause-online/changes-at-midlife/what-is-perimenopause" target="_blank" rel="noopener noreferrer">Menopause Society</a>, the average age of onset is around 47, with menopause itself typically occurring around age 51 in the UK and US. However, roughly 1 in 10 women experience early perimenopause before age 40.</p>
-<p>Genetics play a significant role. If your mother entered perimenopause early, you are more likely to as well. Smoking has been consistently associated with earlier onset. Certain medical treatments, including chemotherapy and surgery involving the ovaries, can trigger abrupt hormonal changes that resemble perimenopause.</p>
+<p>Genetics play a significant role. If your mother entered perimenopause early, you are more likely to as well. Smoking has been consistently associated with earlier onset. Certain medical treatments, including chemotherapy and surgery involving the ovaries, can trigger abrupt hormonal changes that resemble perimenopause. Whether a blood test can forecast the timing is covered in the guide to <a href="/blog/can-an-amh-test-tell-you-when-menopause-will-start">whether an AMH test can predict menopause</a>.</p>
 
 <h2>What Are the First Signs of Perimenopause?</h2>
 <p>The earliest signs are often subtle and are frequently attributed to stress, poor sleep, or simply getting older. Common early indicators include:</p>

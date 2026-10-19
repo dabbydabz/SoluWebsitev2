@@ -67,6 +67,9 @@ import whyDoMyBreastsHurtBeforeMyPeriod from "./articles/why-do-my-breasts-hurt-
 import bestTimeOfDayToWorkOutForWomen from "./articles/best-time-of-day-to-work-out-for-women"
 import canExerciseReducePeriodPain from "./articles/can-exercise-reduce-period-pain"
 import whatIsPmosAndWhyWasPcosRenamed from "./articles/what-is-pmos-and-why-was-pcos-renamed"
+import canYouDoTheDubaiFitnessChallengeOnYourPeriod from "./articles/can-you-do-the-dubai-fitness-challenge-on-your-period"
+import howToFit30MinutesOfExerciseIntoABusyDay from "./articles/how-to-fit-30-minutes-of-exercise-into-a-busy-day"
+import canAnAmhTestTellYouWhenMenopauseWillStart from "./articles/can-an-amh-test-tell-you-when-menopause-will-start"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -138,6 +141,9 @@ export const posts: Post[] = [
   bestTimeOfDayToWorkOutForWomen,
   canExerciseReducePeriodPain,
   whatIsPmosAndWhyWasPcosRenamed,
+  canYouDoTheDubaiFitnessChallengeOnYourPeriod,
+  howToFit30MinutesOfExerciseIntoABusyDay,
+  canAnAmhTestTellYouWhenMenopauseWillStart,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

@@ -29,7 +29,7 @@ const post: Post = {
 
 <h2>What Else Matters Besides Exercise Duration?</h2>
 <p>For women specifically, nutrition around the menstrual cycle has a significant impact on whether exercise produces weight loss or body composition changes. Calorie needs increase slightly in the luteal phase as basal metabolic rate rises. Eating too little in this phase while maintaining high exercise volume can elevate cortisol and actually impair fat loss. Sleep quality, which reliably declines in the late luteal phase, also affects the hormones that regulate appetite and fat storage.</p>
-<p>In short: 30 minutes of exercise is a good baseline, but whether it produces meaningful results depends on the type of exercise, the phase of your cycle, your nutrition, and your sleep. Optimising all four together consistently outperforms any single variable.</p>
+<p>In short: 30 minutes of exercise is a good baseline, but whether it produces meaningful results depends on the type of exercise, the phase of your cycle, your nutrition, and your sleep. Optimising all four together consistently outperforms any single variable. Practical ways to make room for it are set out in the guide to <a href="/blog/how-to-fit-30-minutes-of-exercise-into-a-busy-day">fitting 30 minutes of exercise into a busy day</a>.</p>
 
 <h2>Related Reading</h2>
 <ul>

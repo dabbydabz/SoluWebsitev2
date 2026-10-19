@@ -15,7 +15,7 @@ const post: Post = {
 
 <h2>Menstrual Phase: Prioritise Recovery</h2>
 <p>When oestrogen and progesterone are at their lowest, so is your pain threshold and physical resilience. Forcing high-intensity training during your period often leads to longer recovery times and higher injury risk, with diminished performance gains to show for it.</p>
-<p>This is the phase to prioritise yoga, gentle walks, light stretching, or low-intensity swimming. Think of it as an active recovery week rather than a rest week. You are still moving; you are just not depleting reserves your body needs for repair.</p>
+<p>This is the phase to prioritise yoga, gentle walks, light stretching, or low-intensity swimming. Think of it as an active recovery week rather than a rest week. You are still moving; you are just not depleting reserves your body needs for repair. Keeping a daily challenge going through this week is covered in the guide to <a href="/blog/can-you-do-the-dubai-fitness-challenge-on-your-period">doing the Dubai Fitness Challenge on your period</a>.</p>
 
 <h2>Follicular Phase: Build and Progress</h2>
 <p>Rising oestrogen dramatically improves both strength and muscle recovery. Research published in the <a href="https://pubmed.ncbi.nlm.nih.gov/31617359/" target="_blank" rel="noopener noreferrer">Journal of Applied Physiology</a> found that women oxidise more fat relative to carbohydrate during exercise when oestrogen is elevated, and separate studies confirm that muscle protein synthesis and recovery speed are both significantly higher in the follicular phase than the luteal phase. This is your green light for progressive overload, high-intensity interval training, heavy resistance work, and trying new physical challenges.</p>
