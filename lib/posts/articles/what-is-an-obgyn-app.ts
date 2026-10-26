@@ -23,7 +23,7 @@ const post: Post = {
 </ul>
 
 <h2>Is an OB-GYN app the same as a period tracker?</h2>
-<p>Not exactly. A period tracker logs your cycle dates and predicts your next period and fertile window. An OB-GYN app goes further: it analyses patterns in your data over time, flags anomalies that might indicate conditions like PCOS, endometriosis, or thyroid imbalance, and may offer direct access to clinical care.</p>
+<p>Not exactly. A period tracker logs your cycle dates and predicts your next period and fertile window. An OB-GYN app goes further: it analyses patterns in your data over time, flags anomalies that might indicate conditions like PCOS, endometriosis, or thyroid imbalance, and may offer direct access to clinical care. How endometriosis overlaps with headache is covered in the guide to <a href="/blog/is-endometriosis-linked-to-migraines">the link between endometriosis and migraines</a>.</p>
 <p>The distinction matters because many women use a basic period tracker and assume they are getting clinical insight. They usually are not. An app like <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> sits in the middle ground: it tracks your cycle and hormonal phase with more depth than a simple period tracker, building a picture of your health over time rather than just counting days. For formal clinical concerns, you still need a human clinician.</p>
 
 <h2>Who is an OB-GYN app for?</h2>

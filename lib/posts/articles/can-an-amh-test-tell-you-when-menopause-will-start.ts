@@ -8,7 +8,6 @@ const post: Post = {
   category: "Hormonal Health",
   image: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&q=85",
   readTime: "6 min read",
-  trending: true,
   content: `
 <p>No, an AMH test cannot tell an individual woman when her menopause will start, although lower anti-Müllerian hormone (AMH) levels are linked to an earlier menopause on average. A <a href="https://pubmed.ncbi.nlm.nih.gov/36651193/" target="_blank" rel="noopener noreferrer">2023 systematic review of 41 studies in Human Reproduction Update</a> found AMH alone could not predict age at menopause precisely, with estimates spanning 2 to 12 years in women under 40.</p>
 

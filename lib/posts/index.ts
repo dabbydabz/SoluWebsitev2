@@ -70,6 +70,9 @@ import whatIsPmosAndWhyWasPcosRenamed from "./articles/what-is-pmos-and-why-was-
 import canYouDoTheDubaiFitnessChallengeOnYourPeriod from "./articles/can-you-do-the-dubai-fitness-challenge-on-your-period"
 import howToFit30MinutesOfExerciseIntoABusyDay from "./articles/how-to-fit-30-minutes-of-exercise-into-a-busy-day"
 import canAnAmhTestTellYouWhenMenopauseWillStart from "./articles/can-an-amh-test-tell-you-when-menopause-will-start"
+import howShouldWomenTrainForA5kOr10k from "./articles/how-should-women-train-for-a-5k-or-10k"
+import isItSafeToExerciseInTheHeatInDubai from "./articles/is-it-safe-to-exercise-in-the-heat-in-dubai"
+import isEndometriosisLinkedToMigraines from "./articles/is-endometriosis-linked-to-migraines"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -144,6 +147,9 @@ export const posts: Post[] = [
   canYouDoTheDubaiFitnessChallengeOnYourPeriod,
   howToFit30MinutesOfExerciseIntoABusyDay,
   canAnAmhTestTellYouWhenMenopauseWillStart,
+  howShouldWomenTrainForA5kOr10k,
+  isItSafeToExerciseInTheHeatInDubai,
+  isEndometriosisLinkedToMigraines,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
