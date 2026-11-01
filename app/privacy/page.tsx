@@ -7,14 +7,14 @@ const LAST_UPDATED = "1 July 2026"
 const LAST_UPDATED_ISO = "2026-07-01"
 
 export const metadata = {
-  title: "Privacy Policy — Solu",
-  description: "How Solu collects, uses, and protects your personal and health data.",
+  title: "Privacy Policy | Solu Women's Wellness App",
+  description: "How Solu, a women's wellness app based in the UAE, handles your cycle and health data: encrypted in transit and at rest, never sold, deletable on request.",
   alternates: {
     canonical: "https://www.solu.ae/privacy",
   },
   openGraph: {
-    title: "Privacy Policy — Solu",
-    description: "How Solu collects, uses, and protects your personal and health data.",
+    title: "Privacy Policy | Solu Women's Wellness App",
+    description: "How Solu, a women's wellness app based in the UAE, handles your cycle and health data: encrypted in transit and at rest, never sold, deletable on request.",
     url: "https://www.solu.ae/privacy",
     siteName: "Solu",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Privacy Policy — Solu",
-    description: "How Solu collects, uses, and protects your personal and health data.",
+    title: "Privacy Policy | Solu Women's Wellness App",
+    description: "How Solu, a women's wellness app based in the UAE, handles your cycle and health data: encrypted in transit and at rest, never sold, deletable on request.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
 }
@@ -178,9 +178,9 @@ export default function PrivacyPage() {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Privacy Policy — Solu",
+        "name": "Privacy Policy | Solu Women's Wellness App",
         "url": "https://www.solu.ae/privacy",
-        "description": "How Solu collects, uses, and protects your personal and health data.",
+        "description": "How Solu, a women's wellness app based in the UAE, handles your cycle and health data: encrypted in transit and at rest, never sold, deletable on request.",
         "dateModified": LAST_UPDATED_ISO,
         "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
         "publisher": { "@type": "Organization", "@id": "https://www.solu.ae/#organization", "name": "Solu", "url": "https://www.solu.ae" },
