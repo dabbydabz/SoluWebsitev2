@@ -3,13 +3,13 @@ import type { Post } from "../types"
 const post: Post = {
   slug: "how-should-women-train-for-a-5k-or-10k",
   title: "How Should Women Train for a 5K or 10K Run?",
-  excerpt: "Women can train for a 5K or 10K in 4 weeks if they already run 20 minutes, with 3 runs a week. Complete beginners should allow about 9 weeks.",
+  excerpt: "Women who already run 20 minutes can train for a 5K in about 4 weeks, with 3 runs a week. Beginners need about 9 weeks, and a 10K needs longer.",
   date: "October 26, 2026",
   category: "Movement",
   image: "https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&q=85",
   readTime: "6 min read",
   content: `
-<p>Women should train for a 5K or 10K with three runs a week, raising the longest run gradually and easing off in the final week. A woman who can already run for 20 minutes can be race-ready in about 4 weeks, while a complete beginner needs about 9 weeks, the length of the <a href="https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/" target="_blank" rel="noopener noreferrer">NHS Couch to 5K programme</a>.</p>
+<p>Women should train for a 5K or 10K with three runs a week, raising the longest run gradually and easing off in the final week. A woman who can already run for 20 minutes can be ready for a 5K in about 4 weeks, while a beginner needs about 9 weeks, the length of the <a href="https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/" target="_blank" rel="noopener noreferrer">NHS Couch to 5K programme</a>.</p>
 
 <p>This article draws on a <a href="https://pubmed.ncbi.nlm.nih.gov/34478518/" target="_blank" rel="noopener noreferrer">2022 systematic review in the Journal of Athletic Training</a>, a <a href="https://pubmed.ncbi.nlm.nih.gov/25155475/" target="_blank" rel="noopener noreferrer">2014 cohort study of 874 novice runners</a>, the <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener noreferrer">WHO physical activity fact sheet</a>, NHS guidance, and the <a href="https://mediaoffice.ae/en/news/2026/october/01-10/registration-opens-for-10th-dubai-fitness-challenge-to-be-held-from-31-october-to-29-november" target="_blank" rel="noopener noreferrer">Dubai Media Office</a> announcement of the 2026 Dubai Fitness Challenge, current as of October 2026.</p>
 
