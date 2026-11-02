@@ -62,6 +62,8 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Distance Running", pattern: /\b(5|10)K\b|\bdistance running\b/i },
   { name: "Exercise in the Heat", pattern: /\bin the heat\b|\bheat(stroke| stroke| exhaustion| illness)\b/i },
   { name: "Endometriosis", pattern: /\bendometriosis\b/i },
+  { name: "Pre-Workout Nutrition", pattern: /\b(eat|eating|food) before a (morning )?workout\b|\bpre-workout (snack|meal|nutrition)\b|\bfasted (training|exercise)\b/i },
+  { name: "Hydration", pattern: /\bhydration\b|\bhow much water\b|\bsweat rate\b/i },
 ]
 
 const MIN_ENTITIES = 2

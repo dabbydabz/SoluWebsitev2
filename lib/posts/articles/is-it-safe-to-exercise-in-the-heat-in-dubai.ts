@@ -41,7 +41,7 @@ const post: Post = {
 <p>Practical steps, drawn from the WHO and the consensus:</p>
 <ul>
   <li>Timing: the WHO advises, "Avoid going outside and doing strenuous activity during the hottest time of day."</li>
-  <li>Fluids: start each session well hydrated and limit fluid loss during it.</li>
+  <li>Fluids: <a href="/blog/how-much-water-should-women-drink-when-exercising">start each session well hydrated</a> and limit fluid loss during it.</li>
   <li>Build-up: shorten and slow outdoor sessions for the first 1 to 2 weeks.</li>
   <li>Shade: choose shaded routes, since direct sun feels 10 to 15°C hotter.</li>
 </ul>

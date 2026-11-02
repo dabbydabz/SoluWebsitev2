@@ -12,7 +12,6 @@ const post: Post = {
   inAppFeed: true,
   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
   readTime: "6 min read",
-  trending: true,
   content: `
 <p>Yes, endometriosis is linked to migraines: women with endometriosis are roughly twice as likely to have migraine as women without it. A <a href="https://pubmed.ncbi.nlm.nih.gov/40247158/" target="_blank" rel="noopener noreferrer">2025 meta-analysis of 13 studies and 331,655 people in The Journal of Headache and Pain</a> found odds of migraine 2.25 times higher with endometriosis, although most included studies carried a high risk of bias.</p>
 

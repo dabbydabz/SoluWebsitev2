@@ -74,6 +74,9 @@ import canAnAmhTestTellYouWhenMenopauseWillStart from "./articles/can-an-amh-tes
 import howShouldWomenTrainForA5kOr10k from "./articles/how-should-women-train-for-a-5k-or-10k"
 import isItSafeToExerciseInTheHeatInDubai from "./articles/is-it-safe-to-exercise-in-the-heat-in-dubai"
 import isEndometriosisLinkedToMigraines from "./articles/is-endometriosis-linked-to-migraines"
+import whatToEatBeforeAMorningWorkout from "./articles/what-to-eat-before-a-morning-workout"
+import howMuchWaterShouldWomenDrinkWhenExercising from "./articles/how-much-water-should-women-drink-when-exercising"
+import whatHappensToYourBodyWhenYouReachMenopause from "./articles/what-happens-to-your-body-when-you-reach-menopause"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -151,6 +154,9 @@ export const posts: Post[] = [
   howShouldWomenTrainForA5kOr10k,
   isItSafeToExerciseInTheHeatInDubai,
   isEndometriosisLinkedToMigraines,
+  whatToEatBeforeAMorningWorkout,
+  howMuchWaterShouldWomenDrinkWhenExercising,
+  whatHappensToYourBodyWhenYouReachMenopause,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

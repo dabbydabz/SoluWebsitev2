@@ -19,7 +19,7 @@ const post: Post = {
 
 <h2>What Exactly is Perimenopause?</h2>
 <p>The word perimenopause means "around menopause." It describes the years during which your reproductive hormones begin to fluctuate and decline before your periods stop entirely. During this phase, oestrogen levels rise and fall unpredictably rather than following the regular pattern of a typical menstrual cycle. Progesterone, which is produced after ovulation, also becomes less consistent as ovulation itself becomes less regular.</p>
-<p>Menopause is defined as 12 consecutive months without a menstrual period. Perimenopause is everything that comes before that point, from the first signs of hormonal change until that 12-month mark is reached. After menopause, you are in post-menopause.</p>
+<p>Menopause is defined as 12 consecutive months without a menstrual period. Perimenopause is everything that comes before that point, from the first signs of hormonal change until that 12-month mark is reached. After menopause, you are in post-menopause. The changes at that point are covered in the guide to <a href="/blog/what-happens-to-your-body-when-you-reach-menopause">what happens to your body at menopause</a>.</p>
 
 <h2>When Does Perimenopause Start?</h2>
 <p>Most women enter perimenopause in their mid-to-late 40s, but it can begin as early as the mid-30s. According to the <a href="https://www.menopause.org/for-women/sexual-health-menopause-online/changes-at-midlife/what-is-perimenopause" target="_blank" rel="noopener noreferrer">Menopause Society</a>, the average age of onset is around 47, with menopause itself typically occurring around age 51 in the UK and US. However, roughly 1 in 10 women experience early perimenopause before age 40.</p>
