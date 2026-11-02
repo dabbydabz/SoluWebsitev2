@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The app market for women's health has never been stronger, but more choice makes it harder to know which tools are genuinely worth your time. This guide covers the 10 best health and fitness apps for women in 2026, rated honestly by what they actually do well.",
   date: "June 15, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "If your sleep falls apart in the week before your period, there is a clear hormonal reason behind it. This article explains exactly how your cycle disrupts sleep, which phase is hardest, and what you can do to sleep better all month long.",
   date: "June 8, 2026",
   category: "Sleep",
+  phase: "Menstrual",
+  interests: ["Sleep"],
+  topics: ["Sleep"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=85",
   readTime: "5 min read",
   content: `

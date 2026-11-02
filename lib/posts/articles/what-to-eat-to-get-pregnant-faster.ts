@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Eating more whole grains, fish, omega-3s, and folate while cutting back on trans fats and red meat is linked to improved fertility outcomes. Here is what the nutrition research actually supports for women trying to conceive.",
   date: "July 13, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Fertility", "Nutrition"],
+  topics: ["Fertility", "Nutrition"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=85",
   readTime: "7 min read",
   content: `

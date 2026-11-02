@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "If anxiety, irritability, or low mood reliably appear in the week before your period and disappear once it starts, there is a clear hormonal explanation. Here is what is happening in your brain, and what you can do about it.",
   date: "June 30, 2026",
   category: "Hormonal Health",
+  phase: "Luteal",
+  interests: ["Wellbeing"],
+  topics: ["Mental health", "Stress"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=85",
   readTime: "6 min read",
   content: `

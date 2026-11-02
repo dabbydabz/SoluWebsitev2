@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Hormones being off usually shows up as several signs at once: irregular periods, fatigue, mood swings, sleep trouble, and weight changes. One symptom alone rarely means much; a repeating pattern across cycles does.",
   date: "August 31, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&q=85",
   readTime: "7 min read",
   content: `

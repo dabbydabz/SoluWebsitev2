@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Cortisol drops naturally with consistent sleep, moderate exercise, and mindfulness practice, which a 2024 meta-analysis of 58 trials found measurably lowers levels. No supplement works as reliably as these daily habits.",
   date: "September 14, 2026",
   category: "Wellbeing",
+  phase: "General",
+  interests: ["Wellbeing", "Hormonal Health"],
+  topics: ["Stress"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1554244933-d876deb6b2ff?w=800&q=85",
   readTime: "7 min read",
   content: `

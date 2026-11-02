@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The honest answer is that the best exercise for women changes depending on where you are in your menstrual cycle. This guide explains why, and how to match your training to your hormones for better results with less burnout.",
   date: "May 22, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Strength"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=85",
   readTime: "6 min read",
   content: `

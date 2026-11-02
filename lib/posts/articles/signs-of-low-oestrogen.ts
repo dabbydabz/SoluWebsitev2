@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Signs of low oestrogen include hot flushes, night sweats, vaginal dryness, low mood, and irregular periods. Perimenopause begins 4 to 8 years before menopause, so symptoms can start early.",
   date: "September 21, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance", "Perimenopause"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=85",
   readTime: "5 min read",
   content: `

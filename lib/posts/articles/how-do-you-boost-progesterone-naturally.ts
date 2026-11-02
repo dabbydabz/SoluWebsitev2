@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "You boost progesterone naturally by supporting ovulation: sleep, enough food, and low stress protect a 12 to 14 day luteal phase. Luteal phases of 10 days or less are worth a medical review.",
   date: "September 21, 2026",
   category: "Hormonal Health",
+  phase: "Luteal",
+  interests: ["Hormonal Health", "Nutrition"],
+  topics: ["Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=85",
   readTime: "5 min read",
   content: `

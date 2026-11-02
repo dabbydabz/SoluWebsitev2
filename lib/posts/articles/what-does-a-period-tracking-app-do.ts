@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "A period tracking app logs your cycle dates and symptoms to predict your period, ovulation, and PMS timing. The best ones turn that data into daily guidance, not just a calendar.",
   date: "August 17, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Chronic stress can delay your period by suppressing the hormone pulses that trigger ovulation each cycle. A single stressful day rarely shifts a cycle, but sustained stress from undereating, overtraining, or poor sleep can measurably delay or skip a period.",
   date: "July 20, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Wellbeing", "Hormonal Health"],
+  topics: ["Stress"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1506126279646-a697353d3166?w=800&q=85",
   readTime: "7 min read",
   content: `

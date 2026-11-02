@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Hormonal imbalance in women is most often caused by PCOS, thyroid disorders, chronic stress, insulin resistance, or the menopause transition. Each disrupts the hormone signalling between the brain and the ovaries in a different way.",
   date: "August 31, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance", "PCOS"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1540206395-68808572332f?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Yes, you can do the Dubai Fitness Challenge on your period. Swap hard sessions for 30 minutes of walking, swimming or yoga on heavy days.",
   date: "October 19, 2026",
   category: "Movement",
+  phase: "Menstrual",
+  interests: ["Movement"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&q=85",
   readTime: "6 min read",
   content: `

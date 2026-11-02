@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "HRT has had a complicated reputation, but the science has shifted significantly. For most women under 60, hormone replacement therapy is now considered safe and effective, and the FDA removed its longstanding black box warning in 2025. Here is what you need to know.",
   date: "June 22, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Perimenopause"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=85",
   readTime: "7 min read",
   content: `

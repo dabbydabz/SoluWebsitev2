@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Your nutritional needs genuinely shift throughout your cycle, and eating to support those shifts can reduce PMS, stabilise energy, and help you feel far more consistent month to month. Here is a practical guide to cycle-synced nutrition.",
   date: "May 10, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Nutrition"],
+  topics: ["Nutrition", "Meal prep"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=85",
   readTime: "4 min read",
   content: `

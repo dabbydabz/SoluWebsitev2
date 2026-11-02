@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Yes, exercise can reduce period pain. A 2025 review of 29 trials found cramps eased most with 3+ sessions a week of over 30 minutes for at least 8 weeks.",
   date: "October 11, 2026",
   category: "Movement",
+  phase: "Menstrual",
+  interests: ["Movement", "Wellbeing"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=85",
   readTime: "6 min read",
   content: `

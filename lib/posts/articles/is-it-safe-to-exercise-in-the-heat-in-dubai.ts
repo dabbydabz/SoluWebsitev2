@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Exercising in Dubai's heat is safe if you train early or indoors, drink regularly and spend 1 to 2 weeks adapting. Heatstroke is an emergency.",
   date: "October 26, 2026",
   category: "Wellbeing",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Running"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800&q=85",
   readTime: "6 min read",
   content: `

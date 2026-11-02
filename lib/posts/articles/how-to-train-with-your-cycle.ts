@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Generic training plans assume your body performs the same way every day. It does not. Your strength, recovery speed, endurance capacity, and injury risk all shift across your cycle. Here is how to train smarter by working with your hormones rather than ignoring them.",
   date: "April 29, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Strength"],
+  inAppFeed: true,
   image: "/images/tile-movement.png",
   readTime: "6 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Women who already run 20 minutes can train for a 5K in about 4 weeks, with 3 runs a week. Beginners need about 9 weeks, and a 10K needs longer.",
   date: "October 26, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Running"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&q=85",
   readTime: "6 min read",
   content: `

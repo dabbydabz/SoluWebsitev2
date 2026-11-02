@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The best app for menstrual health links your cycle to daily symptoms, not just period dates. This guide compares Flo, Clue, Natural Cycles, Apple Health, and Solu honestly.",
   date: "August 10, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=85",
   readTime: "7 min read",
   content: `

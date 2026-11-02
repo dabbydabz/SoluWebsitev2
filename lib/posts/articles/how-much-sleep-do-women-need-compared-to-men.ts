@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Women need 7 to 9 hours of sleep a night, the same as men, but they are 1.4 times more likely to have insomnia, so reaching that target is harder.",
   date: "October 5, 2026",
   category: "Sleep",
+  phase: "General",
+  interests: ["Sleep"],
+  topics: ["Sleep"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=800&q=85",
   readTime: "6 min read",
   content: `

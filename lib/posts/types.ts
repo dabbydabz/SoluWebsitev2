@@ -9,7 +9,14 @@ export type Post = {
   content: string
   trending?: boolean
   reviewedBy?: string
+  // In-app article feed tags (Today page). See Solu Blog Tagging Map.
+  phase?: CyclePhase
+  interests?: string[]
+  topics?: string[]
+  inAppFeed?: boolean
 }
+
+export type CyclePhase = "Menstrual" | "Follicular" | "Ovulation" | "Luteal" | "General"
 
 // Solu's standing editorial review process (adopted in place of a named individual reviewer).
 // Used as the default for any post that does not set its own `reviewedBy` string.

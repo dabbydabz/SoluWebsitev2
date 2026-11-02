@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Yes, strength training measurably lowers heart attack risk in women. A landmark 2026 study of over 117,000 women found those who lifted weights for two or more hours a week cut their heart attack risk by 44 percent.",
   date: "July 13, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Strength"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
   readTime: "7 min read",
   content: `

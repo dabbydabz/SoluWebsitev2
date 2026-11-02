@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Wearables from WHOOP, Oura, and new startups are now promising hormonal insights from your wrist. Here is an honest look at what the technology can actually measure, what it is inferring, and whether it is worth using in 2026.",
   date: "June 29, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance"],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Tracking female fertility goes well beyond noting the days of your period. Understanding your cycle, ovulation signs, and the tools available can significantly improve your chances of conceiving or simply help you know your body better.",
   date: "June 29, 2026",
   category: "Fertility",
+  phase: "Ovulation",
+  interests: ["Fertility"],
+  topics: ["Fertility"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=85",
   readTime: "6 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "You are most fertile in the five days leading up to and including ovulation, with the single highest chance of conception the day before ovulation itself. Sperm can survive several days inside the reproductive tract, which is why the fertile window opens before the egg is even released.",
   date: "July 6, 2026",
   category: "Fertility",
+  phase: "Ovulation",
+  interests: ["Fertility"],
+  topics: ["Fertility"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=800&q=85",
   readTime: "6 min read",
   content: `

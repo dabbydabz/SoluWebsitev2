@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Cortisol is the body's main stress hormone, made by the adrenal glands on a 24-hour rhythm. It matters for women because chronically high levels suppress ovulation and can stop periods, disrupt sleep, and worsen PMS.",
   date: "September 7, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Wellbeing", "Hormonal Health"],
+  topics: ["Stress"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=800&q=85",
   readTime: "7 min read",
   content: `

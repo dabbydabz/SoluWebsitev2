@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "You do not need a lab or a doctor's referral to start understanding your hormones. From wearable devices to cycle tracking apps and at-home test kits, there are now several practical ways to monitor your hormonal health from home. Here is what actually works.",
   date: "June 7, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance"],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=85",
   readTime: "6 min read",
   content: `

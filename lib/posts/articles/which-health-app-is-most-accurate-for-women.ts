@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Accuracy in a health app means different things depending on what you are tracking. This article breaks down the evidence on which apps produce the most reliable data for women, from cycle predictions to sleep and fitness metrics.",
   date: "May 26, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=85",
   readTime: "5 min read",
   content: `

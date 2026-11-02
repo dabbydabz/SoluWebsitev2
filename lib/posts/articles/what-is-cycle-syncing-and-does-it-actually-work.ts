@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Cycle syncing means matching exercise, food and rest to the 4 menstrual cycle phases. Track 2 to 3 cycles first, then make small, flexible changes.",
   date: "October 5, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Hormonal Health", "Wellbeing"],
+  topics: ["Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=85",
   readTime: "6 min read",
   content: `

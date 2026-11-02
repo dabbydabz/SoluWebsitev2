@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The seven signs of ovulation are cervical mucus changes, a BBT rise, a positive OPK, mittelschmerz, higher libido, breast tenderness, and cervix changes. Tracking two or more of these signs together, rather than relying on any single symptom, gives a far more accurate picture of the fertile window.",
   date: "July 27, 2026",
   category: "Fertility",
+  phase: "Ovulation",
+  interests: ["Fertility"],
+  topics: ["Fertility"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
   readTime: "6 min read",
   content: `

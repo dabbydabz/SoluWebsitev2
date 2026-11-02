@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The 30-minute workout has become the default advice for busy women, but whether it is actually enough depends on several factors that most fitness content ignores. Here is what the research says, and why your cycle matters more than the clock.",
   date: "June 15, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
   readTime: "6 min read",
   content: `

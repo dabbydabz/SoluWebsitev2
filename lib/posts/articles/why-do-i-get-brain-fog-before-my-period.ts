@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Brain fog before your period comes from the premenstrual drop in oestrogen and progesterone, and it peaks in the 3 to 5 days before bleeding. It affects concentration, word recall, and memory, then clears once your period starts.",
   date: "September 7, 2026",
   category: "Hormonal Health",
+  phase: "Luteal",
+  interests: ["Wellbeing"],
+  topics: ["Mental health"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The 3-3-3 workout rule is a simple structure that can make consistent training much easier to maintain. Here is what it means, whether the evidence supports it, and how women can adapt it to work even better with their cycle.",
   date: "May 15, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Strength"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?w=800&q=85",
   readTime: "5 min read",
   content: `

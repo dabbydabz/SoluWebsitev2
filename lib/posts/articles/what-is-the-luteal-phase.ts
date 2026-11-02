@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The luteal phase is the 10 to 14 days between ovulation and your period, when progesterone peaks then falls sharply. That hormone swing acts on GABA and serotonin, which is why mood, sleep, and hunger shift premenstrually.",
   date: "August 31, 2026",
   category: "Hormonal Health",
+  phase: "Luteal",
+  interests: ["Wellbeing", "Hormonal Health"],
+  topics: ["Mental health"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=800&q=85",
   readTime: "7 min read",
   content: `

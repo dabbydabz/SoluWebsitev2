@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The best period tracker app matches its prediction method to how regular your cycles are, since accuracy ranges from 72% to 88%. No single app is most accurate for every cycle.",
   date: "August 10, 2026",
   category: "Fertility",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "An AMH test cannot pinpoint when your menopause will start. Low AMH links to earlier menopause, but predictions can be 2 to 12 years wide.",
   date: "October 19, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health", "Fertility"],
+  topics: ["Perimenopause", "Fertility"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=800&q=85",
   readTime: "6 min read",
   content: `

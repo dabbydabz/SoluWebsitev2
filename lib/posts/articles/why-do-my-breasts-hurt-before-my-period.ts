@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Breasts hurt before a period because hormones make breast tissue swell. Breast pain affects up to 70% of women at some point and is rarely cancer.",
   date: "October 5, 2026",
   category: "Hormonal Health",
+  phase: "Luteal",
+  interests: ["Hormonal Health"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85",
   readTime: "6 min read",
   content: `

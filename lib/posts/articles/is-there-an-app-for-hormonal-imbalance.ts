@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "No app can diagnose a hormonal imbalance, but the right ones can track the symptoms that reveal one, help you spot patterns over time, and give you data that leads to faster diagnosis and better treatment.",
   date: "June 29, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance"],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
   readTime: "6 min read",
   content: `

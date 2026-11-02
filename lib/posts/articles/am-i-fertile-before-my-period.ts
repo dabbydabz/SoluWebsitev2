@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Being fertile 2 to 3 days before your period is unlikely, since ovulation usually happens 12 to 16 days earlier, not right before it. Irregular cycles and a short luteal phase can shift the timing enough to cause real confusion.",
   date: "August 3, 2026",
   category: "Fertility",
+  phase: "Luteal",
+  interests: ["Fertility"],
+  topics: ["Fertility"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
   readTime: "7 min read",
   content: `

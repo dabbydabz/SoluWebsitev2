@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Women should take testosterone only for distressing low libido after menopause, the one use backed by trials, even as US prescribing climbs.",
   date: "September 28, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=85",
   readTime: "6 min read",
   content: `

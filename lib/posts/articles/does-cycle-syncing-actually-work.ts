@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Cycle syncing holds up for nutrition, sleep, and subjective energy awareness, but the claim that women must train in rigid phase-specific splits is not well supported. A 2024 study in The Journal of Physiology found menstrual cycle phase had no measurable effect on muscle protein synthesis after resistance exercise.",
   date: "July 6, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health", "Wellbeing"],
+  topics: ["Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
   readTime: "7 min read",
   content: `

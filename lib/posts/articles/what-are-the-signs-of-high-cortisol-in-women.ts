@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The real signs of high cortisol in women are disrupted sleep, fatigue, midsection weight gain, anxiety, and irregular cycles, not TikTok's cortisol face. Endocrinologists say true cortisol face is a rare sign of conditions like Cushing's syndrome, while everyday puffiness usually comes from poor sleep, alcohol, or sodium.",
   date: "July 27, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Wellbeing", "Hormonal Health"],
+  topics: ["Stress"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&q=85",
   readTime: "7 min read",
   content: `

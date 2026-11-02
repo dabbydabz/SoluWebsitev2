@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "You increase ovulation naturally by correcting weight, insulin resistance, chronic stress, and nutrient gaps like vitamin D and inositol. For women with PCOS, a 5 to 10% weight reduction combined with exercise restores ovulation in most cases within a few cycles.",
   date: "July 20, 2026",
   category: "Fertility",
+  phase: "Ovulation",
+  interests: ["Fertility", "Nutrition"],
+  topics: ["Fertility", "Nutrition"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=85",
   readTime: "6 min read",
   content: `

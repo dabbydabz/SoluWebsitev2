@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Most women only need vitamin D daily from autumn to spring, plus folic acid if pregnancy is possible. Iron and B12 suit specific needs, not everyone.",
   date: "September 28, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Nutrition"],
+  topics: ["Supplements"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=85",
   readTime: "6 min read",
   content: `

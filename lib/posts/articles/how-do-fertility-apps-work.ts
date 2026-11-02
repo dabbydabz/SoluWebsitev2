@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Fertility apps work by combining logged cycle data with an algorithm that estimates the fertile window each month. The most accurate apps update predictions as new physiological data arrives, rather than relying on a fixed calendar average.",
   date: "July 20, 2026",
   category: "Fertility",
+  phase: "Ovulation",
+  interests: ["Fertility"],
+  topics: ["Fertility"],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=85",
   readTime: "6 min read",
   content: `

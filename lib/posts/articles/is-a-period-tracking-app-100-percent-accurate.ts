@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "No period tracking app is 100% accurate, especially when predicting ovulation day and the fertile window. Here is what the research shows about where these apps get it right, where they fall short, and how to get more reliable results.",
   date: "July 13, 2026",
   category: "Fertility",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=800&q=85",
   readTime: "6 min read",
   content: `

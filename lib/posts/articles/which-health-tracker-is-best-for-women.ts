@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Not all health trackers are built with women in mind. The best one for you depends on what you actually want to monitor, whether that is your menstrual cycle, fitness performance, sleep, or all three. Here is an honest breakdown.",
   date: "June 1, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
   readTime: "6 min read",
   content: `

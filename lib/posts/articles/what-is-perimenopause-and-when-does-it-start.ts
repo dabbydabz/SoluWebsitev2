@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Perimenopause is one of the most significant hormonal transitions a woman goes through, yet most women are not told what it is until they are already in it. Here is what perimenopause actually means, when it typically starts, and what the early signs look like.",
   date: "June 15, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Perimenopause"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=85",
   readTime: "6 min read",
   content: `

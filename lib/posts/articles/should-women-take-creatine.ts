@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Creatine is one of the most researched supplements in the world, but most of that research was done on men. The evidence on women is catching up fast — and it reveals benefits that go well beyond muscle building. Here is what you need to know.",
   date: "June 30, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Nutrition", "Movement"],
+  topics: ["Supplements", "Strength"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&q=85",
   readTime: "6 min read",
   content: `

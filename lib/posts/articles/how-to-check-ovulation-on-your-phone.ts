@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "You check ovulation on your phone by logging cycle data, basal body temperature, or ovulation predictor kit results into a fertility app that estimates your fertile window. Accuracy depends heavily on which data you feed the app, not just which app you download.",
   date: "July 6, 2026",
   category: "Fertility",
+  phase: "Ovulation",
+  interests: ["Fertility"],
+  topics: ["Fertility"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800&q=85",
   readTime: "6 min read",
   content: `

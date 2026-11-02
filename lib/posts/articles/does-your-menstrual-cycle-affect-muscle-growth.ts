@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Your menstrual cycle phase does not measurably affect muscle growth, a 2025 muscle-biopsy study confirms. Energy, effort, and injury risk still shift by phase, just not the muscle-building response itself.",
   date: "August 17, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Strength"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&q=85",
   readTime: "7 min read",
   content: `

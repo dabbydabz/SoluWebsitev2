@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Fit 30 minutes of exercise into a busy day by splitting it into three 10-minute bouts. Research shows split sessions match one long workout.",
   date: "October 19, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=85",
   readTime: "6 min read",
   content: `

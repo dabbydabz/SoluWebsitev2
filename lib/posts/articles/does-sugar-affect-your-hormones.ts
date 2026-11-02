@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Sugar affects hormones through insulin: repeated blood-sugar spikes raise testosterone and lower SHBG, and WHO advises keeping free sugars under 10% of daily calories. Whole fruit is not the concern; refined sugar and sweet drinks drive the effect.",
   date: "September 7, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Nutrition", "Hormonal Health"],
+  topics: ["Nutrition", "Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=800&q=85",
   readTime: "7 min read",
   content: `

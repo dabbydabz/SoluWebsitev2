@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "PMOS is the new name for PCOS, adopted in May 2026. It affects 1 in 8 women, and the name now reflects its hormonal and metabolic effects, not cysts.",
   date: "October 11, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["PCOS"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=85",
   readTime: "6 min read",
   content: `

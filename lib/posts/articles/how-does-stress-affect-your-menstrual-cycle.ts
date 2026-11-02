@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Stress affects your menstrual cycle mainly by delaying ovulation, so periods come late or stop. High stress is also tied to worse PMS and period pain.",
   date: "September 28, 2026",
   category: "Wellbeing",
+  phase: "General",
+  interests: ["Wellbeing", "Hormonal Health"],
+  topics: ["Stress"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=800&q=85",
   readTime: "6 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The best time of day for women to work out is the one they can repeat. In a 12-week trial, morning cut more belly fat and evening built more strength.",
   date: "October 11, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800&q=85",
   readTime: "6 min read",
   content: `

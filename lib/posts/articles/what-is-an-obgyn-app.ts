@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "An OB-GYN app is a digital health tool that helps women manage their reproductive health, track symptoms, and in some cases connect with clinicians remotely. Here is what they actually do, who they are for, and the best options available right now.",
   date: "June 22, 2026",
   category: "Wellbeing",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
   readTime: "5 min read",
   content: `

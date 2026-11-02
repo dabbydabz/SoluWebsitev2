@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Seed cycling is not proven to balance hormones, though a 2025 review of 10 small studies found promising PMS signals. The seeds themselves are nutritious and low risk for most women.",
   date: "September 21, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Nutrition", "Hormonal Health"],
+  topics: ["Hormonal balance", "Nutrition"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=800&q=85",
   readTime: "5 min read",
   content: `

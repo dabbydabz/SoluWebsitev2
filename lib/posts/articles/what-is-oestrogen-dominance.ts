@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Oestrogen dominance is not a formal diagnosis; it describes oestrogen acting unopposed by progesterone, most often across the 3.4% to 18.6% of cycles that do not produce ovulation.",
   date: "September 14, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: ["Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?w=800&q=85",
   readTime: "7 min read",
   content: `

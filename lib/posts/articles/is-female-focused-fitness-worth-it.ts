@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Female-specific fitness programmes and apps are growing fast, but are they actually better than generic alternatives? The short answer is yes, and the research explains why. Here is what the evidence says and what to look for.",
   date: "May 19, 2026",
   category: "Movement",
+  phase: "General",
+  interests: ["Movement"],
+  topics: ["Strength"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
   readTime: "5 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Libido changes throughout the menstrual cycle because oestrogen and testosterone rise before ovulation, then progesterone rises and suppresses desire. Desire typically peaks near ovulation and dips before a period starts.",
   date: "August 3, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health", "Wellbeing"],
+  topics: ["Hormonal balance"],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
   readTime: "7 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Premenstrual fatigue comes from falling progesterone disrupting sleep quality in the 3 to 5 days before a period, not from shorter sleep. It lifts once bleeding starts.",
   date: "September 14, 2026",
   category: "Sleep",
+  phase: "Luteal",
+  interests: ["Sleep", "Hormonal Health"],
+  topics: ["Sleep"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=800&q=85",
   readTime: "7 min read",
   content: `

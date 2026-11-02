@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "You do not need to spend money to build a consistent fitness routine. The best free fitness apps for women in 2026 offer genuinely comprehensive features, but knowing which ones account for how your body actually works makes all the difference.",
   date: "June 22, 2026",
   category: "Movement",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=85",
   readTime: "6 min read",
   content: `

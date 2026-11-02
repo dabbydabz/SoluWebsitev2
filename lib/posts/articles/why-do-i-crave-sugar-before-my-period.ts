@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Sugar cravings before a period are driven by rising progesterone and falling serotonin, not a lack of willpower. Here is what causes the luteal-phase craving window and how to manage it.",
   date: "August 10, 2026",
   category: "Hormonal Health",
+  phase: "Luteal",
+  interests: ["Nutrition"],
+  topics: ["Nutrition"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=85",
   readTime: "7 min read",
   content: `

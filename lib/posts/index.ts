@@ -1,6 +1,7 @@
 // Each article lives in its own file under ./articles/<slug>.ts.
 // To publish a new article: create ./articles/<slug>.ts, import it below, and append it to the END of `posts`.
 // Array order matters: the first entry is the oldest article and the last entry is the newest.
+// Every article must set phase, interests, topics and inAppFeed (see types.ts). These feed the in-app Today page article section.
 import type { Post } from "./types"
 import understandingYourFourCyclePhases from "./articles/understanding-your-four-cycle-phases"
 import eatingForYourCycle from "./articles/eating-for-your-cycle"

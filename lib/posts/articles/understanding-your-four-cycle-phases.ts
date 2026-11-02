@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "If you've ever wondered why your energy, mood, and motivation seem to shift without warning, your menstrual cycle is likely the answer. Here is a clear breakdown of each phase and what it actually means for how you feel day to day.",
   date: "May 18, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: ["Hormonal Health"],
+  topics: [],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=85",
   readTime: "5 min read",
   content: `

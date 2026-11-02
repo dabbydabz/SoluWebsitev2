@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "With hundreds of health apps available, finding the ones that genuinely work for women's bodies can take real research. This guide cuts through the noise and reviews the most recommended options across cycle tracking, fitness, nutrition, and holistic wellness.",
   date: "May 29, 2026",
   category: "Hormonal Health",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
   readTime: "7 min read",
   content: `

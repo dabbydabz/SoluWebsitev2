@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Clue, founded by Danish entrepreneur Ida Tin in 2012, is the most widely used period tracking app founded by a woman. Natural Cycles, co-founded by physicist Elina Berglund, is another prominent woman-led fertility app built around an FDA-cleared algorithm.",
   date: "July 27, 2026",
   category: "Wellbeing",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&q=85",
   readTime: "6 min read",
   content: `

@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "What you eat directly influences how your hormones behave. The right foods can reduce PMS, support ovulation, stabilise mood, and keep your cycle more regular. Here is a practical, evidence-based guide to eating for hormonal balance.",
   date: "June 8, 2026",
   category: "Nutrition",
+  phase: "General",
+  interests: ["Nutrition", "Hormonal Health"],
+  topics: ["Nutrition", "Hormonal balance"],
+  inAppFeed: true,
   image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=85",
   readTime: "6 min read",
   content: `

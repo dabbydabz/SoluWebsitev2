@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "Period tracking apps range from about 72% to 88% accurate, depending on the tracking method rather than the brand. Wearable-based apps outperform calendar-only predictions, especially for irregular cycles.",
   date: "August 3, 2026",
   category: "Fertility",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=85",
   readTime: "7 min read",
   content: `

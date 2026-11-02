@@ -6,6 +6,10 @@ const post: Post = {
   excerpt: "The best Flo alternatives are Clue, Natural Cycles, Apple Cycle Tracking, and Solu, each handling your data differently. This guide compares privacy practices, prediction accuracy, and daily guidance so you can choose based on what matters most to you.",
   date: "August 17, 2026",
   category: "Wellbeing",
+  phase: "General",
+  interests: [],
+  topics: [],
+  inAppFeed: false,
   image: "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=800&q=85",
   readTime: "7 min read",
   content: `
