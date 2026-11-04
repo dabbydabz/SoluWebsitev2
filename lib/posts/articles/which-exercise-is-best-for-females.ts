@@ -26,7 +26,7 @@ const post: Post = {
 <p>Intensity can be varied across the month. Many women find interval sessions feel strongest in the days after a period ends, while steady-state cardio at a conversational pace feels more manageable in the days before a period. The question of whether short sessions are enough is answered in <a href="/blog/is-30-minutes-of-exercise-enough-for-females">is 30 minutes of exercise enough for females</a>.</p>
 
 <h2>Are Yoga and Pilates Good Exercise for Women?</h2>
-<p>Yoga and Pilates are good exercise for women because they build core strength, mobility, and balance, and they give a lower-intensity option for days when energy or comfort is low. They do not replace progressive strength training or aerobic work, but they complete a weekly routine and support recovery between harder sessions.</p>
+<p>Yoga and Pilates are good exercise for women because they build core strength, mobility, and balance, and they give a lower-intensity option for days when energy or comfort is low. How Pilates compares with lifting weights is covered in the guide to <a href="/blog/does-pilates-count-as-strength-training">whether Pilates counts as strength training</a>. They do not replace progressive strength training or aerobic work, but they complete a weekly routine and support recovery between harder sessions.</p>
 <p>During a period or in the last few days before one, swapping a hard session for Pilates or yoga keeps the training habit intact without forcing intensity. This is a practical comfort choice rather than a physiological requirement, which is the point the next section addresses.</p>
 
 <h2>Does the Menstrual Cycle Change Which Exercise Is Best?</h2>

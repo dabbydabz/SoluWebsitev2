@@ -81,6 +81,7 @@ import whyDoIHaveMoreEnergyTheWeekAfterMyPeriod from "./articles/why-do-i-have-m
 import doYouNeedMoreIronDuringYourPeriod from "./articles/do-you-need-more-iron-during-your-period"
 import whyDoIGetPainWhenIOvulate from "./articles/why-do-i-get-pain-when-i-ovulate"
 import whyDoIBreakOutBeforeMyPeriod from "./articles/why-do-i-break-out-before-my-period"
+import doesPilatesCountAsStrengthTraining from "./articles/does-pilates-count-as-strength-training"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -165,6 +166,7 @@ export const posts: Post[] = [
   doYouNeedMoreIronDuringYourPeriod,
   whyDoIGetPainWhenIOvulate,
   whyDoIBreakOutBeforeMyPeriod,
+  doesPilatesCountAsStrengthTraining,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
