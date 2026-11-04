@@ -10,7 +10,7 @@ const post: Post = {
   interests: ["Hormonal Health", "Fertility"],
   topics: ["Fertility", "Hormonal balance"],
   inAppFeed: true,
-  image: "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=800&q=85",
+  image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=85",
   readTime: "6 min read",
   content: `
 <p>Ovulation pain happens because the ovary releasing an egg triggers a one-sided ache or twinge, usually lasting from a few minutes to 1 or 2 days, according to the <a href="https://www.nhs.uk/symptoms/ovulation-pain/" target="_blank" rel="noopener noreferrer">NHS</a>. Known medically as mittelschmerz, it may affect over 40% of women of reproductive age and is rarely a sign of anything serious.</p>
