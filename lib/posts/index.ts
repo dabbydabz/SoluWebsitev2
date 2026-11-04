@@ -77,6 +77,7 @@ import isEndometriosisLinkedToMigraines from "./articles/is-endometriosis-linked
 import whatToEatBeforeAMorningWorkout from "./articles/what-to-eat-before-a-morning-workout"
 import howMuchWaterShouldWomenDrinkWhenExercising from "./articles/how-much-water-should-women-drink-when-exercising"
 import whatHappensToYourBodyWhenYouReachMenopause from "./articles/what-happens-to-your-body-when-you-reach-menopause"
+import whyDoIHaveMoreEnergyTheWeekAfterMyPeriod from "./articles/why-do-i-have-more-energy-the-week-after-my-period"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -157,6 +158,7 @@ export const posts: Post[] = [
   whatToEatBeforeAMorningWorkout,
   howMuchWaterShouldWomenDrinkWhenExercising,
   whatHappensToYourBodyWhenYouReachMenopause,
+  whyDoIHaveMoreEnergyTheWeekAfterMyPeriod,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
