@@ -67,6 +67,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Post-Period Energy", pattern: /\bmore energy (the week )?after (my|your|a) period\b/i },
   { name: "Iron", pattern: /\biron\b/i },
   { name: "Mittelschmerz", pattern: /\bmittelschmerz\b|\bovulation pain\b|\bpain when (I|you) ovulate\b/i },
+  { name: "Premenstrual Acne", pattern: /\bpremenstrual acne\b|\bbreak out before (my|your|a) period\b/i },
 ]
 
 const MIN_ENTITIES = 2

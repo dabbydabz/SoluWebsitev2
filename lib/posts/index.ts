@@ -80,6 +80,7 @@ import whatHappensToYourBodyWhenYouReachMenopause from "./articles/what-happens-
 import whyDoIHaveMoreEnergyTheWeekAfterMyPeriod from "./articles/why-do-i-have-more-energy-the-week-after-my-period"
 import doYouNeedMoreIronDuringYourPeriod from "./articles/do-you-need-more-iron-during-your-period"
 import whyDoIGetPainWhenIOvulate from "./articles/why-do-i-get-pain-when-i-ovulate"
+import whyDoIBreakOutBeforeMyPeriod from "./articles/why-do-i-break-out-before-my-period"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -163,6 +164,7 @@ export const posts: Post[] = [
   whyDoIHaveMoreEnergyTheWeekAfterMyPeriod,
   doYouNeedMoreIronDuringYourPeriod,
   whyDoIGetPainWhenIOvulate,
+  whyDoIBreakOutBeforeMyPeriod,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
