@@ -78,6 +78,7 @@ import whatToEatBeforeAMorningWorkout from "./articles/what-to-eat-before-a-morn
 import howMuchWaterShouldWomenDrinkWhenExercising from "./articles/how-much-water-should-women-drink-when-exercising"
 import whatHappensToYourBodyWhenYouReachMenopause from "./articles/what-happens-to-your-body-when-you-reach-menopause"
 import whyDoIHaveMoreEnergyTheWeekAfterMyPeriod from "./articles/why-do-i-have-more-energy-the-week-after-my-period"
+import doYouNeedMoreIronDuringYourPeriod from "./articles/do-you-need-more-iron-during-your-period"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -159,6 +160,7 @@ export const posts: Post[] = [
   howMuchWaterShouldWomenDrinkWhenExercising,
   whatHappensToYourBodyWhenYouReachMenopause,
   whyDoIHaveMoreEnergyTheWeekAfterMyPeriod,
+  doYouNeedMoreIronDuringYourPeriod,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

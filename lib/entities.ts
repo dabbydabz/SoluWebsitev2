@@ -65,6 +65,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Pre-Workout Nutrition", pattern: /\b(eat|eating|food) before a (morning )?workout\b|\bpre-workout (snack|meal|nutrition)\b|\bfasted (training|exercise)\b/i },
   { name: "Hydration", pattern: /\bhydration\b|\bhow much water\b|\bsweat rate\b/i },
   { name: "Post-Period Energy", pattern: /\bmore energy (the week )?after (my|your|a) period\b/i },
+  { name: "Iron", pattern: /\biron\b/i },
 ]
 
 const MIN_ENTITIES = 2
