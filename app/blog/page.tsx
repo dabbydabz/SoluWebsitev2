@@ -8,23 +8,23 @@ import { BlogGrid } from "@/components/blog-grid"
 
 export const metadata = {
   title: "Women's Health Blog: Hormones & Cycle Wellness | Solu",
-  description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+  description: "Evidence-based guides to periods, hormones, cycle syncing, nutrition, movement and sleep, written for women by Solu, the women's wellness app.",
   alternates: {
     canonical: "https://www.solu.ae/blog",
   },
   openGraph: {
     title: "Women's Health Blog: Hormones & Cycle Wellness | Solu",
-    description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    description: "Evidence-based guides to periods, hormones, cycle syncing, nutrition, movement and sleep, written for women by Solu, the women's wellness app.",
     url: "https://www.solu.ae/blog",
     siteName: "Solu",
     type: "website",
     locale: "en_US",
-    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu: women's health, fitness and wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Women's Health Blog: Hormones & Cycle Wellness | Solu",
-    description: "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    description: "Evidence-based guides to periods, hormones, cycle syncing, nutrition, movement and sleep, written for women by Solu, the women's wellness app.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
 }
@@ -48,7 +48,7 @@ export default function BlogPage() {
     "@type": "CollectionPage",
     "name": "Solu Health Blog",
     "url": "https://www.solu.ae/blog",
-    "description": "Expert insights on hormonal health, cycle syncing, nutrition, movement, and sleep — written for real women living in sync with their bodies.",
+    "description": "Evidence-based guides to periods, hormones, cycle syncing, nutrition, movement and sleep, written for women by Solu, the women's wellness app.",
     "inLanguage": "en",
     "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
     "mainEntity": {
