@@ -42,6 +42,13 @@ export function GET() {
 
   return NextResponse.json(
     { count: articles.length, articles },
-    { headers: { "Access-Control-Allow-Origin": "*" } },
+    {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        // App data feed, not a page: keep it out of search indexes so it
+        // never competes with the /blog/[slug] articles it duplicates.
+        "X-Robots-Tag": "noindex",
+      },
+    },
   )
 }
