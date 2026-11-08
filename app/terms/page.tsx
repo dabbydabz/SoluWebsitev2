@@ -7,14 +7,14 @@ const LAST_UPDATED = "1 July 2026"
 const LAST_UPDATED_ISO = "2026-07-01"
 
 export const metadata = {
-  title: "Terms of Service — Solu",
-  description: "The terms and conditions governing your use of Solu's website and app.",
+  title: "Terms of Service | Solu Women's Wellness App",
+  description: "The terms for using Solu, a women's wellness app based in Dubai: free and paid tiers, billing and cancellation, the health disclaimer and UAE governing law.",
   alternates: {
     canonical: "https://www.solu.ae/terms",
   },
   openGraph: {
-    title: "Terms of Service — Solu",
-    description: "The terms and conditions governing your use of Solu's website and app.",
+    title: "Terms of Service | Solu Women's Wellness App",
+    description: "The terms for using Solu, a women's wellness app based in Dubai: free and paid tiers, billing and cancellation, the health disclaimer and UAE governing law.",
     url: "https://www.solu.ae/terms",
     siteName: "Solu",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Terms of Service — Solu",
-    description: "The terms and conditions governing your use of Solu's website and app.",
+    title: "Terms of Service | Solu Women's Wellness App",
+    description: "The terms for using Solu, a women's wellness app based in Dubai: free and paid tiers, billing and cancellation, the health disclaimer and UAE governing law.",
     images: ["https://www.solu.ae/opengraph-image"],
   },
 }
@@ -267,9 +267,9 @@ export default function TermsPage() {
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Terms of Service — Solu",
+        "name": "Terms of Service | Solu Women's Wellness App",
         "url": "https://www.solu.ae/terms",
-        "description": "The terms and conditions governing your use of Solu's website and app.",
+        "description": "The terms for using Solu, a women's wellness app based in Dubai: free and paid tiers, billing and cancellation, the health disclaimer and UAE governing law.",
         "dateModified": LAST_UPDATED_ISO,
         "isPartOf": { "@type": "WebSite", "@id": "https://www.solu.ae/#website", "name": "Solu", "url": "https://www.solu.ae" },
         "publisher": { "@type": "Organization", "@id": "https://www.solu.ae/#organization", "name": "Solu", "url": "https://www.solu.ae" },
