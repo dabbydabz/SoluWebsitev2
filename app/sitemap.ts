@@ -57,6 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: "https://www.solu.ae/dfc",
+      lastModified: new Date("2026-11-09"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: "https://www.solu.ae/privacy",
       lastModified: new Date("2026-07-01"),
       changeFrequency: "yearly",
