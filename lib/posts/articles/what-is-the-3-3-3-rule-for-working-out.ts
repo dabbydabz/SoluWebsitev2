@@ -19,7 +19,7 @@ const post: Post = {
 
 <h2>What do the three threes in the 3-3-3 rule mean?</h2>
 <p><strong>Three types of exercise.</strong> Strength training, cardiovascular exercise, and mobility or recovery work. Covering all three avoids the gaps that come from doing only cardio (less strength and bone loading) or only lifting (less aerobic fitness and range of motion). Why that mix suits women is explained in <a href="/blog/which-exercise-is-best-for-females">which exercise is best for females</a>.</p>
-<p><strong>Three sessions per week.</strong> Enough to drive progress while leaving recovery days between sessions. Consistency over months matters more than squeezing in a fourth or fifth session that gets skipped.</p>
+<p><strong>Three sessions per week.</strong> Enough to drive progress while leaving recovery days between sessions. Which sessions can repeat daily is set out in the guide to <a href="/blog/is-it-okay-to-exercise-every-day-as-a-woman">exercising every day as a woman</a>. Consistency over months matters more than squeezing in a fourth or fifth session that gets skipped.</p>
 <p><strong>Three sets per exercise.</strong> A widely used volume that stimulates strength gains without heavy fatigue, which suits women who are new to resistance training or returning after a break.</p>
 <p>Coaches interpret the rule slightly differently, so it works best as a starting template rather than a fixed prescription.</p>
 

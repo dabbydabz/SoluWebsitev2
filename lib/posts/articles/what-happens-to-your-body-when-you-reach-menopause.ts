@@ -10,7 +10,6 @@ const post: Post = {
   interests: ["Hormonal Health", "Wellbeing"],
   topics: ["Perimenopause", "Hormonal balance"],
   inAppFeed: true,
-  trending: true,
   image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85",
   readTime: "7 min read",
   content: `

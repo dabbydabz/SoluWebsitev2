@@ -83,6 +83,9 @@ import whyDoIGetPainWhenIOvulate from "./articles/why-do-i-get-pain-when-i-ovula
 import whyDoIBreakOutBeforeMyPeriod from "./articles/why-do-i-break-out-before-my-period"
 import doesPilatesCountAsStrengthTraining from "./articles/does-pilates-count-as-strength-training"
 import whyDoIGetDiarrhoeaOnMyPeriod from "./articles/why-do-i-get-diarrhoea-on-my-period"
+import isItOkayToExerciseEveryDayAsAWoman from "./articles/is-it-okay-to-exercise-every-day-as-a-woman"
+import canExercisingTooMuchStopYourPeriod from "./articles/can-exercising-too-much-stop-your-period"
+import whyCantISleepDuringPerimenopause from "./articles/why-cant-i-sleep-during-perimenopause"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -169,6 +172,9 @@ export const posts: Post[] = [
   whyDoIBreakOutBeforeMyPeriod,
   doesPilatesCountAsStrengthTraining,
   whyDoIGetDiarrhoeaOnMyPeriod,
+  isItOkayToExerciseEveryDayAsAWoman,
+  canExercisingTooMuchStopYourPeriod,
+  whyCantISleepDuringPerimenopause,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

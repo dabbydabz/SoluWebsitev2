@@ -42,7 +42,7 @@ const post: Post = {
 
 <h2>When Should a Woman See a Doctor About Sleep?</h2>
 <p>A woman should see a GP if she has had trouble sleeping for months, if self-help changes have not worked, or if poor sleep makes daily life hard to cope with. These are the NHS thresholds for insomnia. Loud snoring with pauses in breathing, or night sweats that wake her several times a week, also justify an appointment.</p>
-<p>Daytime sleepiness despite 7 to 9 hours in bed can point to sleep apnoea, iron deficiency, or a thyroid problem. A GP can test for each. New insomnia with hot flushes or night sweats in the 40s often reflects perimenopause, which is treatable. Pre-period discomfort can also keep women awake, including breast tenderness, explained in the guide to <a href="/blog/why-do-my-breasts-hurt-before-my-period">why breasts hurt before a period</a>.</p>
+<p>Daytime sleepiness despite 7 to 9 hours in bed can point to sleep apnoea, iron deficiency, or a thyroid problem. A GP can test for each. New insomnia with hot flushes or night sweats in the 40s often reflects perimenopause, which is treatable, as the guide to <a href="/blog/why-cant-i-sleep-during-perimenopause">sleep problems in perimenopause</a> explains. Pre-period discomfort can also keep women awake, including breast tenderness, explained in the guide to <a href="/blog/why-do-my-breasts-hurt-before-my-period">why breasts hurt before a period</a>.</p>
 
 <h2>Key Takeaways</h2>
 <ul>
