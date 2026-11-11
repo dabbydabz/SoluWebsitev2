@@ -86,6 +86,7 @@ import whyDoIGetDiarrhoeaOnMyPeriod from "./articles/why-do-i-get-diarrhoea-on-m
 import isItOkayToExerciseEveryDayAsAWoman from "./articles/is-it-okay-to-exercise-every-day-as-a-woman"
 import canExercisingTooMuchStopYourPeriod from "./articles/can-exercising-too-much-stop-your-period"
 import whyCantISleepDuringPerimenopause from "./articles/why-cant-i-sleep-during-perimenopause"
+import howLongShouldYourFollicularPhaseBe from "./articles/how-long-should-your-follicular-phase-be"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -175,6 +176,7 @@ export const posts: Post[] = [
   isItOkayToExerciseEveryDayAsAWoman,
   canExercisingTooMuchStopYourPeriod,
   whyCantISleepDuringPerimenopause,
+  howLongShouldYourFollicularPhaseBe,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

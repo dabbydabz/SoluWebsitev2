@@ -19,7 +19,7 @@ const post: Post = {
 
 <h2>What Happens to Your Hormones in the Week After Your Period?</h2>
 <p>In the week after a period, oestrogen (estrogen) rises steadily as an egg develops in the ovary, while progesterone stays low. This stretch is the follicular phase, which runs from the first day of bleeding until ovulation. According to the <a href="https://www.nhs.uk/conditions/periods/fertility-in-the-menstrual-cycle/" target="_blank" rel="noopener noreferrer">NHS guide to the menstrual cycle</a>, rising oestrogen causes the ovary to release an egg and the womb lining to thicken.</p>
-<p>The follicular phase is longer and more variable than many women expect. The <a href="https://pubmed.ncbi.nlm.nih.gov/31482137/" target="_blank" rel="noopener noreferrer">600,000-cycle analysis</a> found a mean follicular phase of 16.9 days, ranging from 10 to 30 days, against a steadier luteal phase of 12.4 days.</p>
+<p>The follicular phase is longer and more variable than many women expect. The <a href="https://pubmed.ncbi.nlm.nih.gov/31482137/" target="_blank" rel="noopener noreferrer">600,000-cycle analysis</a> found a mean follicular phase of 16.9 days, ranging from 10 to 30 days, against a steadier luteal phase of 12.4 days. What counts as a normal range is set out in the guide to <a href="/blog/how-long-should-your-follicular-phase-be">how long the follicular phase should be</a>.</p>
 <div style="overflow-x:auto"><table><thead><tr><th>Part of the follicular phase</th><th>Typical days</th><th>What changes</th></tr></thead><tbody>
 <tr><td>Period</td><td>Days 1 to 5</td><td>Cramps and physical symptoms peak</td></tr>
 <tr><td>Week after the period</td><td>About days 6 to 12</td><td>Oestrogen rises, symptoms fade</td></tr>
