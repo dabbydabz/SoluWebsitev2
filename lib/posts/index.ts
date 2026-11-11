@@ -91,6 +91,7 @@ import whatHelpsPeriodCrampsTheFastest from "./articles/what-helps-period-cramps
 import isSpottingDuringOvulationNormal from "./articles/is-spotting-during-ovulation-normal"
 import whyDoIGetHeadachesBeforeMyPeriod from "./articles/why-do-i-get-headaches-before-my-period"
 import doesPilatesStrengthenYourPelvicFloor from "./articles/does-pilates-strengthen-your-pelvic-floor"
+import whyDoIGetBloatedBeforeMyPeriod from "./articles/why-do-i-get-bloated-before-my-period"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -185,6 +186,7 @@ export const posts: Post[] = [
   isSpottingDuringOvulationNormal,
   whyDoIGetHeadachesBeforeMyPeriod,
   doesPilatesStrengthenYourPelvicFloor,
+  whyDoIGetBloatedBeforeMyPeriod,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
