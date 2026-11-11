@@ -71,6 +71,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Pilates", pattern: /\bpilates\b/i },
   { name: "Period Diarrhoea", pattern: /\bdiarrh(o)?ea (on|during) (my|your|a) period\b|\bperiod diarrh(o)?ea\b/i },
   { name: "Hypothalamic Amenorrhoea", pattern: /\bhypothalamic amenorrh(o)?ea\b|\bexercising too much\b/i },
+  { name: "Period Cramps", pattern: /\bperiod cramps\b/i },
 ]
 
 const MIN_ENTITIES = 2

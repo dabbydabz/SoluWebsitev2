@@ -87,6 +87,7 @@ import isItOkayToExerciseEveryDayAsAWoman from "./articles/is-it-okay-to-exercis
 import canExercisingTooMuchStopYourPeriod from "./articles/can-exercising-too-much-stop-your-period"
 import whyCantISleepDuringPerimenopause from "./articles/why-cant-i-sleep-during-perimenopause"
 import howLongShouldYourFollicularPhaseBe from "./articles/how-long-should-your-follicular-phase-be"
+import whatHelpsPeriodCrampsTheFastest from "./articles/what-helps-period-cramps-the-fastest"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -177,6 +178,7 @@ export const posts: Post[] = [
   canExercisingTooMuchStopYourPeriod,
   whyCantISleepDuringPerimenopause,
   howLongShouldYourFollicularPhaseBe,
+  whatHelpsPeriodCrampsTheFastest,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
