@@ -90,6 +90,7 @@ import howLongShouldYourFollicularPhaseBe from "./articles/how-long-should-your-
 import whatHelpsPeriodCrampsTheFastest from "./articles/what-helps-period-cramps-the-fastest"
 import isSpottingDuringOvulationNormal from "./articles/is-spotting-during-ovulation-normal"
 import whyDoIGetHeadachesBeforeMyPeriod from "./articles/why-do-i-get-headaches-before-my-period"
+import doesPilatesStrengthenYourPelvicFloor from "./articles/does-pilates-strengthen-your-pelvic-floor"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -183,6 +184,7 @@ export const posts: Post[] = [
   whatHelpsPeriodCrampsTheFastest,
   isSpottingDuringOvulationNormal,
   whyDoIGetHeadachesBeforeMyPeriod,
+  doesPilatesStrengthenYourPelvicFloor,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
