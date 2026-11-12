@@ -19,7 +19,7 @@ const post: Post = {
 
 <h2>What Does the Pelvic Floor Do?</h2>
 <p>The pelvic floor is a sling of muscles across the base of the pelvis that supports the bladder, bowel and womb and helps keep the bladder closed under pressure. When these muscles weaken, stress urinary incontinence can follow: urine leaks when the bladder is under pressure, for example when coughing or laughing, as the <a href="https://www.nhs.uk/conditions/urinary-incontinence/" target="_blank" rel="noopener noreferrer">NHS urinary incontinence page</a> describes.</p>
-<p>Many women ask why they leak a little when they jump, sneeze or run, and weakened pelvic floor muscles are the usual reason. The NHS lists pregnancy and vaginal birth, obesity, a family history and increasing age as risk factors, and the wider changes after the last period are covered in <a href="/blog/what-happens-to-your-body-when-you-reach-menopause">what happens to the body at menopause</a>. Leaks are common but not something to accept as normal at any age.</p>
+<p>Leaking a little when jumping, sneezing or running is usually a sign of weakened pelvic floor muscles. The NHS lists pregnancy and vaginal birth, obesity, a family history and increasing age as risk factors, and the wider changes after the last period are covered in <a href="/blog/what-happens-to-your-body-when-you-reach-menopause">what happens to the body at menopause</a>. Leaks are common but not something to accept as normal at any age.</p>
 
 <h2>Does Pilates Work the Pelvic Floor on Its Own?</h2>
 <p>General Pilates on its own does not appear to strengthen the pelvic floor. A <a href="https://pubmed.ncbi.nlm.nih.gov/31103107/" target="_blank" rel="noopener noreferrer">2019 meta-analysis in the Journal of Bodywork and Movement Therapies</a> found no difference in pelvic floor function between healthy women who did Pilates and those who did not. It pooled only 2 trials, so the evidence is thin rather than conclusive.</p>
@@ -62,7 +62,7 @@ const post: Post = {
 <ul>
   <li><a href="/blog/which-exercise-is-best-for-females">Which Exercise is Best for Females?</a></li>
   <li><a href="/blog/is-it-okay-to-exercise-every-day-as-a-woman">Is It Okay to Exercise Every Day as a Woman?</a></li>
-  <li><a href="/blog/what-is-perimenopause-and-when-does-it-start">What is Perimenopause and When Does It Start?</a></li>
+  <li><a href="/blog/does-pilates-count-as-strength-training">Does Pilates Count as Strength Training?</a></li>
 </ul>
 `.trim(),
 }

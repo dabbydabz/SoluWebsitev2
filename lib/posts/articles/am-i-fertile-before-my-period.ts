@@ -3,7 +3,7 @@ import type { Post } from "../types"
 const post: Post = {
   slug: "am-i-fertile-before-my-period",
   title: "Am I Fertile 2 to 3 Days Before My Period?",
-  excerpt: "Being fertile 2 to 3 days before your period is unlikely, since ovulation usually happens 12 to 16 days earlier, not right before it. Irregular cycles and a short luteal phase can shift the timing enough to cause real confusion.",
+  excerpt: "Being fertile 2 to 3 days before your period is unlikely, since ovulation usually happens about 12 to 14 days earlier, not right before it. Irregular cycles and a short luteal phase can shift the timing enough to cause real confusion.",
   date: "August 3, 2026",
   category: "Fertility",
   phase: "Luteal",
@@ -13,7 +13,7 @@ const post: Post = {
   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=85",
   readTime: "7 min read",
   content: `
-<p>Being fertile 2 to 3 days before your period is biologically unlikely for most women, since ovulation typically occurs 12 to 16 days before the next period starts, not immediately beforehand. Confusion usually comes from irregular cycles, a naturally short luteal phase, or simply mistiming when ovulation happened that month, all of which can shift the fertile window away from where a calendar app assumes it falls.</p>
+<p>Being fertile 2 to 3 days before your period is biologically unlikely for most women, since ovulation typically occurs about 12 to 14 days before the next period starts, not immediately beforehand. Confusion usually comes from irregular cycles, a naturally short luteal phase, or simply mistiming when ovulation happened that month, all of which can shift the fertile window away from where a calendar app assumes it falls.</p>
 
 <h2>What Does "Fertile 2 to 3 Days Before Your Period" Actually Mean?</h2>
 <p>This article draws on peer-reviewed research published in the New England Journal of Medicine and Human Reproduction, along with NHS fertility guidance current as of August 2026. In a typical monthly cycle, the phrase describes a mismatch: a woman believes she is fertile in the days right before her period, when the fertile window is actually defined by ovulation, not by the start of menstruation. A landmark study on <a href="https://pubmed.ncbi.nlm.nih.gov/7477165/" target="_blank" rel="noopener noreferrer">timing of intercourse in relation to ovulation</a>, published in the New England Journal of Medicine, tracked 625 cycles and found that pregnancy only occurred within a six-day window ending on the day of ovulation itself, with conception odds falling to nearly zero more than a day or two afterward. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> addresses this gap by building each woman's fertile-window estimate from her own logged temperature, cervical mucus, and ovulation predictor kit (OPK) results, rather than a generic 28-day template, which is usually where the "fertile right before my period" confusion starts in the first place.</p>

@@ -19,7 +19,7 @@ const post: Post = {
 
 <h2>Is It Better to Work Out Fasted or Fed in the Morning?</h2>
 <p>Working out fed is better for performance in longer morning sessions, while fasted training makes little measurable difference to short, easy ones. Fasted training means exercising before the first meal after an overnight fast. The 2018 meta-analysis found pre-exercise feeding enhanced prolonged aerobic performance but not shorter-duration performance, while fasted exercise raised fat release into the blood afterwards.</p>
-<p>The authors note fasted sessions may bring some metabolic adaptations, but they call for more research. Many women ask whether it is normal to feel flat on a long fasted run, and this evidence suggests it is a common result of skipping fuel. The ISSN position stand adds that meeting energy needs, with meals timed around training, is the primary nutrition priority for active women.</p>
+<p>The authors note fasted sessions may bring some metabolic adaptations, but they call for more research. Feeling flat on a long fasted run is normal, and this evidence suggests it is a common result of skipping fuel. The ISSN position stand adds that meeting energy needs, with meals timed around training, is the primary nutrition priority for active women.</p>
 <div style="overflow-x:auto"><table><thead><tr><th>Situation</th><th>Fasted</th><th>Fed</th></tr></thead><tbody>
 <tr><td>Short, easy session</td><td>Little effect on performance</td><td>Small snack optional</td></tr>
 <tr><td>Prolonged endurance session</td><td>Lower performance</td><td>Better performance</td></tr>

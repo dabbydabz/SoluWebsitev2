@@ -33,8 +33,8 @@ const post: Post = {
 <p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Rating cramp severity each period in Solu's symptom log</a> shows whether a remedy is making a difference over several cycles.</p>
 
 <h2>When Should You Take Ibuprofen for Period Pain?</h2>
-<p>Ibuprofen and other NSAIDs work best when taken at the first sign of a period or pain, not once cramps are already severe. <a href="https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods" target="_blank" rel="noopener noreferrer">ACOG</a> patient guidance, still current in 2026, states that "NSAIDs work best if taken at the first sign of your period or pain," and they are usually needed for only 1 or 2 days. They work by blocking the enzyme that makes prostaglandins.</p>
-<p>Many women ask why painkillers seem to fail once cramps have built up, and timing is a common reason. If cramps usually begin the evening before bleeding, the first dose belongs at that first twinge, not the next morning. NSAIDs are not suitable for everyone: ACOG lists bleeding disorders, asthma, aspirin allergy, liver damage, stomach disorders and ulcers as reasons to avoid them. The Cochrane review found NSAIDs worked better than paracetamol in three trials, though with more stomach side effects than placebo.</p>
+<p>Ibuprofen and other NSAIDs work best when taken at the first sign of a period or pain, not once cramps are already severe. <a href="https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods" target="_blank" rel="noopener noreferrer">ACOG</a> patient guidance states that "NSAIDs work best if taken at the first sign of your period or pain," and they are usually needed for only 1 or 2 days. They work by blocking the enzyme that makes prostaglandins.</p>
+<p>When painkillers seem to fail once cramps have built up, timing is a common reason. If cramps usually begin the evening before bleeding, the first dose belongs at that first twinge, not the next morning. NSAIDs are not suitable for everyone: ACOG lists bleeding disorders, asthma, aspirin allergy, liver damage, stomach disorders and ulcers as reasons to avoid them. The Cochrane review found NSAIDs worked better than paracetamol in three trials, though with more stomach side effects than placebo.</p>
 
 <h2>How Should You Use Heat and Movement for Cramps?</h2>
 <p>A heat pad, hot water bottle or warm bath on the lower abdomen is a simple, low-risk first step for cramps. In the 2025 meta-analysis, heat had fewer side effects than NSAIDs, and over 3 months of use it may have matched or slightly beaten them for pain relief. ACOG lists a warm bath or a heating pad on the abdomen among self-care steps.</p>
@@ -54,7 +54,7 @@ const post: Post = {
 
 <h2>Related Reading</h2>
 <ul>
-  <li><a href="/blog/can-you-do-the-dubai-fitness-challenge-on-your-period">Can You Do the Dubai Fitness Challenge on Your Period?</a></li>
+  <li><a href="/blog/why-do-i-get-headaches-before-my-period">Why Do I Get Headaches Before My Period?</a></li>
   <li><a href="/blog/can-your-period-affect-your-sleep-quality">Can Your Period Affect Your Sleep Quality?</a></li>
   <li><a href="/blog/understanding-your-four-cycle-phases">What Are the 4 Phases of My Menstrual Cycle and How Do They Affect My Body?</a></li>
 </ul>

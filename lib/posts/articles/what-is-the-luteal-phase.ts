@@ -3,7 +3,7 @@ import type { Post } from "../types"
 const post: Post = {
   slug: "what-is-the-luteal-phase",
   title: "What Is the Luteal Phase and Why Does It Affect Mood?",
-  excerpt: "The luteal phase is the 10 to 14 days between ovulation and your period, when progesterone peaks then falls sharply. That hormone swing acts on GABA and serotonin, which is why mood, sleep, and hunger shift premenstrually.",
+  excerpt: "The luteal phase is the 12 to 14 days between ovulation and your period, when progesterone peaks then falls sharply. That hormone swing acts on GABA and serotonin, which is why mood, sleep, and hunger shift premenstrually.",
   date: "August 31, 2026",
   category: "Hormonal Health",
   phase: "Luteal",
@@ -13,7 +13,7 @@ const post: Post = {
   image: "https://images.unsplash.com/photo-1515023115689-589c33041d3c?w=800&q=85",
   readTime: "7 min read",
   content: `
-<p>The luteal phase is the roughly 10 to 14 days between ovulation and the start of your next period, when progesterone rises to its monthly peak and then falls sharply alongside oestrogen. That late-phase hormone withdrawal affects GABA and serotonin signalling, body temperature, and appetite, which produces the lower mood, lighter sleep, and increased hunger many women notice premenstrually.</p>
+<p>The luteal phase is the roughly 12 to 14 days between ovulation and the start of your next period, when progesterone rises to its monthly peak and then falls sharply alongside oestrogen. That late-phase hormone withdrawal affects GABA and serotonin signalling, body temperature, and appetite, which produces the lower mood, lighter sleep, and increased hunger many women notice premenstrually.</p>
 <p>This article draws on a 2025 systematic review in Nutrition Reviews, a review in Frontiers in Psychiatry on progesterone metabolites and GABA-A receptors, a 2019 npj Digital Medicine analysis of more than 600,000 cycles, and NHS guidance on premenstrual syndrome current as of August 2026.</p>
 
 <h2>What Happens Hormonally During the Luteal Phase?</h2>
