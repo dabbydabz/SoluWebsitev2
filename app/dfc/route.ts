@@ -6,11 +6,11 @@ const HTML = `<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dubai Fitness Challenge Cycle Planner | Solu</title>
-<meta name="description" content="A free personal plan for the Dubai Fitness Challenge, with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.">
+<meta name="description" content="A free Dubai Fitness Challenge plan with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.">
 <link rel="canonical" href="https://www.solu.ae/dfc">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Dubai Fitness Challenge Cycle Planner | Solu">
-<meta property="og:description" content="A free personal plan for the Dubai Fitness Challenge, with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.">
+<meta property="og:description" content="A free Dubai Fitness Challenge plan with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.">
 <meta property="og:url" content="https://www.solu.ae/dfc">
 <meta property="og:site_name" content="Solu">
 <meta property="og:image" content="https://www.solu.ae/opengraph-image">
@@ -18,13 +18,15 @@ const HTML = `<!doctype html>
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dubai Fitness Challenge Cycle Planner | Solu">
-<meta name="twitter:description" content="A free personal plan for the Dubai Fitness Challenge, with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.">
+<meta name="twitter:description" content="A free Dubai Fitness Challenge plan with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.">
 <meta name="twitter:image" content="https://www.solu.ae/opengraph-image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@context":"https://schema.org","@graph":[
+{"@type":"BreadcrumbList","@id":"https://www.solu.ae/dfc#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.solu.ae"},{"@type":"ListItem","position":2,"name":"Dubai Fitness Challenge Cycle Planner","item":"https://www.solu.ae/dfc"}]},
+{"@type":"FAQPage","@id":"https://www.solu.ae/dfc#webpage","url":"https://www.solu.ae/dfc","name":"Dubai Fitness Challenge Cycle Planner | Solu","description":"A free Dubai Fitness Challenge plan with 30-minute sessions matched to your cycle phase, plus answers to common questions from women taking part.","inLanguage":"en","isPartOf":{"@id":"https://www.solu.ae/#website"},"publisher":{"@id":"https://www.solu.ae/#organization"},"about":{"@type":"Thing","name":"Dubai Fitness Challenge"},"breadcrumb":{"@id":"https://www.solu.ae/dfc#breadcrumb"},"mainEntity":[
 {"@type":"Question","name":"Can you do the Dubai Fitness Challenge on your period?","acceptedAnswer":{"@type":"Answer","text":"Yes, if you feel up to it. The challenge asks for 30 minutes of activity a day, and a gentle walk, stretch or easy yoga session counts. If your pain is severe or unusual, rest and speak to a doctor."}},
 {"@type":"Question","name":"How do you fit 30 minutes of exercise into a busy day?","acceptedAnswer":{"@type":"Answer","text":"Pick a fixed time and treat it like a meeting. If a full block will not fit, try a brisk walk at lunch, a short home workout, or movement you already enjoy with friends or family."}},
 {"@type":"Question","name":"How should women train for a 5K or 10K?","acceptedAnswer":{"@type":"Answer","text":"Build distance gradually, mix easy runs with one faster session a week, add strength work, and include rest days. Many women choose harder sessions on days when their energy is higher and easier ones when it is lower."}},
@@ -33,6 +35,7 @@ const HTML = `<!doctype html>
 {"@type":"Question","name":"How much water should women drink when exercising?","acceptedAnswer":{"@type":"Answer","text":"It depends on your body, the session and the weather. Start hydrated, sip regularly during exercise and drink afterwards, with more in warm conditions."}},
 {"@type":"Question","name":"Is it okay to exercise every day as a woman?","acceptedAnswer":{"@type":"Answer","text":"Daily movement is fine for many women when intensity varies. Keep some days light, and take more rest if you feel run down or keep getting injured."}},
 {"@type":"Question","name":"Can exercising too much stop your period?","acceptedAnswer":{"@type":"Answer","text":"It can, especially when hard training is combined with too little food or recovery. If your periods stop or change suddenly, speak to a doctor."}}
+]}
 ]}
 </script>
 <style>
@@ -115,19 +118,20 @@ footer{margin:56px 0 40px;font-size:14px;color:var(--muted)}
 
   <section>
     <h2>Your questions, answered</h2>
-    <details open><summary>Can you do the Dubai Fitness Challenge on your period?</summary><p>Yes, if you feel up to it. The challenge asks for 30 minutes of activity a day, and a gentle walk, stretch or easy yoga session counts. If your pain is severe or unusual, rest and speak to a doctor. <a href="https://solu.ae/blog/can-you-do-the-dubai-fitness-challenge-on-your-period">Read more</a></p></details>
-    <details><summary>How do you fit 30 minutes of exercise into a busy day?</summary><p>Pick a fixed time and treat it like a meeting. If a full block will not fit, try a brisk walk at lunch, a short home workout, or movement you already enjoy with friends or family. <a href="https://solu.ae/blog/how-to-fit-30-minutes-of-exercise-into-a-busy-day">Read more</a></p></details>
-    <details><summary>How should women train for a 5K or 10K?</summary><p>Build distance gradually, mix easy runs with one faster session a week, add strength work, and include rest days. Many women choose harder sessions on days when their energy is higher and easier ones when it is lower. <a href="https://solu.ae/blog/how-should-women-train-for-a-5k-or-10k">Read more</a></p></details>
-    <details><summary>Is it safe to exercise in the heat in Dubai?</summary><p>Train in the early morning or evening, drink water before you start, and slow down or stop if you feel dizzy or unwell. Choose shade or an indoor option on hotter days. <a href="https://solu.ae/blog/is-it-safe-to-exercise-in-the-heat-in-dubai">Read more</a></p></details>
-    <details><summary>What should you eat before a morning workout?</summary><p>Something small and easy to digest often works well, such as a banana or dates. Try different options and see what feels best for your body. <a href="https://solu.ae/blog/what-to-eat-before-a-morning-workout">Read more</a></p></details>
-    <details><summary>How much water should women drink when exercising?</summary><p>It depends on your body, the session and the weather. Start hydrated, sip regularly during exercise and drink afterwards, with more in warm conditions. <a href="https://solu.ae/blog/how-much-water-should-women-drink-when-exercising">Read more</a></p></details>
-    <details><summary>Is it okay to exercise every day as a woman?</summary><p>Daily movement is fine for many women when intensity varies. Keep some days light, and take more rest if you feel run down or keep getting injured. <a href="https://solu.ae/blog/is-it-okay-to-exercise-every-day-as-a-woman">Read more</a></p></details>
-    <details><summary>Can exercising too much stop your period?</summary><p>It can, especially when hard training is combined with too little food or recovery. If your periods stop or change suddenly, speak to a doctor. <a href="https://solu.ae/blog/can-exercising-too-much-stop-your-period">Read more</a></p></details>
+    <details open><summary>Can you do the Dubai Fitness Challenge on your period?</summary><p>Yes, if you feel up to it. The challenge asks for 30 minutes of activity a day, and a gentle walk, stretch or easy yoga session counts. If your pain is severe or unusual, rest and speak to a doctor. <a href="https://www.solu.ae/blog/can-you-do-the-dubai-fitness-challenge-on-your-period">Read more</a></p></details>
+    <details><summary>How do you fit 30 minutes of exercise into a busy day?</summary><p>Pick a fixed time and treat it like a meeting. If a full block will not fit, try a brisk walk at lunch, a short home workout, or movement you already enjoy with friends or family. <a href="https://www.solu.ae/blog/how-to-fit-30-minutes-of-exercise-into-a-busy-day">Read more</a></p></details>
+    <details><summary>How should women train for a 5K or 10K?</summary><p>Build distance gradually, mix easy runs with one faster session a week, add strength work, and include rest days. Many women choose harder sessions on days when their energy is higher and easier ones when it is lower. <a href="https://www.solu.ae/blog/how-should-women-train-for-a-5k-or-10k">Read more</a></p></details>
+    <details><summary>Is it safe to exercise in the heat in Dubai?</summary><p>Train in the early morning or evening, drink water before you start, and slow down or stop if you feel dizzy or unwell. Choose shade or an indoor option on hotter days. <a href="https://www.solu.ae/blog/is-it-safe-to-exercise-in-the-heat-in-dubai">Read more</a></p></details>
+    <details><summary>What should you eat before a morning workout?</summary><p>Something small and easy to digest often works well, such as a banana or dates. Try different options and see what feels best for your body. <a href="https://www.solu.ae/blog/what-to-eat-before-a-morning-workout">Read more</a></p></details>
+    <details><summary>How much water should women drink when exercising?</summary><p>It depends on your body, the session and the weather. Start hydrated, sip regularly during exercise and drink afterwards, with more in warm conditions. <a href="https://www.solu.ae/blog/how-much-water-should-women-drink-when-exercising">Read more</a></p></details>
+    <details><summary>Is it okay to exercise every day as a woman?</summary><p>Daily movement is fine for many women when intensity varies. Keep some days light, and take more rest if you feel run down or keep getting injured. <a href="https://www.solu.ae/blog/is-it-okay-to-exercise-every-day-as-a-woman">Read more</a></p></details>
+    <details><summary>Can exercising too much stop your period?</summary><p>It can, especially when hard training is combined with too little food or recovery. If your periods stop or change suddenly, speak to a doctor. <a href="https://www.solu.ae/blog/can-exercising-too-much-stop-your-period">Read more</a></p></details>
   </section>
 
   <footer>
     <p>Phases are estimates based on the dates you enter, and every cycle is different, so go by how you feel. This plan is general wellness information, not medical advice. It is not suitable for predicting fertility or preventing pregnancy.</p>
     <p>Solu is independent and is not affiliated with or endorsed by Dubai Fitness Challenge or its organisers.</p>
+    <p><a href="/">Solu home</a> · <a href="/blog">Health blog</a> · <a href="/blog/can-you-do-the-dubai-fitness-challenge-on-your-period">Exercising on your period during DFC</a></p>
   </footer>
 </div>
 

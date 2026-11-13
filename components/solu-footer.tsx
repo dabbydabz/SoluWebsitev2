@@ -20,14 +20,18 @@ export function SoluFooter() {
           {/* Links */}
           <div className="flex flex-wrap gap-x-10 gap-y-3">
             {[
-              { label: "Why Solu", href: "#why-solu" },
+              { label: "Why Solu", href: "/#why-solu" },
               { label: "Our Story", href: "/our-story" },
               { label: "Health Blog", href: "/blog" },
               { label: "Careers", href: "/careers" },
-              { label: "For You", href: "#for-you" },
+              { label: "For You", href: "/#for-you" },
               { label: "Privacy", href: "/privacy" },
               { label: "Terms", href: "/terms" },
               { label: "Contact", href: "/contact" },
+              // Seasonal: drops out on the first deploy after the Dubai Fitness Challenge ends (Nov 29, 2026)
+              ...(new Date() < new Date("2026-11-30T00:00:00+04:00")
+                ? [{ label: "DFC Cycle Planner", href: "/dfc" }]
+                : []),
             ].map((link) => (
               <a
                 key={link.label}
