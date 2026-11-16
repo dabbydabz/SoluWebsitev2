@@ -92,6 +92,9 @@ import isSpottingDuringOvulationNormal from "./articles/is-spotting-during-ovula
 import whyDoIGetHeadachesBeforeMyPeriod from "./articles/why-do-i-get-headaches-before-my-period"
 import doesPilatesStrengthenYourPelvicFloor from "./articles/does-pilates-strengthen-your-pelvic-floor"
 import whyDoIGetBloatedBeforeMyPeriod from "./articles/why-do-i-get-bloated-before-my-period"
+import howToReduceMuscleSorenessQuickly from "./articles/how-to-reduce-muscle-soreness-quickly"
+import mentalHealthBenefitsOfExerciseForWomen from "./articles/mental-health-benefits-of-exercise-for-women"
+import canYourPeriodRevealHeartDiseaseRisk from "./articles/can-your-period-reveal-heart-disease-risk"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -187,6 +190,9 @@ export const posts: Post[] = [
   whyDoIGetHeadachesBeforeMyPeriod,
   doesPilatesStrengthenYourPelvicFloor,
   whyDoIGetBloatedBeforeMyPeriod,
+  howToReduceMuscleSorenessQuickly,
+  mentalHealthBenefitsOfExerciseForWomen,
+  canYourPeriodRevealHeartDiseaseRisk,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

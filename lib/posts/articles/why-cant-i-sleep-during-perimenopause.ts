@@ -10,7 +10,6 @@ const post: Post = {
   interests: ["Sleep", "Hormonal Health"],
   topics: ["Sleep", "Perimenopause"],
   inAppFeed: true,
-  trending: true,
   image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=85",
   readTime: "6 min read",
   content: `
