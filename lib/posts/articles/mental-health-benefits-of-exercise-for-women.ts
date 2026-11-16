@@ -15,7 +15,7 @@ const post: Post = {
   content: `
 <p>Regular exercise eases symptoms of depression, anxiety and psychological distress in adults, with medium-sized effects. A <a href="https://pubmed.ncbi.nlm.nih.gov/36796860/" target="_blank" rel="noopener noreferrer">2023 British Journal of Sports Medicine umbrella review of 1,039 trials</a> found some of the largest gains in pregnant and postpartum women, and higher-intensity activity brought greater improvement.</p>
 
-<p><a href="https://www.nice.org.uk/guidance/ng222" target="_blank" rel="noopener noreferrer">NICE guideline NG222 on depression in adults</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/36796860/" target="_blank" rel="noopener noreferrer">that 2023 umbrella review</a> and a 2024 BMJ network meta-analysis underpin this answer, checked in November 2026.</p>
+<p><a href="https://www.nice.org.uk/guidance/ng222" target="_blank" rel="noopener noreferrer">NICE guideline NG222 on depression in adults</a>, that 2023 umbrella review and a 2024 BMJ network meta-analysis underpin this answer, checked in November 2026.</p>
 
 <h2>How Much Does Exercise Improve Depression and Anxiety?</h2>
 <p>Exercise improves depression and anxiety by a medium amount, similar in size for both conditions. The 2023 umbrella review pooled 97 reviews covering 128,119 participants and found a median effect size of -0.43 for depression and -0.42 for anxiety. The effect on psychological distress was larger, at -0.60. An effect size is a standard measure of change, and values around 0.4 to 0.6 count as medium. The biggest benefits appeared in people with depression, in pregnant and postpartum women, and in healthy adults. Shorter programmes showed larger effects than longer ones, which suggests that starting matters more than a long commitment.</p>
@@ -27,7 +27,7 @@ const post: Post = {
   <li>Mixed aerobic exercise: -0.43</li>
   <li>Tai chi or qigong: -0.42</li>
 </ul>
-<p>Effects grew with intensity, and strength training and yoga were the best tolerated. Weighed together, the two reviews point the same way: the benefit is real and medium-sized, but most trials carry a high risk of bias, so exercise fits best as one part of care rather than a replacement for it.</p>
+<p>Effects grew with intensity, and strength training and yoga were the best tolerated. Weighed together, the two reviews point the same way: the benefit is real and medium-sized, but most trials carry a high risk of bias, so exercise fits best as one part of care rather than a replacement for it. The <a href="https://pubmed.ncbi.nlm.nih.gov/36796860/" target="_blank" rel="noopener noreferrer">umbrella review authors</a> still concluded that "physical activity should be a mainstay approach in the management of depression, anxiety and psychological distress."</p>
 
 <h2>Does Exercise Help Premenstrual Mood Symptoms?</h2>
 <p>Exercise improves the low mood, irritability and tiredness of premenstrual syndrome (PMS), according to pooled trials. A <a href="https://pubmed.ncbi.nlm.nih.gov/41507956/" target="_blank" rel="noopener noreferrer">2026 BMC Women's Health review of 20 trials</a> found exercise reduced negative affect, pain and fatigue in women with PMS. Running for 9 to 12 weeks, at 3 or more sessions a week, appeared most effective for negative mood.</p>
