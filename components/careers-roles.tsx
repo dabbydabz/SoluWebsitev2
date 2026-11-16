@@ -4,6 +4,7 @@ import { useState } from "react"
 const roles = [
   {
     id: "pm",
+    hidden: true,
     title: "Product Manager",
     preview:
       "Solu is building the first wellness app designed around how women actually live, not a generic tracker, but something that understands the rhythm of a woman's cycle and makes her daily life better because of it.",
@@ -36,6 +37,7 @@ const roles = [
   },
   {
     id: "fse",
+    hidden: true,
     title: "Senior Full-Stack Engineer → Tech Lead",
     preview:
       "You are not here to close tickets. You are here to set the standard: how the app is architected, how it feels to use, and how the team builds it going forward. We need a senior mind, not just a pair of hands.",
@@ -157,7 +159,7 @@ export function CareersRoles() {
   return (
     <>
       <div className="space-y-3">
-        {roles.map((role) => {
+        {roles.filter((role) => !role.hidden).map((role) => {
           const isOpen = openId === role.id
           return (
             <div
@@ -286,7 +288,7 @@ export function CareersRoles() {
                       onChange={(e) => setApplyRole(e.target.value)}
                       className="w-full px-4 py-2.5 text-sm rounded-xl border border-gray-200 focus:outline-none focus:border-[#F7941D] transition-colors bg-white"
                     >
-                      {roles.map((r) => (
+                      {roles.filter((r) => !r.hidden).map((r) => (
                         <option key={r.id} value={r.title}>{r.title}</option>
                       ))}
                     </select>
