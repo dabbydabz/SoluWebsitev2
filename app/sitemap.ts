@@ -2,6 +2,7 @@ import { MetadataRoute } from "next"
 import { posts } from "@/lib/posts"
 import { getRevisionDate } from "@/lib/post-revisions"
 import { parseDateUTC } from "@/lib/dates"
+import { helpArticles, helpCategories } from "@/lib/help-articles"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = posts.map((post) => {
@@ -74,6 +75,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    { url: "https://www.solu.ae/help", lastModified: new Date("2026-11-18"), changeFrequency: "weekly" as const, priority: 0.7 },
+    ...helpCategories.map((c) => ({
+      url: `https://www.solu.ae/help/category/${c.slug}`,
+      lastModified: new Date("2026-11-18"),
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
+    ...helpArticles.map((a) => ({
+      url: `https://www.solu.ae/help/${a.slug}`,
+      lastModified: new Date("2026-11-18"),
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    })),
     ...blogPosts,
   ]
 }
