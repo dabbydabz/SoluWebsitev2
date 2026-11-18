@@ -21,7 +21,7 @@ const post: Post = {
 
 <h2>Why Is Sleep Worse Before Your Period?</h2>
 <p>The late luteal phase is when progesterone and oestrogen both drop sharply in preparation for menstruation. This withdrawal has several direct effects on sleep quality.</p>
-<p>Progesterone has a mild sedative effect and supports deeper sleep. When it falls in the late luteal phase, this benefit disappears, making it harder to stay in restorative sleep stages. At the same time, core body temperature rises slightly, which interferes with sleep onset. The body's natural sleep signal relies on a drop in core temperature, so elevated body heat from progesterone disrupts the process of falling and staying asleep.</p>
+<p>Progesterone has a mild sedative effect and supports deeper sleep. When it falls in the late luteal phase, this benefit disappears, making it harder to stay in restorative sleep stages. At the same time, <a href="/blog/why-do-i-feel-hotter-before-my-period">core body temperature rises slightly</a>, which interferes with sleep onset. The body's natural sleep signal relies on a drop in core temperature, so elevated body heat from progesterone disrupts the process of falling and staying asleep.</p>
 <p>There is also a link between late-luteal progesterone withdrawal and increased activity in the amygdala, the brain region associated with anxiety and emotional reactivity. Women are more likely to experience racing thoughts, heightened sensitivity, and restlessness in the days before their period, all of which compound sleep difficulties. Researchers describe this as part of the broader premenstrual syndrome (PMS) picture rather than a separate issue.</p>
 
 <h2>Which Phase of Your Cycle Has the Best Sleep?</h2>
