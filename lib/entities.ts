@@ -77,6 +77,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Delayed Onset Muscle Soreness", pattern: /\bmuscle soreness\b|\bDOMS\b|\bdelayed onset muscle soreness\b/i },
   { name: "Mental Health", pattern: /\bmental health\b/i },
   { name: "Heart Disease", pattern: /\bheart disease\b/i },
+  { name: "Menstrual Clots", pattern: /\bblood clots on (my|your|a) period\b|\bperiod clots\b|\bmenstrual clots\b/i },
 ]
 
 const MIN_ENTITIES = 2
