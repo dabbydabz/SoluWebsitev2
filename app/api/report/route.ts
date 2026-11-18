@@ -33,44 +33,46 @@ export async function POST(req: NextRequest) {
     const categoryLabel = CATEGORY_LABELS[category] ?? category
     const timestamp = new Date().toLocaleString("en-AE", { timeZone: "Asia/Dubai", dateStyle: "medium", timeStyle: "short" })
 
-    const body = {
-      text: `${cfg.emoji} *${cfg.label} problem reported* — ${categoryLabel}`,
-      attachments: [
-        {
-          color: cfg.color,
-          blocks: [
-            {
-              type: "section",
-              fields: [
-                { type: "mrkdwn", text: `*Severity*\n${cfg.emoji} ${cfg.label}` },
-                { type: "mrkdwn", text: `*Category*\n${categoryLabel}` },
-              ],
-            },
-            {
-              type: "section",
-              text: { type: "mrkdwn", text: `*Description*\n${description}` },
-            },
-            {
-              type: "section",
-              fields: [
-                { type: "mrkdwn", text: `*Contact*\n${email || "_Not provided_"}` },
-                { type: "mrkdwn", text: `*Reported at*\n${timestamp} (Dubai)` },
-              ],
-            },
-            ...(email
-              ? [{
-                  type: "actions",
-                  elements: [{
-                    type: "button",
-                    text: { type: "plain_text", text: "Reply by email" },
-                    url: `mailto:${email}?subject=Re: Your Solu problem report&body=Hi,%0A%0AWe received your report and wanted to follow up.`,
-                    style: "primary",
-                  }],
-                }]
-              : []),
-          ],
+    const contextElements: object[] = [
+      { type: "mrkdwn", text: `🕐 ${timestamp}` },
+    ]
+    if (email) {
+      contextElements.push({ type: "mrkdwn", text: `✉️ ${email}` })
+    }
+
+    const blocks: object[] = [
+      {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: `${cfg.emoji} *${cfg.label} · ${categoryLabel}*`,
         },
-      ],
+      },
+      {
+        type: "section",
+        text: { type: "mrkdwn", text: description },
+      },
+      {
+        type: "context",
+        elements: contextElements,
+      },
+    ]
+
+    if (email) {
+      blocks.push({
+        type: "actions",
+        elements: [{
+          type: "button",
+          text: { type: "plain_text", text: "Reply by email" },
+          url: `mailto:${email}?subject=Re: Your Solu problem report&body=Hi,%0A%0AWe received your report and wanted to follow up.`,
+          style: "primary",
+        }],
+      })
+    }
+
+    const body = {
+      text: `${cfg.emoji} ${cfg.label} problem reported — ${categoryLabel}`,
+      attachments: [{ color: cfg.color, blocks }],
     }
 
     const slackRes = await fetch(webhookUrl, {
