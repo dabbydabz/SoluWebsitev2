@@ -97,6 +97,7 @@ import mentalHealthBenefitsOfExerciseForWomen from "./articles/mental-health-ben
 import canYourPeriodRevealHeartDiseaseRisk from "./articles/can-your-period-reveal-heart-disease-risk"
 import canYouGetPregnantRightAfterYourPeriod from "./articles/can-you-get-pregnant-right-after-your-period"
 import isItNormalToHaveBloodClotsOnYourPeriod from "./articles/is-it-normal-to-have-blood-clots-on-your-period"
+import areYouMoreLikelyToGetInjuredAroundOvulation from "./articles/are-you-more-likely-to-get-injured-around-ovulation"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -197,6 +198,7 @@ export const posts: Post[] = [
   canYourPeriodRevealHeartDiseaseRisk,
   canYouGetPregnantRightAfterYourPeriod,
   isItNormalToHaveBloodClotsOnYourPeriod,
+  areYouMoreLikelyToGetInjuredAroundOvulation,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
