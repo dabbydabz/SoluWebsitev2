@@ -99,6 +99,7 @@ import canYouGetPregnantRightAfterYourPeriod from "./articles/can-you-get-pregna
 import isItNormalToHaveBloodClotsOnYourPeriod from "./articles/is-it-normal-to-have-blood-clots-on-your-period"
 import areYouMoreLikelyToGetInjuredAroundOvulation from "./articles/are-you-more-likely-to-get-injured-around-ovulation"
 import whyDoIFeelHotterBeforeMyPeriod from "./articles/why-do-i-feel-hotter-before-my-period"
+import doesYogaHelpYouSleepBetter from "./articles/does-yoga-help-you-sleep-better"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -201,6 +202,7 @@ export const posts: Post[] = [
   isItNormalToHaveBloodClotsOnYourPeriod,
   areYouMoreLikelyToGetInjuredAroundOvulation,
   whyDoIFeelHotterBeforeMyPeriod,
+  doesYogaHelpYouSleepBetter,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
