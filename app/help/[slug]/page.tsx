@@ -209,15 +209,27 @@ export default async function ArticlePage({ params }: Props) {
           <div className="mt-10 bg-orange-50 rounded-2xl px-6 py-6 text-center">
             <p className="text-sm font-medium text-gray-800 mb-1">Still need help?</p>
             <p className="text-xs text-gray-500 mb-4">Our team is happy to assist.</p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#F7941D] hover:text-[#C06A05] transition-colors"
-            >
-              Contact us
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
-              </svg>
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-2.5 justify-center">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-1.5 text-sm font-semibold text-[#F7941D] hover:text-[#C06A05] transition-colors"
+              >
+                Contact us
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
+              <span className="hidden sm:block text-gray-300">·</span>
+              <Link
+                href="/report"
+                className="inline-flex items-center justify-center gap-1.5 text-sm font-semibold text-gray-500 hover:text-red-500 transition-colors"
+              >
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v4m0 4h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                </svg>
+                Report a problem
+              </Link>
+            </div>
           </div>
         </div>
       </main>

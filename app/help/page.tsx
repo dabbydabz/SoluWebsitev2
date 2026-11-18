@@ -156,15 +156,26 @@ export default function HelpPage() {
             <p className="text-gray-500 mb-6 text-sm">
               Our team is happy to help. Send us a message and we&apos;ll get back to you as soon as we can.
             </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 bg-[#F7941D] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#C06A05] transition-colors text-sm"
-            >
-              Contact us
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
-              </svg>
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 bg-[#F7941D] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#C06A05] transition-colors text-sm"
+              >
+                Contact us
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
+              <Link
+                href="/report"
+                className="inline-flex items-center justify-center gap-2 bg-white border border-gray-200 text-gray-700 font-semibold px-6 py-3 rounded-full hover:border-red-300 hover:text-red-600 transition-colors text-sm"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v4m0 4h.01M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                </svg>
+                Report a problem
+              </Link>
+            </div>
           </div>
         </section>
       </main>

@@ -76,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     { url: "https://www.solu.ae/help", lastModified: new Date("2026-11-18"), changeFrequency: "weekly" as const, priority: 0.7 },
+    { url: "https://www.solu.ae/report", lastModified: new Date("2026-11-18"), changeFrequency: "yearly" as const, priority: 0.4 },
     ...helpCategories.map((c) => ({
       url: `https://www.solu.ae/help/category/${c.slug}`,
       lastModified: new Date("2026-11-18"),
