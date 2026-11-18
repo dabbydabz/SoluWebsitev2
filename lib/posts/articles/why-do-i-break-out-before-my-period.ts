@@ -36,7 +36,7 @@ const post: Post = {
 <p>A common question is why skin flares before a period even when it is clear the rest of the month. The <a href="https://pubmed.ncbi.nlm.nih.gov/15096370/" target="_blank" rel="noopener noreferrer">2004 Archives of Dermatology study</a> compared the follicular and luteal phases directly, and found inflammatory spots rose by a quarter before periods in most women.</p>
 
 <h2>How Can You Reduce Breakouts Before Your Period?</h2>
-<p>Breakouts before a period respond to the same skin care as other acne, used consistently through the month rather than only once spots appear. The <a href="https://www.nice.org.uk/guidance/ng198/chapter/Recommendations" target="_blank" rel="noopener noreferrer">NICE guideline</a> advises a non-alkaline cleanser twice daily and avoiding oil-based and comedogenic (pore-clogging) moisturisers, sunscreens and make-up.</p>
+<p>Breakouts before a period respond to the same skin care as other acne, used consistently through the month rather than only once spots appear. The <a href="https://www.nice.org.uk/guidance/ng198/chapter/Recommendations" target="_blank" rel="noopener noreferrer">NICE guideline</a> advises a non-alkaline cleanser twice daily and avoiding oil-based and comedogenic (pore-clogging) moisturisers, sunscreens and make-up. Brown patches rather than spots are a different hormone-linked condition, covered in <a href="/blog/is-melasma-caused-by-hormones">whether melasma is caused by hormones</a>.</p>
 <ul>
   <li>Wash twice a day with a gentle, pH-neutral or slightly acidic cleanser.</li>
   <li>Choose products labelled non-comedogenic, and remove make-up at night.</li>

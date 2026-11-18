@@ -80,6 +80,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Menstrual Clots", pattern: /\bblood clots on (my|your|a) period\b|\bperiod clots\b|\bmenstrual clots\b/i },
   { name: "Premenstrual Body Temperature", pattern: /\bhotter before (my|your|a) period\b|\bluteal (phase )?body temperature\b/i },
   { name: "Yoga", pattern: /\byoga\b/i },
+  { name: "Melasma", pattern: /\bmelasma\b/i },
 ]
 
 const MIN_ENTITIES = 2
