@@ -95,6 +95,7 @@ import whyDoIGetBloatedBeforeMyPeriod from "./articles/why-do-i-get-bloated-befo
 import howToReduceMuscleSorenessQuickly from "./articles/how-to-reduce-muscle-soreness-quickly"
 import mentalHealthBenefitsOfExerciseForWomen from "./articles/mental-health-benefits-of-exercise-for-women"
 import canYourPeriodRevealHeartDiseaseRisk from "./articles/can-your-period-reveal-heart-disease-risk"
+import canYouGetPregnantRightAfterYourPeriod from "./articles/can-you-get-pregnant-right-after-your-period"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -193,6 +194,7 @@ export const posts: Post[] = [
   howToReduceMuscleSorenessQuickly,
   mentalHealthBenefitsOfExerciseForWomen,
   canYourPeriodRevealHeartDiseaseRisk,
+  canYouGetPregnantRightAfterYourPeriod,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
