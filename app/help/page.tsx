@@ -48,6 +48,13 @@ const categoryIcons: Record<string, React.ReactNode> = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" />
     </svg>
   ),
+  hangouts: (
+    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+      <circle cx="9" cy="7" r="4" strokeLinecap="round" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+    </svg>
+  ),
 }
 
 const categoryColors: Record<string, string> = {
@@ -56,6 +63,7 @@ const categoryColors: Record<string, string> = {
   "privacy-and-security": "bg-green-50 text-green-500",
   subscriptions: "bg-yellow-50 text-yellow-500",
   "using-solu": "bg-pink-50 text-pink-500",
+  hangouts: "bg-rose-50 text-rose-500",
 }
 
 export default function HelpPage() {

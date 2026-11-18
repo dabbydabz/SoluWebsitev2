@@ -52,7 +52,7 @@ export const helpCategories: HelpCategory[] = [
   {
     slug: "subscriptions",
     label: "Subscriptions",
-    description: "Compare Solu Free, Solu+, and Solu Pro, and manage your plan.",
+    description: "Compare Solu Free and Solu+, manage your plan, and understand billing.",
     iconBg: "bg-yellow-100",
     iconPath:
       "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z",
@@ -64,6 +64,14 @@ export const helpCategories: HelpCategory[] = [
     iconBg: "bg-pink-100",
     iconPath:
       "M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm-1-11h2v6h-2zm0 8h2v2h-2z",
+  },
+  {
+    slug: "hangouts",
+    label: "Hangouts",
+    description: "Solu-hosted online and in-person events, partner events, and member benefits.",
+    iconBg: "bg-rose-100",
+    iconPath:
+      "M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm14 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75",
   },
 ]
 
@@ -648,6 +656,120 @@ export const helpArticles: HelpArticle[] = [
       { type: "p", text: "Yes. Opening the full article via \"Read Full Article\" counts toward your \"Understand my cycle better\" goal progress, up to once per day." },
     ],
   },
+
+  // ── HANGOUTS ─────────────────────────────────────────────────────────
+  {
+    slug: "what-are-hangouts",
+    title: "What are Hangouts?",
+    summary: "Solu-hosted online and in-person events that bring the community together.",
+    category: "hangouts",
+    related: ["hangouts-and-your-plan", "how-to-join-a-hangout", "in-person-hangouts"],
+    content: [
+      { type: "p", text: "Hangouts are events hosted by Solu or Solu's partners — online sessions and in-person meetups in Dubai where you can move, connect, and learn alongside other Solu members." },
+      { type: "h2", text: "Types of Hangouts" },
+      { type: "h3", text: "Solu-hosted online sessions" },
+      { type: "p", text: "Live online events hosted by Solu, covering movement, nutrition, cycle education, and wellbeing topics. Selected sessions are open to all Solu users. Solu+ members get access to every session." },
+      { type: "h3", text: "Solu-hosted in-person hangouts" },
+      { type: "p", text: "In-person events in Dubai — fitness sessions, workshops, and community meetups. Solu+ members get free or discounted entry with early booking. Solu Free members can join at the full ticket price or join a waitlist." },
+      { type: "h3", text: "Partner events" },
+      { type: "p", text: "Events hosted by Solu's wellness and fitness partners in Dubai. The partner sets the ticket price. Solu+ members get a discount and early access." },
+      { type: "h2", text: "How often do Hangouts happen?" },
+      { type: "p", text: "Solu runs at least two online sessions and one in-person Dubai hangout every month." },
+      { type: "tip", text: "Hangout schedule and tickets are available directly in the Solu app under Community." },
+    ],
+  },
+  {
+    slug: "hangouts-and-your-plan",
+    title: "Hangouts and your Solu plan",
+    summary: "What Solu Free and Solu+ members get access to at Hangouts.",
+    category: "hangouts",
+    related: ["what-are-hangouts", "solu-plans-comparison", "in-person-hangouts"],
+    content: [
+      { type: "h2", text: "Solu Free" },
+      { type: "list", items: [
+        "Browse all upcoming Hangouts in the app",
+        "Join selected Solu-hosted online sessions at no cost",
+        "Buy tickets to Solu-hosted in-person hangouts at the full ticket price",
+        "Buy tickets to partner events at the partner's standard price",
+      ]},
+      { type: "h2", text: "Solu+" },
+      { type: "list", items: [
+        "All Solu-hosted online sessions included at no extra cost",
+        "Free or discounted entry to Solu-hosted in-person hangouts, with early booking priority",
+        "10 to 25% member discount and early access on partner events",
+        "Move actions on your Today page can link to a matching Hangout at member price",
+      ]},
+      { type: "h2", text: "Founding members" },
+      { type: "p", text: "The first 300 Solu+ subscribers are founding members. Founding members get free entry to every Solu-hosted hangout during their first year." },
+      { type: "tip", text: "Not sure if you're a founding member? Check your profile — founding member status is shown on your subscription details." },
+    ],
+  },
+  {
+    slug: "how-to-join-a-hangout",
+    title: "How to find and join a Hangout",
+    summary: "Browse upcoming events and book your spot directly in the Solu app.",
+    category: "hangouts",
+    related: ["what-are-hangouts", "hangouts-and-your-plan", "in-person-hangouts"],
+    content: [
+      { type: "h2", text: "Find upcoming Hangouts" },
+      { type: "steps", items: [
+        "Open the Solu app",
+        "Tap \"Community\" in the bottom navigation",
+        "Scroll to the Hangouts section",
+        "Browse upcoming online and in-person events",
+      ]},
+      { type: "h2", text: "Book your spot" },
+      { type: "p", text: "Tap an event card to see the full details — description, date, time, location (for in-person events), and what's included. Tap \"Book\" or \"Join\" to secure your place." },
+      { type: "h2", text: "Online sessions" },
+      { type: "p", text: "Once you've joined an online session, a link to join the live call will appear in the event details shortly before it starts. Tap it to join directly from the app." },
+      { type: "h2", text: "In-person events" },
+      { type: "p", text: "Tickets for in-person hangouts are purchased in the app. After booking, your ticket appears in the event details and can be shown at the door." },
+      { type: "tip", text: "Solu+ members can book in-person hangouts earlier than Solu Free members. Turn on notifications in Settings so you don't miss the early booking window." },
+    ],
+  },
+  {
+    slug: "in-person-hangouts",
+    title: "In-person Hangouts",
+    summary: "What to expect at Solu's in-person events in Dubai.",
+    category: "hangouts",
+    related: ["what-are-hangouts", "hangouts-and-your-plan", "how-to-join-a-hangout"],
+    content: [
+      { type: "p", text: "Solu hosts at least one in-person hangout in Dubai every month — fitness sessions, workshops, and community events designed around the same wellness pillars as the app." },
+      { type: "h2", text: "Who can attend?" },
+      { type: "p", text: "In-person hangouts are open to all Solu users. Solu+ members get free or discounted entry and can book before tickets open to everyone. Solu Free members can join at the full ticket price or add themselves to the waitlist." },
+      { type: "h2", text: "Ticket pricing" },
+      { type: "list", items: [
+        "Solu+: free or discounted, depending on the event",
+        "Founding members: free entry to all Solu-hosted in-person hangouts in their first year",
+        "Solu Free: full ticket price",
+      ]},
+      { type: "h2", text: "Booking and tickets" },
+      { type: "p", text: "Tickets are booked and paid for in the app. After booking, your ticket appears in the event details in the Community section — show it at the door on your phone." },
+      { type: "h2", text: "Waitlist" },
+      { type: "p", text: "If a session is full, you can join the waitlist. You'll receive a notification if a spot opens up." },
+      { type: "tip", text: "Event details, including the venue and what to bring, are posted in the event card in the app." },
+    ],
+  },
+  {
+    slug: "partner-events",
+    title: "Partner events and member discounts",
+    summary: "Solu+ members get discounts and early access at partner-hosted events.",
+    category: "hangouts",
+    related: ["what-are-hangouts", "hangouts-and-your-plan", "how-to-join-a-hangout"],
+    content: [
+      { type: "p", text: "Solu partners with wellness and fitness businesses in Dubai to offer exclusive access to their events through the app." },
+      { type: "h2", text: "What Solu+ members get" },
+      { type: "list", items: [
+        "10 to 25% discount on partner event tickets",
+        "Early access to book before tickets open publicly",
+      ]},
+      { type: "h2", text: "What Solu Free members get" },
+      { type: "p", text: "Solu Free members can see and book partner events at the partner's standard ticket price, with no early access." },
+      { type: "h2", text: "How discounts are applied" },
+      { type: "p", text: "When you book a partner event as a Solu+ member, the member price is applied automatically in the app. You don't need a code." },
+      { type: "tip", text: "Partner events are listed alongside Solu-hosted events in the Hangouts section of Community." },
+    ],
+  },
 ]
 
 export function getArticlesByCategory(categorySlug: string): HelpArticle[] {
@@ -677,6 +799,7 @@ export const popularSlugs = [
   "how-to-log-your-period",
   "the-four-phases-explained",
   "how-the-glow-up-score-works",
+  "what-are-hangouts",
   "what-is-private-health-mode",
   "how-to-cancel-your-subscription",
   "understanding-goals",
