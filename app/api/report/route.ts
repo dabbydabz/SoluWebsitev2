@@ -15,9 +15,35 @@ const CATEGORY_LABELS: Record<string, string> = {
   "other":          "Something else",
 }
 
+const PLAN_LABELS: Record<string, string> = {
+  free: "Solu Free",
+  plus: "Solu+",
+  pro:  "Solu Pro",
+}
+
+// Strip Slack formatting characters and cap length so app details always render as plain text
+function clean(value: unknown): string {
+  if (typeof value !== "string") return ""
+  return value.replace(/[*_~`<>|]/g, "").trim().slice(0, 80)
+}
+
+function appDetailsLine(context: unknown): string {
+  if (!context || typeof context !== "object") return "🌐 Sent from web"
+  const c = context as Record<string, unknown>
+  const v = clean(c.v), device = clean(c.device), os = clean(c.os), plan = clean(c.plan), uid = clean(c.uid)
+  const parts = [
+    v && `App ${v}`,
+    device,
+    os,
+    plan && (PLAN_LABELS[plan.toLowerCase()] ?? plan),
+    uid && `User \`${uid}\``,
+  ].filter(Boolean)
+  return parts.length ? `📱 ${parts.join("  ·  ")}` : "🌐 Sent from web"
+}
+
 export async function POST(req: NextRequest) {
   try {
-    const { severity, category, description, email } = await req.json()
+    const { severity, category, description, email, context } = await req.json()
 
     if (!severity || !category || !description) {
       return NextResponse.json({ success: false }, { status: 400 })
@@ -55,6 +81,10 @@ export async function POST(req: NextRequest) {
       {
         type: "context",
         elements: contextElements,
+      },
+      {
+        type: "context",
+        elements: [{ type: "mrkdwn", text: appDetailsLine(context) }],
       },
     ]
 

@@ -1,10 +1,27 @@
 "use client"
-import { useState } from "react"
+import { useMemo, useState, useSyncExternalStore } from "react"
 import Link from "next/link"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 
 type Severity = "critical" | "high" | "low"
+type AppContext = { v?: string; device?: string; os?: string; plan?: string; uid?: string }
+
+// Details the Solu app appends to the link, e.g. /report?v=1.4.2&device=iPhone%2015%20Pro&os=iOS%2018.1&plan=plus&uid=abc123
+const CONTEXT_KEYS = ["v", "device", "os", "plan", "uid"] as const
+
+const subscribeNoop = () => () => {}
+
+function parseAppContext(search: string): AppContext | null {
+  const params = new URLSearchParams(search)
+  const ctx: AppContext = {}
+  for (const key of CONTEXT_KEYS) {
+    const value = params.get(key)?.trim()
+    if (value) ctx[key] = value.slice(0, 80)
+  }
+  return Object.keys(ctx).length ? ctx : null
+}
+
 type Category = "app-crash" | "feature-broken" | "wrong-info" | "billing" | "account" | "other"
 
 const severities: { value: Severity; label: string; emoji: string; description: string; selectedClass: string }[] = [
@@ -47,6 +64,8 @@ export default function ReportPage() {
   const [email, setEmail] = useState("")
   const [state, setState] = useState<"idle" | "loading" | "success" | "error">("idle")
   const [errors, setErrors] = useState<{ severity?: string; category?: string; description?: string }>({})
+  const search = useSyncExternalStore(subscribeNoop, () => window.location.search, () => "")
+  const appContext = useMemo(() => parseAppContext(search), [search])
 
   function validate() {
     const e: typeof errors = {}
@@ -65,7 +84,7 @@ export default function ReportPage() {
       const res = await fetch("/api/report", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ severity, category, description: description.trim(), email: email.trim() }),
+        body: JSON.stringify({ severity, category, description: description.trim(), email: email.trim(), context: appContext }),
       })
       setState(res.ok ? "success" : "error")
     } catch {
@@ -214,6 +233,11 @@ export default function ReportPage() {
                 placeholder="you@example.com"
                 className="w-full px-4 py-2.5 text-sm rounded-xl border border-gray-200 focus:outline-none focus:border-[#F7941D] transition-colors text-gray-800 placeholder-gray-400"
               />
+              {appContext && (
+                <p className="text-xs text-gray-400 mt-2">
+                  We&apos;ll include your app version and device to help us fix this faster.
+                </p>
+              )}
             </div>
 
             {state === "error" && (
