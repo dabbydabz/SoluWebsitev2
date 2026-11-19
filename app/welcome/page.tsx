@@ -2,7 +2,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "You're in — Solu",
+  title: "You're in | Solu",
   description: "Welcome to the Solu waitlist.",
   robots: { index: false, follow: false },
 }

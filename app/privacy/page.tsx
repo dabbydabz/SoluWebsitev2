@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Solu",
     type: "website",
     locale: "en_US",
-    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu: Women's health, fitness & wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -40,7 +40,7 @@ If you have any questions about this policy or how we handle your data, please c
   {
     id: "data-we-collect",
     title: "2. Data we collect",
-    content: `We collect data in two ways — directly from you, and automatically when you use our website or app.
+    content: `We collect data in two ways: directly from you, and automatically when you use our website or app.
 
 **Information you give us directly:**
 - Email address, when you join our waitlist or contact us
@@ -49,7 +49,7 @@ If you have any questions about this policy or how we handle your data, please c
 - Any other information you voluntarily provide when communicating with us
 
 **Information collected automatically:**
-- Website usage data (pages visited, time spent, referring URLs) via Vercel Analytics — this is anonymised and does not identify you personally
+- Website usage data (pages visited, time spent, referring URLs) via Vercel Analytics. This is anonymised and does not identify you personally
 - Device type, browser, and operating system when accessing our website or app
 - IP address, collected automatically by our hosting infrastructure
 
@@ -88,15 +88,15 @@ We may use aggregated, fully anonymised health data (where no individual can be 
     title: "5. Data sharing and third parties",
     content: `We share your data only in the following limited circumstances:
 
-**Service providers** — we work with trusted third-party companies that help us operate Solu. These include:
-- Vercel (website and app hosting, based in the USA — covered by standard contractual clauses)
-- Tally (waitlist and contact forms — your email is stored in Tally when you submit a form)
+**Service providers:** we work with trusted third-party companies that help us operate Solu. These include:
+- Vercel (website and app hosting, based in the USA, covered by standard contractual clauses)
+- Tally (waitlist and contact forms; your email is stored in Tally when you submit a form)
 
 Our service providers are contractually required to process your data only on our instructions and to keep it secure.
 
-**Legal requirements** — we may disclose your data if required by UAE law, a court order, or a lawful request from a government authority.
+**Legal requirements:** we may disclose your data if required by UAE law, a court order, or a lawful request from a government authority.
 
-**Business transfers** — if Solu is acquired or merges with another company, your data may be transferred as part of that transaction. We will notify you before your data is transferred and a different privacy policy applies.
+**Business transfers:** if Solu is acquired or merges with another company, your data may be transferred as part of that transaction. We will notify you before your data is transferred and a different privacy policy applies.
 
 We do not sell, rent, or trade your personal data to any third party.`,
   },
@@ -111,7 +111,7 @@ We do not sell, rent, or trade your personal data to any third party.`,
 - Support and contact enquiries are kept for up to 2 years
 - Anonymised, aggregated analytics data may be kept indefinitely as it cannot identify you
 
-You can request deletion of your data at any time — see Section 8 for your rights.`,
+You can request deletion of your data at any time (see Section 8 for your rights).`,
   },
   {
     id: "international-transfers",
@@ -123,12 +123,12 @@ You can request deletion of your data at any time — see Section 8 for your rig
     title: "8. Your rights",
     content: `Under the UAE Personal Data Protection Law (Federal Decree-Law No. 45 of 2021) and applicable privacy regulations, you have the following rights:
 
-- **Access** — you can request a copy of the personal data we hold about you
-- **Correction** — you can ask us to correct inaccurate or incomplete data
-- **Deletion** — you can ask us to delete your personal data (subject to legal obligations)
-- **Restriction** — you can ask us to stop processing your data in certain circumstances
-- **Portability** — you can request your data in a machine-readable format
-- **Withdrawal of consent** — where we process data based on your consent, you can withdraw it at any time
+- **Access:** you can request a copy of the personal data we hold about you
+- **Correction:** you can ask us to correct inaccurate or incomplete data
+- **Deletion:** you can ask us to delete your personal data (subject to legal obligations)
+- **Restriction:** you can ask us to stop processing your data in certain circumstances
+- **Portability:** you can request your data in a machine-readable format
+- **Withdrawal of consent:** where we process data based on your consent, you can withdraw it at any time
 
 To exercise any of these rights, please contact us via our contact form at solu.ae/contact. We will respond within 30 days.`,
   },
@@ -206,7 +206,7 @@ export default function PrivacyPage() {
       <section className="px-6 lg:px-12 pb-8">
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-600 text-lg leading-relaxed border-l-4 border-[#F7941D] pl-6 py-1">
-            At Solu, your privacy is not an afterthought — it is foundational to everything we build. This policy explains what data we collect, why we collect it, and how we protect it. We have written it to be read, not just to satisfy a legal requirement.
+            At Solu, your privacy is not an afterthought. It is foundational to everything we build. This policy explains what data we collect, why we collect it, and how we protect it. We have written it to be read, not just to satisfy a legal requirement.
           </p>
         </div>
       </section>
@@ -253,13 +253,13 @@ export default function PrivacyPage() {
                       <ul key={i} className="space-y-2 pl-1">
                         {items.map((item, j) => {
                           const text = item.slice(2)
-                          const boldMatch = text.match(/^\*\*(.+?)\*\*\s*[—–-]\s*(.+)$/)
+                          const boldMatch = text.match(/^\*\*(.+?)\*\*:\s*(.+)$/)
                           return (
                             <li key={j} className="flex gap-3 text-gray-600 text-sm leading-relaxed">
                               <span className="text-[#F7941D] mt-1 shrink-0">•</span>
                               <span>
                                 {boldMatch ? (
-                                  <><strong className="text-gray-900">{boldMatch[1]}</strong> — {boldMatch[2]}</>
+                                  <><strong className="text-gray-900">{boldMatch[1]}:</strong> {boldMatch[2]}</>
                                 ) : text}
                               </span>
                             </li>

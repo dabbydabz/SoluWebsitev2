@@ -223,7 +223,7 @@ export default function ReportPage() {
             {/* Email */}
             <div>
               <label htmlFor="report-email" className="block text-sm font-semibold text-gray-800 mb-2">
-                Your email <span className="text-gray-400 font-normal">(optional — so we can follow up)</span>
+                Your email <span className="text-gray-400 font-normal">(optional, so we can follow up)</span>
               </label>
               <input
                 id="report-email"

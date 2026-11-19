@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Solu",
     type: "website",
     locale: "en_US",
-    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu — Women's health, fitness & wellness in sync with your cycle" }],
+    images: [{ url: "https://www.solu.ae/opengraph-image", width: 1200, height: 630, alt: "Solu: Women's health, fitness & wellness in sync with your cycle" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -35,7 +35,7 @@ const sections = [
     title: "1. Acceptance of terms",
     content: `By accessing or using the Solu website (solu.ae) or the Solu app (collectively, the "Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the Service.
 
-These Terms form a legally binding agreement between you and Solu. We may update them from time to time — see Section 19 for how we handle changes.`,
+These Terms form a legally binding agreement between you and Solu. We may update them from time to time (see Section 19 for how we handle changes).`,
   },
   {
     id: "who-we-are",
@@ -72,7 +72,7 @@ You may not share your account with others or create accounts on behalf of someo
   {
     id: "service-tiers",
     title: "5. Free and paid tiers",
-    content: `Solu offers the Service on a freemium basis — a free tier and one or more paid subscription tiers.
+    content: `Solu offers the Service on a freemium basis: a free tier and one or more paid subscription tiers.
 
 **Free tier:** You may use the core features of Solu at no charge, subject to these Terms. The features available on the free tier may change over time.
 
@@ -96,7 +96,7 @@ We may introduce, modify, or discontinue tiers at any time. If we discontinue a 
   {
     id: "cancellation-refunds",
     title: "7. Cancellation and refunds",
-    content: `**Cancellation:** You may cancel your paid subscription at any time through your account settings or by contacting us. Cancellation takes effect at the end of your current billing period — you will retain access to paid features until then.
+    content: `**Cancellation:** You may cancel your paid subscription at any time through your account settings or by contacting us. Cancellation takes effect at the end of your current billing period; you will retain access to paid features until then.
 
 **Refunds:** We do not offer refunds for completed billing periods. If you cancel mid-period, you will not receive a refund for the remaining time, but you will retain access until the period ends.
 
@@ -127,12 +127,12 @@ To request a refund under these exceptions, please contact us within 14 days of 
 - Advertise or solicit third-party products or services without our permission
 - Violate any applicable law or regulation
 
-**Our rights:** We reserve the right — but are not obligated — to review, moderate, remove, or restrict access to any User Content at our sole discretion and without notice, if we believe it violates these Terms or is otherwise harmful. We are not liable for any User Content posted by users.`,
+**Our rights:** We reserve the right (but are not obligated) to review, moderate, remove, or restrict access to any User Content at our sole discretion and without notice, if we believe it violates these Terms or is otherwise harmful. We are not liable for any User Content posted by users.`,
   },
   {
     id: "health-disclaimer",
     title: "9. Health and medical disclaimer",
-    content: `Solu is a wellness and lifestyle app. The information, insights, and content provided through the Service — including cycle tracking, nutritional guidance, fitness recommendations, and sleep insights — are for general informational and educational purposes only.
+    content: `Solu is a wellness and lifestyle app. The information, insights, and content provided through the Service (including cycle tracking, nutritional guidance, fitness recommendations, and sleep insights) are for general informational and educational purposes only.
 
 The Service is not a medical device. It does not provide medical advice, diagnosis, or treatment. Nothing in the Service should be construed as medical advice or used as a substitute for professional medical consultation, diagnosis, or treatment.
 
@@ -162,7 +162,7 @@ We reserve the right to suspend or permanently terminate your account if you eng
   {
     id: "intellectual-property",
     title: "11. Intellectual property",
-    content: `All content within the Service that is not User Content — including the Solu name, logo, design, software, text, graphics, and the selection and arrangement thereof — is owned by or licensed to Solu and is protected by UAE and international intellectual property laws.
+    content: `All content within the Service that is not User Content (including the Solu name, logo, design, software, text, graphics, and the selection and arrangement thereof) is owned by or licensed to Solu and is protected by UAE and international intellectual property laws.
 
 Nothing in these Terms grants you any right to use Solu's name, trademarks, or other brand features without our prior written permission.
 

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+import { JsonLd } from "@/components/json-ld"
 import {
   getArticleBySlug,
   helpArticles,
@@ -114,8 +115,37 @@ export default async function ArticlePage({ params }: Props) {
     .filter(Boolean)
     .slice(0, 3)
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.summary,
+    "url": `https://www.solu.ae/help/${slug}`,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://www.solu.ae/#website",
+      "name": "Solu",
+      "url": "https://www.solu.ae",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://www.solu.ae/#organization",
+      "name": "Solu",
+      "url": "https://www.solu.ae",
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Help", "item": "https://www.solu.ae/help" },
+        ...(category ? [{ "@type": "ListItem", "position": 2, "name": category.label, "item": `https://www.solu.ae/help/category/${category.slug}` }] : []),
+        { "@type": "ListItem", "position": category ? 3 : 2, "name": article.title, "item": `https://www.solu.ae/help/${slug}` },
+      ],
+    },
+  }
+
   return (
     <>
+      <JsonLd data={articleSchema} />
       <SoluHeader />
       <main className="min-h-screen">
         <div className="max-w-2xl mx-auto px-6 pt-28 pb-16">

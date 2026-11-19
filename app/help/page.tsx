@@ -3,6 +3,7 @@ import Link from "next/link"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 import { HelpSearch } from "@/components/help-search"
+import { JsonLd } from "@/components/json-ld"
 import {
   helpCategories,
   helpArticles,
@@ -12,7 +13,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Help Centre | Solu",
-  description: "Find answers to your questions about Solu — cycle tracking, phases, subscriptions, privacy, and more.",
+  description: "Find answers to your questions about Solu: cycle tracking, phases, subscriptions, privacy, and more.",
   alternates: { canonical: "https://www.solu.ae/help" },
   openGraph: {
     title: "Help Centre | Solu",
@@ -71,8 +72,23 @@ export default function HelpPage() {
     .map((slug) => helpArticles.find((a) => a.slug === slug))
     .filter(Boolean)
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": popularArticles.slice(0, 8).map((a) => ({
+      "@type": "Question",
+      "name": a!.title,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": a!.summary,
+        "url": `https://www.solu.ae/help/${a!.slug}`,
+      },
+    })),
+  }
+
   return (
     <>
+      <JsonLd data={faqSchema} />
       <SoluHeader />
       <main>
         {/* Hero */}
