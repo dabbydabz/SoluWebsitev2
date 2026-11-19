@@ -32,7 +32,7 @@ export function SoluHeader() {
     { label: "Why Solu", href: "/#why-solu" },
     { label: "For You", href: "/#for-you" },
     { label: "Health Blog", href: "/blog" },
-    { label: "Help", href: "/help" },
+    { label: "Help", href: "/help", hideDesktop: true },
     { label: "Careers", href: "/careers" },
     { label: "Contact", href: "/contact" },
   ]
@@ -63,7 +63,7 @@ export function SoluHeader() {
             <Image src="/images/solu-logo-full.png" alt="Solu" width={120} height={36} className="h-9 w-auto" priority />
           </a>
           <nav className="flex items-center gap-6">
-            {navItems.map((item) => (
+            {navItems.filter((item) => !(item as any).hideDesktop).map((item) => (
               <a
                 key={item.label}
                 href={(item as any).disabled ? undefined : item.href}
