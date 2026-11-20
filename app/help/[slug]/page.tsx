@@ -4,6 +4,7 @@ import Link from "next/link"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 import { JsonLd } from "@/components/json-ld"
+import { getPostBySlug } from "@/lib/posts"
 import {
   getArticleBySlug,
   helpArticles,
@@ -115,6 +116,10 @@ export default async function ArticlePage({ params }: Props) {
     .filter(Boolean)
     .slice(0, 3)
 
+  const guidePosts = (article.guides ?? [])
+    .map((s) => getPostBySlug(s))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p))
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -204,6 +209,33 @@ export default async function ArticlePage({ params }: Props) {
               </button>
             </div>
           </div>
+
+          {/* Evidence-based blog guides on the same topic */}
+          {guidePosts.length > 0 && (
+            <div className="mb-10">
+              <h2 className="text-base font-semibold text-gray-700 mb-4">Read the full guide</h2>
+              <ul className="flex flex-col gap-2">
+                {guidePosts.map((post) => (
+                  <li key={post.slug}>
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="flex items-center justify-between gap-3 p-4 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors group"
+                    >
+                      <div>
+                        <p className="text-sm font-medium text-gray-900 group-hover:text-[#F7941D] transition-colors">
+                          {post.title}
+                        </p>
+                        <p className="text-xs text-gray-400 mt-0.5 line-clamp-1">{post.excerpt}</p>
+                      </div>
+                      <svg className="w-4 h-4 text-gray-300 group-hover:text-[#F7941D] transition-colors shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
+                      </svg>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Related articles */}
           {relatedArticles.length > 0 && (

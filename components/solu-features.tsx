@@ -21,7 +21,7 @@ export function SoluFeatures() {
             <span className="text-[#F7941D]">one place.</span>
           </h2>
           <p className="text-white/50 text-lg mt-6 leading-relaxed font-light">
-            A calm, intuitive experience that keeps you focused on what matters — feeling great every day.
+            A calm, intuitive experience that keeps you focused on what matters: feeling great every day.
           </p>
         </div>
 

@@ -14,6 +14,8 @@ export type HelpArticle = {
   category: string
   content: Block[]
   related?: string[]
+  // Blog slugs (lib/posts) for the evidence-based guide behind this help topic
+  guides?: string[]
 }
 
 export type HelpCategory = {
@@ -109,10 +111,10 @@ export const helpArticles: HelpArticle[] = [
       { type: "list", items: [
         "Your name",
         "Your cycle type (Natural, Hormonal contraception, Post-pill, or Irregular)",
-        "The first day of your last period — to calculate your current phase right away",
+        "The first day of your last period, to calculate your current phase right away",
         "Your average cycle length, or Solu can estimate it for you",
-        "Your health interests — the topics you care most about",
-        "Your main goal — the focus you'd like Solu to support this cycle",
+        "Your health interests: the topics you care most about",
+        "Your main goal: the focus you'd like Solu to support this cycle",
       ]},
       { type: "h2", text: "Can I change my answers later?" },
       { type: "p", text: "Yes. You can update your interests and goal at any time from your Profile page. Your cycle data can be updated from the My Cycle page. Your cycle type can be changed in Settings." },
@@ -190,7 +192,7 @@ export const helpArticles: HelpArticle[] = [
       { type: "list", items: [
         "All your personal data, cycle logs, journal entries, and progress will be permanently deleted",
         "This action cannot be undone",
-        "If you have an active subscription, cancel it first to avoid being charged again — subscriptions are managed through the App Store or Google Play",
+        "If you have an active subscription, cancel it first to avoid being charged again. Subscriptions are managed through the App Store or Google Play",
       ]},
       { type: "h2", text: "How to close your account" },
       { type: "steps", items: [
@@ -211,17 +213,18 @@ export const helpArticles: HelpArticle[] = [
     title: "How Solu tracks your cycle",
     summary: "Solu uses your period logs and cycle length to calculate your current phase.",
     category: "cycle-and-phases",
+    guides: ["understanding-your-four-cycle-phases", "how-accurate-are-period-tracking-apps"],
     related: ["the-four-phases-explained", "how-to-log-your-period", "how-to-update-your-cycle-length"],
     content: [
       { type: "p", text: "Solu tracks your menstrual cycle to show you guidance that fits where you are in your cycle right now." },
       { type: "h2", text: "What Solu uses" },
       { type: "list", items: [
         "The first day of your last period",
-        "Your average cycle length — you enter this, or Solu estimates it from your logs over time",
+        "Your average cycle length: you enter this, or Solu estimates it from your logs over time",
         "The number of period days you log",
       ]},
       { type: "h2", text: "How phases are calculated" },
-      { type: "p", text: "Solu divides your cycle into four phases: Menstrual, Follicular, Ovulation, and Luteal. Using your logged dates and cycle length, it works out which phase you're currently in and shows the content most relevant to that phase — not just the day number, but your position within the phase itself." },
+      { type: "p", text: "Solu divides your cycle into four phases: Menstrual, Follicular, Ovulation, and Luteal. Using your logged dates and cycle length, it works out which phase you're currently in and shows the content most relevant to that phase: not just the day number, but your position within the phase itself." },
       { type: "h2", text: "Does Solu get more accurate over time?" },
       { type: "p", text: "Yes. The more cycles you log, the better Solu understands your personal pattern. If your cycle length varies, Solu adapts its predictions as new data comes in." },
       { type: "tip", text: "If your phase looks wrong, go to My Cycle and check that your most recent period start date is correct." },
@@ -232,6 +235,7 @@ export const helpArticles: HelpArticle[] = [
     title: "The four cycle phases explained",
     summary: "What happens in each phase of your cycle and what Solu shows you during each one.",
     category: "cycle-and-phases",
+    guides: ["understanding-your-four-cycle-phases", "how-long-should-your-follicular-phase-be", "what-is-the-luteal-phase"],
     related: ["how-solu-tracks-your-cycle", "how-to-log-your-period", "smart-insights-explained"],
     content: [
       { type: "p", text: "Every menstrual cycle moves through four phases. Solu tracks which phase you're in and tailors your guidance to match." },
@@ -243,7 +247,7 @@ export const helpArticles: HelpArticle[] = [
       { type: "p", text: "Oestrogen peaks, triggering the release of an egg. This is typically when energy and confidence are at their highest. Solu reflects this with more intensive movement suggestions and social encouragement." },
       { type: "h2", text: "Luteal (days 15–28 on average)" },
       { type: "p", text: "After ovulation, progesterone rises and then falls toward the end of the phase. Some women notice mood changes, cravings, or lower energy in the later luteal days. Solu adjusts its guidance to support rest, nourishment, and emotional wellbeing." },
-      { type: "tip", text: "Every cycle is different, and so is every body. The timings above are averages — your Solu phases are calculated from your personal cycle data." },
+      { type: "tip", text: "Every cycle is different, and so is every body. The timings above are averages. Your Solu phases are calculated from your personal cycle data." },
     ],
   },
   {
@@ -251,6 +255,7 @@ export const helpArticles: HelpArticle[] = [
     title: "How to log your period in Solu",
     summary: "Keep your cycle tracking accurate by logging the start of each period.",
     category: "cycle-and-phases",
+    guides: ["what-does-a-period-tracking-app-do", "how-accurate-are-period-tracking-apps"],
     related: ["how-solu-tracks-your-cycle", "how-to-update-your-cycle-length", "your-fertile-window"],
     content: [
       { type: "h2", text: "Log a new period" },
@@ -266,7 +271,7 @@ export const helpArticles: HelpArticle[] = [
         "Find the logged period in the calendar",
         "Tap it to edit the start date or remove the entry",
       ]},
-      { type: "tip", text: "Logging your period on day 1 — as early as possible — gives Solu the most accurate phase calculation for the days ahead." },
+      { type: "tip", text: "Logging your period on day 1, as early as possible, gives Solu the most accurate phase calculation for the days ahead." },
     ],
   },
   {
@@ -274,6 +279,7 @@ export const helpArticles: HelpArticle[] = [
     title: "Your fertile window on Solu",
     summary: "What Solu shows about your fertile window and what it means.",
     category: "cycle-and-phases",
+    guides: ["when-am-i-most-fertile", "7-signs-of-ovulation", "am-i-fertile-before-my-period"],
     related: ["the-four-phases-explained", "choosing-your-cycle-type", "how-solu-tracks-your-cycle"],
     content: [
       { type: "p", text: "If you have a natural cycle, Solu highlights your estimated fertile window on the My Cycle calendar." },
@@ -289,6 +295,7 @@ export const helpArticles: HelpArticle[] = [
     title: "How to update your cycle length or period dates",
     summary: "Keep your Solu predictions accurate by keeping your cycle data up to date.",
     category: "cycle-and-phases",
+    guides: ["understanding-your-four-cycle-phases", "how-does-stress-affect-your-menstrual-cycle"],
     related: ["how-solu-tracks-your-cycle", "how-to-log-your-period", "choosing-your-cycle-type"],
     content: [
       { type: "h2", text: "Why cycle length matters" },
@@ -489,11 +496,11 @@ export const helpArticles: HelpArticle[] = [
   {
     slug: "how-to-cancel-your-subscription",
     title: "How to cancel your Solu+ subscription",
-    summary: "Cancel Solu+ through your app store — not through Solu directly.",
+    summary: "Cancel Solu+ through your app store, not through Solu directly.",
     category: "subscriptions",
     related: ["what-happens-if-i-cancel", "solu-plans-comparison", "how-to-close-your-account"],
     content: [
-      { type: "p", text: "Solu+ subscriptions are managed by the App Store (iOS) or Google Play (Android) — or by Stripe if you subscribed on solu.ae — not by Solu directly. To cancel, go through where you originally subscribed." },
+      { type: "p", text: "Solu+ subscriptions are managed by the App Store (iOS) or Google Play (Android), or by Stripe if you subscribed on solu.ae, not by Solu directly. To cancel, go through where you originally subscribed." },
       { type: "h2", text: "Cancel on iOS (iPhone or iPad)" },
       { type: "steps", items: [
         "Open the Settings app on your iPhone",
@@ -517,17 +524,17 @@ export const helpArticles: HelpArticle[] = [
   {
     slug: "what-happens-if-i-cancel",
     title: "What happens to my data if I cancel Solu+?",
-    summary: "Cancelling Solu+ does not delete your data — it moves back to Solu Free.",
+    summary: "Cancelling Solu+ does not delete your data. It moves back to Solu Free.",
     category: "subscriptions",
     related: ["how-to-cancel-your-subscription", "how-to-close-your-account"],
     content: [
       { type: "h2", text: "Your data stays safe" },
       { type: "p", text: "Cancelling Solu+ does not delete your Solu account or any of your health data. Your cycle logs, journal entries, mood history, goals, and all progress are retained." },
       { type: "h2", text: "What changes when you cancel" },
-      { type: "p", text: "After your billing period ends, your account moves to Solu Free. Solu+ features — full Smart Insights, unlimited articles, additional goals, extended progress history, and Hangout member benefits — will no longer be available. Your core cycle tracking and four-phase guidance continue as normal." },
+      { type: "p", text: "After your billing period ends, your account moves to Solu Free. Solu+ features (full Smart Insights, unlimited articles, additional goals, extended progress history, and Hangout member benefits) will no longer be available. Your core cycle tracking and four-phase guidance continue as normal." },
       { type: "h2", text: "Your history is waiting" },
-      { type: "p", text: "Solu records your data regardless of plan. If you re-subscribe, your full history is there — you don't start from scratch. The extended progress views (3 cycles, 6 months, year) unlock immediately on resubscribing." },
-      { type: "tip", text: "If you're cancelling because of a specific issue, reach out first at solu.ae/contact — we'd love to help." },
+      { type: "p", text: "Solu records your data regardless of plan. If you re-subscribe, your full history is there, so you don't start from scratch. The extended progress views (3 cycles, 6 months, year) unlock immediately on resubscribing." },
+      { type: "tip", text: "If you're cancelling because of a specific issue, reach out first at solu.ae/contact. We'd love to help." },
     ],
   },
 
@@ -539,18 +546,18 @@ export const helpArticles: HelpArticle[] = [
     category: "using-solu",
     related: ["understanding-goals", "smart-insights-explained", "how-community-works"],
     content: [
-      { type: "p", text: "The Glow Up Score is Solu's way of celebrating how much you're doing for your body and mind. Every healthy action you take earns points, and those points add up over time — permanently." },
+      { type: "p", text: "The Glow Up Score is Solu's way of celebrating how much you're doing for your body and mind. Every healthy action you take earns points, and those points add up over time, permanently." },
       { type: "h2", text: "Earning points" },
       { type: "p", text: "You earn Glow Up points for actions across the app: logging a move step, saving a recipe, writing a journal entry, opening a Did You Know card, and more. Points never expire and never reset." },
       { type: "h2", text: "Goal bonus" },
       { type: "p", text: "If an action matches your active goal, you earn a small bonus on top of the standard points. The app shows this as a reward moment when it happens." },
       { type: "h2", text: "The five levels" },
       { type: "list", items: [
-        "Seed — your starting point",
-        "Bloom — your first milestone",
-        "Glow — things are getting interesting",
-        "Radiance — you're glowing",
-        "Luminous — the highest level",
+        "Seed: your starting point",
+        "Bloom: your first milestone",
+        "Glow: things are getting interesting",
+        "Radiance: you're glowing",
+        "Luminous: the highest level",
       ]},
       { type: "h2", text: "The Glow Up ring" },
       { type: "p", text: "The ring on your Glow Up card shows your progress from your current level to the next. When the ring fills, you level up and the ring restarts. At Luminous, the ring stays full." },
@@ -602,7 +609,7 @@ export const helpArticles: HelpArticle[] = [
       { type: "h2", text: "Adding friends with your QR code" },
       { type: "p", text: "Tap the QR code icon on your profile to show your personal code. Ask a friend to scan it, or scan theirs, to add each other on Solu." },
       { type: "h2", text: "The city leaderboard badge" },
-      { type: "p", text: "The community badge shows how your activity level this phase compares with other Solu users in your city. It's based on what you've done in your current phase — not your lifetime total — so new users have just as good a chance of ranking highly as long-time users." },
+      { type: "p", text: "The community badge shows how your activity level this phase compares with other Solu users in your city. It's based on what you've done in your current phase, not your lifetime total, so new users have just as good a chance of ranking highly as long-time users." },
       { type: "tip", text: "Community posts are visible to all Solu users. Keep your posts kind and supportive." },
     ],
   },
@@ -665,12 +672,12 @@ export const helpArticles: HelpArticle[] = [
     category: "hangouts",
     related: ["hangouts-and-your-plan", "how-to-join-a-hangout", "in-person-hangouts"],
     content: [
-      { type: "p", text: "Hangouts are events hosted by Solu or Solu's partners — online sessions and in-person meetups in Dubai where you can move, connect, and learn alongside other Solu members." },
+      { type: "p", text: "Hangouts are events hosted by Solu or Solu's partners: online sessions and in-person meetups in Dubai where you can move, connect, and learn alongside other Solu members." },
       { type: "h2", text: "Types of Hangouts" },
       { type: "h3", text: "Solu-hosted online sessions" },
       { type: "p", text: "Live online events hosted by Solu, covering movement, nutrition, cycle education, and wellbeing topics. Selected sessions are open to all Solu users. Solu+ members get access to every session." },
       { type: "h3", text: "Solu-hosted in-person hangouts" },
-      { type: "p", text: "In-person events in Dubai — fitness sessions, workshops, and community meetups. Solu+ members get free or discounted entry with early booking. Solu Free members can join at the full ticket price or join a waitlist." },
+      { type: "p", text: "In-person events in Dubai: fitness sessions, workshops, and community meetups. Solu+ members get free or discounted entry with early booking. Solu Free members can join at the full ticket price or join a waitlist." },
       { type: "h3", text: "Partner events" },
       { type: "p", text: "Events hosted by Solu's wellness and fitness partners in Dubai. The partner sets the ticket price. Solu+ members get a discount and early access." },
       { type: "h2", text: "How often do Hangouts happen?" },
@@ -701,7 +708,7 @@ export const helpArticles: HelpArticle[] = [
       ]},
       { type: "h2", text: "Founding members" },
       { type: "p", text: "The first 300 Solu+ subscribers are founding members. Founding members get free entry to every Solu-hosted hangout during their first year." },
-      { type: "tip", text: "Not sure if you're a founding member? Check your profile — founding member status is shown on your subscription details." },
+      { type: "tip", text: "Not sure if you're a founding member? Check your profile. Founding member status is shown on your subscription details." },
     ],
   },
   {
@@ -719,7 +726,7 @@ export const helpArticles: HelpArticle[] = [
         "Browse upcoming online and in-person events",
       ]},
       { type: "h2", text: "Book your spot" },
-      { type: "p", text: "Tap an event card to see the full details — description, date, time, location (for in-person events), and what's included. Tap \"Book\" or \"Join\" to secure your place." },
+      { type: "p", text: "Tap an event card to see the full details: description, date, time, location (for in-person events), and what's included. Tap \"Book\" or \"Join\" to secure your place." },
       { type: "h2", text: "Online sessions" },
       { type: "p", text: "Once you've joined an online session, a link to join the live call will appear in the event details shortly before it starts. Tap it to join directly from the app." },
       { type: "h2", text: "In-person events" },
@@ -734,7 +741,7 @@ export const helpArticles: HelpArticle[] = [
     category: "hangouts",
     related: ["what-are-hangouts", "hangouts-and-your-plan", "how-to-join-a-hangout"],
     content: [
-      { type: "p", text: "Solu hosts at least one in-person hangout in Dubai every month — fitness sessions, workshops, and community events designed around the same wellness pillars as the app." },
+      { type: "p", text: "Solu hosts at least one in-person hangout in Dubai every month: fitness sessions, workshops, and community events designed around the same wellness pillars as the app." },
       { type: "h2", text: "Who can attend?" },
       { type: "p", text: "In-person hangouts are open to all Solu users. Solu+ members get free or discounted entry and can book before tickets open to everyone. Solu Free members can join at the full ticket price or add themselves to the waitlist." },
       { type: "h2", text: "Ticket pricing" },
@@ -744,7 +751,7 @@ export const helpArticles: HelpArticle[] = [
         "Solu Free: full ticket price",
       ]},
       { type: "h2", text: "Booking and tickets" },
-      { type: "p", text: "Tickets are booked and paid for in the app. After booking, your ticket appears in the event details in the Community section — show it at the door on your phone." },
+      { type: "p", text: "Tickets are booked and paid for in the app. After booking, your ticket appears in the event details in the Community section. Show it at the door on your phone." },
       { type: "h2", text: "Waitlist" },
       { type: "p", text: "If a session is full, you can join the waitlist. You'll receive a notification if a spot opens up." },
       { type: "tip", text: "Event details, including the venue and what to bring, are posted in the event card in the app." },

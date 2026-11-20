@@ -12,7 +12,7 @@ export function SoluPhone() {
             <span className="italic text-[#F7941D]">one place.</span>
           </h2>
           <p className="text-white/50 text-lg mt-6 leading-relaxed">
-            A calm, intuitive experience that keeps you focused on what matters — feeling great.
+            A calm, intuitive experience that keeps you focused on what matters: feeling great.
           </p>
         </div>
 

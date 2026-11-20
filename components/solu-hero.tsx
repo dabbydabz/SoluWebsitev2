@@ -88,7 +88,7 @@ export function SoluHero() {
                   Solu helps women<br />live healthier lives.
                 </h1>
                 <p className="text-white/85 text-lg leading-relaxed font-light max-w-md">
-                  Your body changes every week — your life should reflect that. Solu aligns your daily habits with your natural hormonal cycle, so you always know what your body needs, and why.
+                  Your body changes every week, and your life should reflect that. Solu aligns your daily habits with your natural hormonal cycle, so you always know what your body needs, and why.
                 </p>
                 <div className="flex flex-wrap items-center gap-4">
                   <button data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className="btn-pulse-white bg-white text-[#F7941D] px-8 py-4 rounded-full font-bold text-base hover:bg-orange-50 transition-all shadow-xl hover:-translate-y-0.5 active:scale-95 cursor-pointer">
@@ -141,7 +141,7 @@ export function SoluHero() {
               ×
             </button>
             <p className="text-gray-700 text-base leading-relaxed pr-6">
-              Your body changes every week — your life should reflect that. Solu aligns your daily habits with your natural hormonal cycle, so you always know what your body needs, and why.
+              Your body changes every week, and your life should reflect that. Solu aligns your daily habits with your natural hormonal cycle, so you always know what your body needs, and why.
             </p>
           </div>
         </div>

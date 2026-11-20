@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
+import { JsonLd } from "@/components/json-ld"
 import {
   helpCategories,
   getArticlesByCategory,
@@ -31,9 +32,38 @@ export default async function CategoryPage({ params }: Props) {
   if (!category) notFound()
 
   const articles = getArticlesByCategory(slug)
+  const url = `https://www.solu.ae/help/category/${slug}`
+
+  const categorySchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${url}#webpage`,
+    "name": `${category.label} | Solu Help`,
+    "description": category.description,
+    "url": url,
+    "isPartOf": { "@id": "https://www.solu.ae/#website" },
+    "publisher": { "@id": "https://www.solu.ae/#organization" },
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": articles.map((a, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "name": a.title,
+        "url": `https://www.solu.ae/help/${a.slug}`,
+      })),
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Help", "item": "https://www.solu.ae/help" },
+        { "@type": "ListItem", "position": 2, "name": category.label, "item": url },
+      ],
+    },
+  }
 
   return (
     <>
+      <JsonLd data={categorySchema} />
       <SoluHeader />
       <main className="min-h-screen">
         <div className="max-w-2xl mx-auto px-6 pt-28 pb-16">

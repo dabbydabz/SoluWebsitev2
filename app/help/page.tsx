@@ -12,11 +12,11 @@ import {
 } from "@/lib/help-articles"
 
 export const metadata: Metadata = {
-  title: "Help Centre | Solu",
+  title: "Solu Help Centre: Cycle Tracking, Plans & Privacy",
   description: "Find answers to your questions about Solu: cycle tracking, phases, subscriptions, privacy, and more.",
   alternates: { canonical: "https://www.solu.ae/help" },
   openGraph: {
-    title: "Help Centre | Solu",
+    title: "Solu Help Centre: Cycle Tracking, Plans & Privacy",
     description: "Find answers to your questions about Solu.",
     url: "https://www.solu.ae/help",
   },
