@@ -1,4 +1,5 @@
 "use client"
+import { useState } from "react"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 
@@ -16,6 +17,22 @@ function CheckIcon() {
   )
 }
 
+function ChevronDown({ open }: { open: boolean }) {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      className={`w-4 h-4 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M3 6l5 5 5-5" />
+    </svg>
+  )
+}
+
 const freeFeatures = [
   "Cycle tracking and four-phase guidance",
   "Daily Move, Nourish, Rest and Mind actions",
@@ -27,14 +44,17 @@ const freeFeatures = [
 
 const plusFeatures = [
   "Everything in Solu Free",
-  "Full Smart Insights",
-  "Swap any daily action",
+  "Insights personalised to every phase of your cycle",
+  "Full flexibility — make every daily action your own",
   "Up to three goals and full progress history",
   "Monthly cycle report",
   "Member pricing on Hangouts",
 ]
 
 export default function PricingPage() {
+  const [freeOpen, setFreeOpen] = useState(false)
+  const [plusOpen, setPlusOpen] = useState(false)
+
   return (
     <>
       <SoluHeader />
@@ -49,20 +69,20 @@ export default function PricingPage() {
           {/* Solu+ card — first on mobile, right on desktop */}
           <div className="w-full lg:w-[460px] bg-white rounded-[34px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.4)] order-first lg:order-last">
             <div
-              className="rounded-[26px] bg-[#FBE9E4] p-7 flex flex-col h-[380px] sm:h-[400px] relative overflow-hidden"
+              className="rounded-[26px] bg-[#FBE9E4] p-7 flex flex-col relative overflow-hidden"
               style={{ transform: "translateZ(0)" }}
             >
-              {/* Blobs — isolated so blur clips correctly on Safari */}
-              <div className="absolute w-[300px] h-[240px] rounded-full bg-[#F4A88A] blur-[46px] -top-[90px] left-[150px] opacity-[0.85]" />
-              <div className="absolute w-[220px] h-[220px] rounded-full bg-[#B48AE8] blur-[46px] -top-[70px] -right-[60px] opacity-[0.90]" />
-              <div className="absolute w-[260px] h-[200px] rounded-full bg-[#F3B48C] blur-[46px] -bottom-[110px] -right-[40px] opacity-[0.85]" />
+              {/* Blobs */}
+              <div className="absolute w-[300px] h-[240px] rounded-full bg-[#F4A88A] blur-[46px] -top-[90px] left-[150px] opacity-[0.85] pointer-events-none" />
+              <div className="absolute w-[220px] h-[220px] rounded-full bg-[#B48AE8] blur-[46px] -top-[70px] -right-[60px] opacity-[0.90] pointer-events-none" />
+              <div className="absolute w-[260px] h-[200px] rounded-full bg-[#F3B48C] blur-[46px] -bottom-[110px] -right-[40px] opacity-[0.85] pointer-events-none" />
 
               <div className="relative flex items-start justify-between">
                 <div className="text-[21px] font-medium text-[#1A1A1A]">Solu+</div>
                 <span className="text-[13px] font-semibold bg-white/75 text-[#7B4FB8] px-3.5 py-1.5 rounded-full">7-day free trial</span>
               </div>
 
-              <div className="relative mt-9 flex items-baseline gap-2">
+              <div className="relative mt-8 flex items-baseline gap-2">
                 <span className="text-[58px] sm:text-[60px] font-bold tracking-tight leading-none text-[#1A1A1A]">
                   <span className="text-[28px] font-semibold mr-1">AED</span>199
                 </span>
@@ -70,13 +90,13 @@ export default function PricingPage() {
               </div>
               <div className="relative text-[14px] text-[#55555A] mt-1">or AED 34.99/month</div>
 
-              <p className="relative text-[17px] leading-relaxed text-[#2C2C2E] mt-4">
+              <p className="relative text-[17px] leading-relaxed text-[#2C2C2E] mt-5 mb-6">
                 More depth, more personalisation, and member access to Hangouts.
               </p>
 
               <button
                 onClick={openWaitlist}
-                className="relative mt-auto h-14 rounded-full bg-gradient-to-b from-[#2A2A2C] to-[#111] text-white text-[17px] font-semibold flex items-center justify-center hover:opacity-90 transition-opacity"
+                className="relative h-14 rounded-full bg-gradient-to-b from-[#2A2A2C] to-[#111] text-white text-[17px] font-semibold flex items-center justify-center hover:opacity-90 transition-opacity"
               >
                 Start free trial
               </button>
@@ -84,42 +104,64 @@ export default function PricingPage() {
                 Founding members pay AED 149.99/year. First 300 only.
               </p>
             </div>
-            <ul className="px-6 py-6 space-y-4">
-              {plusFeatures.map((f) => (
-                <li key={f} className="flex items-center gap-3.5 text-[16px] text-[#2C2C2E]">
-                  <CheckIcon />
-                  {f}
-                </li>
-              ))}
-            </ul>
+
+            {/* Collapsible feature list */}
+            <button
+              onClick={() => setPlusOpen(!plusOpen)}
+              className="w-full flex items-center justify-center gap-2 py-4 text-[14px] font-medium text-[#55555A] hover:text-[#1A1A1A] transition-colors"
+            >
+              {plusOpen ? "See less" : "See what you get"}
+              <ChevronDown open={plusOpen} />
+            </button>
+            <div className={`overflow-hidden transition-all duration-300 ${plusOpen ? "max-h-[400px] opacity-100" : "max-h-0 opacity-0"}`}>
+              <ul className="px-6 pb-6 space-y-4">
+                {plusFeatures.map((f) => (
+                  <li key={f} className="flex items-center gap-3.5 text-[16px] text-[#2C2C2E]">
+                    <CheckIcon />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           {/* Free card — second on mobile, left on desktop */}
           <div className="w-full lg:w-[460px] bg-white rounded-[34px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.4)] order-last lg:order-first">
-            <div className="rounded-[26px] bg-[#EBEAE9] p-7 flex flex-col h-[380px] sm:h-[400px]">
+            <div className="rounded-[26px] bg-[#EBEAE9] p-7 flex flex-col">
               <div className="text-[21px] font-medium text-[#1A1A1A]">Solu Free</div>
-              <div className="mt-9 flex items-baseline gap-2">
+              <div className="mt-8 flex items-baseline gap-2">
                 <span className="text-[58px] sm:text-[60px] font-bold tracking-tight leading-none text-[#1A1A1A]">Free</span>
               </div>
               <div className="h-[18px]" />
-              <p className="text-[17px] leading-relaxed text-[#2C2C2E] mt-4">
+              <p className="text-[17px] leading-relaxed text-[#2C2C2E] mt-4 mb-6">
                 Everything you need to build a daily habit around your cycle.
               </p>
               <button
                 onClick={openWaitlist}
-                className="mt-auto h-14 rounded-full bg-gradient-to-b from-[#2A2A2C] to-[#111] text-white text-[17px] font-semibold flex items-center justify-center hover:opacity-90 transition-opacity"
+                className="h-14 rounded-full bg-gradient-to-b from-[#2A2A2C] to-[#111] text-white text-[17px] font-semibold flex items-center justify-center hover:opacity-90 transition-opacity"
               >
                 Get started
               </button>
             </div>
-            <ul className="px-6 py-6 space-y-4">
-              {freeFeatures.map((f) => (
-                <li key={f} className="flex items-center gap-3.5 text-[16px] text-[#2C2C2E]">
-                  <CheckIcon />
-                  {f}
-                </li>
-              ))}
-            </ul>
+
+            {/* Collapsible feature list */}
+            <button
+              onClick={() => setFreeOpen(!freeOpen)}
+              className="w-full flex items-center justify-center gap-2 py-4 text-[14px] font-medium text-[#55555A] hover:text-[#1A1A1A] transition-colors"
+            >
+              {freeOpen ? "See less" : "See what you get"}
+              <ChevronDown open={freeOpen} />
+            </button>
+            <div className={`overflow-hidden transition-all duration-300 ${freeOpen ? "max-h-[400px] opacity-100" : "max-h-0 opacity-0"}`}>
+              <ul className="px-6 pb-6 space-y-4">
+                {freeFeatures.map((f) => (
+                  <li key={f} className="flex items-center gap-3.5 text-[16px] text-[#2C2C2E]">
+                    <CheckIcon />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
         </div>
