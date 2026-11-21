@@ -1,5 +1,4 @@
 "use client"
-import type { Metadata } from "next"
 import { SoluHeader } from "@/components/solu-header"
 import { SoluFooter } from "@/components/solu-footer"
 
@@ -39,49 +38,24 @@ export default function PricingPage() {
   return (
     <>
       <SoluHeader />
-      <main className="min-h-screen bg-[#ECEBEA] pt-32 pb-24 px-5">
+      <main className="min-h-screen bg-[#0D0D0D] pt-32 pb-24 px-5">
         <div className="text-center mb-14">
-          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#1A1A1A]">Choose your plan</h1>
-          <p className="text-lg text-[#6B6B70] mt-3">Start free. Upgrade when you&apos;re ready.</p>
+          <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-white">Choose your plan</h1>
+          <p className="text-lg text-white/50 mt-3">Your body deserves the full picture.</p>
         </div>
 
         <div className="flex flex-col lg:flex-row items-stretch justify-center gap-8 max-w-[980px] mx-auto">
 
-          {/* Free card */}
-          <div className="w-full lg:w-[460px] bg-white rounded-[34px] p-2.5 shadow-[0_18px_40px_rgba(0,0,0,0.06)]">
-            <div className="rounded-[26px] bg-[#EBEAE9] p-7 flex flex-col h-[380px] sm:h-[400px]">
-              <div className="text-[21px] font-medium text-[#1A1A1A]">Solu Free</div>
-              <div className="mt-9 flex items-baseline gap-2">
-                <span className="text-[58px] sm:text-[60px] font-bold tracking-tight leading-none text-[#1A1A1A]">Free</span>
-              </div>
-              <div className="h-[18px]" />
-              <p className="text-[17px] leading-relaxed text-[#2C2C2E] mt-4">
-                Everything you need to build a daily habit around your cycle.
-              </p>
-              <button
-                onClick={openWaitlist}
-                className="mt-auto h-14 rounded-full bg-gradient-to-b from-[#2A2A2C] to-[#111] text-white text-[17px] font-semibold flex items-center justify-center hover:opacity-90 transition-opacity"
-              >
-                Get started
-              </button>
-            </div>
-            <ul className="px-6 py-6 space-y-4">
-              {freeFeatures.map((f) => (
-                <li key={f} className="flex items-center gap-3.5 text-[16px] text-[#2C2C2E]">
-                  <CheckIcon />
-                  {f}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Plus card */}
-          <div className="w-full lg:w-[460px] bg-white rounded-[34px] p-2.5 shadow-[0_18px_40px_rgba(0,0,0,0.06)]">
-            <div className="rounded-[26px] bg-[#FBE9E4] p-7 flex flex-col h-[380px] sm:h-[400px] relative overflow-hidden">
-              {/* Blobs */}
-              <div className="absolute w-[300px] h-[240px] rounded-full bg-[#F4A88A] opacity-85 blur-[46px] -top-[90px] left-[150px]" />
-              <div className="absolute w-[220px] h-[220px] rounded-full bg-[#B48AE8] opacity-90 blur-[46px] -top-[70px] -right-[60px]" />
-              <div className="absolute w-[260px] h-[200px] rounded-full bg-[#F3B48C] opacity-85 blur-[46px] -bottom-[110px] -right-[40px]" />
+          {/* Solu+ card — first on mobile, right on desktop */}
+          <div className="w-full lg:w-[460px] bg-white rounded-[34px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.4)] order-first lg:order-last">
+            <div
+              className="rounded-[26px] bg-[#FBE9E4] p-7 flex flex-col h-[380px] sm:h-[400px] relative overflow-hidden"
+              style={{ transform: "translateZ(0)" }}
+            >
+              {/* Blobs — isolated so blur clips correctly on Safari */}
+              <div className="absolute w-[300px] h-[240px] rounded-full bg-[#F4A88A] blur-[46px] -top-[90px] left-[150px] opacity-[0.85]" />
+              <div className="absolute w-[220px] h-[220px] rounded-full bg-[#B48AE8] blur-[46px] -top-[70px] -right-[60px] opacity-[0.90]" />
+              <div className="absolute w-[260px] h-[200px] rounded-full bg-[#F3B48C] blur-[46px] -bottom-[110px] -right-[40px] opacity-[0.85]" />
 
               <div className="relative flex items-start justify-between">
                 <div className="text-[21px] font-medium text-[#1A1A1A]">Solu+</div>
@@ -120,9 +94,37 @@ export default function PricingPage() {
             </ul>
           </div>
 
+          {/* Free card — second on mobile, left on desktop */}
+          <div className="w-full lg:w-[460px] bg-white rounded-[34px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.4)] order-last lg:order-first">
+            <div className="rounded-[26px] bg-[#EBEAE9] p-7 flex flex-col h-[380px] sm:h-[400px]">
+              <div className="text-[21px] font-medium text-[#1A1A1A]">Solu Free</div>
+              <div className="mt-9 flex items-baseline gap-2">
+                <span className="text-[58px] sm:text-[60px] font-bold tracking-tight leading-none text-[#1A1A1A]">Free</span>
+              </div>
+              <div className="h-[18px]" />
+              <p className="text-[17px] leading-relaxed text-[#2C2C2E] mt-4">
+                Everything you need to build a daily habit around your cycle.
+              </p>
+              <button
+                onClick={openWaitlist}
+                className="mt-auto h-14 rounded-full bg-gradient-to-b from-[#2A2A2C] to-[#111] text-white text-[17px] font-semibold flex items-center justify-center hover:opacity-90 transition-opacity"
+              >
+                Get started
+              </button>
+            </div>
+            <ul className="px-6 py-6 space-y-4">
+              {freeFeatures.map((f) => (
+                <li key={f} className="flex items-center gap-3.5 text-[16px] text-[#2C2C2E]">
+                  <CheckIcon />
+                  {f}
+                </li>
+              ))}
+            </ul>
+          </div>
+
         </div>
 
-        <p className="text-center mt-14 text-[16px] text-[#7A7A80]">More is on the way. Founding members hear about it first.</p>
+        <p className="text-center mt-14 text-[16px] text-white/30">More is on the way. Founding members hear about it first.</p>
       </main>
       <SoluFooter />
     </>

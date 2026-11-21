@@ -30,7 +30,6 @@ export function SoluHeader() {
 
   const navItems = [
     { label: "Why Solu", href: "/#why-solu" },
-    { label: "For You", href: "/#for-you" },
     { label: "Pricing", href: "/pricing" },
     { label: "Health Blog", href: "/blog" },
     { label: "Help", href: "/help", hideDesktop: true },
