@@ -78,7 +78,7 @@ export function WaitlistPopup() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!name.trim() || !email.trim() || !whatsapp.trim()) return
+    if (!name.trim() || !email.trim() || !phone.trim()) return
     setState("loading")
     try {
       const whatsapp = `${countryCode}${phone.trim()}`
