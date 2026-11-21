@@ -106,7 +106,7 @@ export function WaitlistPopup() {
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center animate-popup overflow-y-auto bg-[#FBE9E4]"
+      className="fixed inset-0 z-[200] flex items-center justify-center animate-popup overflow-x-hidden overflow-y-auto bg-[#FBE9E4]"
       role="dialog"
       aria-modal="true"
       aria-label="Join the Solu waitlist"
@@ -135,7 +135,7 @@ export function WaitlistPopup() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="m5 13 4 4L19 7" />
               </svg>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-3">You&apos;re a founding member.</h2>
+            <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-3">Founding member, unlocked.</h2>
             <p className="text-gray-500 text-base">Watch your inbox. You&apos;re getting in before anyone else.</p>
           </>
         ) : (
@@ -145,11 +145,11 @@ export function WaitlistPopup() {
               Early access
             </div>
 
-            <h2 className="text-[22px] sm:text-5xl font-black text-gray-900 leading-[1.15] tracking-tight mb-4">
+            <h2 className="text-[7.5vw] sm:text-5xl font-black text-gray-900 leading-[1.15] tracking-tight mb-4">
               The <span className="text-[1.25em] font-light">biggest</span> upgrade<br />to women&apos;s wellness
             </h2>
 
-            <p className="text-[#3A3A3C] text-[13px] sm:text-sm mb-1 whitespace-nowrap">
+            <p className="text-[#3A3A3C] text-[13px] sm:text-sm mb-1 whitespace-nowrap overflow-hidden text-ellipsis w-full">
               Lock in your price{" "}
               <span className="font-black underline underline-offset-2">forever</span>{" "}
               and get in before the public.

@@ -56,7 +56,7 @@ function welcomeEmailHtml(name: string): string {
             <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:28px;">
               <tr>
                 <td align="center">
-                  <a href="https://solu.ae/pricing" style="display:inline-block;background:#111111;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:14px 32px;border-radius:100px;">
+                  <a href="https://solu.ae/pricing" style="display:inline-block;background:#F7941D;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:14px 32px;border-radius:100px;">
                     Start your free trial
                   </a>
                 </td>
