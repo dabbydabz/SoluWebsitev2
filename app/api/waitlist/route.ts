@@ -1,3 +1,4 @@
+import { after } from "next/server"
 import { NextRequest, NextResponse } from "next/server"
 import { Resend } from "resend"
 
@@ -150,35 +151,38 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: false }, { status: 500 })
     }
 
-    // Fire-and-forget: Google Sheets
+    const trimmedEmail = email.trim()
+    const trimmedName = name?.trim()
+    const firstName = trimmedName?.split(" ")[0] || "there"
     const sheetsWebhook = process.env.GOOGLE_SHEETS_WEBHOOK
-    if (sheetsWebhook) {
-      fetch(sheetsWebhook, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: name?.trim(), email: email.trim(), whatsapp }),
-      }).catch((err) => console.error("Sheets webhook error:", err))
-    }
 
-    // Fire-and-forget: welcome email + newsletter signup
-    const firstName = name?.trim()?.split(" ")[0] || "there"
-    Promise.all([
-      resend.emails.send({
-        from: "Solu <hello@solu.ae>",
-        to: email.trim(),
-        subject: "You're in. Here's what happens next.",
-        html: welcomeEmailHtml(firstName),
-      }),
-      process.env.RESEND_AUDIENCE_ID
-        ? resend.contacts.create({
-            email: email.trim(),
-            firstName: name?.trim()?.split(" ")[0] || undefined,
-            lastName: name?.trim()?.split(" ").slice(1).join(" ") || undefined,
-            audienceId: process.env.RESEND_AUDIENCE_ID,
-            unsubscribed: false,
-          })
-        : Promise.resolve(),
-    ]).catch((err) => console.error("Resend error:", err))
+    // Run after response is sent — keeps serverless function alive for async work
+    after(async () => {
+      await Promise.allSettled([
+        sheetsWebhook
+          ? fetch(sheetsWebhook, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ name: trimmedName, email: trimmedEmail, whatsapp }),
+            })
+          : Promise.resolve(),
+        resend.emails.send({
+          from: "Solu <hello@solu.ae>",
+          to: trimmedEmail,
+          subject: "You're in. Here's what happens next.",
+          html: welcomeEmailHtml(firstName),
+        }),
+        process.env.RESEND_AUDIENCE_ID
+          ? resend.contacts.create({
+              email: trimmedEmail,
+              firstName: trimmedName?.split(" ")[0] || undefined,
+              lastName: trimmedName?.split(" ").slice(1).join(" ") || undefined,
+              audienceId: process.env.RESEND_AUDIENCE_ID,
+              unsubscribed: false,
+            })
+          : Promise.resolve(),
+      ])
+    })
 
     return NextResponse.json({ success: true })
   } catch (err) {
