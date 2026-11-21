@@ -126,7 +126,7 @@ export default function PricingPage() {
           <div className="flex-none w-[82vw] max-w-[320px] bg-white rounded-[28px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.5)] snap-start">
             <div
               className="rounded-[20px] bg-[#FBE9E4] p-6 flex flex-col relative overflow-hidden"
-              style={{ transform: "translateZ(0)", isolation: "isolate" } as React.CSSProperties}
+              style={{ transform: "translateZ(0)", isolation: "isolate", WebkitMaskImage: "-webkit-radial-gradient(white, black)" } as React.CSSProperties}
             >
               <div className="absolute w-[220px] h-[180px] rounded-full bg-[#F4A88A] blur-[40px] -top-[70px] left-[100px] opacity-[0.85] pointer-events-none" />
               <div className="absolute w-[180px] h-[180px] rounded-full bg-[#B48AE8] blur-[40px] -top-[50px] -right-[40px] opacity-[0.90] pointer-events-none" />
@@ -156,7 +156,7 @@ export default function PricingPage() {
                 Start free trial
               </button>
               <p className="relative mt-2.5 text-center text-[11px] text-[#4A3A63]">
-                Founding members pay AED 149.99/year. First 300 only.
+                Founding members pay AED 149.99/year.<br />First 300 only.
               </p>
             </div>
 
