@@ -108,7 +108,7 @@ export function WaitlistPopup() {
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center animate-popup"
+      className="fixed inset-0 z-[200] flex items-center justify-center animate-popup overflow-hidden"
       role="dialog"
       aria-modal="true"
       aria-label="Join the Solu waitlist"
@@ -145,7 +145,7 @@ export function WaitlistPopup() {
             </div>
 
             <h2 className="text-4xl sm:text-6xl font-black text-gray-900 leading-[1.05] tracking-tight mb-4">
-              Something big is<br />coming for women.
+              Women's wellness,<br />built for your cycle.
             </h2>
 
             <p className="text-gray-500 text-base sm:text-lg mb-2 max-w-md leading-relaxed">
@@ -158,22 +158,22 @@ export function WaitlistPopup() {
             </p>
 
             {/* Countdown */}
-            <div className="flex items-start gap-3 sm:gap-5 mb-10">
+            <div className="flex items-start gap-2 sm:gap-5 mb-10">
               {[
                 { value: days,    label: "DAYS"  },
                 { value: hours,   label: "HOURS" },
                 { value: minutes, label: "MIN"   },
                 { value: seconds, label: "SEC"   },
               ].map((unit, i) => (
-                <div key={unit.label} className="flex items-start gap-3 sm:gap-5">
+                <div key={unit.label} className="flex items-start gap-2 sm:gap-5">
                   <div className="flex flex-col items-center">
-                    <span className="text-5xl sm:text-7xl font-black text-gray-900 tabular-nums leading-none">
+                    <span className="text-[40px] sm:text-7xl font-black text-gray-900 tabular-nums leading-none">
                       {String(unit.value).padStart(2, "0")}
                     </span>
-                    <span className="text-[10px] sm:text-xs font-semibold tracking-widest text-gray-400 mt-2">{unit.label}</span>
+                    <span className="text-[9px] sm:text-xs font-semibold tracking-widest text-gray-400 mt-2">{unit.label}</span>
                   </div>
                   {i < 3 && (
-                    <span className="text-4xl sm:text-6xl font-black text-gray-300 leading-none mt-1">:</span>
+                    <span className="text-[28px] sm:text-6xl font-black text-gray-300 leading-none mt-1">:</span>
                   )}
                 </div>
               ))}

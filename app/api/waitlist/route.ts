@@ -13,67 +13,67 @@ function welcomeEmailHtml(name: string): string {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>You're in.</title>
 </head>
-<body style="margin:0;padding:0;background:#0D0D0D;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
-<table width="100%" cellpadding="0" cellspacing="0" style="background:#0D0D0D;padding:40px 16px;">
+<body style="margin:0;padding:0;background:#F5F4F2;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#F5F4F2" style="background:#F5F4F2;padding:40px 16px;">
   <tr>
     <td align="center">
       <table width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;">
 
         <!-- Logo -->
         <tr>
-          <td align="center" style="padding-bottom:40px;">
-            <img src="https://solu.ae/images/solu-logo-full-white.png" alt="Solu" width="90" style="display:block;" />
+          <td align="center" style="padding-bottom:28px;">
+            <img src="https://solu.ae/images/solu-logo-full.png" alt="Solu" width="80" style="display:block;" />
           </td>
         </tr>
 
         <!-- Main card -->
         <tr>
-          <td style="background:#1A1A1A;border-radius:24px;padding:40px 36px;">
+          <td bgcolor="#ffffff" style="background:#ffffff;border-radius:20px;padding:36px 32px;border:1px solid #E8E6E3;">
 
             <!-- Founding member pill -->
-            <table cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
+            <table cellpadding="0" cellspacing="0" style="margin-bottom:24px;">
               <tr>
-                <td style="background:rgba(247,148,29,0.12);border:1px solid rgba(247,148,29,0.35);border-radius:100px;padding:6px 16px;">
-                  <span style="color:#F7941D;font-size:12px;font-weight:600;letter-spacing:0.04em;">FOUNDING MEMBER</span>
+                <td bgcolor="#FEF3E7" style="background:#FEF3E7;border:1px solid #F7941D;border-radius:100px;padding:5px 14px;">
+                  <span style="color:#C97415;font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;">Founding Member</span>
                 </td>
               </tr>
             </table>
 
             <!-- Heading -->
-            <h1 style="margin:0 0 16px;font-size:28px;font-weight:800;line-height:1.15;color:#ffffff;letter-spacing:-0.5px;">
+            <h1 style="margin:0 0 16px;font-size:26px;font-weight:800;line-height:1.2;color:#111111;letter-spacing:-0.3px;">
               You're in, ${firstName}.
             </h1>
 
             <!-- Body -->
-            <p style="margin:0 0 12px;font-size:16px;line-height:1.65;color:rgba(255,255,255,0.65);">
-              You just locked in one of the first 300 founding member spots. That means <strong style="color:#ffffff;">AED&nbsp;149.99/year — forever</strong>, even as the price goes up.
+            <p style="margin:0 0 12px;font-size:15px;line-height:1.7;color:#555555;">
+              You just locked in one of the first 300 founding member spots. That means <strong style="color:#111111;">AED 149.99/year, locked in forever</strong>, even as the price goes up.
             </p>
-            <p style="margin:0 0 32px;font-size:16px;line-height:1.65;color:rgba(255,255,255,0.65);">
-              The app launches <strong style="color:#ffffff;">3 December</strong>. Watch your inbox — founding members get in before anyone else.
+            <p style="margin:0 0 28px;font-size:15px;line-height:1.7;color:#555555;">
+              The app launches <strong style="color:#111111;">3 December</strong>. Watch your inbox. Founding members get in before anyone else.
             </p>
 
             <!-- CTA button -->
-            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:32px;">
+            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:28px;">
               <tr>
                 <td align="center">
-                  <a href="https://solu.ae/pricing" style="display:inline-block;background:#F7941D;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:14px 32px;border-radius:100px;">
-                    Start your free trial →
+                  <a href="https://solu.ae/pricing" style="display:inline-block;background:#111111;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:14px 32px;border-radius:100px;">
+                    Start your free trial
                   </a>
                 </td>
               </tr>
             </table>
 
             <!-- Divider -->
-            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:28px;">
+            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:24px;">
               <tr>
-                <td style="border-top:1px solid rgba(255,255,255,0.08);font-size:0;">&nbsp;</td>
+                <td style="border-top:1px solid #EEECE9;font-size:0;">&nbsp;</td>
               </tr>
             </table>
 
             <!-- Blog nudge -->
-            <p style="margin:0 0 6px;font-size:13px;color:rgba(255,255,255,0.4);">In the meantime</p>
-            <a href="https://solu.ae/blog" style="color:#ffffff;font-size:15px;font-weight:600;text-decoration:none;">
-              Read our latest on the blog →
+            <p style="margin:0 0 4px;font-size:12px;color:#999999;text-transform:uppercase;letter-spacing:0.05em;">In the meantime</p>
+            <a href="https://solu.ae/blog" style="color:#111111;font-size:15px;font-weight:600;text-decoration:none;">
+              Read our latest on the blog
             </a>
 
           </td>
@@ -81,11 +81,11 @@ function welcomeEmailHtml(name: string): string {
 
         <!-- Footer -->
         <tr>
-          <td align="center" style="padding-top:32px;">
-            <p style="margin:0 0 8px;font-size:13px;color:rgba(255,255,255,0.25);">— The Solu team</p>
-            <p style="margin:0;font-size:12px;color:rgba(255,255,255,0.15);">
-              You're receiving this because you signed up at solu.ae.<br/>
-              <a href="https://solu.ae" style="color:rgba(255,255,255,0.25);text-decoration:underline;">Visit solu.ae</a>
+          <td align="center" style="padding-top:28px;">
+            <p style="margin:0 0 6px;font-size:13px;color:#999999;">The Solu team</p>
+            <p style="margin:0;font-size:11px;color:#BBBBBB;line-height:1.6;">
+              You received this because you signed up at solu.ae.<br/>
+              <a href="https://solu.ae" style="color:#BBBBBB;text-decoration:underline;">Visit solu.ae</a>
             </p>
           </td>
         </tr>
