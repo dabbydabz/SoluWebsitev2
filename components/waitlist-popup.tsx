@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 
 const STORAGE_KEY  = "solu_waitlist_dismissed"
 const COUNT_KEY    = "solu_waitlist_count"
@@ -48,7 +48,6 @@ export function WaitlistPopup() {
   const [phone, setPhone]             = useState("")
   const [state, setState]             = useState<"idle" | "loading" | "success" | "error">("idle")
   const [count, setCount]             = useState(START_COUNT)
-  const emailRef                      = useRef<HTMLInputElement>(null)
   const { days, hours, minutes, seconds } = useCountdown()
 
   useEffect(() => {
@@ -72,7 +71,6 @@ export function WaitlistPopup() {
   function handleNameFocus() {
     if (!fieldsOpen) {
       setFieldsOpen(true)
-      setTimeout(() => emailRef.current?.focus(), 300)
     }
   }
 
@@ -108,24 +106,27 @@ export function WaitlistPopup() {
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center animate-popup overflow-hidden"
+      className="fixed inset-0 z-[200] flex items-center justify-center animate-popup overflow-y-auto bg-[#FBE9E4]"
       role="dialog"
       aria-modal="true"
       aria-label="Join the Solu waitlist"
     >
-      <div className="absolute inset-0 bg-white/60 backdrop-blur-xl" />
+      {/* Gradient blobs — matching Solu+ card */}
+      <div className="absolute w-[600px] h-[500px] rounded-full bg-[#F4A88A] blur-[100px] -top-[200px] -left-[100px] opacity-60 pointer-events-none" />
+      <div className="absolute w-[500px] h-[500px] rounded-full bg-[#B48AE8] blur-[100px] -top-[150px] -right-[50px] opacity-50 pointer-events-none" />
+      <div className="absolute w-[600px] h-[500px] rounded-full bg-[#F3B48C] blur-[100px] -bottom-[200px] right-0 opacity-60 pointer-events-none" />
 
       <button
         onClick={dismiss}
         aria-label="Close"
-        className="absolute top-5 right-5 w-9 h-9 flex items-center justify-center rounded-full bg-black/8 hover:bg-black/14 text-gray-700 transition-colors z-10"
+        className="absolute top-5 right-5 w-9 h-9 flex items-center justify-center rounded-full bg-black/10 hover:bg-black/18 text-[#3A3A3C] transition-colors z-10"
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
         </svg>
       </button>
 
-      <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-2xl w-full">
+      <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-2xl w-full -translate-y-[10vh] sm:translate-y-0">
 
         {state === "success" ? (
           <>
@@ -140,25 +141,25 @@ export function WaitlistPopup() {
         ) : (
           <>
             {/* Pulsing pill — not clickable */}
-            <div className="inline-flex items-center border border-[#F7941D]/60 text-[#F7941D] text-sm font-semibold px-5 py-2 rounded-full mb-8 pulse-pill select-none">
+            <div className="inline-flex items-center border border-[#F7941D]/60 text-[#F7941D] text-sm font-semibold px-5 py-2 rounded-full mb-5 pulse-pill select-none">
               Early access
             </div>
 
-            <h2 className="text-4xl sm:text-6xl font-black text-gray-900 leading-[1.05] tracking-tight mb-4">
-              Women's wellness,<br />built for your cycle.
+            <h2 className="text-[22px] sm:text-5xl font-black text-gray-900 leading-[1.15] tracking-tight mb-4">
+              The <span className="text-[1.25em] font-light">biggest</span> upgrade<br />to women&apos;s wellness
             </h2>
 
-            <p className="text-gray-500 text-base sm:text-lg mb-2 max-w-md leading-relaxed">
-              Founding member spots are limited.
-            </p>
-            <p className="text-gray-500 text-base sm:text-lg mb-10 max-w-md leading-relaxed">
+            <p className="text-[#3A3A3C] text-[13px] sm:text-sm mb-1 whitespace-nowrap">
               Lock in your price{" "}
               <span className="font-black underline underline-offset-2">forever</span>{" "}
-              and get in before the public launch.
+              and get in before the public.
+            </p>
+            <p className="text-[#3A3A3C] text-[13px] sm:text-sm font-semibold mb-6">
+              300 founding members only.
             </p>
 
             {/* Countdown */}
-            <div className="flex items-start gap-2 sm:gap-5 mb-10">
+            <div className="flex items-start gap-2 sm:gap-5 mb-6">
               {[
                 { value: days,    label: "DAYS"  },
                 { value: hours,   label: "HOURS" },
@@ -167,13 +168,13 @@ export function WaitlistPopup() {
               ].map((unit, i) => (
                 <div key={unit.label} className="flex items-start gap-2 sm:gap-5">
                   <div className="flex flex-col items-center">
-                    <span className="text-[40px] sm:text-7xl font-black text-gray-900 tabular-nums leading-none">
+                    <span className="text-[40px] sm:text-7xl font-bold tracking-tight text-gray-900 tabular-nums leading-none">
                       {String(unit.value).padStart(2, "0")}
                     </span>
-                    <span className="text-[9px] sm:text-xs font-semibold tracking-widest text-gray-400 mt-2">{unit.label}</span>
+                    <span className="text-[9px] sm:text-xs font-semibold tracking-widest text-[#55555A] mt-2">{unit.label}</span>
                   </div>
                   {i < 3 && (
-                    <span className="text-[28px] sm:text-6xl font-black text-gray-300 leading-none mt-1">:</span>
+                    <span className="text-[28px] sm:text-6xl font-bold text-[#B48AE8]/60 leading-none mt-1">:</span>
                   )}
                 </div>
               ))}
@@ -198,7 +199,6 @@ export function WaitlistPopup() {
                 {/* Email + WhatsApp — reveal on name focus */}
                 <div className={`space-y-2.5 overflow-hidden transition-all duration-300 ${fieldsOpen ? "max-h-56 opacity-100" : "max-h-0 opacity-0"}`}>
                   <input
-                    ref={emailRef}
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}

@@ -77,16 +77,16 @@ export default function PricingPage() {
           <p className="text-lg text-white/50 mt-3">Your body deserves the full picture.</p>
         </div>
 
-        {/* Horizontal scroll track */}
+        {/* Horizontal scroll track — mobile scrolls, desktop centers */}
         <div
           ref={trackRef}
           onScroll={handleScroll}
-          className="flex items-start gap-4 overflow-x-auto px-6 pb-6 snap-x snap-mandatory"
+          className="flex items-start gap-4 overflow-x-auto px-6 pb-6 snap-x snap-mandatory md:overflow-x-visible md:justify-center md:snap-none md:pb-0 md:mb-10"
           style={{ scrollbarWidth: "none", WebkitOverflowScrolling: "touch" } as React.CSSProperties}
         >
 
           {/* Free card */}
-          <div className="flex-none w-[82vw] max-w-[320px] bg-white rounded-[28px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.5)] snap-start">
+          <div className="flex-none w-[82vw] max-w-[320px] md:w-[320px] bg-white rounded-[28px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.5)] snap-start">
             <div className="rounded-[20px] bg-[#EBEAE9] p-6 flex flex-col">
               <div className="text-[18px] font-semibold text-[#1A1A1A]">Solu Free</div>
               <div className="mt-5 flex items-baseline gap-2">
@@ -123,7 +123,7 @@ export default function PricingPage() {
           </div>
 
           {/* Solu+ card */}
-          <div className="flex-none w-[82vw] max-w-[320px] bg-white rounded-[28px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.5)] snap-start">
+          <div className="flex-none w-[82vw] max-w-[320px] md:w-[320px] bg-white rounded-[28px] p-2.5 shadow-[0_18px_60px_rgba(0,0,0,0.5)] snap-start">
             <div
               className="rounded-[20px] bg-[#FBE9E4] p-6 flex flex-col relative overflow-hidden"
               style={{ transform: "translateZ(0)", isolation: "isolate", WebkitMaskImage: "-webkit-radial-gradient(white, black)" } as React.CSSProperties}
@@ -181,8 +181,8 @@ export default function PricingPage() {
 
         </div>
 
-        {/* Dot indicators */}
-        <div className="flex justify-center gap-1.5 mt-2 mb-10">
+        {/* Dot indicators — mobile only */}
+        <div className="flex md:hidden justify-center gap-1.5 mt-2 mb-10">
           <div className={`h-1.5 rounded-full transition-all duration-200 ${activeCard === 0 ? "w-5 bg-white/70" : "w-1.5 bg-white/20"}`} />
           <div className={`h-1.5 rounded-full transition-all duration-200 ${activeCard === 1 ? "w-5 bg-white/70" : "w-1.5 bg-white/20"}`} />
         </div>
