@@ -79,7 +79,7 @@ export function SoluHeader() {
             ))}
           </nav>
           <button
-            data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
+            onClick={() => window.dispatchEvent(new CustomEvent("solu:open-waitlist"))}
             className="btn-pulse-orange shrink-0 bg-[#F7941D] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#e8850d] transition-all shadow-md shadow-orange-200/60 whitespace-nowrap cursor-pointer"
           >
             Try Solu for Free
@@ -145,8 +145,7 @@ export function SoluHeader() {
           </div>
           {/* CTA at bottom */}
           <button
-            data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
-            onClick={() => setMenuOpen(false)}
+            onClick={() => { setMenuOpen(false); window.dispatchEvent(new CustomEvent("solu:open-waitlist")) }}
             className="bg-[#F7941D] text-white px-8 py-4 rounded-full font-bold text-base shadow-xl shadow-orange-300/30 text-center cursor-pointer"
           >
             Try Solu for Free

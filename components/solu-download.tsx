@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 
 export function SoluDownload() {
@@ -35,7 +36,7 @@ export function SoluDownload() {
           ].map((btn) => (
             <button
               key={btn.title}
-              data-tally-open="vGdWa0" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
+              onClick={() => window.dispatchEvent(new CustomEvent("solu:open-waitlist"))}
               className="flex items-center gap-3 bg-white/10 backdrop-blur-xl text-white px-7 py-4 rounded-2xl hover:bg-white/20 transition-all border border-white/20 shadow-lg cursor-pointer"
             >
               {btn.icon}

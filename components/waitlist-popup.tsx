@@ -58,6 +58,12 @@ export function WaitlistPopup() {
     return () => clearTimeout(t)
   }, [])
 
+  useEffect(() => {
+    function handleOpen() { setVisible(true) }
+    window.addEventListener("solu:open-waitlist", handleOpen)
+    return () => window.removeEventListener("solu:open-waitlist", handleOpen)
+  }, [])
+
   function dismiss() {
     setVisible(false)
     try { localStorage.setItem(STORAGE_KEY, "1") } catch {}

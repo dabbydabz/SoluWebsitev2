@@ -53,6 +53,16 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: false }, { status: 500 })
     }
 
+    // Also append to Google Sheets via Apps Script web app (fire-and-forget)
+    const sheetsWebhook = process.env.GOOGLE_SHEETS_WEBHOOK
+    if (sheetsWebhook) {
+      fetch(sheetsWebhook, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: name?.trim(), email: email.trim(), whatsapp }),
+      }).catch((err) => console.error("Sheets webhook error:", err))
+    }
+
     return NextResponse.json({ success: true })
   } catch (err) {
     console.error("Waitlist API error:", err)
