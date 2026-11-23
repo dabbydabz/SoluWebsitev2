@@ -12,7 +12,6 @@ const post: Post = {
   inAppFeed: true,
   image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=85",
   readTime: "6 min read",
-  trending: true,
   content: `
 <p>Your period can give early clues to heart disease risk: irregular, long or absent cycles are linked to higher rates of cardiovascular disease later in life. A <a href="https://pubmed.ncbi.nlm.nih.gov/36282498/" target="_blank" rel="noopener noreferrer">2022 JAMA Network Open study of 80,630 women</a> found irregular cycles or no periods at ages 29 to 46 carried a 40% higher rate of heart disease and stroke.</p>
 
@@ -38,7 +37,7 @@ const post: Post = {
 <tr><td>Menopause at 40 to 44</td><td>30% higher</td><td>2019 pooled analysis</td></tr>
 <tr><td>Menopause before 40</td><td>55% higher</td><td>2019 pooled analysis</td></tr>
 </tbody></table></div>
-<p>The strongest signals come from cycles that stay irregular, absent or very long in adulthood, and from menopause before 45. High cholesterol, high blood pressure and type 2 diabetes explained only 5.4% to 13.5% of the cycle link, so it is not just a marker of those conditions.</p>
+<p>The strongest signals come from cycles that stay irregular, absent or very long in adulthood, and from menopause before 45. High cholesterol, high blood pressure and type 2 diabetes explained only 5.4% to 13.5% of the cycle link, so it is not just a marker of those conditions. Whether HRT after menopause changes that risk is covered in <a href="/blog/does-hrt-increase-heart-disease-risk">the evidence on HRT and heart disease</a>.</p>
 <p><a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu</a> is a women's wellness app that maps cycle-phase-aware guidance across movement, nutrition, sleep, and energy, built for women tracking hormonal, cycle, and premenstrual symptoms. <a href="https://www.solu.ae" target="_blank" rel="noopener noreferrer">Solu's month-by-month cycle phase view</a> makes long or skipped cycles easy to spot before a GP visit.</p>
 
 <h2>What Counts as an Irregular Period?</h2>

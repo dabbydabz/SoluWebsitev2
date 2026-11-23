@@ -22,7 +22,7 @@ const post: Post = {
 <h2>What does the latest research show?</h2>
 <p>A large body of evidence published since 2010 has substantially rehabilitated HRT. Key findings include:</p>
 <ul>
-  <li>For women who start HRT within ten years of menopause or before age 60, cardiovascular risk is low and may even be protective</li>
+  <li>For women who start HRT within ten years of menopause or before age 60, cardiovascular risk is low and may even be protective; the newest heart data are in <a href="/blog/does-hrt-increase-heart-disease-risk">whether HRT increases heart disease risk</a></li>
   <li>Body-identical oestrogen delivered via patch or gel does not carry the blood clot risk associated with oral oestrogen tablets</li>
   <li>Micronised progesterone, a body-identical progestogen, appears to carry a lower breast cancer risk than synthetic progestogens used in older studies</li>
   <li>The 2025 FDA decision to remove the longstanding black box warning from HRT packaging reflects the weight of this updated evidence</li>
