@@ -126,6 +126,11 @@ export function WaitlistPopup() {
         </svg>
       </button>
 
+      {/* Disclaimer — pinned to bottom of screen */}
+      <p className="absolute bottom-5 left-0 right-0 z-10 text-center text-[10px] text-gray-500/70 leading-tight px-6">
+        *Forever means for as long as your subscription stays active. If you cancel and resubscribe later, standard pricing applies and founding member benefits end.
+      </p>
+
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-2xl w-full -translate-y-[10vh] sm:translate-y-0">
 
         {state === "success" ? (
@@ -154,11 +159,8 @@ export function WaitlistPopup() {
               <span className="font-black underline underline-offset-2">forever</span>*{" "}
               and get in before the public.
             </p>
-            <p className="text-[#3A3A3C] text-[13px] sm:text-sm font-semibold mb-2">
+            <p className="text-[#3A3A3C] text-[13px] sm:text-sm font-semibold mb-6">
               300 founding members only.
-            </p>
-            <p className="text-[11px] text-gray-500 leading-tight mb-6 max-w-xs">
-              *Forever means for as long as your subscription stays active. If you cancel and resubscribe later, standard pricing applies and founding member benefits end.
             </p>
 
             {/* Countdown */}
