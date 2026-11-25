@@ -151,11 +151,14 @@ export function WaitlistPopup() {
 
             <p className="text-[#3A3A3C] text-[13px] sm:text-sm mb-1 whitespace-nowrap overflow-hidden text-ellipsis w-full">
               Lock in your price{" "}
-              <span className="font-black underline underline-offset-2">forever</span>{" "}
+              <span className="font-black underline underline-offset-2">forever</span>*{" "}
               and get in before the public.
             </p>
-            <p className="text-[#3A3A3C] text-[13px] sm:text-sm font-semibold mb-6">
+            <p className="text-[#3A3A3C] text-[13px] sm:text-sm font-semibold mb-2">
               300 founding members only.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-tight mb-6 max-w-xs">
+              *Forever means for as long as your subscription stays active. If you cancel and resubscribe later, standard pricing applies and founding member benefits end.
             </p>
 
             {/* Countdown */}

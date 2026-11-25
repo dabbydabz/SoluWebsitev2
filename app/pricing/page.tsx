@@ -45,7 +45,7 @@ const freeFeatures = [
 const plusFeatures = [
   "Everything in Solu Free",
   "Insights personalised to every phase of your cycle",
-  "Full flexibility — make every daily action your own",
+  "Full flexibility: make every daily action your own",
   "Up to three goals and full progress history",
   "Monthly cycle report",
   "Member pricing on Hangouts",

@@ -3,8 +3,8 @@ import { SoluHeader } from "@/components/solu-header"
 import { JsonLd } from "@/components/json-ld"
 import { SoluFooter } from "@/components/solu-footer"
 
-const LAST_UPDATED = "1 July 2026"
-const LAST_UPDATED_ISO = "2026-07-01"
+const LAST_UPDATED = "25 November 2026"
+const LAST_UPDATED_ISO = "2026-11-25"
 
 export const metadata = {
   title: "Terms of Service | Solu Women's Wellness App",
@@ -88,6 +88,8 @@ We may introduce, modify, or discontinue tiers at any time. If we discontinue a 
 **Payment method:** You authorise us to charge your chosen payment method for all fees due. You are responsible for keeping your payment information up to date. If a payment fails, we may suspend access to paid features until payment is resolved.
 
 **Price changes:** We will give you at least 30 days' notice before increasing the price of your subscription. Your continued use of the paid tier after the price change takes effect constitutes acceptance of the new price.
+
+**Founding members:** The first 300 people to subscribe to the annual Solu+ plan at the founding price (AED 149.99 a year) are founding members. The founding price is locked in for as long as your subscription stays active and you do not cancel. If you cancel and resubscribe at any point, standard pricing applies and founding member benefits end permanently.
 
 **Taxes:** Prices shown may be exclusive of applicable taxes, including UAE VAT where applicable. You are responsible for any taxes applicable to your use of the Service.
 
