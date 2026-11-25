@@ -4,6 +4,7 @@ import { SoluTrack } from "@/components/solu-track"
 import { SoluFeatures } from "@/components/solu-features"
 import { SoluTestimonials } from "@/components/solu-testimonials"
 import { SoluBlogPreview } from "@/components/solu-blog-preview"
+import { SoluFAQ } from "@/components/solu-faq"
 import { SoluDownload } from "@/components/solu-download"
 import { SoluFooter } from "@/components/solu-footer"
 
@@ -22,6 +23,7 @@ export default function Home() {
       <div className="sm:hidden h-10 bg-gradient-to-b from-white to-[#FBF8F4]" />
       <SoluTestimonials />
       <SoluBlogPreview />
+      <SoluFAQ />
       <SoluDownload />
       <SoluFooter />
     </main>

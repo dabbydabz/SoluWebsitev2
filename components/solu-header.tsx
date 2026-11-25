@@ -32,6 +32,7 @@ export function SoluHeader() {
     { label: "Why Solu", href: "/#why-solu" },
     { label: "Pricing", href: "/pricing" },
     { label: "Health Blog", href: "/blog" },
+    { label: "FAQ", href: "/#faq", hideDesktop: true },
     { label: "Help", href: "/help", hideDesktop: true },
     { label: "Careers", href: "/careers" },
     { label: "Contact", href: "/contact" },
