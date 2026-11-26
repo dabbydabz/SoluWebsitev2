@@ -106,6 +106,7 @@ import doesYogaHelpBalanceHormones from "./articles/does-yoga-help-balance-hormo
 import doesHrtIncreaseHeartDiseaseRisk from "./articles/does-hrt-increase-heart-disease-risk"
 import isTheWeekAfterYourPeriodBestForABreastCheck from "./articles/is-the-week-after-your-period-best-for-a-breast-check"
 import whyDoIFeelSickOnMyPeriod from "./articles/why-do-i-feel-sick-on-my-period"
+import canYouHaveAPeriodWithoutOvulating from "./articles/can-you-have-a-period-without-ovulating"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -215,6 +216,7 @@ export const posts: Post[] = [
   doesHrtIncreaseHeartDiseaseRisk,
   isTheWeekAfterYourPeriodBestForABreastCheck,
   whyDoIFeelSickOnMyPeriod,
+  canYouHaveAPeriodWithoutOvulating,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
