@@ -104,6 +104,7 @@ import isMelasmaCausedByHormones from "./articles/is-melasma-caused-by-hormones"
 import howLongDoesItTakeToRecoverAfterA10k from "./articles/how-long-does-it-take-to-recover-after-a-10k"
 import doesYogaHelpBalanceHormones from "./articles/does-yoga-help-balance-hormones"
 import doesHrtIncreaseHeartDiseaseRisk from "./articles/does-hrt-increase-heart-disease-risk"
+import isTheWeekAfterYourPeriodBestForABreastCheck from "./articles/is-the-week-after-your-period-best-for-a-breast-check"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -211,6 +212,7 @@ export const posts: Post[] = [
   howLongDoesItTakeToRecoverAfterA10k,
   doesYogaHelpBalanceHormones,
   doesHrtIncreaseHeartDiseaseRisk,
+  isTheWeekAfterYourPeriodBestForABreastCheck,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
