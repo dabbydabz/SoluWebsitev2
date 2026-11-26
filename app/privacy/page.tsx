@@ -3,8 +3,8 @@ import { SoluHeader } from "@/components/solu-header"
 import { JsonLd } from "@/components/json-ld"
 import { SoluFooter } from "@/components/solu-footer"
 
-const LAST_UPDATED = "1 July 2026"
-const LAST_UPDATED_ISO = "2026-07-01"
+const LAST_UPDATED = "25 November 2026"
+const LAST_UPDATED_ISO = "2026-11-25"
 
 export const metadata = {
   title: "Privacy Policy | Solu Women's Wellness App",
@@ -44,7 +44,8 @@ If you have any questions about this policy or how we handle your data, please c
 
 **Information you give us directly:**
 - Email address, when you join our waitlist or contact us
-- Name, if you choose to provide it when contacting us
+- Name, if you choose to provide it when joining the waitlist or contacting us
+- WhatsApp number, if you provide it when joining the waitlist
 - Health and wellness data you enter into the Solu app, including menstrual cycle dates and patterns, hormonal symptoms, sleep data, nutrition logs, and fitness and workout data
 - Any other information you voluntarily provide when communicating with us
 
@@ -90,7 +91,9 @@ We may use aggregated, fully anonymised health data (where no individual can be 
 
 **Service providers:** we work with trusted third-party companies that help us operate Solu. These include:
 - Vercel (website and app hosting, based in the USA, covered by standard contractual clauses)
-- Tally (waitlist and contact forms; your email is stored in Tally when you submit a form)
+- Resend (email delivery and contact list management, based in the USA; your name and email address are stored in Resend when you join our waitlist)
+- Google Sheets (waitlist data is written to a private Google Sheet via an automated webhook for internal tracking)
+- Tally (contact forms only; your name and email are stored in Tally when you submit the contact form)
 
 Our service providers are contractually required to process your data only on our instructions and to keep it secure.
 
