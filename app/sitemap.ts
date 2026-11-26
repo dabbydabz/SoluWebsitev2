@@ -40,6 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: "https://www.solu.ae/pricing",
+      lastModified: new Date("2026-11-25"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: "https://www.solu.ae/our-story",
       lastModified: new Date("2026-10-10"),
       changeFrequency: "monthly",
