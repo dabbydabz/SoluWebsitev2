@@ -82,6 +82,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Yoga", pattern: /\byoga\b/i },
   { name: "Melasma", pattern: /\bmelasma\b/i },
   { name: "Breast Self-Examination", pattern: /\bbreast (self-)?checks?\b|\bbreast self-exam(ination)?\b|\bcheck your breasts\b/i },
+  { name: "Period Nausea", pattern: /\bsick on (my|your|a) period\b|\bperiod nausea\b|\bnausea (on|during) (my|your|a) period\b/i },
 ]
 
 const MIN_ENTITIES = 2
