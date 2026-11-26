@@ -84,6 +84,7 @@ const ENTITY_PATTERNS: { name: string; pattern: RegExp }[] = [
   { name: "Breast Self-Examination", pattern: /\bbreast (self-)?checks?\b|\bbreast self-exam(ination)?\b|\bcheck your breasts\b/i },
   { name: "Period Nausea", pattern: /\bsick on (my|your|a) period\b|\bperiod nausea\b|\bnausea (on|during) (my|your|a) period\b/i },
   { name: "Anovulation", pattern: /\banovulat(ion|ory)\b|\bwithout ovulating\b/i },
+  { name: "Perimenstrual Asthma", pattern: /\bperimenstrual asthma\b|\basthma (worse )?before (my|your|a) period\b/i },
 ]
 
 const MIN_ENTITIES = 2
