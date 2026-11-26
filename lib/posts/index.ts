@@ -109,6 +109,7 @@ import whyDoIFeelSickOnMyPeriod from "./articles/why-do-i-feel-sick-on-my-period
 import canYouHaveAPeriodWithoutOvulating from "./articles/can-you-have-a-period-without-ovulating"
 import whyIsMyAsthmaWorseBeforeMyPeriod from "./articles/why-is-my-asthma-worse-before-my-period"
 import doesBreathworkActuallyReduceStress from "./articles/does-breathwork-actually-reduce-stress"
+import canYouSwimOnYourPeriod from "./articles/can-you-swim-on-your-period"
 
 export type { Post } from "./types"
 export { EDITORIAL_REVIEW_PROCESS } from "./types"
@@ -221,6 +222,7 @@ export const posts: Post[] = [
   canYouHaveAPeriodWithoutOvulating,
   whyIsMyAsthmaWorseBeforeMyPeriod,
   doesBreathworkActuallyReduceStress,
+  canYouSwimOnYourPeriod,
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {
